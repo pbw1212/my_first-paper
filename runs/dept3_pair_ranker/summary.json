@@ -1,0 +1,1241 @@
+{
+  "rolling": {
+    "all": {
+      "n": 1140,
+      "in_pool": 414,
+      "methods": {
+        "sum": {
+          "top1": 4,
+          "top32": 81,
+          "conditional_median_rank": 130.5,
+          "mrr_all": 0.015537490046653743,
+          "conditional_mrr": 0.04278439288209002
+        },
+        "node_only": {
+          "top1": 4,
+          "top32": 82,
+          "conditional_median_rank": 119.0,
+          "mrr_all": 0.015474082611953576,
+          "conditional_mrr": 0.042609792699582316
+        },
+        "joint": {
+          "top1": 10,
+          "top32": 78,
+          "conditional_median_rank": 135.0,
+          "mrr_all": 0.018929493052445342,
+          "conditional_mrr": 0.05212469101397993
+        }
+      },
+      "joint_vs_sum": {
+        "gained": 19,
+        "lost": 22,
+        "rank_improved": 195,
+        "rank_worsened": 208
+      },
+      "joint_vs_node_only": {
+        "gained": 15,
+        "lost": 19,
+        "rank_improved": 187,
+        "rank_worsened": 217
+      }
+    },
+    "fold": {
+      "rolling_10": {
+        "n": 266,
+        "in_pool": 123,
+        "methods": {
+          "sum": {
+            "top1": 1,
+            "top32": 32,
+            "conditional_median_rank": 100,
+            "mrr_all": 0.023508581183187004,
+            "conditional_mrr": 0.05083969589209547
+          },
+          "node_only": {
+            "top1": 1,
+            "top32": 35,
+            "conditional_median_rank": 98,
+            "mrr_all": 0.02363383230293083,
+            "conditional_mrr": 0.05111056416731383
+          },
+          "joint": {
+            "top1": 2,
+            "top32": 29,
+            "conditional_median_rank": 113,
+            "mrr_all": 0.027419478298523228,
+            "conditional_mrr": 0.059297408352903896
+          }
+        },
+        "joint_vs_sum": {
+          "gained": 7,
+          "lost": 10,
+          "rank_improved": 57,
+          "rank_worsened": 62
+        },
+        "joint_vs_node_only": {
+          "gained": 4,
+          "lost": 10,
+          "rank_improved": 58,
+          "rank_worsened": 63
+        }
+      },
+      "rolling_15": {
+        "n": 551,
+        "in_pool": 189,
+        "methods": {
+          "sum": {
+            "top1": 1,
+            "top32": 35,
+            "conditional_median_rank": 140,
+            "mrr_all": 0.013684262313909247,
+            "conditional_mrr": 0.03989433087282537
+          },
+          "node_only": {
+            "top1": 1,
+            "top32": 34,
+            "conditional_median_rank": 124,
+            "mrr_all": 0.013569610662985558,
+            "conditional_mrr": 0.03956008187992086
+          },
+          "joint": {
+            "top1": 6,
+            "top32": 33,
+            "conditional_median_rank": 128,
+            "mrr_all": 0.018325199152848814,
+            "conditional_mrr": 0.05342425784772326
+          }
+        },
+        "joint_vs_sum": {
+          "gained": 7,
+          "lost": 9,
+          "rank_improved": 91,
+          "rank_worsened": 94
+        },
+        "joint_vs_node_only": {
+          "gained": 6,
+          "lost": 7,
+          "rank_improved": 87,
+          "rank_worsened": 97
+        }
+      },
+      "rolling_20": {
+        "n": 323,
+        "in_pool": 102,
+        "methods": {
+          "sum": {
+            "top1": 2,
+            "top32": 14,
+            "conditional_median_rank": 147.0,
+            "mrr_all": 0.01213445053713166,
+            "conditional_mrr": 0.03842576003425026
+          },
+          "node_only": {
+            "top1": 2,
+            "top32": 13,
+            "conditional_median_rank": 155.0,
+            "mrr_all": 0.012003093838211867,
+            "conditional_mrr": 0.03800979715433758
+          },
+          "joint": {
+            "top1": 2,
+            "top32": 16,
+            "conditional_median_rank": 164.5,
+            "mrr_all": 0.012968594796163505,
+            "conditional_mrr": 0.041067216854517766
+          }
+        },
+        "joint_vs_sum": {
+          "gained": 5,
+          "lost": 3,
+          "rank_improved": 47,
+          "rank_worsened": 52
+        },
+        "joint_vs_node_only": {
+          "gained": 5,
+          "lost": 2,
+          "rank_improved": 42,
+          "rank_worsened": 57
+        }
+      }
+    },
+    "window": {
+      "train-11": {
+        "n": 66,
+        "in_pool": 30,
+        "methods": {
+          "sum": {
+            "top1": 0,
+            "top32": 7,
+            "conditional_median_rank": 96.0,
+            "mrr_all": 0.01774568849391708,
+            "conditional_mrr": 0.03904051468661758
+          },
+          "node_only": {
+            "top1": 0,
+            "top32": 8,
+            "conditional_median_rank": 99.5,
+            "mrr_all": 0.01822064593866251,
+            "conditional_mrr": 0.04008542106505752
+          },
+          "joint": {
+            "top1": 0,
+            "top32": 7,
+            "conditional_median_rank": 122.0,
+            "mrr_all": 0.020231142103061085,
+            "conditional_mrr": 0.04450851262673439
+          }
+        },
+        "joint_vs_sum": {
+          "gained": 2,
+          "lost": 2,
+          "rank_improved": 18,
+          "rank_worsened": 12
+        },
+        "joint_vs_node_only": {
+          "gained": 1,
+          "lost": 2,
+          "rank_improved": 18,
+          "rank_worsened": 12
+        }
+      },
+      "train-12": {
+        "n": 38,
+        "in_pool": 15,
+        "methods": {
+          "sum": {
+            "top1": 0,
+            "top32": 6,
+            "conditional_median_rank": 40,
+            "mrr_all": 0.01822355770543526,
+            "conditional_mrr": 0.046166346187102664
+          },
+          "node_only": {
+            "top1": 0,
+            "top32": 5,
+            "conditional_median_rank": 69,
+            "mrr_all": 0.01650349354764292,
+            "conditional_mrr": 0.0418088503206954
+          },
+          "joint": {
+            "top1": 2,
+            "top32": 5,
+            "conditional_median_rank": 83,
+            "mrr_all": 0.060290479528064454,
+            "conditional_mrr": 0.1527358814710966
+          }
+        },
+        "joint_vs_sum": {
+          "gained": 2,
+          "lost": 3,
+          "rank_improved": 7,
+          "rank_worsened": 7
+        },
+        "joint_vs_node_only": {
+          "gained": 2,
+          "lost": 2,
+          "rank_improved": 8,
+          "rank_worsened": 7
+        }
+      },
+      "train-13": {
+        "n": 30,
+        "in_pool": 16,
+        "methods": {
+          "sum": {
+            "top1": 0,
+            "top32": 7,
+            "conditional_median_rank": 57.5,
+            "mrr_all": 0.046867165715022245,
+            "conditional_mrr": 0.08787593571566671
+          },
+          "node_only": {
+            "top1": 0,
+            "top32": 7,
+            "conditional_median_rank": 83.0,
+            "mrr_all": 0.04654839718784988,
+            "conditional_mrr": 0.08727824472721853
+          },
+          "joint": {
+            "top1": 0,
+            "top32": 6,
+            "conditional_median_rank": 100.5,
+            "mrr_all": 0.053440021742329875,
+            "conditional_mrr": 0.10020004076686852
+          }
+        },
+        "joint_vs_sum": {
+          "gained": 0,
+          "lost": 1,
+          "rank_improved": 5,
+          "rank_worsened": 8
+        },
+        "joint_vs_node_only": {
+          "gained": 0,
+          "lost": 1,
+          "rank_improved": 6,
+          "rank_worsened": 8
+        }
+      },
+      "train-14": {
+        "n": 72,
+        "in_pool": 39,
+        "methods": {
+          "sum": {
+            "top1": 1,
+            "top32": 7,
+            "conditional_median_rank": 103,
+            "mrr_all": 0.031227592506466062,
+            "conditional_mrr": 0.057650940011937345
+          },
+          "node_only": {
+            "top1": 1,
+            "top32": 10,
+            "conditional_median_rank": 100,
+            "mrr_all": 0.0315744301668544,
+            "conditional_mrr": 0.058291255692654274
+          },
+          "joint": {
+            "top1": 0,
+            "top32": 7,
+            "conditional_median_rank": 109,
+            "mrr_all": 0.0185621507357724,
+            "conditional_mrr": 0.03426858597373366
+          }
+        },
+        "joint_vs_sum": {
+          "gained": 3,
+          "lost": 3,
+          "rank_improved": 16,
+          "rank_worsened": 23
+        },
+        "joint_vs_node_only": {
+          "gained": 1,
+          "lost": 4,
+          "rank_improved": 17,
+          "rank_worsened": 22
+        }
+      },
+      "train-15": {
+        "n": 60,
+        "in_pool": 23,
+        "methods": {
+          "sum": {
+            "top1": 0,
+            "top32": 5,
+            "conditional_median_rank": 123,
+            "mrr_all": 0.01225283882344087,
+            "conditional_mrr": 0.03196392736549792
+          },
+          "node_only": {
+            "top1": 0,
+            "top32": 5,
+            "conditional_median_rank": 113,
+            "mrr_all": 0.013118218636140513,
+            "conditional_mrr": 0.03422143992036655
+          },
+          "joint": {
+            "top1": 0,
+            "top32": 4,
+            "conditional_median_rank": 144,
+            "mrr_all": 0.012126868688219819,
+            "conditional_mrr": 0.031635309621443
+          }
+        },
+        "joint_vs_sum": {
+          "gained": 0,
+          "lost": 1,
+          "rank_improved": 11,
+          "rank_worsened": 12
+        },
+        "joint_vs_node_only": {
+          "gained": 0,
+          "lost": 1,
+          "rank_improved": 9,
+          "rank_worsened": 14
+        }
+      },
+      "train-16": {
+        "n": 147,
+        "in_pool": 50,
+        "methods": {
+          "sum": {
+            "top1": 0,
+            "top32": 10,
+            "conditional_median_rank": 128.5,
+            "mrr_all": 0.008773848906527274,
+            "conditional_mrr": 0.025795115785190184
+          },
+          "node_only": {
+            "top1": 0,
+            "top32": 9,
+            "conditional_median_rank": 121.0,
+            "mrr_all": 0.008540429134216359,
+            "conditional_mrr": 0.025108861654596092
+          },
+          "joint": {
+            "top1": 0,
+            "top32": 7,
+            "conditional_median_rank": 114.5,
+            "mrr_all": 0.006493774500440099,
+            "conditional_mrr": 0.01909169703129389
+          }
+        },
+        "joint_vs_sum": {
+          "gained": 2,
+          "lost": 5,
+          "rank_improved": 22,
+          "rank_worsened": 27
+        },
+        "joint_vs_node_only": {
+          "gained": 0,
+          "lost": 2,
+          "rank_improved": 21,
+          "rank_worsened": 29
+        }
+      },
+      "train-17": {
+        "n": 83,
+        "in_pool": 27,
+        "methods": {
+          "sum": {
+            "top1": 1,
+            "top32": 10,
+            "conditional_median_rank": 44,
+            "mrr_all": 0.03244589209623708,
+            "conditional_mrr": 0.09974107570324732
+          },
+          "node_only": {
+            "top1": 1,
+            "top32": 11,
+            "conditional_median_rank": 56,
+            "mrr_all": 0.03279110603319539,
+            "conditional_mrr": 0.1008022889168599
+          },
+          "joint": {
+            "top1": 2,
+            "top32": 9,
+            "conditional_median_rank": 65,
+            "mrr_all": 0.0350278216442979,
+            "conditional_mrr": 0.10767811838802688
+          }
+        },
+        "joint_vs_sum": {
+          "gained": 0,
+          "lost": 1,
+          "rank_improved": 13,
+          "rank_worsened": 13
+        },
+        "joint_vs_node_only": {
+          "gained": 0,
+          "lost": 2,
+          "rank_improved": 10,
+          "rank_worsened": 14
+        }
+      },
+      "train-18": {
+        "n": 103,
+        "in_pool": 36,
+        "methods": {
+          "sum": {
+            "top1": 0,
+            "top32": 5,
+            "conditional_median_rank": 168.5,
+            "mrr_all": 0.010781454727045637,
+            "conditional_mrr": 0.030846939913491682
+          },
+          "node_only": {
+            "top1": 0,
+            "top32": 5,
+            "conditional_median_rank": 174.0,
+            "mrr_all": 0.010384233149221244,
+            "conditional_mrr": 0.029710444843605226
+          },
+          "joint": {
+            "top1": 1,
+            "top32": 5,
+            "conditional_median_rank": 163.0,
+            "mrr_all": 0.019462464973039075,
+            "conditional_mrr": 0.05568427478397291
+          }
+        },
+        "joint_vs_sum": {
+          "gained": 1,
+          "lost": 1,
+          "rank_improved": 17,
+          "rank_worsened": 18
+        },
+        "joint_vs_node_only": {
+          "gained": 1,
+          "lost": 1,
+          "rank_improved": 16,
+          "rank_worsened": 19
+        }
+      },
+      "train-19": {
+        "n": 126,
+        "in_pool": 42,
+        "methods": {
+          "sum": {
+            "top1": 0,
+            "top32": 3,
+            "conditional_median_rank": 165.5,
+            "mrr_all": 0.008947871115497445,
+            "conditional_mrr": 0.026843613346492334
+          },
+          "node_only": {
+            "top1": 0,
+            "top32": 3,
+            "conditional_median_rank": 154.5,
+            "mrr_all": 0.009151436046898423,
+            "conditional_mrr": 0.02745430814069527
+          },
+          "joint": {
+            "top1": 2,
+            "top32": 4,
+            "conditional_median_rank": 186.0,
+            "mrr_all": 0.019837631936141402,
+            "conditional_mrr": 0.05951289580842421
+          }
+        },
+        "joint_vs_sum": {
+          "gained": 1,
+          "lost": 0,
+          "rank_improved": 23,
+          "rank_worsened": 19
+        },
+        "joint_vs_node_only": {
+          "gained": 1,
+          "lost": 0,
+          "rank_improved": 21,
+          "rank_worsened": 20
+        }
+      },
+      "train-20": {
+        "n": 92,
+        "in_pool": 34,
+        "methods": {
+          "sum": {
+            "top1": 0,
+            "top32": 7,
+            "conditional_median_rank": 115.0,
+            "mrr_all": 0.014340675046504676,
+            "conditional_mrr": 0.03880417953760089
+          },
+          "node_only": {
+            "top1": 0,
+            "top32": 6,
+            "conditional_median_rank": 111.0,
+            "mrr_all": 0.013881452560228597,
+            "conditional_mrr": 0.03756157751591267
+          },
+          "joint": {
+            "top1": 1,
+            "top32": 8,
+            "conditional_median_rank": 119.0,
+            "mrr_all": 0.018816469228276476,
+            "conditional_mrr": 0.05091515202945399
+          }
+        },
+        "joint_vs_sum": {
+          "gained": 3,
+          "lost": 2,
+          "rank_improved": 16,
+          "rank_worsened": 17
+        },
+        "joint_vs_node_only": {
+          "gained": 4,
+          "lost": 2,
+          "rank_improved": 19,
+          "rank_worsened": 15
+        }
+      },
+      "train-22": {
+        "n": 19,
+        "in_pool": 7,
+        "methods": {
+          "sum": {
+            "top1": 0,
+            "top32": 2,
+            "conditional_median_rank": 90,
+            "mrr_all": 0.01910928415600777,
+            "conditional_mrr": 0.05186805699487823
+          },
+          "node_only": {
+            "top1": 0,
+            "top32": 2,
+            "conditional_median_rank": 100,
+            "mrr_all": 0.018455004339283137,
+            "conditional_mrr": 0.05009215463519708
+          },
+          "joint": {
+            "top1": 0,
+            "top32": 3,
+            "conditional_median_rank": 113,
+            "mrr_all": 0.02936841844294468,
+            "conditional_mrr": 0.07971427863084986
+          }
+        },
+        "joint_vs_sum": {
+          "gained": 1,
+          "lost": 0,
+          "rank_improved": 3,
+          "rank_worsened": 3
+        },
+        "joint_vs_node_only": {
+          "gained": 1,
+          "lost": 0,
+          "rank_improved": 3,
+          "rank_worsened": 3
+        }
+      },
+      "train-23": {
+        "n": 58,
+        "in_pool": 22,
+        "methods": {
+          "sum": {
+            "top1": 0,
+            "top32": 3,
+            "conditional_median_rank": 106.0,
+            "mrr_all": 0.005460168634710356,
+            "conditional_mrr": 0.014394990036963666
+          },
+          "node_only": {
+            "top1": 0,
+            "top32": 2,
+            "conditional_median_rank": 105.0,
+            "mrr_all": 0.005123874506835442,
+            "conditional_mrr": 0.01350839642711162
+          },
+          "joint": {
+            "top1": 0,
+            "top32": 2,
+            "conditional_median_rank": 142.5,
+            "mrr_all": 0.007398080170867061,
+            "conditional_mrr": 0.019504029541376797
+          }
+        },
+        "joint_vs_sum": {
+          "gained": 1,
+          "lost": 2,
+          "rank_improved": 7,
+          "rank_worsened": 15
+        },
+        "joint_vs_node_only": {
+          "gained": 1,
+          "lost": 1,
+          "rank_improved": 6,
+          "rank_worsened": 16
+        }
+      },
+      "train-24": {
+        "n": 128,
+        "in_pool": 43,
+        "methods": {
+          "sum": {
+            "top1": 1,
+            "top32": 5,
+            "conditional_median_rank": 192,
+            "mrr_all": 0.013628132318241804,
+            "conditional_mrr": 0.04056746364499886
+          },
+          "node_only": {
+            "top1": 1,
+            "top32": 5,
+            "conditional_median_rank": 206,
+            "mrr_all": 0.013370939851224818,
+            "conditional_mrr": 0.03980186746411109
+          },
+          "joint": {
+            "top1": 1,
+            "top32": 6,
+            "conditional_median_rank": 198,
+            "mrr_all": 0.013255302160771712,
+            "conditional_mrr": 0.03945764364136695
+          }
+        },
+        "joint_vs_sum": {
+          "gained": 1,
+          "lost": 0,
+          "rank_improved": 23,
+          "rank_worsened": 19
+        },
+        "joint_vs_node_only": {
+          "gained": 1,
+          "lost": 0,
+          "rank_improved": 22,
+          "rank_worsened": 20
+        }
+      },
+      "train-25": {
+        "n": 118,
+        "in_pool": 30,
+        "methods": {
+          "sum": {
+            "top1": 1,
+            "top32": 4,
+            "conditional_median_rank": 116.5,
+            "mrr_all": 0.012671698364247686,
+            "conditional_mrr": 0.0498420135660409
+          },
+          "node_only": {
+            "top1": 1,
+            "top32": 4,
+            "conditional_median_rank": 120.5,
+            "mrr_all": 0.012861772923244247,
+            "conditional_mrr": 0.05058964016476071
+          },
+          "joint": {
+            "top1": 1,
+            "top32": 5,
+            "conditional_median_rank": 146.0,
+            "mrr_all": 0.012754990188608433,
+            "conditional_mrr": 0.05016962807519317
+          }
+        },
+        "joint_vs_sum": {
+          "gained": 2,
+          "lost": 1,
+          "rank_improved": 14,
+          "rank_worsened": 15
+        },
+        "joint_vs_node_only": {
+          "gained": 2,
+          "lost": 1,
+          "rank_improved": 11,
+          "rank_worsened": 18
+        }
+      }
+    },
+    "direct_sources": {
+      "1": {
+        "n": 725,
+        "in_pool": 138,
+        "methods": {
+          "sum": {
+            "top1": 0,
+            "top32": 15,
+            "conditional_median_rank": 153.5,
+            "mrr_all": 0.00454376673364415,
+            "conditional_mrr": 0.02387123827457977
+          },
+          "node_only": {
+            "top1": 0,
+            "top32": 13,
+            "conditional_median_rank": 155.0,
+            "mrr_all": 0.004349822402715118,
+            "conditional_mrr": 0.022852327840351162
+          },
+          "joint": {
+            "top1": 1,
+            "top32": 13,
+            "conditional_median_rank": 141.5,
+            "mrr_all": 0.005034559072401614,
+            "conditional_mrr": 0.026449676286167904
+          }
+        },
+        "joint_vs_sum": {
+          "gained": 3,
+          "lost": 5,
+          "rank_improved": 71,
+          "rank_worsened": 65
+        },
+        "joint_vs_node_only": {
+          "gained": 3,
+          "lost": 3,
+          "rank_improved": 70,
+          "rank_worsened": 67
+        }
+      },
+      "2": {
+        "n": 415,
+        "in_pool": 276,
+        "methods": {
+          "sum": {
+            "top1": 4,
+            "top32": 66,
+            "conditional_median_rank": 114.5,
+            "mrr_all": 0.03474339221998375,
+            "conditional_mrr": 0.052240970185845136
+          },
+          "node_only": {
+            "top1": 4,
+            "top32": 69,
+            "conditional_median_rank": 107.5,
+            "mrr_all": 0.03490803117026172,
+            "conditional_mrr": 0.05248852512919788
+          },
+          "joint": {
+            "top1": 9,
+            "top32": 65,
+            "conditional_median_rank": 125.0,
+            "mrr_all": 0.0432037753067386,
+            "conditional_mrr": 0.06496219837788594
+          }
+        },
+        "joint_vs_sum": {
+          "gained": 16,
+          "lost": 17,
+          "rank_improved": 124,
+          "rank_worsened": 143
+        },
+        "joint_vs_node_only": {
+          "gained": 12,
+          "lost": 16,
+          "rank_improved": 117,
+          "rank_worsened": 150
+        }
+      }
+    },
+    "visible_lineage": {
+      "1": {
+        "n": 836,
+        "in_pool": 210,
+        "methods": {
+          "sum": {
+            "top1": 1,
+            "top32": 22,
+            "conditional_median_rank": 148.0,
+            "mrr_all": 0.006328245253767433,
+            "conditional_mrr": 0.025192443010236064
+          },
+          "node_only": {
+            "top1": 1,
+            "top32": 21,
+            "conditional_median_rank": 154.5,
+            "mrr_all": 0.006147515097131762,
+            "conditional_mrr": 0.024472964862867395
+          },
+          "joint": {
+            "top1": 2,
+            "top32": 23,
+            "conditional_median_rank": 155.0,
+            "mrr_all": 0.007044754212449428,
+            "conditional_mrr": 0.028044831055274867
+          }
+        },
+        "joint_vs_sum": {
+          "gained": 9,
+          "lost": 8,
+          "rank_improved": 99,
+          "rank_worsened": 107
+        },
+        "joint_vs_node_only": {
+          "gained": 7,
+          "lost": 5,
+          "rank_improved": 97,
+          "rank_worsened": 111
+        }
+      },
+      "2": {
+        "n": 304,
+        "in_pool": 204,
+        "methods": {
+          "sum": {
+            "top1": 3,
+            "top32": 59,
+            "conditional_median_rank": 94.5,
+            "mrr_all": 0.04086291322709109,
+            "conditional_mrr": 0.060893753044292606
+          },
+          "node_only": {
+            "top1": 3,
+            "top32": 61,
+            "conditional_median_rank": 91.5,
+            "mrr_all": 0.04112214327771356,
+            "conditional_mrr": 0.06128005664914178
+          },
+          "joint": {
+            "top1": 8,
+            "top32": 55,
+            "conditional_median_rank": 103.0,
+            "mrr_all": 0.0516125248624341,
+            "conditional_mrr": 0.07691278214794102
+          }
+        },
+        "joint_vs_sum": {
+          "gained": 10,
+          "lost": 14,
+          "rank_improved": 96,
+          "rank_worsened": 101
+        },
+        "joint_vs_node_only": {
+          "gained": 8,
+          "lost": 14,
+          "rank_improved": 90,
+          "rank_worsened": 106
+        }
+      }
+    },
+    "window_bootstrap_delta_top32": {
+      "sum": [
+        -0.01030065041369851,
+        0.004251972528141688
+      ],
+      "node_only": [
+        -0.013212872136410703,
+        0.005092002507572478
+      ]
+    }
+  },
+  "validation": {
+    "all": {
+      "n": 100,
+      "in_pool": 35,
+      "methods": {
+        "sum": {
+          "top1": 0,
+          "top32": 4,
+          "conditional_median_rank": 181,
+          "mrr_all": 0.006576598013615214,
+          "conditional_mrr": 0.018790280038900615
+        },
+        "node_only": {
+          "top1": 0,
+          "top32": 4,
+          "conditional_median_rank": 186,
+          "mrr_all": 0.005867469407438193,
+          "conditional_mrr": 0.016764198306966266
+        },
+        "joint": {
+          "top1": 0,
+          "top32": 8,
+          "conditional_median_rank": 153,
+          "mrr_all": 0.007502319730750585,
+          "conditional_mrr": 0.02143519923071596
+        }
+      },
+      "joint_vs_sum": {
+        "gained": 4,
+        "lost": 0,
+        "rank_improved": 17,
+        "rank_worsened": 17
+      },
+      "joint_vs_node_only": {
+        "gained": 4,
+        "lost": 0,
+        "rank_improved": 20,
+        "rank_worsened": 14
+      }
+    },
+    "fold": {
+      "full2000": {
+        "n": 100,
+        "in_pool": 35,
+        "methods": {
+          "sum": {
+            "top1": 0,
+            "top32": 4,
+            "conditional_median_rank": 181,
+            "mrr_all": 0.006576598013615214,
+            "conditional_mrr": 0.018790280038900615
+          },
+          "node_only": {
+            "top1": 0,
+            "top32": 4,
+            "conditional_median_rank": 186,
+            "mrr_all": 0.005867469407438193,
+            "conditional_mrr": 0.016764198306966266
+          },
+          "joint": {
+            "top1": 0,
+            "top32": 8,
+            "conditional_median_rank": 153,
+            "mrr_all": 0.007502319730750585,
+            "conditional_mrr": 0.02143519923071596
+          }
+        },
+        "joint_vs_sum": {
+          "gained": 4,
+          "lost": 0,
+          "rank_improved": 17,
+          "rank_worsened": 17
+        },
+        "joint_vs_node_only": {
+          "gained": 4,
+          "lost": 0,
+          "rank_improved": 20,
+          "rank_worsened": 14
+        }
+      }
+    },
+    "window": {
+      "validation-01": {
+        "n": 43,
+        "in_pool": 12,
+        "methods": {
+          "sum": {
+            "top1": 0,
+            "top32": 2,
+            "conditional_median_rank": 226.0,
+            "mrr_all": 0.0037827225708397133,
+            "conditional_mrr": 0.013554755878842306
+          },
+          "node_only": {
+            "top1": 0,
+            "top32": 1,
+            "conditional_median_rank": 221.0,
+            "mrr_all": 0.002570326388465995,
+            "conditional_mrr": 0.009210336225336483
+          },
+          "joint": {
+            "top1": 0,
+            "top32": 2,
+            "conditional_median_rank": 210.0,
+            "mrr_all": 0.004197724853755435,
+            "conditional_mrr": 0.015041847392623644
+          }
+        },
+        "joint_vs_sum": {
+          "gained": 0,
+          "lost": 0,
+          "rank_improved": 5,
+          "rank_worsened": 6
+        },
+        "joint_vs_node_only": {
+          "gained": 1,
+          "lost": 0,
+          "rank_improved": 6,
+          "rank_worsened": 5
+        }
+      },
+      "validation-02": {
+        "n": 25,
+        "in_pool": 12,
+        "methods": {
+          "sum": {
+            "top1": 0,
+            "top32": 1,
+            "conditional_median_rank": 94.5,
+            "mrr_all": 0.012290174821980764,
+            "conditional_mrr": 0.02560453087912659
+          },
+          "node_only": {
+            "top1": 0,
+            "top32": 1,
+            "conditional_median_rank": 106.5,
+            "mrr_all": 0.011860359941871481,
+            "conditional_mrr": 0.024709083212232252
+          },
+          "joint": {
+            "top1": 0,
+            "top32": 3,
+            "conditional_median_rank": 112.0,
+            "mrr_all": 0.014329001530132286,
+            "conditional_mrr": 0.02985208652110893
+          }
+        },
+        "joint_vs_sum": {
+          "gained": 2,
+          "lost": 0,
+          "rank_improved": 5,
+          "rank_worsened": 7
+        },
+        "joint_vs_node_only": {
+          "gained": 2,
+          "lost": 0,
+          "rank_improved": 7,
+          "rank_worsened": 5
+        }
+      },
+      "validation-03": {
+        "n": 32,
+        "in_pool": 11,
+        "methods": {
+          "sum": {
+            "top1": 0,
+            "top32": 1,
+            "conditional_median_rank": 246,
+            "mrr_all": 0.005867136258309211,
+            "conditional_mrr": 0.017068032751444976
+          },
+          "node_only": {
+            "top1": 0,
+            "top32": 2,
+            "conditional_median_rank": 199,
+            "mrr_all": 0.005616059609156075,
+            "conditional_mrr": 0.01633762795390858
+          },
+          "joint": {
+            "top1": 0,
+            "top32": 3,
+            "conditional_median_rank": 119,
+            "mrr_all": 0.0066095239409458655,
+            "conditional_mrr": 0.019227706010024336
+          }
+        },
+        "joint_vs_sum": {
+          "gained": 2,
+          "lost": 0,
+          "rank_improved": 7,
+          "rank_worsened": 4
+        },
+        "joint_vs_node_only": {
+          "gained": 1,
+          "lost": 0,
+          "rank_improved": 7,
+          "rank_worsened": 4
+        }
+      }
+    },
+    "direct_sources": {
+      "1": {
+        "n": 68,
+        "in_pool": 13,
+        "methods": {
+          "sum": {
+            "top1": 0,
+            "top32": 2,
+            "conditional_median_rank": 181,
+            "mrr_all": 0.0032842842257947372,
+            "conditional_mrr": 0.017179332873387857
+          },
+          "node_only": {
+            "top1": 0,
+            "top32": 1,
+            "conditional_median_rank": 186,
+            "mrr_all": 0.0021204761995668488,
+            "conditional_mrr": 0.011091721659272748
+          },
+          "joint": {
+            "top1": 0,
+            "top32": 3,
+            "conditional_median_rank": 153,
+            "mrr_all": 0.0037441368587717073,
+            "conditional_mrr": 0.019584715876652007
+          }
+        },
+        "joint_vs_sum": {
+          "gained": 1,
+          "lost": 0,
+          "rank_improved": 7,
+          "rank_worsened": 6
+        },
+        "joint_vs_node_only": {
+          "gained": 2,
+          "lost": 0,
+          "rank_improved": 8,
+          "rank_worsened": 5
+        }
+      },
+      "2": {
+        "n": 32,
+        "in_pool": 22,
+        "methods": {
+          "sum": {
+            "top1": 0,
+            "top32": 2,
+            "conditional_median_rank": 206.5,
+            "mrr_all": 0.01357276481273373,
+            "conditional_mrr": 0.019742203363976335
+          },
+          "node_only": {
+            "top1": 0,
+            "top32": 3,
+            "conditional_median_rank": 201.5,
+            "mrr_all": 0.013829829974164798,
+            "conditional_mrr": 0.02011611632605789
+          },
+          "joint": {
+            "top1": 0,
+            "top32": 5,
+            "conditional_median_rank": 158.5,
+            "mrr_all": 0.015488458333705702,
+            "conditional_mrr": 0.022528666667208295
+          }
+        },
+        "joint_vs_sum": {
+          "gained": 3,
+          "lost": 0,
+          "rank_improved": 10,
+          "rank_worsened": 11
+        },
+        "joint_vs_node_only": {
+          "gained": 2,
+          "lost": 0,
+          "rank_improved": 12,
+          "rank_worsened": 9
+        }
+      }
+    },
+    "visible_lineage": {
+      "1": {
+        "n": 80,
+        "in_pool": 22,
+        "methods": {
+          "sum": {
+            "top1": 0,
+            "top32": 2,
+            "conditional_median_rank": 172.0,
+            "mrr_all": 0.004006242929861117,
+            "conditional_mrr": 0.014568156108585882
+          },
+          "node_only": {
+            "top1": 0,
+            "top32": 2,
+            "conditional_median_rank": 160.5,
+            "mrr_all": 0.0030087488864176375,
+            "conditional_mrr": 0.010940905041518682
+          },
+          "joint": {
+            "top1": 0,
+            "top32": 5,
+            "conditional_median_rank": 138.5,
+            "mrr_all": 0.005438077855456882,
+            "conditional_mrr": 0.01977482856529775
+          }
+        },
+        "joint_vs_sum": {
+          "gained": 3,
+          "lost": 0,
+          "rank_improved": 9,
+          "rank_worsened": 12
+        },
+        "joint_vs_node_only": {
+          "gained": 3,
+          "lost": 0,
+          "rank_improved": 12,
+          "rank_worsened": 9
+        }
+      },
+      "2": {
+        "n": 20,
+        "in_pool": 13,
+        "methods": {
+          "sum": {
+            "top1": 0,
+            "top32": 2,
+            "conditional_median_rank": 252,
+            "mrr_all": 0.016858018348631605,
+            "conditional_mrr": 0.02593541284404862
+          },
+          "node_only": {
+            "top1": 0,
+            "top32": 2,
+            "conditional_median_rank": 256,
+            "mrr_all": 0.01730235149152041,
+            "conditional_mrr": 0.02661900229464679
+          },
+          "joint": {
+            "top1": 0,
+            "top32": 3,
+            "conditional_median_rank": 193,
+            "mrr_all": 0.0157592872319254,
+            "conditional_mrr": 0.024245057279885233
+          }
+        },
+        "joint_vs_sum": {
+          "gained": 1,
+          "lost": 0,
+          "rank_improved": 8,
+          "rank_worsened": 5
+        },
+        "joint_vs_node_only": {
+          "gained": 1,
+          "lost": 0,
+          "rank_improved": 8,
+          "rank_worsened": 5
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "1_Dept2-21": {
+    "dual": 0,
+    "ordinary": 150,
+    "attempts": 1588,
+    "seed": 87034211
+  },
+  "2_Dept2-21": {
+    "dual": 0,
+    "ordinary": 150,
+    "attempts": 1716,
+    "seed": 93015411
+  },
+  "1_Dept2-23": {
+    "dual": 0,
+    "ordinary": 150,
+    "attempts": 384,
+    "seed": 87034212
+  },
+  "2_Dept2-23": {
+    "dual": 0,
+    "ordinary": 150,
+    "attempts": 356,
+    "seed": 93015412
+  },
+  "1_Dept2-26": {
+    "dual": 0,
+    "ordinary": 150,
+    "attempts": 238,
+    "seed": 87034213
+  },
+  "2_Dept2-26": {
+    "dual": 0,
+    "ordinary": 150,
+    "attempts": 230,
+    "seed": 93015413
+  },
+  "1_Dept2-29": {
+    "dual": 0,
+    "ordinary": 150,
+    "attempts": 242,
+    "seed": 87034214
+  },
+  "2_Dept2-29": {
+    "dual": 0,
+    "ordinary": 150,
+    "attempts": 234,
+    "seed": 93015414
+  }
+}

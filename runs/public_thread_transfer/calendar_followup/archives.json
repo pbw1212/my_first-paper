@@ -1,0 +1,50 @@
+{
+  "python-dev/2019-February": {
+    "url": "https://mail.python.org/pipermail/python-dev/2019-February.txt",
+    "sha256": "18921165351c678a46bf0e9429b09a1f561e3b1adc18401a254d2d408eab648a",
+    "messages": 397,
+    "parsed": 397
+  },
+  "python-dev/2019-March": {
+    "url": "https://mail.python.org/pipermail/python-dev/2019-March.txt",
+    "sha256": "52da1edca95610dd6d6235df5092c9b445d0de94d6d65266db5c0a3d469b89c2",
+    "messages": 384,
+    "parsed": 384
+  },
+  "python-dev/2019-April": {
+    "url": "https://mail.python.org/pipermail/python-dev/2019-April.txt",
+    "sha256": "b7e1504727e3b66d5079f618f038138ec8212d9024690c8ce2daa8e8826fd540",
+    "messages": 305,
+    "parsed": 305
+  },
+  "python-dev/2019-May": {
+    "url": "https://mail.python.org/pipermail/python-dev/2019-May.txt",
+    "sha256": "b93f0d381b3c8d5c9ff3aa1589ebee29bfe0f2e842a31a263041ecd78fb8d3c6",
+    "messages": 553,
+    "parsed": 553
+  },
+  "python-ideas/2019-February": {
+    "url": "https://mail.python.org/pipermail/python-ideas/2019-February.txt",
+    "sha256": "26255bdb58961d1c8b249d9ceb8748bf0b29200bccf14deacdad4d8c722ff542",
+    "messages": 436,
+    "parsed": 436
+  },
+  "python-ideas/2019-March": {
+    "url": "https://mail.python.org/pipermail/python-ideas/2019-March.txt",
+    "sha256": "143652b165ea51dc3895a80469c0441b2b03833a1c5ff1a5936d5e411122fa35",
+    "messages": 695,
+    "parsed": 688
+  },
+  "python-ideas/2019-April": {
+    "url": "https://mail.python.org/pipermail/python-ideas/2019-April.txt",
+    "sha256": "b153f2fe318a75b3f34da88dff3c5ab039908cc482928afe620098d57b388989",
+    "messages": 254,
+    "parsed": 253
+  },
+  "python-ideas/2019-May": {
+    "url": "https://mail.python.org/pipermail/python-ideas/2019-May.txt",
+    "sha256": "11745ae36164e6c5f988354b779d4cd4781b6e54c286fdd3c4ac01fe86615c87",
+    "messages": 328,
+    "parsed": 327
+  }
+}

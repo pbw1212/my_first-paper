@@ -1,0 +1,236 @@
+{
+  "Enron-01": {
+    "dual": 0,
+    "ordinary": 60,
+    "attempts": 299,
+    "start": 978307200,
+    "end": 979516800,
+    "n_nodes": 142,
+    "n_contacts": 496
+  },
+  "Enron-02": {
+    "dual": 0,
+    "ordinary": 60,
+    "attempts": 333,
+    "start": 979516800,
+    "end": 980726400,
+    "n_nodes": 142,
+    "n_contacts": 636
+  },
+  "Enron-03": {
+    "dual": 0,
+    "ordinary": 60,
+    "attempts": 206,
+    "start": 980726400,
+    "end": 981936000,
+    "n_nodes": 142,
+    "n_contacts": 737
+  },
+  "Enron-04": {
+    "dual": 0,
+    "ordinary": 60,
+    "attempts": 207,
+    "start": 981936000,
+    "end": 983145600,
+    "n_nodes": 143,
+    "n_contacts": 732
+  },
+  "Enron-05": {
+    "dual": 0,
+    "ordinary": 60,
+    "attempts": 211,
+    "start": 983145600,
+    "end": 984355200,
+    "n_nodes": 143,
+    "n_contacts": 756
+  },
+  "Enron-06": {
+    "dual": 0,
+    "ordinary": 60,
+    "attempts": 194,
+    "start": 984355200,
+    "end": 985564800,
+    "n_nodes": 143,
+    "n_contacts": 796
+  },
+  "Enron-07": {
+    "dual": 0,
+    "ordinary": 60,
+    "attempts": 169,
+    "start": 985564800,
+    "end": 986774400,
+    "n_nodes": 145,
+    "n_contacts": 865
+  },
+  "Enron-08": {
+    "dual": 0,
+    "ordinary": 60,
+    "attempts": 193,
+    "start": 986774400,
+    "end": 987984000,
+    "n_nodes": 145,
+    "n_contacts": 839
+  },
+  "Enron-09": {
+    "dual": 0,
+    "ordinary": 60,
+    "attempts": 159,
+    "start": 987984000,
+    "end": 989193600,
+    "n_nodes": 148,
+    "n_contacts": 1053
+  },
+  "Enron-10": {
+    "dual": 0,
+    "ordinary": 60,
+    "attempts": 175,
+    "start": 989193600,
+    "end": 990403200,
+    "n_nodes": 151,
+    "n_contacts": 788
+  },
+  "Enron-11": {
+    "dual": 0,
+    "ordinary": 60,
+    "attempts": 195,
+    "start": 990403200,
+    "end": 991612800,
+    "n_nodes": 155,
+    "n_contacts": 969
+  },
+  "Enron-12": {
+    "dual": 0,
+    "ordinary": 60,
+    "attempts": 270,
+    "start": 991612800,
+    "end": 992822400,
+    "n_nodes": 164,
+    "n_contacts": 549
+  },
+  "Enron-13": {
+    "dual": 0,
+    "ordinary": 60,
+    "attempts": 404,
+    "start": 992822400,
+    "end": 994032000,
+    "n_nodes": 173,
+    "n_contacts": 506
+  },
+  "Enron-14": {
+    "dual": 0,
+    "ordinary": 60,
+    "attempts": 513,
+    "start": 994032000,
+    "end": 995241600,
+    "n_nodes": 174,
+    "n_contacts": 632
+  },
+  "Enron-15": {
+    "dual": 0,
+    "ordinary": 60,
+    "attempts": 349,
+    "start": 995241600,
+    "end": 996451200,
+    "n_nodes": 174,
+    "n_contacts": 661
+  },
+  "Enron-16": {
+    "dual": 0,
+    "ordinary": 60,
+    "attempts": 264,
+    "start": 996451200,
+    "end": 997660800,
+    "n_nodes": 176,
+    "n_contacts": 699
+  },
+  "Enron-17": {
+    "dual": 0,
+    "ordinary": 60,
+    "attempts": 388,
+    "start": 997660800,
+    "end": 998870400,
+    "n_nodes": 177,
+    "n_contacts": 570
+  },
+  "Enron-18": {
+    "dual": 0,
+    "ordinary": 60,
+    "attempts": 298,
+    "start": 998870400,
+    "end": 1000080000,
+    "n_nodes": 178,
+    "n_contacts": 647
+  },
+  "Enron-19": {
+    "dual": 0,
+    "ordinary": 60,
+    "attempts": 222,
+    "start": 1000080000,
+    "end": 1001289600,
+    "n_nodes": 179,
+    "n_contacts": 997
+  },
+  "Enron-20": {
+    "dual": 0,
+    "ordinary": 60,
+    "attempts": 164,
+    "start": 1001289600,
+    "end": 1002499200,
+    "n_nodes": 179,
+    "n_contacts": 1225
+  },
+  "Enron-21": {
+    "dual": 0,
+    "ordinary": 60,
+    "attempts": 120,
+    "start": 1002499200,
+    "end": 1003708800,
+    "n_nodes": 179,
+    "n_contacts": 1397
+  },
+  "Enron-22": {
+    "dual": 0,
+    "ordinary": 60,
+    "attempts": 124,
+    "start": 1003708800,
+    "end": 1004918400,
+    "n_nodes": 179,
+    "n_contacts": 1422
+  },
+  "Enron-23": {
+    "dual": 0,
+    "ordinary": 60,
+    "attempts": 115,
+    "start": 1004918400,
+    "end": 1006128000,
+    "n_nodes": 180,
+    "n_contacts": 1295
+  },
+  "Enron-24": {
+    "dual": 0,
+    "ordinary": 60,
+    "attempts": 139,
+    "start": 1006128000,
+    "end": 1007337600,
+    "n_nodes": 180,
+    "n_contacts": 1005
+  },
+  "Enron-25": {
+    "dual": 0,
+    "ordinary": 60,
+    "attempts": 330,
+    "start": 1007337600,
+    "end": 1008547200,
+    "n_nodes": 181,
+    "n_contacts": 570
+  },
+  "Enron-26": {
+    "dual": 0,
+    "ordinary": 60,
+    "attempts": 628,
+    "start": 1008547200,
+    "end": 1009756800,
+    "n_nodes": 181,
+    "n_contacts": 284
+  }
+}

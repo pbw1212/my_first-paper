@@ -1,0 +1,47 @@
+{
+  "primary": "New community: role_suffix minus refitted reply-only model; same both-in-12 endpoint on all eligible roots",
+  "mechanism": "Compare role_suffix with the same coefficients and bias, setting its last two input features to zero",
+  "controls": [
+    "role frequency model",
+    "28-day post count",
+    "frozen Dept2 mixed_offset and uniform_offset"
+  ],
+  "new_community": "samba-technical-2020",
+  "urls": [
+    "https://lists.samba.org/archive/samba-technical/2019-September.txt.gz",
+    "https://lists.samba.org/archive/samba-technical/2019-October.txt.gz",
+    "https://lists.samba.org/archive/samba-technical/2019-November.txt.gz",
+    "https://lists.samba.org/archive/samba-technical/2019-December.txt.gz",
+    "https://lists.samba.org/archive/samba-technical/2020-January.txt.gz",
+    "https://lists.samba.org/archive/samba-technical/2020-February.txt.gz",
+    "https://lists.samba.org/archive/samba-technical/2020-March.txt.gz",
+    "https://lists.samba.org/archive/samba-technical/2020-April.txt.gz",
+    "https://lists.samba.org/archive/samba-technical/2020-May.txt.gz",
+    "https://lists.samba.org/archive/samba-technical/2020-June.txt.gz",
+    "https://lists.samba.org/archive/samba-technical/2020-July.txt.gz",
+    "https://lists.samba.org/archive/samba-technical/2020-August.txt.gz",
+    "https://lists.samba.org/archive/samba-technical/2020-September.txt.gz",
+    "https://lists.samba.org/archive/samba-technical/2020-October.txt.gz",
+    "https://lists.samba.org/archive/samba-technical/2020-November.txt.gz",
+    "https://lists.samba.org/archive/samba-technical/2020-December.txt.gz",
+    "https://lists.samba.org/archive/samba-technical/2021-January.txt.gz"
+  ],
+  "population": "2020 roots within verified reply trees, 14-day follow-up, first two distinct early addresses hidden; complete later suffix",
+  "prior_cohorts": [
+    "r-devel",
+    "r-package-devel",
+    "libc-alpha",
+    "libc-alpha-2024"
+  ],
+  "source_training": "Python 2017-18 coefficients; early models and all other settings fixed",
+  "inference": "retain shared abstention; no adjustment or model selection on new test labels; report paired three-month block intervals",
+  "archive_choice": "LLVM January 2020 diagnostic: 973 of 974 header fragments used a shared list sender lacking Reply-To and X-Original-From. Samba January metadata had 28 distinct addresses among 121 fragments and no shared list sender. No hit rates were used in choosing the new community.",
+  "hashes": {
+    "scripts/finish_role_experiments.py": "d98a8f2e03cd9afc9434629b0fbac28bf6fcde55a59b49cf7152272bcb141ba2",
+    "scripts/member_role_evidence.py": "1848d615d6ea9b9b93743209ea5df44c10066312d9cd68ff94ba9c7b0810eee0",
+    "runs/heldout_r_lists/early_only/role_evidence/protocol.json": "5256de212f472bfec892f59d64612581f691c3709d9c483df09d4daf4706e13a",
+    "runs/heldout_r_lists/early_only/role_evidence/libc_2024/protocol.json": "9586538e4f45cbba6a8653241b3626b85338a4439321308d51b5a51b340b92d9",
+    "runs/heldout_r_lists/protocol_v2.json": "104b489444fa03c1a428614099117dcc9334bf9f7c5a884a159a33586d3c1de0",
+    "scripts/check_early_only_discussions.py": "c3198c2dab8d1c0df49a469b2ed8449a63248578ea3fb335dfb6ed706f6d6135"
+  }
+}

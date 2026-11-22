@@ -1,0 +1,23 @@
+{
+  "r-devel": {
+    "regenerated": 32,
+    "explicit_dense_checks": 380,
+    "sha256": "51f1329222db2ed9eab3f09e7a55b43eed14562e0f4e1756e916c38d0024f4c7",
+    "archives": 29,
+    "unique_messages": 2387
+  },
+  "r-package-devel": {
+    "regenerated": 165,
+    "explicit_dense_checks": 580,
+    "sha256": "4ff1ae56f013f7523f62bf8e5d249d91827a7fa0294eb34b2da4e61b84e40936",
+    "archives": 11,
+    "unique_messages": 3357
+  },
+  "archive_author_overlap": {
+    "shared": 93,
+    "distinct": [
+      279,
+      462
+    ]
+  }
+}

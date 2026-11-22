@@ -1,0 +1,26 @@
+{
+  "company-11": {
+    "dual": 0,
+    "ordinary": 150,
+    "attempts": 178,
+    "seed": 41607131
+  },
+  "company-13": {
+    "dual": 0,
+    "ordinary": 150,
+    "attempts": 171,
+    "seed": 41607132
+  },
+  "company-14": {
+    "dual": 0,
+    "ordinary": 150,
+    "attempts": 200,
+    "seed": 41607133
+  },
+  "company-16": {
+    "dual": 0,
+    "ordinary": 150,
+    "attempts": 175,
+    "seed": 41607134
+  }
+}

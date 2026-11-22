@@ -1,0 +1,338 @@
+[
+  {
+    "window": "2021-01",
+    "roster": 89,
+    "history_contacts": 288,
+    "simulation_contacts": 2,
+    "real_roots": 23,
+    "real_eligible": 1,
+    "simulated_eligible": {
+      "flat": 0,
+      "mixed": 0,
+      "mostly_active": 0,
+      "linked": 0
+    }
+  },
+  {
+    "window": "2021-02",
+    "roster": 83,
+    "history_contacts": 218,
+    "simulation_contacts": 6,
+    "real_roots": 24,
+    "real_eligible": 0,
+    "simulated_eligible": {
+      "flat": 0,
+      "mixed": 0,
+      "mostly_active": 0,
+      "linked": 0
+    }
+  },
+  {
+    "window": "2021-03",
+    "roster": 86,
+    "history_contacts": 228,
+    "simulation_contacts": 18,
+    "real_roots": 24,
+    "real_eligible": 0,
+    "simulated_eligible": {
+      "flat": 0,
+      "mixed": 0,
+      "mostly_active": 0,
+      "linked": 0
+    }
+  },
+  {
+    "window": "2021-04",
+    "roster": 78,
+    "history_contacts": 211,
+    "simulation_contacts": 18,
+    "real_roots": 42,
+    "real_eligible": 1,
+    "simulated_eligible": {
+      "flat": 0,
+      "mixed": 1,
+      "mostly_active": 2,
+      "linked": 0
+    }
+  },
+  {
+    "window": "2021-05",
+    "roster": 106,
+    "history_contacts": 301,
+    "simulation_contacts": 11,
+    "real_roots": 22,
+    "real_eligible": 0,
+    "simulated_eligible": {
+      "flat": 0,
+      "mixed": 0,
+      "mostly_active": 0,
+      "linked": 0
+    }
+  },
+  {
+    "window": "2021-06",
+    "roster": 107,
+    "history_contacts": 265,
+    "simulation_contacts": 21,
+    "real_roots": 19,
+    "real_eligible": 2,
+    "simulated_eligible": {
+      "flat": 0,
+      "mixed": 0,
+      "mostly_active": 0,
+      "linked": 0
+    }
+  },
+  {
+    "window": "2021-07",
+    "roster": 110,
+    "history_contacts": 295,
+    "simulation_contacts": 24,
+    "real_roots": 23,
+    "real_eligible": 0,
+    "simulated_eligible": {
+      "flat": 5,
+      "mixed": 7,
+      "mostly_active": 14,
+      "linked": 3
+    }
+  },
+  {
+    "window": "2021-08",
+    "roster": 96,
+    "history_contacts": 278,
+    "simulation_contacts": 11,
+    "real_roots": 17,
+    "real_eligible": 0,
+    "simulated_eligible": {
+      "flat": 0,
+      "mixed": 0,
+      "mostly_active": 0,
+      "linked": 0
+    }
+  },
+  {
+    "window": "2021-09",
+    "roster": 88,
+    "history_contacts": 243,
+    "simulation_contacts": 9,
+    "real_roots": 23,
+    "real_eligible": 2,
+    "simulated_eligible": {
+      "flat": 0,
+      "mixed": 0,
+      "mostly_active": 0,
+      "linked": 0
+    }
+  },
+  {
+    "window": "2021-10",
+    "roster": 94,
+    "history_contacts": 231,
+    "simulation_contacts": 8,
+    "real_roots": 13,
+    "real_eligible": 1,
+    "simulated_eligible": {
+      "flat": 0,
+      "mixed": 0,
+      "mostly_active": 0,
+      "linked": 0
+    }
+  },
+  {
+    "window": "2021-11",
+    "roster": 87,
+    "history_contacts": 192,
+    "simulation_contacts": 6,
+    "real_roots": 12,
+    "real_eligible": 1,
+    "simulated_eligible": {
+      "flat": 0,
+      "mixed": 0,
+      "mostly_active": 0,
+      "linked": 0
+    }
+  },
+  {
+    "window": "2021-12",
+    "roster": 84,
+    "history_contacts": 179,
+    "simulation_contacts": 8,
+    "real_roots": 15,
+    "real_eligible": 0,
+    "simulated_eligible": {
+      "flat": 0,
+      "mixed": 0,
+      "mostly_active": 0,
+      "linked": 0
+    }
+  },
+  {
+    "window": "2022-01",
+    "roster": 61,
+    "history_contacts": 144,
+    "simulation_contacts": 1,
+    "real_roots": 13,
+    "real_eligible": 1,
+    "simulated_eligible": {
+      "flat": 0,
+      "mixed": 0,
+      "mostly_active": 0,
+      "linked": 0
+    }
+  },
+  {
+    "window": "2022-02",
+    "roster": 64,
+    "history_contacts": 148,
+    "simulation_contacts": 5,
+    "real_roots": 16,
+    "real_eligible": 0,
+    "simulated_eligible": {
+      "flat": 0,
+      "mixed": 0,
+      "mostly_active": 0,
+      "linked": 0
+    }
+  },
+  {
+    "window": "2022-03",
+    "roster": 75,
+    "history_contacts": 175,
+    "simulation_contacts": 18,
+    "real_roots": 25,
+    "real_eligible": 2,
+    "simulated_eligible": {
+      "flat": 0,
+      "mixed": 0,
+      "mostly_active": 0,
+      "linked": 1
+    }
+  },
+  {
+    "window": "2022-04",
+    "roster": 80,
+    "history_contacts": 217,
+    "simulation_contacts": 23,
+    "real_roots": 23,
+    "real_eligible": 0,
+    "simulated_eligible": {
+      "flat": 0,
+      "mixed": 4,
+      "mostly_active": 1,
+      "linked": 3
+    }
+  },
+  {
+    "window": "2022-05",
+    "roster": 90,
+    "history_contacts": 278,
+    "simulation_contacts": 42,
+    "real_roots": 21,
+    "real_eligible": 1,
+    "simulated_eligible": {
+      "flat": 6,
+      "mixed": 20,
+      "mostly_active": 40,
+      "linked": 9
+    }
+  },
+  {
+    "window": "2022-06",
+    "roster": 82,
+    "history_contacts": 265,
+    "simulation_contacts": 29,
+    "real_roots": 14,
+    "real_eligible": 0,
+    "simulated_eligible": {
+      "flat": 0,
+      "mixed": 1,
+      "mostly_active": 3,
+      "linked": 1
+    }
+  },
+  {
+    "window": "2022-07",
+    "roster": 80,
+    "history_contacts": 246,
+    "simulation_contacts": 24,
+    "real_roots": 11,
+    "real_eligible": 0,
+    "simulated_eligible": {
+      "flat": 4,
+      "mixed": 5,
+      "mostly_active": 8,
+      "linked": 10
+    }
+  },
+  {
+    "window": "2022-08",
+    "roster": 75,
+    "history_contacts": 232,
+    "simulation_contacts": 10,
+    "real_roots": 18,
+    "real_eligible": 0,
+    "simulated_eligible": {
+      "flat": 0,
+      "mixed": 0,
+      "mostly_active": 0,
+      "linked": 0
+    }
+  },
+  {
+    "window": "2022-09",
+    "roster": 72,
+    "history_contacts": 197,
+    "simulation_contacts": 27,
+    "real_roots": 26,
+    "real_eligible": 1,
+    "simulated_eligible": {
+      "flat": 0,
+      "mixed": 1,
+      "mostly_active": 2,
+      "linked": 0
+    }
+  },
+  {
+    "window": "2022-10",
+    "roster": 79,
+    "history_contacts": 243,
+    "simulation_contacts": 16,
+    "real_roots": 18,
+    "real_eligible": 0,
+    "simulated_eligible": {
+      "flat": 0,
+      "mixed": 0,
+      "mostly_active": 1,
+      "linked": 0
+    }
+  },
+  {
+    "window": "2022-11",
+    "roster": 89,
+    "history_contacts": 231,
+    "simulation_contacts": 14,
+    "real_roots": 19,
+    "real_eligible": 0,
+    "simulated_eligible": {
+      "flat": 0,
+      "mixed": 0,
+      "mostly_active": 0,
+      "linked": 0
+    }
+  },
+  {
+    "window": "2022-12",
+    "roster": 94,
+    "history_contacts": 251,
+    "simulation_contacts": 15,
+    "real_roots": 15,
+    "real_eligible": 0,
+    "simulated_eligible": {
+      "flat": 0,
+      "mixed": 0,
+      "mostly_active": 0,
+      "linked": 0
+    }
+  }
+]

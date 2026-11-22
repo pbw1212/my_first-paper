@@ -1,0 +1,70 @@
+{
+  "dual": {
+    "fixed12": {
+      "n": 320,
+      "mean_size": 12.0,
+      "source_both": 10,
+      "source_one": 128,
+      "reach_both": 12,
+      "reach_one": 97
+    },
+    "0.02": {
+      "n": 320,
+      "mean_size": 3.0,
+      "source_both": 0,
+      "source_one": 42,
+      "reach_both": 0,
+      "reach_one": 24
+    },
+    "0.05": {
+      "n": 320,
+      "mean_size": 6.490625,
+      "source_both": 3,
+      "source_one": 78,
+      "reach_both": 2,
+      "reach_one": 42
+    },
+    "0.1": {
+      "n": 320,
+      "mean_size": 12.54375,
+      "source_both": 10,
+      "source_one": 131,
+      "reach_both": 12,
+      "reach_one": 99
+    }
+  },
+  "ordinary": {
+    "fixed12": {
+      "n": 100,
+      "mean_size": 12.0,
+      "source_both": 2,
+      "source_one": 24,
+      "reach_both": 0,
+      "reach_one": 22
+    },
+    "0.02": {
+      "n": 100,
+      "mean_size": 3.05,
+      "source_both": 0,
+      "source_one": 9,
+      "reach_both": 0,
+      "reach_one": 7
+    },
+    "0.05": {
+      "n": 100,
+      "mean_size": 6.61,
+      "source_both": 0,
+      "source_one": 18,
+      "reach_both": 0,
+      "reach_one": 11
+    },
+    "0.1": {
+      "n": 100,
+      "mean_size": 12.76,
+      "source_both": 2,
+      "source_one": 24,
+      "reach_both": 0,
+      "reach_one": 22
+    }
+  }
+}

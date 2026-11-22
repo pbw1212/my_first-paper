@@ -1,0 +1,8 @@
+{
+  "ref_windows": 48,
+  "evaluation_records": 3312,
+  "hashes": {
+    "results.jsonl": "0ec1e41dff556c461a4e10a035a3a7ff835723807597755c6cd800e58c9a5c5c",
+    "adaptation.jsonl": "31c4f0556c2ea1a86a8a5cc5d44742eca736ef39d8df4ef96f005140d3e2bb08"
+  }
+}

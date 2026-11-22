@@ -1,0 +1,98 @@
+[
+  {
+    "window": "Dept4-01",
+    "start": 10412884,
+    "end": 11622484,
+    "nodes": 112,
+    "attempts": 400,
+    "eligible": 194
+  },
+  {
+    "window": "Dept4-05",
+    "start": 15251284,
+    "end": 16460884,
+    "nodes": 114,
+    "attempts": 400,
+    "eligible": 177
+  },
+  {
+    "window": "Dept4-10",
+    "start": 21299284,
+    "end": 22508884,
+    "nodes": 117,
+    "attempts": 400,
+    "eligible": 178
+  },
+  {
+    "window": "Dept4-14",
+    "start": 26137684,
+    "end": 27347284,
+    "nodes": 122,
+    "attempts": 400,
+    "eligible": 198
+  },
+  {
+    "window": "Dept4-18",
+    "start": 30976084,
+    "end": 32185684,
+    "nodes": 125,
+    "attempts": 400,
+    "eligible": 219
+  },
+  {
+    "window": "Dept4-22",
+    "start": 35814484,
+    "end": 37024084,
+    "nodes": 132,
+    "attempts": 400,
+    "eligible": 150
+  },
+  {
+    "window": "Dept4-27",
+    "start": 41862484,
+    "end": 43072084,
+    "nodes": 141,
+    "attempts": 400,
+    "eligible": 192
+  },
+  {
+    "window": "Dept4-31",
+    "start": 46700884,
+    "end": 47910484,
+    "nodes": 142,
+    "attempts": 400,
+    "eligible": 0
+  },
+  {
+    "window": "Dept4-35",
+    "start": 51539284,
+    "end": 52748884,
+    "nodes": 142,
+    "attempts": 400,
+    "eligible": 0
+  },
+  {
+    "window": "Dept4-39",
+    "start": 56377684,
+    "end": 57587284,
+    "nodes": 142,
+    "attempts": 400,
+    "eligible": 0
+  },
+  {
+    "window": "Dept4-44",
+    "start": 62425684,
+    "end": 63635284,
+    "nodes": 142,
+    "attempts": 400,
+    "eligible": 0
+  },
+  {
+    "window": "Dept4-48",
+    "start": 67264084,
+    "end": 68473684,
+    "nodes": 142,
+    "attempts": 400,
+    "eligible": 0
+  }
+]

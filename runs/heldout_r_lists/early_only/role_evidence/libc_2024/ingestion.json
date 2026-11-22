@@ -1,0 +1,8 @@
+{
+  "correction": "Convert non-string email.header.Header values to text before the original parser. Unchanged URL manifest and frozen models.",
+  "converted_messages": 1,
+  "archives": 17,
+  "parsed": 13151,
+  "messages": 13168,
+  "script": "20f99a2971404c7daf767b22a37e22bb2523122e1359c369d4f60d2eca519912"
+}

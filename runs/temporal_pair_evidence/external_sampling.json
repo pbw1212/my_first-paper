@@ -1,0 +1,62 @@
+{
+  "external-01": {
+    "dual": 60,
+    "ordinary": 20,
+    "attempts": 393
+  },
+  "external-04": {
+    "dual": 60,
+    "ordinary": 20,
+    "attempts": 288
+  },
+  "external-07": {
+    "dual": 60,
+    "ordinary": 20,
+    "attempts": 302
+  },
+  "external-10": {
+    "dual": 60,
+    "ordinary": 20,
+    "attempts": 238
+  },
+  "external-14": {
+    "dual": 60,
+    "ordinary": 20,
+    "attempts": 450
+  },
+  "external-17": {
+    "dual": 60,
+    "ordinary": 20,
+    "attempts": 301
+  },
+  "external-20": {
+    "dual": 60,
+    "ordinary": 20,
+    "attempts": 322
+  },
+  "external-23": {
+    "dual": 60,
+    "ordinary": 20,
+    "attempts": 560
+  },
+  "external-27": {
+    "dual": 60,
+    "ordinary": 20,
+    "attempts": 298
+  },
+  "external-30": {
+    "dual": 0,
+    "ordinary": 20,
+    "attempts": 60000
+  },
+  "external-33": {
+    "dual": 0,
+    "ordinary": 0,
+    "attempts": 60000
+  },
+  "external-37": {
+    "dual": 0,
+    "ordinary": 0,
+    "attempts": 60000
+  }
+}

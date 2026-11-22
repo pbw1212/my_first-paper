@@ -1,0 +1,48 @@
+{
+  "rules": {
+    "low": [
+      0.15,
+      false
+    ],
+    "original": [
+      0.3,
+      false
+    ],
+    "high": [
+      0.5,
+      false
+    ],
+    "once": [
+      0.3,
+      true
+    ]
+  },
+  "attempts": 200,
+  "windows": [
+    "Dept2-21",
+    "Dept2-23",
+    "Dept2-26",
+    "Dept2-29"
+  ],
+  "seed": 611207,
+  "hashes": {
+    "scripts/contact_rule_stress.py": "8b73c71be17cc2d7b6fac84cdf0eb2f26c5c0eba01744d48190fcf9b7e098fc0",
+    "runs/temporal_transfer/Dept2/fgssi.pt": "ce8542bdb2b13373447aab02aa1d5e3c746707a69bf39211bdb8cd8c16bab110",
+    "runs/factorial_history/fits/Dept2/temporal/add111.pt": "ab61c5516f94bc60eebeb59f083c1326f1975dceaa550f85368268530622211d",
+    "runs/factorial_history/fits/Dept2/temporal/scale.npz": "8505e3d28fd08925abd7f9d94d8ab697d94b587b2f250c7db7859a4f2b73ab0a",
+    "runs/factorial_history/fits/Dept2/static/add111.pt": "9af49a4d49163c2a091883ce4ba39a042f8abe6fd382b2a7b94891edae3850f3",
+    "runs/factorial_history/fits/Dept2/static/scale.npz": "6e200bc72b1b3ba3023b58ca1d3a59f5a979f0417929f226883f72877dbea511",
+    "runs/factorial_history/fgssi/314159/Dept2/fgssi.pt": "dd53fe5588afe17948e9a4f3e8b2accdfd7eb705a911bf3c7cc911d511758cad",
+    "runs/factorial_history/fits/Dept2/temporal/add314159.pt": "bc42400f1f946259054199511a412e967d323d4f09350d18965348007be6cdfa",
+    "runs/factorial_history/fits/Dept2/static/add314159.pt": "94ac31533599d925917cd8756032d43e962ea513b5e98aae53bff1c9532c10ce",
+    "runs/factorial_history/fgssi/431/Dept2/fgssi.pt": "111ddab6c4d43786f89f0ac9ac3f9ac15ea4a3a8ec3461389c0384881d819e9b",
+    "runs/factorial_history/fits/Dept2/temporal/add431.pt": "ed4242e243e23e060c1ab1a992b20ea181f411703c42a5e0fbebd2209773f60c",
+    "runs/factorial_history/fits/Dept2/static/add431.pt": "2b1f27b027dc3d8da29d720c43f4fefcd046e0507ddb4fa9ecb981250a600555",
+    "runs/factorial_history/fgssi/2027/Dept2/fgssi.pt": "74aeb09ac9f9a0efedfffa0c9180dfdaced41f3b0a761a43b6fac19cd2f6db84",
+    "runs/factorial_history/fits/Dept2/temporal/add2027.pt": "5b0f2f7b2de828ca6ce5680a7711ce8b7ad3fa7533ccdeb1ee107e94fa7f8e6a",
+    "runs/factorial_history/fits/Dept2/static/add2027.pt": "6e92d86d3d95e44e3b155d5a0a87d1dbced9470ffef42d1dd92351fc7ba747ed",
+    "runs/factorial_history/fgssi/9001/Dept2/fgssi.pt": "b5cf5d18b9c98ab07d97105a59b1e6a99f790e5cab099d3292257ad6c6d8eacc",
+    "runs/factorial_history/fits/Dept2/temporal/add9001.pt": "9943a20b0cd8f9ea844072292550c2c77606e3bcd20bc8c977eb332e040cb8cb",
+    "runs/factorial_history/fits/Dept2/static/add9001.pt": "2c10925eb26a2fa994cc02c966c08547af973d3e55dfebe4647e2bba5b2bd2b6"
+  }
+}

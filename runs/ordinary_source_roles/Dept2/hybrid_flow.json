@@ -1,0 +1,26 @@
+{
+  "Dept2-21": {
+    "dual": 0,
+    "ordinary": 150,
+    "attempts": 1803,
+    "seed": 41608131
+  },
+  "Dept2-23": {
+    "dual": 0,
+    "ordinary": 150,
+    "attempts": 382,
+    "seed": 41608132
+  },
+  "Dept2-26": {
+    "dual": 0,
+    "ordinary": 150,
+    "attempts": 214,
+    "seed": 41608133
+  },
+  "Dept2-29": {
+    "dual": 0,
+    "ordinary": 150,
+    "attempts": 210,
+    "seed": 41608134
+  }
+}

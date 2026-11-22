@@ -1,0 +1,15 @@
+{
+  "weight": 0.25,
+  "hits": {
+    "0.0": 54,
+    "0.25": 58,
+    "0.5": 58,
+    "1.0": 57
+  },
+  "n": 300,
+  "hashes": {
+    "models.joblib": "12e94c916fb067288655cdbfb1c695f4065d8aa2808c1ef4fd2383be203a155e",
+    "activity.joblib": "a175e05cc607c6bb1f62c194e4ee19d4d892d4cf87185e962aceee5e5ce99f66",
+    "selection.json": "c2b9e8c0d0fd1576371521a8d29be8e2cd828484dc581a945093a57c1375acb1"
+  }
+}

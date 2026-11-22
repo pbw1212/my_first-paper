@@ -1,0 +1,34 @@
+{
+  "Dept2-21": {
+    "dual": 0,
+    "ordinary": 150,
+    "attempts": 1656,
+    "seed": 9052500,
+    "start": 34608109,
+    "end": 35817709
+  },
+  "Dept2-23": {
+    "dual": 0,
+    "ordinary": 150,
+    "attempts": 357,
+    "seed": 9052501,
+    "start": 37027309,
+    "end": 38236909
+  },
+  "Dept2-26": {
+    "dual": 0,
+    "ordinary": 150,
+    "attempts": 237,
+    "seed": 9052502,
+    "start": 40656109,
+    "end": 41865709
+  },
+  "Dept2-29": {
+    "dual": 0,
+    "ordinary": 150,
+    "attempts": 236,
+    "seed": 9052503,
+    "start": 44284909,
+    "end": 45494509
+  }
+}

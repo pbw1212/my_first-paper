@@ -1,0 +1,76 @@
+{
+  "dual": {
+    "total": {
+      "n": 320,
+      "absolute_one": 280,
+      "absolute_both": 101,
+      "relative_one": 277,
+      "relative_both": 106
+    },
+    "Dept2-21": {
+      "n": 80,
+      "absolute_one": 74,
+      "absolute_both": 34,
+      "relative_one": 73,
+      "relative_both": 29
+    },
+    "Dept2-23": {
+      "n": 80,
+      "absolute_one": 71,
+      "absolute_both": 25,
+      "relative_one": 68,
+      "relative_both": 27
+    },
+    "Dept2-26": {
+      "n": 80,
+      "absolute_one": 65,
+      "absolute_both": 26,
+      "relative_one": 68,
+      "relative_both": 32
+    },
+    "Dept2-29": {
+      "n": 80,
+      "absolute_one": 70,
+      "absolute_both": 16,
+      "relative_one": 68,
+      "relative_both": 18
+    }
+  },
+  "ordinary": {
+    "total": {
+      "n": 100,
+      "absolute_one": 89,
+      "absolute_both": 15,
+      "relative_one": 89,
+      "relative_both": 16
+    },
+    "Dept2-21": {
+      "n": 25,
+      "absolute_one": 22,
+      "absolute_both": 4,
+      "relative_one": 24,
+      "relative_both": 4
+    },
+    "Dept2-23": {
+      "n": 25,
+      "absolute_one": 19,
+      "absolute_both": 4,
+      "relative_one": 20,
+      "relative_both": 3
+    },
+    "Dept2-26": {
+      "n": 25,
+      "absolute_one": 23,
+      "absolute_both": 5,
+      "relative_one": 23,
+      "relative_both": 6
+    },
+    "Dept2-29": {
+      "n": 25,
+      "absolute_one": 25,
+      "absolute_both": 2,
+      "relative_one": 22,
+      "relative_both": 3
+    }
+  }
+}

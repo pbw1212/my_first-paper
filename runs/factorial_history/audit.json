@@ -1,0 +1,88 @@
+{
+  "summary": "c1b958469f70d50344ef969d24dff6111d54a74c2adda450901f335c6a65c359",
+  "immutable_archive_rechecks": {
+    "company": {
+      "pair_set_mismatches": 0,
+      "pair_rank_mismatches": 1,
+      "fg_set_mismatches": 0,
+      "fg_rank_mismatches": 0
+    },
+    "Dept2": {
+      "pair_set_mismatches": 0,
+      "pair_rank_mismatches": 0,
+      "fg_set_mismatches": 0,
+      "fg_rank_mismatches": 0
+    },
+    "Dept1": {
+      "pair_set_mismatches": 0,
+      "pair_rank_mismatches": 0,
+      "fg_set_mismatches": 0,
+      "fg_rank_mismatches": 0
+    },
+    "CollegeMsg": {
+      "pair_set_mismatches": 0,
+      "pair_rank_mismatches": 14,
+      "fg_set_mismatches": 0,
+      "fg_rank_mismatches": 0
+    },
+    "CopenhagenSMS": {
+      "pair_set_mismatches": 0,
+      "pair_rank_mismatches": 0,
+      "fg_set_mismatches": 0,
+      "fg_rank_mismatches": 0
+    },
+    "company_new_windows": {
+      "pair_set_mismatches": 0,
+      "pair_rank_mismatches": 0,
+      "fg_set_mismatches": 0,
+      "fg_rank_mismatches": 0
+    },
+    "Dept2_new_windows": {
+      "pair_set_mismatches": 0,
+      "pair_rank_mismatches": 0,
+      "fg_set_mismatches": 0,
+      "fg_rank_mismatches": 1
+    },
+    "Enron": {
+      "pair_set_mismatches": 0,
+      "pair_rank_mismatches": 0,
+      "fg_set_mismatches": 0,
+      "fg_rank_mismatches": 1
+    },
+    "Dept2_masks": {
+      "pair_set_mismatches": 0,
+      "pair_rank_mismatches": 0,
+      "fg_set_mismatches": 0,
+      "fg_rank_mismatches": 0
+    },
+    "company_masks": {
+      "pair_set_mismatches": 0,
+      "pair_rank_mismatches": 0,
+      "fg_set_mismatches": 0,
+      "fg_rank_mismatches": 0
+    }
+  },
+  "evidence_files": {
+    "CollegeMsg/cells_audit.json": "7bb6bd3cadc33f3b3b0d142fa24ef778083e8e5db34d04f78db74810b2136f9f",
+    "CollegeMsg/fgssi_audit.json": "9308e5d3ee6dfcf099e958846d2f7c2a435d231c513f561b98d20930e521a2d7",
+    "company/cells_audit.json": "92dfe39a3a50d58738f54285f5e4fe3a1441f0744b9acf810809f474c7351227",
+    "company/fgssi_audit.json": "028c3e90786e5d30ded5ff8b82ded4133dfeeef554094a190d340cbcc343ddcd",
+    "company_masks/cells_audit.json": "d1d7da4d0c856f6647f773e42314dc726190a3dddba1ff40ab31c9fc20f1d90a",
+    "company_masks/fgssi_audit.json": "12ad25d249096668e81683604f36792073a9e6164e86492c8695a5f56652744c",
+    "company_new_windows/cells_audit.json": "fb16bb27c3e0a8c5db52562d8799b1710be093986555d3871132afef4a5112ea",
+    "company_new_windows/fgssi_audit.json": "3799a29c71512491d2253d075066e3abd53416711fc19b983d476eab948b60c5",
+    "CopenhagenSMS/cells_audit.json": "398c9af7ef12fd558cee567e6aa2da903cc553df958c359e01fb8926d0aba69c",
+    "CopenhagenSMS/fgssi_audit.json": "48625e5db390c34f427e852049de84e172736d340ec3fd5dd7cb7b97d8cc7b96",
+    "Dept1/cells_audit.json": "e031048805ed016fd6a32eec1b94aaa3346064fa3d9120034af97587cc2280d1",
+    "Dept1/fgssi_audit.json": "ee8afd69aefc1a3f7c3457a41b537d4c66fe7eff1def98bbe1f68a9cd46f05ca",
+    "Dept2/cells_audit.json": "668bca7139fc3614ae3353779b56b276e4b1c630a5f4ac1431638bc63b20d010",
+    "Dept2/fgssi_audit.json": "16ac219bcef6a9e777d6e26f2d8f8adecbb5cd7d27106a43127bba71eb99db50",
+    "Dept2_masks/cells_audit.json": "d25fcdcc50fc553bba4b85834a1ca4975a94d378a39f05547f0a173e9a921126",
+    "Dept2_masks/fgssi_audit.json": "1a3c7262871b97de81c267720667fb982d243f21df4f3cb0bb0552aa0dc50320",
+    "Dept2_new_windows/cells_audit.json": "f332b9b1c2de1ce7049df426a7d47b29abf4614dbfa74028b3c20debeeffdbac",
+    "Dept2_new_windows/fgssi_audit.json": "4498b2941788e4b25363f24a581f4489b6ef697f60bcd84c5eb4219e043433f1",
+    "Enron/cells_audit.json": "e6082573c22f2e6e91f4f6a4498d7db4100bf4688d94b1f1911ec67aaf699ec4",
+    "Enron/fgssi_audit.json": "e855cc986586c784a3da2753c11274986704c977d4b1c932eb72c61452865cbc"
+  },
+  "static_invariance": "reversing all edges and permuting the historical edge order produces identical features"
+}

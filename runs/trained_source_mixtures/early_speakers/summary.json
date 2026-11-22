@@ -1,0 +1,314 @@
+{
+  "python-dev": {
+    "eligible": 174,
+    "scored": 146,
+    "months": 24,
+    "methods": {
+      "uniform_offset": {
+        "hits_by_seed": [
+          17,
+          20,
+          21,
+          23,
+          24
+        ],
+        "both_pct": 12.068965517241379,
+        "delta_vs_volume_pp": -2.2988505747126435
+      },
+      "mixed_plain": {
+        "hits_by_seed": [
+          12,
+          25,
+          17,
+          11,
+          18
+        ],
+        "both_pct": 9.540229885057471,
+        "delta_vs_volume_pp": -4.827586206896552
+      },
+      "mixed_offset": {
+        "hits_by_seed": [
+          21,
+          22,
+          21,
+          20,
+          19
+        ],
+        "both_pct": 11.839080459770116,
+        "delta_vs_volume_pp": -2.528735632183908
+      },
+      "mixed_component": {
+        "hits_by_seed": [
+          24,
+          25,
+          22,
+          21,
+          22
+        ],
+        "both_pct": 13.10344827586207,
+        "delta_vs_volume_pp": -1.264367816091954
+      }
+    },
+    "volume_hits": 25
+  },
+  "python-ideas": {
+    "eligible": 243,
+    "scored": 219,
+    "months": 24,
+    "methods": {
+      "uniform_offset": {
+        "hits_by_seed": [
+          16,
+          17,
+          18,
+          17,
+          17
+        ],
+        "both_pct": 6.995884773662551,
+        "delta_vs_volume_pp": 0.0
+      },
+      "mixed_plain": {
+        "hits_by_seed": [
+          16,
+          17,
+          18,
+          13,
+          15
+        ],
+        "both_pct": 6.502057613168724,
+        "delta_vs_volume_pp": -0.49382716049382713
+      },
+      "mixed_offset": {
+        "hits_by_seed": [
+          18,
+          16,
+          17,
+          15,
+          16
+        ],
+        "both_pct": 6.748971193415638,
+        "delta_vs_volume_pp": -0.24691358024691357
+      },
+      "mixed_component": {
+        "hits_by_seed": [
+          16,
+          16,
+          16,
+          17,
+          18
+        ],
+        "both_pct": 6.831275720164609,
+        "delta_vs_volume_pp": -0.1646090534979424
+      }
+    },
+    "volume_hits": 17
+  },
+  "gcc": {
+    "eligible": 32,
+    "scored": 17,
+    "months": 24,
+    "methods": {
+      "uniform_offset": {
+        "hits_by_seed": [
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        "both_pct": 1.875,
+        "delta_vs_volume_pp": 1.875
+      },
+      "mixed_plain": {
+        "hits_by_seed": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "both_pct": 0.625,
+        "delta_vs_volume_pp": 0.625
+      },
+      "mixed_offset": {
+        "hits_by_seed": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "both_pct": 0.625,
+        "delta_vs_volume_pp": 0.625
+      },
+      "mixed_component": {
+        "hits_by_seed": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "both_pct": 0.0,
+        "delta_vs_volume_pp": 0.0
+      }
+    },
+    "volume_hits": 0
+  },
+  "ffmpeg-devel": {
+    "eligible": 24,
+    "scored": 21,
+    "months": 24,
+    "methods": {
+      "uniform_offset": {
+        "hits_by_seed": [
+          8,
+          9,
+          9,
+          9,
+          9
+        ],
+        "both_pct": 36.666666666666664,
+        "delta_vs_volume_pp": -0.8333333333333334
+      },
+      "mixed_plain": {
+        "hits_by_seed": [
+          5,
+          9,
+          8,
+          5,
+          8
+        ],
+        "both_pct": 29.166666666666668,
+        "delta_vs_volume_pp": -8.333333333333332
+      },
+      "mixed_offset": {
+        "hits_by_seed": [
+          9,
+          9,
+          8,
+          8,
+          8
+        ],
+        "both_pct": 35.0,
+        "delta_vs_volume_pp": -2.5
+      },
+      "mixed_component": {
+        "hits_by_seed": [
+          9,
+          9,
+          8,
+          9,
+          8
+        ],
+        "both_pct": 35.833333333333336,
+        "delta_vs_volume_pp": -1.6666666666666667
+      }
+    },
+    "volume_hits": 9
+  },
+  "python-dev-2019": {
+    "eligible": 24,
+    "scored": 21,
+    "months": 3,
+    "methods": {
+      "uniform_offset": {
+        "hits_by_seed": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "both_pct": 16.666666666666664,
+        "delta_vs_volume_pp": -4.166666666666666
+      },
+      "mixed_plain": {
+        "hits_by_seed": [
+          4,
+          4,
+          3,
+          2,
+          3
+        ],
+        "both_pct": 13.333333333333334,
+        "delta_vs_volume_pp": -7.5
+      },
+      "mixed_offset": {
+        "hits_by_seed": [
+          4,
+          4,
+          3,
+          3,
+          3
+        ],
+        "both_pct": 14.166666666666666,
+        "delta_vs_volume_pp": -6.666666666666667
+      },
+      "mixed_component": {
+        "hits_by_seed": [
+          4,
+          4,
+          3,
+          4,
+          3
+        ],
+        "both_pct": 15.0,
+        "delta_vs_volume_pp": -5.833333333333333
+      }
+    },
+    "volume_hits": 5
+  },
+  "python-ideas-2019": {
+    "eligible": 27,
+    "scored": 22,
+    "months": 3,
+    "methods": {
+      "uniform_offset": {
+        "hits_by_seed": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "both_pct": 3.7037037037037033,
+        "delta_vs_volume_pp": -3.7037037037037033
+      },
+      "mixed_plain": {
+        "hits_by_seed": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "both_pct": 3.7037037037037033,
+        "delta_vs_volume_pp": -3.7037037037037033
+      },
+      "mixed_offset": {
+        "hits_by_seed": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "both_pct": 3.7037037037037033,
+        "delta_vs_volume_pp": -3.7037037037037033
+      },
+      "mixed_component": {
+        "hits_by_seed": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "both_pct": 3.7037037037037033,
+        "delta_vs_volume_pp": -3.7037037037037033
+      }
+    },
+    "volume_hits": 2
+  }
+}

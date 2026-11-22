@@ -1,0 +1,25 @@
+{
+  "gradient_and_loss_max_error": 1.7763568394002505e-15,
+  "networks": {
+    "Dept2": {
+      "events": 1268,
+      "explicit_posterior_checks": 320,
+      "max_nll_error": 4.9525173295705827e-08
+    },
+    "company": {
+      "events": 2057,
+      "explicit_posterior_checks": 320,
+      "max_nll_error": 4.9835843896062215e-08
+    },
+    "Dept4": {
+      "events": 2563,
+      "explicit_posterior_checks": 560,
+      "max_nll_error": 4.9773943189279635e-08
+    },
+    "Enron": {
+      "events": 6917,
+      "explicit_posterior_checks": 2080,
+      "max_nll_error": 4.998060809668914e-08
+    }
+  }
+}

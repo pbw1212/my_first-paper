@@ -1,0 +1,61 @@
+{
+  "train": 172,
+  "validation": 44,
+  "months": [
+    [
+      2019,
+      2
+    ],
+    [
+      2019,
+      3
+    ],
+    [
+      2019,
+      4
+    ]
+  ],
+  "script": "981e153dcd7a903554e0a6643166cdef63e40616ff059ccb94a1b88a7b13ea90",
+  "origin": "e4229c041961d6cc818ce0f5b88eb3a4d9273ad595e60f9988d5b5164f1e6468",
+  "inputs": {
+    "python-dev": "dce5157bf5495b26e07d505a5dc25e0f3708db620e9d8776e6295ed7c3cb3324",
+    "python-ideas": "49c0fa5cf33a0fea56432c4bd412d06ef263ba0048da5f3170cdc0441b7ce095"
+  },
+  "primary": "relations versus raw 28-day volume; both in 12, include abstentions; per list",
+  "features": [
+    "log1p 28-day posts",
+    "log1p 98-day posts",
+    "log1p 28-day replies to visible",
+    "log1p 28-day replies from visible"
+  ],
+  "models": {
+    "prior": {
+      "penalty": 0.1,
+      "validation_nll": 7.696862491258557,
+      "theta": [
+        0.3460620215520623,
+        0.7727830586849359
+      ],
+      "grid_nll": [
+        7.697279202688901,
+        7.696862491258557,
+        7.757872381594228
+      ]
+    },
+    "relations": {
+      "penalty": 0.01,
+      "validation_nll": 7.634147373833475,
+      "theta": [
+        0.4018901403725267,
+        0.8299069519139787,
+        -0.34122857280733754,
+        0.07372539478093286
+      ],
+      "grid_nll": [
+        7.634147373833475,
+        7.648164192760148,
+        7.766492591320183
+      ]
+    }
+  }
+}

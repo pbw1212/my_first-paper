@@ -1,0 +1,122 @@
+[
+  {
+    "month": "2021-01",
+    "verified_roots": 12,
+    "eligible": 7
+  },
+  {
+    "month": "2021-02",
+    "verified_roots": 18,
+    "eligible": 7
+  },
+  {
+    "month": "2021-03",
+    "verified_roots": 20,
+    "eligible": 7
+  },
+  {
+    "month": "2021-04",
+    "verified_roots": 20,
+    "eligible": 9
+  },
+  {
+    "month": "2021-05",
+    "verified_roots": 15,
+    "eligible": 8
+  },
+  {
+    "month": "2021-06",
+    "verified_roots": 22,
+    "eligible": 9
+  },
+  {
+    "month": "2021-07",
+    "verified_roots": 20,
+    "eligible": 6
+  },
+  {
+    "month": "2021-08",
+    "verified_roots": 21,
+    "eligible": 12
+  },
+  {
+    "month": "2021-09",
+    "verified_roots": 16,
+    "eligible": 6
+  },
+  {
+    "month": "2021-10",
+    "verified_roots": 18,
+    "eligible": 5
+  },
+  {
+    "month": "2021-11",
+    "verified_roots": 22,
+    "eligible": 8
+  },
+  {
+    "month": "2021-12",
+    "verified_roots": 22,
+    "eligible": 12
+  },
+  {
+    "month": "2022-01",
+    "verified_roots": 14,
+    "eligible": 8
+  },
+  {
+    "month": "2022-02",
+    "verified_roots": 18,
+    "eligible": 5
+  },
+  {
+    "month": "2022-03",
+    "verified_roots": 21,
+    "eligible": 5
+  },
+  {
+    "month": "2022-04",
+    "verified_roots": 20,
+    "eligible": 9
+  },
+  {
+    "month": "2022-05",
+    "verified_roots": 17,
+    "eligible": 12
+  },
+  {
+    "month": "2022-06",
+    "verified_roots": 20,
+    "eligible": 6
+  },
+  {
+    "month": "2022-07",
+    "verified_roots": 10,
+    "eligible": 5
+  },
+  {
+    "month": "2022-08",
+    "verified_roots": 11,
+    "eligible": 4
+  },
+  {
+    "month": "2022-09",
+    "verified_roots": 13,
+    "eligible": 9
+  },
+  {
+    "month": "2022-10",
+    "verified_roots": 10,
+    "eligible": 5
+  },
+  {
+    "month": "2022-11",
+    "verified_roots": 10,
+    "eligible": 2
+  },
+  {
+    "month": "2022-12",
+    "verified_roots": 8,
+    "eligible": 4
+  }
+]

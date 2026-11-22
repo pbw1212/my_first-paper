@@ -1,0 +1,42 @@
+{
+  "Dept2-01": {
+    "dual": 0,
+    "ordinary": 200,
+    "attempts": 414,
+    "seed": 9051700,
+    "start": 10416109,
+    "end": 11625709
+  },
+  "Dept2-03": {
+    "dual": 0,
+    "ordinary": 200,
+    "attempts": 334,
+    "seed": 9051701,
+    "start": 12835309,
+    "end": 14044909
+  },
+  "Dept2-06": {
+    "dual": 0,
+    "ordinary": 200,
+    "attempts": 367,
+    "seed": 9051702,
+    "start": 16464109,
+    "end": 17673709
+  },
+  "Dept2-08": {
+    "dual": 0,
+    "ordinary": 200,
+    "attempts": 312,
+    "seed": 9051703,
+    "start": 18883309,
+    "end": 20092909
+  },
+  "Dept2-11": {
+    "dual": 0,
+    "ordinary": 200,
+    "attempts": 358,
+    "seed": 9051704,
+    "start": 22512109,
+    "end": 23721709
+  }
+}

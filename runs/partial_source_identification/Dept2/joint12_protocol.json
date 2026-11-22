@@ -1,0 +1,14 @@
+{
+  "k": 12,
+  "seed": 383037,
+  "dual_per_window": 80,
+  "ordinary_per_window": 25,
+  "primary": "Both sources in the fixed shortlist; paired comparison to individual source scores",
+  "objective": "maximize within-list mass of the frozen symmetric pair score; best single swap until local optimum",
+  "initializations": [
+    "individual scores",
+    "marginal pair score",
+    "greedy growth from highest scoring pair"
+  ],
+  "cohorts": "same four test windows as preceding experiments, new simulation draws"
+}

@@ -1,0 +1,14 @@
+{
+  "validation_nll": {
+    "3": 8.416927909851074,
+    "7": 8.42090129852295,
+    "12": 8.451385434468587
+  },
+  "epoch": 3,
+  "seed": 314159,
+  "change": "sort all visible IDs into one group before feature extraction for fit, cal and evaluation",
+  "hashes": {
+    "snapshot_pair.pt": "d66662a42e77ee02a2840d46ceca826884e928d98237257df8ca797d05ebf632",
+    "snapshot_scale.npz": "a6865f248e840475d736195ccbf567ba4364269e6250025543f0500f41004e3e"
+  }
+}

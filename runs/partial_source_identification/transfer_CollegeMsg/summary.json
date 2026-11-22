@@ -1,0 +1,190 @@
+{
+  "dual": {
+    "total": {
+      "n": 139,
+      "sum_legal": 253440,
+      "expected_random_both": 0.0055252560338059685,
+      "Dept2_source_both": 3,
+      "Dept2_source_one": 33,
+      "Dept2_joint_both": 2,
+      "Dept2_joint_one": 41,
+      "company_source_both": 0,
+      "company_source_one": 10,
+      "company_joint_both": 0,
+      "company_joint_one": 9,
+      "reach_both": 4,
+      "reach_one": 39
+    },
+    "CollegeMsg-08": {
+      "n": 40,
+      "sum_legal": 71714,
+      "expected_random_both": 0.0016436728660798052,
+      "Dept2_source_both": 2,
+      "Dept2_source_one": 10,
+      "Dept2_joint_both": 1,
+      "Dept2_joint_one": 11,
+      "company_source_both": 0,
+      "company_source_one": 1,
+      "company_joint_both": 0,
+      "company_joint_one": 1,
+      "reach_both": 2,
+      "reach_one": 11
+    },
+    "CollegeMsg-09": {
+      "n": 40,
+      "sum_legal": 72878,
+      "expected_random_both": 0.001591520996110149,
+      "Dept2_source_both": 1,
+      "Dept2_source_one": 7,
+      "Dept2_joint_both": 1,
+      "Dept2_joint_one": 10,
+      "company_source_both": 0,
+      "company_source_one": 2,
+      "company_joint_both": 0,
+      "company_joint_one": 2,
+      "reach_both": 1,
+      "reach_one": 12
+    },
+    "CollegeMsg-10": {
+      "n": 40,
+      "sum_legal": 73309,
+      "expected_random_both": 0.0015728332956640408,
+      "Dept2_source_both": 0,
+      "Dept2_source_one": 10,
+      "Dept2_joint_both": 0,
+      "Dept2_joint_one": 11,
+      "company_source_both": 0,
+      "company_source_one": 4,
+      "company_joint_both": 0,
+      "company_joint_one": 4,
+      "reach_both": 1,
+      "reach_one": 13
+    },
+    "CollegeMsg-11": {
+      "n": 19,
+      "sum_legal": 35539,
+      "expected_random_both": 0.0007172288759519762,
+      "Dept2_source_both": 0,
+      "Dept2_source_one": 6,
+      "Dept2_joint_both": 0,
+      "Dept2_joint_one": 9,
+      "company_source_both": 0,
+      "company_source_one": 3,
+      "company_joint_both": 0,
+      "company_joint_one": 2,
+      "reach_both": 0,
+      "reach_one": 3
+    }
+  },
+  "ordinary": {
+    "total": {
+      "n": 60,
+      "sum_legal": 109801,
+      "expected_random_both": 0.0023679540226770627,
+      "Dept2_source_both": 0,
+      "Dept2_source_one": 5,
+      "Dept2_joint_both": 0,
+      "Dept2_joint_one": 6,
+      "company_source_both": 0,
+      "company_source_one": 3,
+      "company_joint_both": 0,
+      "company_joint_one": 3,
+      "reach_both": 0,
+      "reach_one": 9
+    },
+    "CollegeMsg-08": {
+      "n": 15,
+      "sum_legal": 26886,
+      "expected_random_both": 0.0006166628855603295,
+      "Dept2_source_both": 0,
+      "Dept2_source_one": 2,
+      "Dept2_joint_both": 0,
+      "Dept2_joint_one": 0,
+      "company_source_both": 0,
+      "company_source_one": 1,
+      "company_joint_both": 0,
+      "company_joint_one": 1,
+      "reach_both": 0,
+      "reach_one": 1
+    },
+    "CollegeMsg-09": {
+      "n": 15,
+      "sum_legal": 27324,
+      "expected_random_both": 0.0005970468531885279,
+      "Dept2_source_both": 0,
+      "Dept2_source_one": 1,
+      "Dept2_joint_both": 0,
+      "Dept2_joint_one": 2,
+      "company_source_both": 0,
+      "company_source_one": 0,
+      "company_joint_both": 0,
+      "company_joint_one": 0,
+      "reach_both": 0,
+      "reach_one": 3
+    },
+    "CollegeMsg-10": {
+      "n": 15,
+      "sum_legal": 27515,
+      "expected_random_both": 0.0005887744347200219,
+      "Dept2_source_both": 0,
+      "Dept2_source_one": 1,
+      "Dept2_joint_both": 0,
+      "Dept2_joint_one": 2,
+      "company_source_both": 0,
+      "company_source_one": 0,
+      "company_joint_both": 0,
+      "company_joint_one": 0,
+      "reach_both": 0,
+      "reach_one": 2
+    },
+    "CollegeMsg-11": {
+      "n": 15,
+      "sum_legal": 28076,
+      "expected_random_both": 0.0005654698492081826,
+      "Dept2_source_both": 0,
+      "Dept2_source_one": 1,
+      "Dept2_joint_both": 0,
+      "Dept2_joint_one": 2,
+      "company_source_both": 0,
+      "company_source_one": 2,
+      "company_joint_both": 0,
+      "company_joint_one": 2,
+      "reach_both": 0,
+      "reach_one": 3
+    }
+  },
+  "flow": {
+    "CollegeMsg-08": {
+      "dual": 40,
+      "ordinary": 15,
+      "attempts": 43746,
+      "start": 1093018588,
+      "end": 1094228188,
+      "roster": 1805
+    },
+    "CollegeMsg-09": {
+      "dual": 40,
+      "ordinary": 15,
+      "attempts": 42175,
+      "start": 1094228188,
+      "end": 1095437788,
+      "roster": 1831
+    },
+    "CollegeMsg-10": {
+      "dual": 40,
+      "ordinary": 15,
+      "attempts": 58577,
+      "start": 1095437788,
+      "end": 1096647388,
+      "roster": 1841
+    },
+    "CollegeMsg-11": {
+      "dual": 19,
+      "ordinary": 15,
+      "attempts": 60000,
+      "start": 1096647388,
+      "end": 1097856988,
+      "roster": 1875
+    }
+  }
+}

@@ -1,0 +1,236 @@
+[
+  {
+    "window": "2021-01",
+    "roster": 133,
+    "history_docs": 181,
+    "roots": 62,
+    "insufficient_suffix": 24,
+    "no_second": 38
+  },
+  {
+    "window": "2021-02",
+    "roster": 133,
+    "history_docs": 172,
+    "roots": 52,
+    "no_second": 29,
+    "insufficient_suffix": 23
+  },
+  {
+    "window": "2021-03",
+    "roster": 137,
+    "history_docs": 162,
+    "roots": 76,
+    "insufficient_suffix": 40,
+    "no_second": 34,
+    "eligible": 2,
+    "scored": 1,
+    "two_reachable": 0
+  },
+  {
+    "window": "2021-04",
+    "roster": 149,
+    "history_docs": 165,
+    "roots": 87,
+    "no_second": 51,
+    "insufficient_suffix": 29,
+    "eligible": 7,
+    "scored": 3,
+    "two_reachable": 0
+  },
+  {
+    "window": "2021-05",
+    "roster": 188,
+    "history_docs": 185,
+    "roots": 70,
+    "no_second": 47,
+    "insufficient_suffix": 22,
+    "eligible": 1,
+    "scored": 1,
+    "two_reachable": 0
+  },
+  {
+    "window": "2021-06",
+    "roster": 186,
+    "history_docs": 219,
+    "roots": 74,
+    "insufficient_suffix": 30,
+    "no_second": 42,
+    "eligible": 2,
+    "scored": 2,
+    "two_reachable": 1
+  },
+  {
+    "window": "2021-07",
+    "roster": 184,
+    "history_docs": 231,
+    "roots": 73,
+    "no_second": 37,
+    "insufficient_suffix": 34,
+    "eligible": 2,
+    "scored": 1,
+    "two_reachable": 1
+  },
+  {
+    "window": "2021-08",
+    "roster": 140,
+    "history_docs": 200,
+    "roots": 67,
+    "insufficient_suffix": 20,
+    "no_second": 45,
+    "eligible": 2,
+    "scored": 0,
+    "two_reachable": 0
+  },
+  {
+    "window": "2021-09",
+    "roster": 135,
+    "history_docs": 199,
+    "roots": 71,
+    "no_second": 42,
+    "insufficient_suffix": 27,
+    "eligible": 2,
+    "scored": 2,
+    "two_reachable": 1
+  },
+  {
+    "window": "2021-10",
+    "roster": 126,
+    "history_docs": 189,
+    "roots": 66,
+    "no_second": 39,
+    "insufficient_suffix": 26,
+    "eligible": 1,
+    "scored": 1,
+    "two_reachable": 1
+  },
+  {
+    "window": "2021-11",
+    "roster": 123,
+    "history_docs": 183,
+    "roots": 52,
+    "insufficient_suffix": 25,
+    "no_second": 26,
+    "eligible": 1,
+    "scored": 1,
+    "two_reachable": 0
+  },
+  {
+    "window": "2021-12",
+    "roster": 130,
+    "history_docs": 181,
+    "roots": 49,
+    "insufficient_suffix": 18,
+    "no_second": 31
+  },
+  {
+    "window": "2022-01",
+    "roster": 112,
+    "history_docs": 163,
+    "roots": 53,
+    "no_second": 29,
+    "insufficient_suffix": 21,
+    "eligible": 3,
+    "scored": 2,
+    "two_reachable": 1
+  },
+  {
+    "window": "2022-02",
+    "roster": 113,
+    "history_docs": 151,
+    "roots": 48,
+    "no_second": 30,
+    "insufficient_suffix": 18
+  },
+  {
+    "window": "2022-03",
+    "roster": 101,
+    "history_docs": 135,
+    "roots": 52,
+    "insufficient_suffix": 24,
+    "no_second": 28
+  },
+  {
+    "window": "2022-04",
+    "roster": 99,
+    "history_docs": 140,
+    "roots": 60,
+    "insufficient_suffix": 20,
+    "no_second": 39,
+    "eligible": 1,
+    "scored": 0,
+    "two_reachable": 0
+  },
+  {
+    "window": "2022-05",
+    "roster": 109,
+    "history_docs": 143,
+    "roots": 70,
+    "no_second": 41,
+    "insufficient_suffix": 29
+  },
+  {
+    "window": "2022-06",
+    "roster": 122,
+    "history_docs": 155,
+    "roots": 72,
+    "no_second": 39,
+    "insufficient_suffix": 32,
+    "eligible": 1,
+    "scored": 0,
+    "two_reachable": 0
+  },
+  {
+    "window": "2022-07",
+    "roster": 126,
+    "history_docs": 178,
+    "roots": 55,
+    "no_second": 36,
+    "eligible": 3,
+    "scored": 2,
+    "two_reachable": 0,
+    "insufficient_suffix": 16
+  },
+  {
+    "window": "2022-08",
+    "roster": 136,
+    "history_docs": 180,
+    "roots": 54,
+    "no_second": 34,
+    "insufficient_suffix": 20
+  },
+  {
+    "window": "2022-09",
+    "roster": 122,
+    "history_docs": 173,
+    "roots": 45,
+    "insufficient_suffix": 15,
+    "no_second": 30
+  },
+  {
+    "window": "2022-10",
+    "roster": 120,
+    "history_docs": 153,
+    "roots": 63,
+    "no_second": 40,
+    "insufficient_suffix": 23
+  },
+  {
+    "window": "2022-11",
+    "roster": 126,
+    "history_docs": 154,
+    "roots": 70,
+    "eligible": 4,
+    "scored": 1,
+    "two_reachable": 0,
+    "insufficient_suffix": 29,
+    "no_second": 37
+  },
+  {
+    "window": "2022-12",
+    "roster": 141,
+    "history_docs": 157,
+    "roots": 69,
+    "insufficient_suffix": 27,
+    "no_second": 42
+  }
+]

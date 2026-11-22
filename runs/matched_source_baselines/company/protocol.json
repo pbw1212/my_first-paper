@@ -1,0 +1,29 @@
+{
+  "training": "identical saved ordinary events (1000 fit, 300 chronological validation per development network)",
+  "gcnsi": "Pinned GraphSL GCNSI layers, four LPSI channels, alpha .01, Adam .001, class-balanced CE over legal nodes, 20 events/batch",
+  "directions": [
+    "forward",
+    "reverse",
+    "undirected"
+  ],
+  "epochs": [
+    10,
+    25,
+    50
+  ],
+  "seed": 1938,
+  "selection": "minimum mean validation hard-label unordered-pair NLL; ties first listed",
+  "jordan": "all legal pairs on historical graph, maximum nearest distance then total nearest distance; no candidate pruning; score divided by calibrated temperature",
+  "jordan_graphs": [
+    "undirected",
+    "forward"
+  ],
+  "temperatures": [
+    0.15,
+    0.5,
+    1.0,
+    3.0
+  ],
+  "decoding": "12 legal nodes; additive GCNSI by top nodes; Jordan uses the same probability-mass list search as the new model",
+  "evaluation": "paired on the 3660 main and 1350 supplemental events, both-in-12 and exact unordered-pair rank; no target-domain tuning"
+}

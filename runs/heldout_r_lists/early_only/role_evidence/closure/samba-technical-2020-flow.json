@@ -1,0 +1,62 @@
+[
+  {
+    "month": "2020-01",
+    "verified_roots": 26,
+    "eligible": 6
+  },
+  {
+    "month": "2020-02",
+    "verified_roots": 30,
+    "eligible": 7
+  },
+  {
+    "month": "2020-03",
+    "verified_roots": 45,
+    "eligible": 13
+  },
+  {
+    "month": "2020-04",
+    "verified_roots": 29,
+    "eligible": 4
+  },
+  {
+    "month": "2020-05",
+    "verified_roots": 41,
+    "eligible": 14
+  },
+  {
+    "month": "2020-06",
+    "verified_roots": 20,
+    "eligible": 6
+  },
+  {
+    "month": "2020-07",
+    "verified_roots": 33,
+    "eligible": 5
+  },
+  {
+    "month": "2020-08",
+    "verified_roots": 23,
+    "eligible": 5
+  },
+  {
+    "month": "2020-09",
+    "verified_roots": 25,
+    "eligible": 5
+  },
+  {
+    "month": "2020-10",
+    "verified_roots": 23,
+    "eligible": 8
+  },
+  {
+    "month": "2020-11",
+    "verified_roots": 10,
+    "eligible": 1
+  },
+  {
+    "month": "2020-12",
+    "verified_roots": 21,
+    "eligible": 5
+  }
+]

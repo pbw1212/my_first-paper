@@ -1,0 +1,18 @@
+{
+  "primary": "reverse minus original contact history, at fixed outgoing-reply source prior",
+  "alternatives": [
+    "forward_out",
+    "reverse_out",
+    "forward_in",
+    "reverse_in"
+  ],
+  "model": "Dept2 mixed_offset, all 5 original seeds; no target fitting",
+  "controls": "reverse member features only, reverse source prior only, both reversed, 28-day total posts",
+  "targets": "two R communities 2021-22, previously examined Python/GCC/FFmpeg cohorts separately",
+  "accounting": "all eligible real threads; scoreability unchanged; both-in-12 and per-role recall",
+  "hashes": {
+    "scripts/test_reply_direction.py": "2c8239537d84297a3104881d6695d466ab46cc434bcec782b9fa756cf1e0116c",
+    "runs/heldout_r_lists/protocol.json": "19f1d3ce9f758cc22bdb9205a6bfb2ab823623aef05fb972403e9c0a9a206407",
+    "runs/trained_source_mixtures/early_speakers/protocol.json": "9e08c50777d9a72a87f81c25dbf0372386afc2872e0edb84e5669ff8403080df"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "source": {
+    "commit": "3346a3bd527a06cf0b199143167ad6cdc69efc9a",
+    "url": "https://raw.githubusercontent.com/xianggebenben/GraphSL/3346a3bd527a06cf0b199143167ad6cdc69efc9a/GraphSL/GNN/GCNSI/model.py",
+    "sha256": "a93649d9fb1d10a1b8f65d5d078bd490b007573c5a3eef92a804b751082f5cec"
+  },
+  "seed": 1938,
+  "epochs": 100,
+  "optimizer": "Adam lr 0.001",
+  "alpha": 0.01,
+  "training_events": 770,
+  "graph": "binary directed historical contacts; node features follow GraphSL LPSI augmentations",
+  "adaptation": "legal unseen nodes in weighted CE; four minibatches per window; sum of two source log-odds; fixed pool",
+  "weights": "620b74e2b17494322d5d625e3ef4752a35ff1b04911a011428a33b5a21662133"
+}

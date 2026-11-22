@@ -1,0 +1,23 @@
+{
+  "primary": "event-level reciprocal rank of the exact pair (zero outside the fixed top 64)",
+  "secondary": [
+    "exact top1",
+    "exact top5",
+    "exact top32",
+    "both in pool"
+  ],
+  "comparison": [
+    "old fusion",
+    "direct",
+    "radius",
+    "additive",
+    "static pair features",
+    "time-shuffled replay"
+  ],
+  "model": "ordered replay and static pair features; fixed ridge 0.02, no target labels",
+  "external": "Dept2; 12 equally spaced full 14-day windows, 15%-80% of elapsed span, include empty windows",
+  "sampling": "60 dual and 20 ordinary events per external window, cap 60000 uniform source draws",
+  "history": "six preceding 14-day windows; 24 live-edge draws per window; decay 2 windows half-life",
+  "development": "train on new conditional Dept3 simulations in weeks 11-25 using past folds; diagnose on Dept1",
+  "seed": 93171
+}

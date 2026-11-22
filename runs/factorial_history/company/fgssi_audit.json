@@ -1,0 +1,17 @@
+{
+  "n": 1200,
+  "seeds": [
+    111,
+    314159,
+    431,
+    2027,
+    9001
+  ],
+  "input_hashes": {
+    "public.jsonl": "92c257c692598151b7e5f3f914ab971d07fba1e5a20d22af2f72d3160ba5806f",
+    "truth.jsonl": "f7b7620cf6ee32936ec08d67869728d48a2c16d5c74ac063036cf30eee1cc611"
+  },
+  "hash": "caa8e7688477f7fa4984826b6fccfe9baba32aa6a22f1f6c43ed7773470b8155",
+  "wall_seconds": 15.000207600009162,
+  "score_decode_seconds": {}
+}

@@ -1,0 +1,53 @@
+{
+  "primary": "mixed_offset versus mixed_plain, same mixed training events and 300 mixed validation outcomes, both-in-12",
+  "secondary": "uniform_offset and mixed_component; true pair NLL; no target-label calibration",
+  "arms": [
+    "uniform_offset",
+    "mixed_plain",
+    "mixed_offset",
+    "mixed_component"
+  ],
+  "seeds": [
+    111,
+    314159,
+    431,
+    2027,
+    9001
+  ],
+  "source_models": {
+    "Dept2": "Dept2",
+    "company": "company",
+    "Dept4": "Dept2",
+    "Enron": "Dept2"
+  },
+  "train_seed": 73041411,
+  "test_seed": 40593217,
+  "test_profiles": {
+    "flat": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "mixed": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "mostly_active": [
+      0.05,
+      0.15,
+      0.8
+    ],
+    "linked": null
+  },
+  "test_draws": 140,
+  "fit_eligible": 1000,
+  "validation_eligible": 300,
+  "validation": "same draw-level equal mixture for all arms, score with respective deployment rule",
+  "output": "fixed equal draw mixture for offset models; sort posterior node marginals for all arms",
+  "hashes": {
+    "scripts/train_source_mixtures.py": "62b4a74910b3b8538f1c0e3599f5dd03929c5ded2c739d562377cc597956d741",
+    "runs/source_prior_shift/protocol.json": "3a2b5d1ce27059a625ea90e63e284d7d9d0dc956d5d4a1d0556bf6721503221d",
+    "scripts/distilled_source_pairs.py": "62a31a3b4cb3032f05bd55d5b3cd6acc4a28335ea566bd6897b0d0aabffa331d"
+  }
+}

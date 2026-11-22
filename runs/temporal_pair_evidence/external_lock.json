@@ -1,0 +1,12 @@
+{
+  "inputs": {
+    "runs\\temporal_pair_evidence\\protocol.json": "3f4ad39b808de983cef92448f33768b3247afb211897348886db7582b14da3b7",
+    "runs\\temporal_pair_evidence\\model.json": "dbf914490a91e6fc62dab03db6f7a9ef8ede8a213cdfb2ffe2ccf1e303c9567d",
+    "runs\\temporal_pair_evidence\\graphsl_gcnsi_model.py": "a93649d9fb1d10a1b8f65d5d078bd490b007573c5a3eef92a804b751082f5cec",
+    "scripts/temporal_pair_evidence.py": "3001fa7088316401761dfe2c8bee9c02b98e93435cd66dfc18a1e96f8e1383a1",
+    "scripts/compare_gcnsi_pairs.py": "8140d865a2519b324a11aac622fb1a82ce7d8c2ded7bbc226d84915b41438f75",
+    "data/raw/email-Eu-core-temporal-Dept2.txt.gz": "8e8dcdb9049a671f2afcb4bc91ff8ad77423a40612ce8318ef0825aa8b44b53d"
+  },
+  "primary": "Exact pair MRR all dual cases. Paired differences vs radius, static, shuffled, GCNSI. No model selection on Dept2.",
+  "interval": "10,000 paired bootstrap resamples over nonempty windows. Secondary exact hit@1,5,32 and ordinary cohort."
+}

@@ -1,0 +1,107 @@
+{
+  "flat": {
+    "all": {
+      "time_mass": 0.43152577153982646,
+      "parent_mass": 0.43152614449221455,
+      "time_list_parent_expectation": 0.43152614449221455,
+      "hit": 0.43185689948892675,
+      "extra_identity_bits": 4.2647292385408996e-06,
+      "n": 1174,
+      "value_of_parents_pp": 0.0,
+      "unique_pair_fraction": 0.3373083475298126,
+      "max_cover_size": 1
+    },
+    "one": {
+      "time_mass": 0.14217385062693602,
+      "parent_mass": 0.14217441341113088,
+      "time_list_parent_expectation": 0.14217441341113088,
+      "hit": 0.14267352185089974,
+      "extra_identity_bits": 6.43546545764398e-06,
+      "n": 778,
+      "value_of_parents_pp": 0.0,
+      "unique_pair_fraction": 0.0,
+      "max_cover_size": 1
+    },
+    "two": {
+      "time_mass": 1.0,
+      "parent_mass": 1.0,
+      "time_list_parent_expectation": 1.0,
+      "hit": 1.0,
+      "extra_identity_bits": 0.0,
+      "n": 396,
+      "value_of_parents_pp": 0.0,
+      "unique_pair_fraction": 1.0,
+      "max_cover_size": 1
+    }
+  },
+  "one": {
+    "all": {
+      "time_mass": 0.4788948402728492,
+      "parent_mass": 0.47889484034696794,
+      "time_list_parent_expectation": 0.47889484034696794,
+      "hit": 0.47736298649722003,
+      "extra_identity_bits": 6.316917691333916e-10,
+      "n": 2518,
+      "value_of_parents_pp": 0.0,
+      "unique_pair_fraction": 0.3669579030976966,
+      "max_cover_size": 1
+    },
+    "one": {
+      "time_mass": 0.17682384429550446,
+      "parent_mass": 0.17682384441258792,
+      "time_list_parent_expectation": 0.17682384441258797,
+      "hit": 0.17440401505646172,
+      "extra_identity_bits": 9.978669226335507e-10,
+      "n": 1594,
+      "value_of_parents_pp": -5.551115123125783e-15,
+      "unique_pair_fraction": 0.0,
+      "max_cover_size": 1
+    },
+    "two": {
+      "time_mass": 1.0,
+      "parent_mass": 1.0,
+      "time_list_parent_expectation": 1.0,
+      "hit": 1.0,
+      "extra_identity_bits": 0.0,
+      "n": 924,
+      "value_of_parents_pp": 0.0,
+      "unique_pair_fraction": 1.0,
+      "max_cover_size": 1
+    }
+  },
+  "both": {
+    "all": {
+      "time_mass": 0.8341191777670446,
+      "parent_mass": 0.8341193013945783,
+      "time_list_parent_expectation": 0.8341193013945783,
+      "hit": 0.8384783286560649,
+      "extra_identity_bits": 8.162109455239603e-07,
+      "n": 3207,
+      "value_of_parents_pp": 0.0,
+      "unique_pair_fraction": 0.6560648581228562,
+      "max_cover_size": 1
+    },
+    "one": {
+      "time_mass": 0.5172597124309551,
+      "parent_mass": 0.5172600722072712,
+      "time_list_parent_expectation": 0.5172600722072712,
+      "hit": 0.52994555353902,
+      "extra_identity_bits": 1.1411291715828396e-06,
+      "n": 1102,
+      "value_of_parents_pp": 0.0,
+      "unique_pair_fraction": 0.0,
+      "max_cover_size": 1
+    },
+    "two": {
+      "time_mass": 1.0,
+      "parent_mass": 1.0,
+      "time_list_parent_expectation": 1.0,
+      "hit": 1.0,
+      "extra_identity_bits": 6.461112376299531e-07,
+      "n": 2105,
+      "value_of_parents_pp": 0.0,
+      "unique_pair_fraction": 0.9995249406175772,
+      "max_cover_size": 1
+    }
+  }
+}

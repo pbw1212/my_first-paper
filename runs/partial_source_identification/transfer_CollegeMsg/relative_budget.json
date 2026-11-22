@@ -1,0 +1,70 @@
+{
+  "dual": {
+    "fixed12": {
+      "n": 139,
+      "mean_size": 12.0,
+      "source_both": 3,
+      "source_one": 33,
+      "reach_both": 4,
+      "reach_one": 39
+    },
+    "0.02": {
+      "n": 139,
+      "mean_size": 36.92086330935252,
+      "source_both": 12,
+      "source_one": 81,
+      "reach_both": 15,
+      "reach_one": 73
+    },
+    "0.05": {
+      "n": 139,
+      "mean_size": 91.61870503597122,
+      "source_both": 44,
+      "source_one": 113,
+      "reach_both": 27,
+      "reach_one": 100
+    },
+    "0.1": {
+      "n": 139,
+      "mean_size": 182.77697841726618,
+      "source_both": 61,
+      "source_one": 124,
+      "reach_both": 60,
+      "reach_one": 120
+    }
+  },
+  "ordinary": {
+    "fixed12": {
+      "n": 60,
+      "mean_size": 12.0,
+      "source_both": 0,
+      "source_one": 5,
+      "reach_both": 0,
+      "reach_one": 9
+    },
+    "0.02": {
+      "n": 60,
+      "mean_size": 37.016666666666666,
+      "source_both": 1,
+      "source_one": 21,
+      "reach_both": 0,
+      "reach_one": 19
+    },
+    "0.05": {
+      "n": 60,
+      "mean_size": 91.88333333333334,
+      "source_both": 2,
+      "source_one": 34,
+      "reach_both": 1,
+      "reach_one": 28
+    },
+    "0.1": {
+      "n": 60,
+      "mean_size": 183.5,
+      "source_both": 5,
+      "source_one": 46,
+      "reach_both": 3,
+      "reach_one": 37
+    }
+  }
+}

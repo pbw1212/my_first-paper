@@ -1,0 +1,33 @@
+{
+  "cohorts": {
+    "r-devel": {
+      "eligible": 170,
+      "role_lists_recomputed": 96,
+      "event_sha256": "a71022ec15ed60971a01ca59483c91c8c25833746d4979cf5bc4c43f5a5687ab"
+    },
+    "r-package-devel": {
+      "eligible": 227,
+      "role_lists_recomputed": 96,
+      "event_sha256": "b76abc2523ff563f8371912975d093464e229fd23a33dfd37b74b81d3da4ddb8"
+    },
+    "libc-alpha": {
+      "eligible": 880,
+      "role_lists_recomputed": 96,
+      "event_sha256": "0acd6a67cb6b190c4d25a66a0c47348470a7e642b616d40fe3b9c29690326efe"
+    },
+    "libc-alpha-2024": {
+      "eligible": 437,
+      "role_lists_recomputed": 48,
+      "event_sha256": "0c94403587e7260bdcf7c6ce1130a36de2c8c6da3587bbde2bef0c59fd54d972"
+    },
+    "samba-technical-2020": {
+      "eligible": 79,
+      "role_lists_recomputed": 284,
+      "event_sha256": "99be78cbd4ac8fd67086df8b963b090721bcf01d9f2e59b66eb2c5fe1a5e47ef"
+    }
+  },
+  "downloaded_archives": 17,
+  "parsed_headers": 2102,
+  "new_unique_messages": 2101,
+  "script": "2adcfadeaa1466f204b0d331fccee12441d687fc365c8bfbcb7a60efa4b4b10e"
+}

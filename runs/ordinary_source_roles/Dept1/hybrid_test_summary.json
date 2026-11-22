@@ -1,0 +1,287 @@
+{
+  "all": {
+    "total": {
+      "n": 240,
+      "activity": 3,
+      "pooled": 17,
+      "dual_node": 19,
+      "0.0": 22,
+      "0.25": 22,
+      "selected_gained": 1,
+      "selected_lost": 1,
+      "selected": 22
+    },
+    "Dept1-26": {
+      "n": 60,
+      "activity": 0,
+      "pooled": 3,
+      "dual_node": 3,
+      "0.0": 4,
+      "0.25": 4,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 4
+    },
+    "Dept1-27": {
+      "n": 60,
+      "activity": 0,
+      "pooled": 3,
+      "dual_node": 4,
+      "0.0": 4,
+      "0.25": 5,
+      "selected_gained": 1,
+      "selected_lost": 0,
+      "selected": 5
+    },
+    "Dept1-28": {
+      "n": 60,
+      "activity": 2,
+      "pooled": 5,
+      "dual_node": 8,
+      "0.0": 8,
+      "0.25": 8,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 8
+    },
+    "Dept1-29": {
+      "n": 60,
+      "activity": 1,
+      "pooled": 6,
+      "dual_node": 4,
+      "0.0": 6,
+      "0.25": 5,
+      "selected_gained": 0,
+      "selected_lost": 1,
+      "selected": 5
+    }
+  },
+  "silent": {
+    "total": {
+      "n": 169,
+      "activity": 0,
+      "pooled": 5,
+      "dual_node": 5,
+      "0.0": 5,
+      "0.25": 5,
+      "selected_gained": 1,
+      "selected_lost": 1,
+      "selected": 5
+    },
+    "Dept1-26": {
+      "n": 39,
+      "activity": 0,
+      "pooled": 0,
+      "dual_node": 1,
+      "0.0": 1,
+      "0.25": 1,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 1
+    },
+    "Dept1-27": {
+      "n": 49,
+      "activity": 0,
+      "pooled": 1,
+      "dual_node": 1,
+      "0.0": 1,
+      "0.25": 2,
+      "selected_gained": 1,
+      "selected_lost": 0,
+      "selected": 2
+    },
+    "Dept1-28": {
+      "n": 39,
+      "activity": 0,
+      "pooled": 1,
+      "dual_node": 1,
+      "0.0": 1,
+      "0.25": 1,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 1
+    },
+    "Dept1-29": {
+      "n": 42,
+      "activity": 0,
+      "pooled": 3,
+      "dual_node": 2,
+      "0.0": 2,
+      "0.25": 1,
+      "selected_gained": 0,
+      "selected_lost": 1,
+      "selected": 1
+    }
+  },
+  "one_visible": {
+    "total": {
+      "n": 185,
+      "activity": 0,
+      "pooled": 6,
+      "dual_node": 5,
+      "0.0": 5,
+      "0.25": 5,
+      "selected_gained": 1,
+      "selected_lost": 1,
+      "selected": 5
+    },
+    "Dept1-26": {
+      "n": 41,
+      "activity": 0,
+      "pooled": 0,
+      "dual_node": 1,
+      "0.0": 1,
+      "0.25": 1,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 1
+    },
+    "Dept1-27": {
+      "n": 53,
+      "activity": 0,
+      "pooled": 1,
+      "dual_node": 1,
+      "0.0": 1,
+      "0.25": 2,
+      "selected_gained": 1,
+      "selected_lost": 0,
+      "selected": 2
+    },
+    "Dept1-28": {
+      "n": 43,
+      "activity": 0,
+      "pooled": 1,
+      "dual_node": 1,
+      "0.0": 1,
+      "0.25": 1,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 1
+    },
+    "Dept1-29": {
+      "n": 48,
+      "activity": 0,
+      "pooled": 4,
+      "dual_node": 2,
+      "0.0": 2,
+      "0.25": 1,
+      "selected_gained": 0,
+      "selected_lost": 1,
+      "selected": 1
+    }
+  },
+  "two_emitters": {
+    "total": {
+      "n": 71,
+      "activity": 3,
+      "pooled": 12,
+      "dual_node": 14,
+      "0.0": 17,
+      "0.25": 17,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 17
+    },
+    "Dept1-26": {
+      "n": 21,
+      "activity": 0,
+      "pooled": 3,
+      "dual_node": 2,
+      "0.0": 3,
+      "0.25": 3,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 3
+    },
+    "Dept1-27": {
+      "n": 11,
+      "activity": 0,
+      "pooled": 2,
+      "dual_node": 3,
+      "0.0": 3,
+      "0.25": 3,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 3
+    },
+    "Dept1-28": {
+      "n": 21,
+      "activity": 2,
+      "pooled": 4,
+      "dual_node": 7,
+      "0.0": 7,
+      "0.25": 7,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 7
+    },
+    "Dept1-29": {
+      "n": 18,
+      "activity": 1,
+      "pooled": 3,
+      "dual_node": 2,
+      "0.0": 4,
+      "0.25": 4,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 4
+    }
+  },
+  "dual_visible": {
+    "total": {
+      "n": 55,
+      "activity": 3,
+      "pooled": 11,
+      "dual_node": 14,
+      "0.0": 17,
+      "0.25": 17,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 17
+    },
+    "Dept1-26": {
+      "n": 19,
+      "activity": 0,
+      "pooled": 3,
+      "dual_node": 2,
+      "0.0": 3,
+      "0.25": 3,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 3
+    },
+    "Dept1-27": {
+      "n": 7,
+      "activity": 0,
+      "pooled": 2,
+      "dual_node": 3,
+      "0.0": 3,
+      "0.25": 3,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 3
+    },
+    "Dept1-28": {
+      "n": 17,
+      "activity": 2,
+      "pooled": 4,
+      "dual_node": 7,
+      "0.0": 7,
+      "0.25": 7,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 7
+    },
+    "Dept1-29": {
+      "n": 12,
+      "activity": 1,
+      "pooled": 2,
+      "dual_node": 2,
+      "0.0": 4,
+      "0.25": 4,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 4
+    }
+  }
+}

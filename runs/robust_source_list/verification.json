@@ -1,0 +1,31 @@
+{
+  "exhaustive": {
+    "rosters": 60,
+    "k": 5,
+    "subsets_per_roster": 252,
+    "mixtures_each": 43,
+    "lowest_solver_to_exact_certificate": 0.9999999999999996
+  },
+  "networks": {
+    "Dept2": {
+      "regenerated_eligible": 1066,
+      "dense_pair_checks": 16,
+      "max_certificate_error": 1.2212453270876722e-15
+    },
+    "company": {
+      "regenerated_eligible": 1716,
+      "dense_pair_checks": 16,
+      "max_certificate_error": 1.1102230246251565e-15
+    },
+    "Dept4": {
+      "regenerated_eligible": 2196,
+      "dense_pair_checks": 28,
+      "max_certificate_error": 1.4432899320127035e-15
+    },
+    "Enron": {
+      "regenerated_eligible": 5876,
+      "dense_pair_checks": 104,
+      "max_certificate_error": 1.6653345369377348e-15
+    }
+  }
+}

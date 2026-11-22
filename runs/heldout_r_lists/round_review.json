@@ -1,0 +1,350 @@
+{
+  "scope": "实验准备材料",
+  "communities": {
+    "r-devel": {
+      "archive": "51f1329222db2ed9eab3f09e7a55b43eed14562e0f4e1756e916c38d0024f4c7",
+      "real": {
+        "eligible": 17,
+        "abstained": 8,
+        "scored_but_missing_source": 9,
+        "scoreable_and_reachable": 0
+      },
+      "mostly_active": {
+        "eligible": 7,
+        "populated_months": 4,
+        "largest_month": [
+          [
+            "2021-11",
+            3
+          ]
+        ],
+        "effective_months": 3.2666666666666666,
+        "distinct_month_source_pairs": 7,
+        "leave_one_populated_month_out_pp": [
+          0.0,
+          4.0
+        ],
+        "primary_results": {
+          "uniform_offset": 28.57142857142857,
+          "mixed_plain": 11.428571428571429,
+          "mixed_offset": 14.285714285714285,
+          "mixed_component": 8.571428571428571
+        },
+        "volume_pct": 42.857142857142854,
+        "offset_minus_plain_pp": {
+          "pp": 2.857142857142857,
+          "ci95": [
+            0.0,
+            11.428571428571429
+          ],
+          "months_with_events": 4,
+          "valid_draws": 9763
+        },
+        "offset_minus_simple_pp": {
+          "pp": -14.285714285714285,
+          "ci95": [
+            -30.0,
+            0.0
+          ],
+          "months_with_events": 4,
+          "valid_draws": 9763
+        }
+      }
+    },
+    "r-package-devel": {
+      "archive": "4ff1ae56f013f7523f62bf8e5d249d91827a7fa0294eb34b2da4e61b84e40936",
+      "real": {
+        "eligible": 13,
+        "abstained": 8,
+        "scored_but_missing_source": 3,
+        "scoreable_and_reachable": 2
+      },
+      "mostly_active": {
+        "eligible": 71,
+        "populated_months": 8,
+        "largest_month": [
+          [
+            "2022-05",
+            40
+          ]
+        ],
+        "effective_months": 2.6828100053219797,
+        "distinct_month_source_pairs": 66,
+        "leave_one_populated_month_out_pp": [
+          -1.290322580645161,
+          1.0526315789473686
+        ],
+        "primary_results": {
+          "uniform_offset": 27.887323943661972,
+          "mixed_plain": 23.380281690140844,
+          "mixed_offset": 23.380281690140844,
+          "mixed_component": 22.816901408450704
+        },
+        "volume_pct": 30.985915492957744,
+        "offset_minus_plain_pp": {
+          "pp": 0.0,
+          "ci95": [
+            -4.446102819237147,
+            2.7588475499092526
+          ],
+          "months_with_events": 8,
+          "valid_draws": 9999
+        },
+        "offset_minus_simple_pp": {
+          "pp": -4.507042253521127,
+          "ci95": [
+            -6.666666666666667,
+            0.0
+          ],
+          "months_with_events": 8,
+          "valid_draws": 9999
+        }
+      }
+    },
+    "libc-alpha": {
+      "archive": "356dc23f1e955ebf06e732a35255d9a7b1047f81727fd482b4f9c5d8527bbcd9",
+      "real": {
+        "eligible": 34,
+        "abstained": 15,
+        "scored_but_missing_source": 9,
+        "scoreable_and_reachable": 10
+      },
+      "mostly_active": {
+        "eligible": 11424,
+        "populated_months": 24,
+        "largest_month": [
+          [
+            "2021-12",
+            645
+          ]
+        ],
+        "effective_months": 22.26093031839933,
+        "distinct_month_source_pairs": 6357,
+        "leave_one_populated_month_out_pp": [
+          2.6061385774673775,
+          2.8764335923048465
+        ],
+        "primary_results": {
+          "uniform_offset": 43.67121848739496,
+          "mixed_plain": 41.055672268907564,
+          "mixed_offset": 43.77626050420168,
+          "mixed_component": 44.297969187675065
+        },
+        "volume_pct": 44.16141456582633,
+        "offset_minus_plain_pp": {
+          "pp": 2.7205882352941178,
+          "ci95": [
+            1.515317485210144,
+            4.276556540819865
+          ],
+          "months_with_events": 24,
+          "valid_draws": 10000
+        },
+        "offset_minus_simple_pp": {
+          "pp": 0.10504201680672269,
+          "ci95": [
+            -0.6461217505118567,
+            1.03656547998737
+          ],
+          "months_with_events": 24,
+          "valid_draws": 10000
+        }
+      }
+    }
+  },
+  "early_two_only": {
+    "r-devel": {
+      "eligible": 170,
+      "ready": 151,
+      "both_reachable_and_ready": 54,
+      "offset_minus_volume": {
+        "n": 170,
+        "pp": 2.235294117647059,
+        "ci95_pp": [
+          0.4444444444444444,
+          4.861111111111111
+        ]
+      },
+      "offset_minus_plain": {
+        "n": 170,
+        "pp": 0.2352941176470588,
+        "ci95_pp": [
+          0.0,
+          0.8284176962933437
+        ]
+      },
+      "shared_scoreable": {
+        "n": 9,
+        "old_filter_updated_pct": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "filter_minus_old": {
+          "n": 9,
+          "pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "update_minus_filter": {
+          "n": 9,
+          "pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "update_minus_old": {
+          "n": 9,
+          "pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "r-package-devel": {
+      "eligible": 227,
+      "ready": 215,
+      "both_reachable_and_ready": 59,
+      "offset_minus_volume": {
+        "n": 227,
+        "pp": -1.9383259911894273,
+        "ci95_pp": [
+          -3.744696788588733,
+          -0.24580248545743136
+        ]
+      },
+      "offset_minus_plain": {
+        "n": 227,
+        "pp": 0.5286343612334802,
+        "ci95_pp": [
+          -0.17094017094017094,
+          1.7428209181321204
+        ]
+      },
+      "shared_scoreable": {
+        "n": 5,
+        "old_filter_updated_pct": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "filter_minus_old": {
+          "n": 5,
+          "pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "update_minus_filter": {
+          "n": 5,
+          "pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "update_minus_old": {
+          "n": 5,
+          "pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "libc-alpha": {
+      "eligible": 880,
+      "ready": 828,
+      "both_reachable_and_ready": 648,
+      "offset_minus_volume": {
+        "n": 880,
+        "pp": 2.409090909090909,
+        "ci95_pp": [
+          -0.4464580911204767,
+          5.468628139608108
+        ]
+      },
+      "offset_minus_plain": {
+        "n": 880,
+        "pp": 9.0,
+        "ci95_pp": [
+          3.615552174396834,
+          15.413101197823801
+        ]
+      },
+      "shared_scoreable": {
+        "n": 19,
+        "old_filter_updated_pct": [
+          15.789473684210526,
+          16.842105263157894,
+          31.57894736842105
+        ],
+        "filter_minus_old": {
+          "n": 19,
+          "pp": 1.0526315789473684,
+          "ci95_pp": [
+            0.0,
+            5.0
+          ]
+        },
+        "update_minus_filter": {
+          "n": 19,
+          "pp": 14.736842105263156,
+          "ci95_pp": [
+            -0.8695652173913043,
+            38.18181818181818
+          ]
+        },
+        "update_minus_old": {
+          "n": 19,
+          "pp": 15.789473684210526,
+          "ci95_pp": [
+            0.7142857142857143,
+            38.401538461538436
+          ]
+        }
+      }
+    }
+  },
+  "speaker_pair_audit": {
+    "max_matched_role_marginal_error": 2.1315588183412615e-13,
+    "external_discussions": 137,
+    "gained_vs_roles": 0,
+    "lost_vs_roles": 0
+  },
+  "libc_real_controls": {
+    "real_discussions_matched": 34,
+    "volume_hits": 3,
+    "paired_hits": 4,
+    "role_only_hits": 4
+  },
+  "interpretation": {
+    "真实标签": "根邮件作者和最早的另一位发言者",
+    "模拟标签": "在每个月前14天的回复接触流上抽取的两位初始成员",
+    "测试设计": "R 两个社区先锁定，因合格事件稀少再锁定 GNU libc；各自使用同一组冻结的 Dept2 模型",
+    "方向检验": "固定活跃度先验，仅改变历史回复图的有向边",
+    "配对检验": "相同角色频率下，对照引入历史首发者与最早回应者的配对计数"
+  },
+  "input_hashes": {
+    "heldout_r_lists/protocol_v2.json": "104b489444fa03c1a428614099117dcc9334bf9f7c5a884a159a33586d3c1de0",
+    "heldout_r_lists/verification.json": "dd4600d0405e07c25817ad57d5dfac2138c1f66d8ecdb7f10b6a35d479c7131f",
+    "heldout_r_lists/direction/existing.json": "b2ba7a9599eda5a065696df863912cd807598e49780ca5feead249b20bc80bee",
+    "heldout_r_lists/direction/heldout.json": "38e69dfe5f65b99b3a610a23def63fe4250ef02cc713acc2049846dec5cb8818",
+    "heldout_r_lists/speaker_pairs/protocol.json": "a10066dd896071e9d9295170201b876bc1084ee137deb10e855691e557628074",
+    "heldout_r_lists/speaker_pairs/summary.json": "be1dddc63d51f840c406c4c2cb1c73f6645a73e431f1f4ce87a881a89806c62c",
+    "heldout_libc_alpha/protocol.json": "0cefee5253bfede4c5413106d6c3a1249e6d5a13b262cacd342d0f78b1f169ed",
+    "heldout_libc_alpha/verification.json": "2d3e23b38aaea7edd5373598ad0049d0dec8483a9c67c9b22f9a3e9f8b278d51",
+    "heldout_libc_alpha/early_speaker_controls/protocol.json": "bee8172776d70c0caa317fc1b6e92c12c7c9bc491aca421e989e6567a43245a0",
+    "heldout_libc_alpha/early_speaker_controls/summary.json": "eb1dce854e390f0ef95feef1db437d459578c4dfebcc023bef6414f38cfe6b1b",
+    "heldout_r_lists/early_only/protocol.json": "6cd153732a7c99fb09c964fb9eb946966ba7b31190332dd8e06eb1016b3fe8ed",
+    "heldout_r_lists/early_only/summary.json": "00865f3b7fed35b002ce1cad58240d3bc05b359ac900bc19d48f2e2aa0c918e5",
+    "heldout_r_lists/early_only/verification.json": "0ba0107d6c6d084af5b617c80c68235f20d798668d4102067893cd51dbd37238"
+  }
+}

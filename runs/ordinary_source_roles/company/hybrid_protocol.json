@@ -1,0 +1,16 @@
+{
+  "weights": [
+    0.0,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "selection": "Maximize ordinary double-hit@12 on the original three calibration windows; ties favor smaller silent weight",
+  "primary": "Fresh ordinary cascades in the same four test windows; paired hybrid vs unchanged dual-trained joint",
+  "activity": "Ordinary pooled tree trained on same early cascades, only past per-person contact activity; public suffix only excludes ineligible people",
+  "test_seed": 41607131,
+  "per_window": {
+    "local": 150,
+    "transfer": 60
+  }
+}

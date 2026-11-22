@@ -1,0 +1,63 @@
+{
+  "primary": "both sources in 12; marginal shortlist for all; independent draws for each source law",
+  "source_laws": "flat, (w_i+w_j), or w_i*w_j over distinct unordered pairs, w=1+outgoing contacts in 28 days",
+  "source_model": {
+    "Dept2": "Dept2",
+    "company": "company",
+    "Dept4": "Dept2",
+    "Enron": "Dept2"
+  },
+  "seeds": [
+    111,
+    314159,
+    431,
+    2027,
+    9001
+  ],
+  "test_attempts": 160,
+  "cal_attempts": 112,
+  "calibration": "32 labelled eligible events across earlier calibration windows per network and law, selected by round-robin; minimize pair NLL over five listed rules averaged across frozen seeds",
+  "candidates": [
+    "flat",
+    "one_half",
+    "both_half",
+    "one",
+    "both"
+  ],
+  "seed": 20261122,
+  "hashes": {
+    "scripts/source_prior_shift.py": "1ac1b61d8365c73ce3b2ad1a7309c957a1ab7d5e83ffbaf64969b4d3ef6fdb5e",
+    "scripts/build_dept3_pilot.py": "102fb3aec0b5b2c1e9820fccf0bbc22c5c2b929dd371324e8edec90a1302c15f",
+    "scripts/five_frame_pairs.py": "b79310b2fd03a100a11861376efe2953f44a5c3d18440cfd6e8d0e0375ae1fc9",
+    "scripts/distilled_source_pairs.py": "62a31a3b4cb3032f05bd55d5b3cd6acc4a28335ea566bd6897b0d0aabffa331d",
+    "scripts/fgssi_suffix.py": "b6b70938b7754ed88000d6b8245ee7d8c15d996d6031f4f51e1948fe0d2ac6ca",
+    "scripts/ordinary_source_roles.py": "7dea6d9721287f98e93b1f4598cdd69b07b5dae2bf265b86c982326e443e66dc",
+    "scripts/evaluate_factorial_history.py": "3975349c22a92d0f2aa0d14b8da4fe849e95fa686f5ed82710b060b447788008",
+    "scripts/locked_dept4.py": "bd842c2ea42a7cebb41a5064a257bdaac57893172fbdaf4da806a501077c3f31",
+    "scripts/enron_temporal_transfer.py": "0b2c39b81bc03736c571a730527d0194fdc478869b164a6df3e5dce6109f2ce9",
+    "scripts/temporal_pair_evidence.py": "3001fa7088316401761dfe2c8bee9c02b98e93435cd66dfc18a1e96f8e1383a1",
+    "scripts/partial_source_identification.py": "6ba2428623ceffd7fc29a203b420e4187315af86d3e12358e8e9f46256cefdcc",
+    "runs/factorial_history/fits/company/temporal/scale.npz": "35b87a6e63e7fdbcd103a466aa6e02fabd703717a4b199ed54102205811b7cf8",
+    "runs/factorial_history/fits/company/temporal/add111.pt": "7979543f04c116ace6f69a95f67f1a00e66865122c0a19ffa84327e56a0b4893",
+    "runs/temporal_transfer/company/fgssi.pt": "4422d065d43f3eb84d777c2bf42ff118670c87310573a8b480b8217d315056fa",
+    "runs/factorial_history/fits/company/temporal/add314159.pt": "ba14dbdbc7d63685ad15193713612ecba2f57e9529f700d1f48f488f5a779669",
+    "runs/factorial_history/fgssi/314159/company/fgssi.pt": "84e08119cccbeae33d79bc75a3527fb551d697084ad0d69cb41f7d06be63b801",
+    "runs/factorial_history/fits/company/temporal/add431.pt": "2c0a4a54cba2a876959fd9fa02222116760b69c2c4aa282be0a82c11067688a6",
+    "runs/factorial_history/fgssi/431/company/fgssi.pt": "34aad11fbb73b97329be8729ccf0dfb1fedfd941040722fcc83399fbc9e524c7",
+    "runs/factorial_history/fits/company/temporal/add2027.pt": "e5220e30584962d410058bd56a3370e16aa18de103bb6bb00f447affc8b7ef85",
+    "runs/factorial_history/fgssi/2027/company/fgssi.pt": "37cf17c6630498dd88cbfea13065c4631fff8c8facd266a28d271d372b24ffef",
+    "runs/factorial_history/fits/company/temporal/add9001.pt": "74e99feeca38b46ab0a094b474412da5ae0bc1d5343d5a382e920b018d2c6801",
+    "runs/factorial_history/fgssi/9001/company/fgssi.pt": "b178f89d22ae80260e390f368ada549064b3becb96704b32ed8a569a76ac8461",
+    "runs/factorial_history/fits/Dept2/temporal/scale.npz": "8505e3d28fd08925abd7f9d94d8ab697d94b587b2f250c7db7859a4f2b73ab0a",
+    "runs/factorial_history/fits/Dept2/temporal/add111.pt": "ab61c5516f94bc60eebeb59f083c1326f1975dceaa550f85368268530622211d",
+    "runs/temporal_transfer/Dept2/fgssi.pt": "ce8542bdb2b13373447aab02aa1d5e3c746707a69bf39211bdb8cd8c16bab110",
+    "runs/factorial_history/fits/Dept2/temporal/add314159.pt": "bc42400f1f946259054199511a412e967d323d4f09350d18965348007be6cdfa",
+    "runs/factorial_history/fgssi/314159/Dept2/fgssi.pt": "dd53fe5588afe17948e9a4f3e8b2accdfd7eb705a911bf3c7cc911d511758cad",
+    "runs/factorial_history/fits/Dept2/temporal/add431.pt": "ed4242e243e23e060c1ab1a992b20ea181f411703c42a5e0fbebd2209773f60c",
+    "runs/factorial_history/fgssi/431/Dept2/fgssi.pt": "111ddab6c4d43786f89f0ac9ac3f9ac15ea4a3a8ec3461389c0384881d819e9b",
+    "runs/factorial_history/fits/Dept2/temporal/add2027.pt": "5b0f2f7b2de828ca6ce5680a7711ce8b7ad3fa7533ccdeb1ee107e94fa7f8e6a",
+    "runs/factorial_history/fgssi/2027/Dept2/fgssi.pt": "74aeb09ac9f9a0efedfffa0c9180dfdaced41f3b0a761a43b6fac19cd2f6db84",
+    "runs/factorial_history/fits/Dept2/temporal/add9001.pt": "9943a20b0cd8f9ea844072292550c2c77606e3bcd20bc8c977eb332e040cb8cb",
+    "runs/factorial_history/fgssi/9001/Dept2/fgssi.pt": "b5cf5d18b9c98ab07d97105a59b1e6a99f790e5cab099d3292257ad6c6d8eacc"
+  }
+}

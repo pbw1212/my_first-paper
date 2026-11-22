@@ -1,0 +1,62 @@
+[
+  {
+    "id": "distill-2-company-13-51",
+    "run": "company",
+    "method": "D",
+    "thread_counts": {
+      "1": {
+        "rank": 1577,
+        "gold_logit": 0.8498522043228149
+      },
+      "2": {
+        "rank": 1576,
+        "gold_logit": 0.8498523235321045
+      }
+    }
+  },
+  {
+    "id": "distill-2-CollegeMsg-08-21",
+    "run": "CollegeMsg",
+    "method": "D",
+    "thread_counts": {
+      "1": {
+        "rank": 393088,
+        "gold_logit": 2.189509868621826
+      },
+      "2": {
+        "rank": 392995,
+        "gold_logit": 2.1895101070404053
+      }
+    }
+  },
+  {
+    "id": "distill-1-Dept2-28-135",
+    "run": "Dept2_new_windows",
+    "method": "F",
+    "thread_counts": {
+      "1": {
+        "rank": 31,
+        "gold_logit": 3.6515371799468994
+      },
+      "2": {
+        "rank": 32,
+        "gold_logit": 3.6515369415283203
+      }
+    }
+  },
+  {
+    "id": "Enron-09-39",
+    "run": "Enron",
+    "method": "F",
+    "thread_counts": {
+      "1": {
+        "rank": 1476,
+        "gold_logit": 1.2379314601421356
+      },
+      "2": {
+        "rank": 1477,
+        "gold_logit": 1.2379314601421356
+      }
+    }
+  }
+]

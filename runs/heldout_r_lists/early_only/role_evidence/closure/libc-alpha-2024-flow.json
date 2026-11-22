@@ -1,0 +1,62 @@
+[
+  {
+    "month": "2024-01",
+    "verified_roots": 168,
+    "eligible": 40
+  },
+  {
+    "month": "2024-02",
+    "verified_roots": 123,
+    "eligible": 32
+  },
+  {
+    "month": "2024-03",
+    "verified_roots": 90,
+    "eligible": 27
+  },
+  {
+    "month": "2024-04",
+    "verified_roots": 125,
+    "eligible": 33
+  },
+  {
+    "month": "2024-05",
+    "verified_roots": 186,
+    "eligible": 32
+  },
+  {
+    "month": "2024-06",
+    "verified_roots": 162,
+    "eligible": 36
+  },
+  {
+    "month": "2024-07",
+    "verified_roots": 164,
+    "eligible": 53
+  },
+  {
+    "month": "2024-08",
+    "verified_roots": 145,
+    "eligible": 36
+  },
+  {
+    "month": "2024-09",
+    "verified_roots": 166,
+    "eligible": 28
+  },
+  {
+    "month": "2024-10",
+    "verified_roots": 129,
+    "eligible": 34
+  },
+  {
+    "month": "2024-11",
+    "verified_roots": 139,
+    "eligible": 37
+  },
+  {
+    "month": "2024-12",
+    "verified_roots": 279,
+    "eligible": 49
+  }
+]

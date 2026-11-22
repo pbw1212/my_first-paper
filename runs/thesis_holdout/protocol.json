@@ -1,0 +1,30 @@
+{
+  "test": [
+    0.8,
+    1.0
+  ],
+  "fraction": [
+    25,
+    50,
+    75
+  ],
+  "main_fraction": 50,
+  "per_window": {
+    "dual": 40,
+    "ordinary": 20
+  },
+  "attempt_cap": 300000,
+  "seed": {
+    "Dept3": 82100,
+    "CollegeMsg": 83100
+  },
+  "width_days": {
+    "Dept3": 14,
+    "CollegeMsg": 7
+  },
+  "primary": "prefix128 vs direct at 32 nodes, dual cohort, Hit@32",
+  "fusion_contrast": "three-feature listwise fusion vs direct and two-feature ablation at 64 nodes",
+  "fit": "original frozen node and forward folds, conditional training trajectories, ridge 0.02, event-standardized inputs",
+  "sensitivity": "same 50%-selected dual trajectories eligible with two visible lineages at all three masks",
+  "inference": "historical graph and visible batches only; no test fitting; time-window cluster bootstrap descriptive"
+}

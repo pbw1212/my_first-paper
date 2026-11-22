@@ -1,0 +1,19 @@
+{
+  "budget": 12,
+  "per_window": {
+    "fit": 200,
+    "cal": 100,
+    "test": 150
+  },
+  "seeds": {
+    "fit": 9051700,
+    "cal": 9052100,
+    "test": 9052500
+  },
+  "cohort": "First mask-eligible events; uniform two-source draws; no requirement on emission or observable ancestry",
+  "split": "Original five fit, three validation and four test windows per network. Fresh propagation seeds.",
+  "primary": "Both true sources in 12 names on all ordinary events; compare role mixture against ordinary pooled learner and frozen dual-trained joint",
+  "selection": "For role mixture only, choose score temperature in [1, 0.65, 1.5] by aggregate calibration both-hit count; break ties in listed order",
+  "oracle": "Expected Bayes-optimal coverage with full within-window contacts and entire timed parent-labelled trace, uniform source prior, known simulation p",
+  "diagnosis": "With a single direct emitter, give its true identity and evaluate the best 11 partners; report separately from public performance"
+}

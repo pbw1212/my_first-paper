@@ -1,0 +1,78 @@
+{
+  "Manufacturing": [
+    {
+      "dual": {
+        "n": 455,
+        "ambiguous": 264,
+        "median": 2.0,
+        "p90": 12.0,
+        "maximum": 74,
+        "mean_reciprocal_class_size": 0.597193383729983
+      },
+      "ordinary": {
+        "n": 195,
+        "ambiguous": 160,
+        "median": 53.0,
+        "p90": 121.0,
+        "maximum": 588,
+        "mean_reciprocal_class_size": 0.26800688336562317
+      }
+    },
+    {
+      "dual": {
+        "n": 455,
+        "ambiguous": 260,
+        "median": 2.0,
+        "p90": 8.0,
+        "maximum": 76,
+        "mean_reciprocal_class_size": 0.6162794972541619
+      },
+      "ordinary": {
+        "n": 195,
+        "ambiguous": 161,
+        "median": 58.0,
+        "p90": 144.59999999999997,
+        "maximum": 286,
+        "mean_reciprocal_class_size": 0.2694808136087707
+      }
+    }
+  ],
+  "Dept2": [
+    {
+      "dual": {
+        "n": 540,
+        "ambiguous": 301,
+        "median": 2.0,
+        "p90": 4.100000000000023,
+        "maximum": 18,
+        "mean_reciprocal_class_size": 0.6500280583613917
+      },
+      "ordinary": {
+        "n": 200,
+        "ambiguous": 165,
+        "median": 72.0,
+        "p90": 192.1,
+        "maximum": 500,
+        "mean_reciprocal_class_size": 0.252621874567199
+      }
+    },
+    {
+      "dual": {
+        "n": 540,
+        "ambiguous": 302,
+        "median": 2.0,
+        "p90": 5.0,
+        "maximum": 17,
+        "mean_reciprocal_class_size": 0.6460565820042945
+      },
+      "ordinary": {
+        "n": 200,
+        "ambiguous": 173,
+        "median": 72.0,
+        "p90": 192.29999999999998,
+        "maximum": 541,
+        "mean_reciprocal_class_size": 0.23020953503872857
+      }
+    }
+  ]
+}

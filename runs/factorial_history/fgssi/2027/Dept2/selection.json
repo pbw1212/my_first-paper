@@ -1,0 +1,13 @@
+{
+  "checkpoints": {
+    "5": 7.798482414337295,
+    "10": 7.663974750249399,
+    "20": 7.6040168229533265
+  },
+  "selected": 20,
+  "upstream_error": 4.470348358154297e-08,
+  "weights": "74aeb09ac9f9a0efedfffa0c9180dfdaced41f3b0a761a43b6fac19cd2f6db84",
+  "fit": 1000,
+  "cal": 300,
+  "seed": 2027
+}

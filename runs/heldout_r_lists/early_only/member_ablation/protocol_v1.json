@@ -1,0 +1,18 @@
+{
+  "primary": "balanced minus exact uniform additional member, among roots with >=3 roster-visible speakers",
+  "secondary": "uniform second member vs latest alone on >=2; full suffix vs anchor; volume and simple full-suffix correction",
+  "anchor": "last roster-visible first arrival, stable lexical order within simultaneous batch",
+  "balanced": "choose earlier visible member whose indicator of a prior outgoing contact from either source has predictive probability closest to one half under anchor posterior averaged over five seeds",
+  "contacts": "28 days strictly before calendar month. Ties favor earlier occurrence then lexical node ID.",
+  "inference": "Dept2 mixed_offset; all observed speakers excluded in every arm, tie order and 12-person budget fixed; conditional evidence attribution on an already observed suffix",
+  "uncertainty": "paired event and model-seed differences, 10000 circular three-month block bootstrap replicates",
+  "hashes": {
+    "scripts/visible_member_ablation.py": "c06c223daec7d37935165b7cc56e8caa879f935f5351493c01220c6a8760d8ed",
+    "runs/heldout_r_lists/early_only/protocol.json": "6cd153732a7c99fb09c964fb9eb946966ba7b31190332dd8e06eb1016b3fe8ed",
+    "runs/heldout_r_lists/protocol_v2.json": "104b489444fa03c1a428614099117dcc9334bf9f7c5a884a159a33586d3c1de0",
+    "scripts/check_early_only_discussions.py": "c3198c2dab8d1c0df49a469b2ed8449a63248578ea3fb335dfb6ed706f6d6135",
+    "runs/heldout_r_lists/early_only/r-devel.jsonl": "d8923e103ee4c52d0302bedd46f205a5aab45abff7436716fdebb89470b28cdb",
+    "runs/heldout_r_lists/early_only/r-package-devel.jsonl": "74884db56f770d9ae01d471fb322be89769a5689a152a5039a6774153ddcf5b8",
+    "runs/heldout_r_lists/early_only/libc-alpha.jsonl": "79f2798eb8781b231bf7022766132c2c4b8923bcf8e8205f40fc6a3ae0975f26"
+  }
+}

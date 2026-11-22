@@ -1,0 +1,7 @@
+{
+  "observations": "all within-window contact times and directions, nonseed join times and identities; parents hidden",
+  "purpose": "diagnostic at known source law; evaluate same complete traces as parent-labelled ceiling",
+  "budget": 12,
+  "source_protocol": "3a2b5d1ce27059a625ea90e63e284d7d9d0dc956d5d4a1d0556bf6721503221d",
+  "script": "2b15da8b5f98212ba44b042231c8fc266d592a4de8890bc1e8e747f3803cf1b8"
+}

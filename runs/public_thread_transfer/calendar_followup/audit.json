@@ -1,0 +1,40 @@
+{
+  "python-dev": {
+    "months": [
+      [
+        2019,
+        2
+      ],
+      [
+        2019,
+        3
+      ],
+      [
+        2019,
+        4
+      ]
+    ],
+    "verified_followup": 24,
+    "distinct_from_earlier": true,
+    "historical_volume_even_when_suffix_short": 28
+  },
+  "python-ideas": {
+    "months": [
+      [
+        2019,
+        2
+      ],
+      [
+        2019,
+        3
+      ],
+      [
+        2019,
+        4
+      ]
+    ],
+    "verified_followup": 27,
+    "distinct_from_earlier": true,
+    "historical_volume_even_when_suffix_short": 18
+  }
+}

@@ -1,0 +1,1456 @@
+{
+  "initial": {
+    "dual": {
+      "calibrated": {
+        "source": {
+          "at_least_one": {
+            "n": 320,
+            "covered": 291,
+            "mean_size": 15.725,
+            "median_size": 16.0,
+            "random_same_size_rate": 0.20413344881903042,
+            "by_window": {
+              "Dept2-21": [
+                71,
+                80
+              ],
+              "Dept2-23": [
+                76,
+                80
+              ],
+              "Dept2-26": [
+                71,
+                80
+              ],
+              "Dept2-29": [
+                73,
+                80
+              ]
+            }
+          },
+          "both": {
+            "n": 320,
+            "covered": 289,
+            "mean_size": 30.08125,
+            "median_size": 30.0,
+            "random_same_size_rate": 0.041181214924539945,
+            "by_window": {
+              "Dept2-21": [
+                66,
+                80
+              ],
+              "Dept2-23": [
+                70,
+                80
+              ],
+              "Dept2-26": [
+                76,
+                80
+              ],
+              "Dept2-29": [
+                77,
+                80
+              ]
+            }
+          },
+          "one_in_first_five": 193,
+          "first_two_exact": 4
+        },
+        "pair_cover": {
+          "at_least_one": {
+            "n": 320,
+            "covered": 284,
+            "mean_size": 11.753125,
+            "median_size": 12.0,
+            "random_same_size_rate": 0.15476792965955205,
+            "by_window": {
+              "Dept2-21": [
+                68,
+                80
+              ],
+              "Dept2-23": [
+                74,
+                80
+              ],
+              "Dept2-26": [
+                70,
+                80
+              ],
+              "Dept2-29": [
+                72,
+                80
+              ]
+            }
+          },
+          "both": {
+            "n": 320,
+            "covered": 293,
+            "mean_size": 34.16875,
+            "median_size": 34.0,
+            "random_same_size_rate": 0.05335150871570642,
+            "by_window": {
+              "Dept2-21": [
+                71,
+                80
+              ],
+              "Dept2-23": [
+                72,
+                80
+              ],
+              "Dept2-26": [
+                76,
+                80
+              ],
+              "Dept2-29": [
+                74,
+                80
+              ]
+            }
+          },
+          "one_in_first_five": 202,
+          "first_two_exact": 3
+        },
+        "prior": {
+          "at_least_one": {
+            "n": 320,
+            "covered": 290,
+            "mean_size": 55.26875,
+            "median_size": 56.0,
+            "random_same_size_rate": 0.6146065582117792,
+            "by_window": {
+              "Dept2-21": [
+                70,
+                80
+              ],
+              "Dept2-23": [
+                74,
+                80
+              ],
+              "Dept2-26": [
+                74,
+                80
+              ],
+              "Dept2-29": [
+                72,
+                80
+              ]
+            }
+          },
+          "both": {
+            "n": 320,
+            "covered": 260,
+            "mean_size": 88.153125,
+            "median_size": 89.0,
+            "random_same_size_rate": 0.3616590297645424,
+            "by_window": {
+              "Dept2-21": [
+                62,
+                80
+              ],
+              "Dept2-23": [
+                69,
+                80
+              ],
+              "Dept2-26": [
+                62,
+                80
+              ],
+              "Dept2-29": [
+                67,
+                80
+              ]
+            }
+          },
+          "one_in_first_five": 34,
+          "first_two_exact": 0
+        },
+        "distance": {
+          "at_least_one": {
+            "n": 320,
+            "covered": 308,
+            "mean_size": 17.9125,
+            "median_size": 18.0,
+            "random_same_size_rate": 0.23070412854820171,
+            "by_window": {
+              "Dept2-21": [
+                79,
+                80
+              ],
+              "Dept2-23": [
+                74,
+                80
+              ],
+              "Dept2-26": [
+                77,
+                80
+              ],
+              "Dept2-29": [
+                78,
+                80
+              ]
+            }
+          },
+          "both": {
+            "n": 320,
+            "covered": 288,
+            "mean_size": 37.428125,
+            "median_size": 38.0,
+            "random_same_size_rate": 0.06418415695946171,
+            "by_window": {
+              "Dept2-21": [
+                69,
+                80
+              ],
+              "Dept2-23": [
+                65,
+                80
+              ],
+              "Dept2-26": [
+                77,
+                80
+              ],
+              "Dept2-29": [
+                77,
+                80
+              ]
+            }
+          },
+          "one_in_first_five": 141,
+          "first_two_exact": 1
+        },
+        "reach": {
+          "at_least_one": {
+            "n": 320,
+            "covered": 305,
+            "mean_size": 15.921875,
+            "median_size": 16.0,
+            "random_same_size_rate": 0.20657674870280554,
+            "by_window": {
+              "Dept2-21": [
+                76,
+                80
+              ],
+              "Dept2-23": [
+                74,
+                80
+              ],
+              "Dept2-26": [
+                77,
+                80
+              ],
+              "Dept2-29": [
+                78,
+                80
+              ]
+            }
+          },
+          "both": {
+            "n": 320,
+            "covered": 291,
+            "mean_size": 32.48125,
+            "median_size": 33.0,
+            "random_same_size_rate": 0.048136420453677935,
+            "by_window": {
+              "Dept2-21": [
+                71,
+                80
+              ],
+              "Dept2-23": [
+                68,
+                80
+              ],
+              "Dept2-26": [
+                75,
+                80
+              ],
+              "Dept2-29": [
+                77,
+                80
+              ]
+            }
+          },
+          "one_in_first_five": 174,
+          "first_two_exact": 2
+        }
+      },
+      "fixed": {
+        "source": {
+          "5": [
+            193,
+            21
+          ],
+          "12": [
+            276,
+            116
+          ],
+          "30": [
+            320,
+            289
+          ]
+        },
+        "pair_cover": {
+          "5": [
+            202,
+            12
+          ],
+          "12": [
+            286,
+            91
+          ],
+          "30": [
+            320,
+            273
+          ]
+        },
+        "prior": {
+          "5": [
+            34,
+            0
+          ],
+          "12": [
+            76,
+            2
+          ],
+          "30": [
+            199,
+            49
+          ]
+        },
+        "distance": {
+          "5": [
+            141,
+            10
+          ],
+          "12": [
+            255,
+            51
+          ],
+          "30": [
+            320,
+            238
+          ]
+        },
+        "reach": {
+          "5": [
+            174,
+            12
+          ],
+          "12": [
+            279,
+            65
+          ],
+          "30": [
+            320,
+            279
+          ]
+        }
+      }
+    },
+    "ordinary": {
+      "calibrated": {
+        "source": {
+          "at_least_one": {
+            "n": 100,
+            "covered": 94,
+            "mean_size": 15.88,
+            "median_size": 16.0,
+            "random_same_size_rate": 0.2041288052527043,
+            "by_window": {
+              "Dept2-21": [
+                24,
+                25
+              ],
+              "Dept2-23": [
+                22,
+                25
+              ],
+              "Dept2-26": [
+                24,
+                25
+              ],
+              "Dept2-29": [
+                24,
+                25
+              ]
+            }
+          },
+          "both": {
+            "n": 100,
+            "covered": 51,
+            "mean_size": 30.35,
+            "median_size": 30.0,
+            "random_same_size_rate": 0.04112482346164532,
+            "by_window": {
+              "Dept2-21": [
+                12,
+                25
+              ],
+              "Dept2-23": [
+                11,
+                25
+              ],
+              "Dept2-26": [
+                14,
+                25
+              ],
+              "Dept2-29": [
+                14,
+                25
+              ]
+            }
+          },
+          "one_in_first_five": 49,
+          "first_two_exact": 1
+        },
+        "pair_cover": {
+          "at_least_one": {
+            "n": 100,
+            "covered": 86,
+            "mean_size": 11.93,
+            "median_size": 12.0,
+            "random_same_size_rate": 0.15554116870437415,
+            "by_window": {
+              "Dept2-21": [
+                22,
+                25
+              ],
+              "Dept2-23": [
+                20,
+                25
+              ],
+              "Dept2-26": [
+                22,
+                25
+              ],
+              "Dept2-29": [
+                22,
+                25
+              ]
+            }
+          },
+          "both": {
+            "n": 100,
+            "covered": 48,
+            "mean_size": 34.55,
+            "median_size": 35.0,
+            "random_same_size_rate": 0.05350327930976457,
+            "by_window": {
+              "Dept2-21": [
+                11,
+                25
+              ],
+              "Dept2-23": [
+                11,
+                25
+              ],
+              "Dept2-26": [
+                13,
+                25
+              ],
+              "Dept2-29": [
+                13,
+                25
+              ]
+            }
+          },
+          "one_in_first_five": 48,
+          "first_two_exact": 1
+        },
+        "prior": {
+          "at_least_one": {
+            "n": 100,
+            "covered": 85,
+            "mean_size": 55.83,
+            "median_size": 56.0,
+            "random_same_size_rate": 0.614757718549658,
+            "by_window": {
+              "Dept2-21": [
+                23,
+                25
+              ],
+              "Dept2-23": [
+                20,
+                25
+              ],
+              "Dept2-26": [
+                20,
+                25
+              ],
+              "Dept2-29": [
+                22,
+                25
+              ]
+            }
+          },
+          "both": {
+            "n": 100,
+            "covered": 49,
+            "mean_size": 89.03,
+            "median_size": 89.0,
+            "random_same_size_rate": 0.36175561274120016,
+            "by_window": {
+              "Dept2-21": [
+                17,
+                25
+              ],
+              "Dept2-23": [
+                10,
+                25
+              ],
+              "Dept2-26": [
+                10,
+                25
+              ],
+              "Dept2-29": [
+                12,
+                25
+              ]
+            }
+          },
+          "one_in_first_five": 7,
+          "first_two_exact": 0
+        },
+        "distance": {
+          "at_least_one": {
+            "n": 100,
+            "covered": 99,
+            "mean_size": 18.08,
+            "median_size": 18.0,
+            "random_same_size_rate": 0.23059166501285186,
+            "by_window": {
+              "Dept2-21": [
+                25,
+                25
+              ],
+              "Dept2-23": [
+                24,
+                25
+              ],
+              "Dept2-26": [
+                25,
+                25
+              ],
+              "Dept2-29": [
+                25,
+                25
+              ]
+            }
+          },
+          "both": {
+            "n": 100,
+            "covered": 52,
+            "mean_size": 37.8,
+            "median_size": 38.0,
+            "random_same_size_rate": 0.06421514751462602,
+            "by_window": {
+              "Dept2-21": [
+                12,
+                25
+              ],
+              "Dept2-23": [
+                12,
+                25
+              ],
+              "Dept2-26": [
+                15,
+                25
+              ],
+              "Dept2-29": [
+                13,
+                25
+              ]
+            }
+          },
+          "one_in_first_five": 45,
+          "first_two_exact": 0
+        },
+        "reach": {
+          "at_least_one": {
+            "n": 100,
+            "covered": 98,
+            "mean_size": 16.07,
+            "median_size": 16.0,
+            "random_same_size_rate": 0.20646335819878947,
+            "by_window": {
+              "Dept2-21": [
+                25,
+                25
+              ],
+              "Dept2-23": [
+                24,
+                25
+              ],
+              "Dept2-26": [
+                24,
+                25
+              ],
+              "Dept2-29": [
+                25,
+                25
+              ]
+            }
+          },
+          "both": {
+            "n": 100,
+            "covered": 50,
+            "mean_size": 32.83,
+            "median_size": 33.0,
+            "random_same_size_rate": 0.04823857676076547,
+            "by_window": {
+              "Dept2-21": [
+                12,
+                25
+              ],
+              "Dept2-23": [
+                12,
+                25
+              ],
+              "Dept2-26": [
+                14,
+                25
+              ],
+              "Dept2-29": [
+                12,
+                25
+              ]
+            }
+          },
+          "one_in_first_five": 47,
+          "first_two_exact": 0
+        }
+      },
+      "fixed": {
+        "source": {
+          "5": [
+            49,
+            2
+          ],
+          "12": [
+            86,
+            15
+          ],
+          "30": [
+            100,
+            50
+          ]
+        },
+        "pair_cover": {
+          "5": [
+            48,
+            1
+          ],
+          "12": [
+            85,
+            14
+          ],
+          "30": [
+            100,
+            43
+          ]
+        },
+        "prior": {
+          "5": [
+            7,
+            0
+          ],
+          "12": [
+            17,
+            1
+          ],
+          "30": [
+            58,
+            7
+          ]
+        },
+        "distance": {
+          "5": [
+            45,
+            1
+          ],
+          "12": [
+            85,
+            8
+          ],
+          "30": [
+            100,
+            45
+          ]
+        },
+        "reach": {
+          "5": [
+            47,
+            1
+          ],
+          "12": [
+            87,
+            9
+          ],
+          "30": [
+            100,
+            49
+          ]
+        }
+      }
+    }
+  },
+  "repeat": {
+    "dual": {
+      "calibrated": {
+        "source": {
+          "at_least_one": {
+            "n": 320,
+            "covered": 293,
+            "mean_size": 15.721875,
+            "median_size": 16.0,
+            "random_same_size_rate": 0.20415843023475783,
+            "by_window": {
+              "Dept2-21": [
+                73,
+                80
+              ],
+              "Dept2-23": [
+                72,
+                80
+              ],
+              "Dept2-26": [
+                72,
+                80
+              ],
+              "Dept2-29": [
+                76,
+                80
+              ]
+            }
+          },
+          "both": {
+            "n": 320,
+            "covered": 281,
+            "mean_size": 30.009375,
+            "median_size": 30.0,
+            "random_same_size_rate": 0.04100823350846222,
+            "by_window": {
+              "Dept2-21": [
+                67,
+                80
+              ],
+              "Dept2-23": [
+                68,
+                80
+              ],
+              "Dept2-26": [
+                74,
+                80
+              ],
+              "Dept2-29": [
+                72,
+                80
+              ]
+            }
+          },
+          "one_in_first_five": 196,
+          "first_two_exact": 4
+        },
+        "pair_cover": {
+          "at_least_one": {
+            "n": 320,
+            "covered": 279,
+            "mean_size": 11.753125,
+            "median_size": 12.0,
+            "random_same_size_rate": 0.15480795356377497,
+            "by_window": {
+              "Dept2-21": [
+                72,
+                80
+              ],
+              "Dept2-23": [
+                67,
+                80
+              ],
+              "Dept2-26": [
+                68,
+                80
+              ],
+              "Dept2-29": [
+                72,
+                80
+              ]
+            }
+          },
+          "both": {
+            "n": 320,
+            "covered": 296,
+            "mean_size": 34.16875,
+            "median_size": 34.0,
+            "random_same_size_rate": 0.053383202862698334,
+            "by_window": {
+              "Dept2-21": [
+                70,
+                80
+              ],
+              "Dept2-23": [
+                73,
+                80
+              ],
+              "Dept2-26": [
+                76,
+                80
+              ],
+              "Dept2-29": [
+                77,
+                80
+              ]
+            }
+          },
+          "one_in_first_five": 206,
+          "first_two_exact": 1
+        },
+        "prior": {
+          "at_least_one": {
+            "n": 320,
+            "covered": 292,
+            "mean_size": 55.2875,
+            "median_size": 56.0,
+            "random_same_size_rate": 0.6149111656444464,
+            "by_window": {
+              "Dept2-21": [
+                65,
+                80
+              ],
+              "Dept2-23": [
+                75,
+                80
+              ],
+              "Dept2-26": [
+                74,
+                80
+              ],
+              "Dept2-29": [
+                78,
+                80
+              ]
+            }
+          },
+          "both": {
+            "n": 320,
+            "covered": 253,
+            "mean_size": 88.140625,
+            "median_size": 89.0,
+            "random_same_size_rate": 0.36177198104154995,
+            "by_window": {
+              "Dept2-21": [
+                64,
+                80
+              ],
+              "Dept2-23": [
+                59,
+                80
+              ],
+              "Dept2-26": [
+                64,
+                80
+              ],
+              "Dept2-29": [
+                66,
+                80
+              ]
+            }
+          },
+          "one_in_first_five": 30,
+          "first_two_exact": 0
+        },
+        "distance": {
+          "at_least_one": {
+            "n": 320,
+            "covered": 302,
+            "mean_size": 17.915625,
+            "median_size": 18.0,
+            "random_same_size_rate": 0.23079978261270356,
+            "by_window": {
+              "Dept2-21": [
+                78,
+                80
+              ],
+              "Dept2-23": [
+                70,
+                80
+              ],
+              "Dept2-26": [
+                77,
+                80
+              ],
+              "Dept2-29": [
+                77,
+                80
+              ]
+            }
+          },
+          "both": {
+            "n": 320,
+            "covered": 292,
+            "mean_size": 37.434375,
+            "median_size": 38.0,
+            "random_same_size_rate": 0.06424264196305514,
+            "by_window": {
+              "Dept2-21": [
+                74,
+                80
+              ],
+              "Dept2-23": [
+                67,
+                80
+              ],
+              "Dept2-26": [
+                75,
+                80
+              ],
+              "Dept2-29": [
+                76,
+                80
+              ]
+            }
+          },
+          "one_in_first_five": 142,
+          "first_two_exact": 4
+        },
+        "reach": {
+          "at_least_one": {
+            "n": 320,
+            "covered": 303,
+            "mean_size": 15.940625,
+            "median_size": 16.0,
+            "random_same_size_rate": 0.20685347368572896,
+            "by_window": {
+              "Dept2-21": [
+                79,
+                80
+              ],
+              "Dept2-23": [
+                73,
+                80
+              ],
+              "Dept2-26": [
+                75,
+                80
+              ],
+              "Dept2-29": [
+                76,
+                80
+              ]
+            }
+          },
+          "both": {
+            "n": 320,
+            "covered": 290,
+            "mean_size": 32.509375,
+            "median_size": 33.0,
+            "random_same_size_rate": 0.04825016021884402,
+            "by_window": {
+              "Dept2-21": [
+                73,
+                80
+              ],
+              "Dept2-23": [
+                70,
+                80
+              ],
+              "Dept2-26": [
+                74,
+                80
+              ],
+              "Dept2-29": [
+                73,
+                80
+              ]
+            }
+          },
+          "one_in_first_five": 171,
+          "first_two_exact": 3
+        }
+      },
+      "fixed": {
+        "source": {
+          "5": [
+            196,
+            24
+          ],
+          "12": [
+            275,
+            117
+          ],
+          "30": [
+            318,
+            283
+          ]
+        },
+        "pair_cover": {
+          "5": [
+            206,
+            15
+          ],
+          "12": [
+            282,
+            76
+          ],
+          "30": [
+            319,
+            277
+          ]
+        },
+        "prior": {
+          "5": [
+            30,
+            1
+          ],
+          "12": [
+            72,
+            6
+          ],
+          "30": [
+            203,
+            41
+          ]
+        },
+        "distance": {
+          "5": [
+            142,
+            9
+          ],
+          "12": [
+            254,
+            50
+          ],
+          "30": [
+            319,
+            236
+          ]
+        },
+        "reach": {
+          "5": [
+            171,
+            14
+          ],
+          "12": [
+            274,
+            63
+          ],
+          "30": [
+            319,
+            279
+          ]
+        }
+      }
+    },
+    "ordinary": {
+      "calibrated": {
+        "source": {
+          "at_least_one": {
+            "n": 100,
+            "covered": 95,
+            "mean_size": 15.95,
+            "median_size": 16.0,
+            "random_same_size_rate": 0.20388749482922358,
+            "by_window": {
+              "Dept2-21": [
+                24,
+                25
+              ],
+              "Dept2-23": [
+                24,
+                25
+              ],
+              "Dept2-26": [
+                23,
+                25
+              ],
+              "Dept2-29": [
+                24,
+                25
+              ]
+            }
+          },
+          "both": {
+            "n": 100,
+            "covered": 44,
+            "mean_size": 30.54,
+            "median_size": 31.0,
+            "random_same_size_rate": 0.04117945055416838,
+            "by_window": {
+              "Dept2-21": [
+                10,
+                25
+              ],
+              "Dept2-23": [
+                13,
+                25
+              ],
+              "Dept2-26": [
+                9,
+                25
+              ],
+              "Dept2-29": [
+                12,
+                25
+              ]
+            }
+          },
+          "one_in_first_five": 63,
+          "first_two_exact": 1
+        },
+        "pair_cover": {
+          "at_least_one": {
+            "n": 100,
+            "covered": 91,
+            "mean_size": 11.92,
+            "median_size": 12.0,
+            "random_same_size_rate": 0.15459107062942548,
+            "by_window": {
+              "Dept2-21": [
+                24,
+                25
+              ],
+              "Dept2-23": [
+                22,
+                25
+              ],
+              "Dept2-26": [
+                21,
+                25
+              ],
+              "Dept2-29": [
+                24,
+                25
+              ]
+            }
+          },
+          "both": {
+            "n": 100,
+            "covered": 43,
+            "mean_size": 34.72,
+            "median_size": 35.0,
+            "random_same_size_rate": 0.05343900055539708,
+            "by_window": {
+              "Dept2-21": [
+                9,
+                25
+              ],
+              "Dept2-23": [
+                13,
+                25
+              ],
+              "Dept2-26": [
+                8,
+                25
+              ],
+              "Dept2-29": [
+                13,
+                25
+              ]
+            }
+          },
+          "one_in_first_five": 59,
+          "first_two_exact": 0
+        },
+        "prior": {
+          "at_least_one": {
+            "n": 100,
+            "covered": 80,
+            "mean_size": 56.1,
+            "median_size": 56.0,
+            "random_same_size_rate": 0.614374203126497,
+            "by_window": {
+              "Dept2-21": [
+                23,
+                25
+              ],
+              "Dept2-23": [
+                20,
+                25
+              ],
+              "Dept2-26": [
+                16,
+                25
+              ],
+              "Dept2-29": [
+                21,
+                25
+              ]
+            }
+          },
+          "both": {
+            "n": 100,
+            "covered": 50,
+            "mean_size": 89.57,
+            "median_size": 90.0,
+            "random_same_size_rate": 0.3620922618954732,
+            "by_window": {
+              "Dept2-21": [
+                12,
+                25
+              ],
+              "Dept2-23": [
+                17,
+                25
+              ],
+              "Dept2-26": [
+                8,
+                25
+              ],
+              "Dept2-29": [
+                13,
+                25
+              ]
+            }
+          },
+          "one_in_first_five": 8,
+          "first_two_exact": 0
+        },
+        "distance": {
+          "at_least_one": {
+            "n": 100,
+            "covered": 97,
+            "mean_size": 18.17,
+            "median_size": 18.0,
+            "random_same_size_rate": 0.23044060871918337,
+            "by_window": {
+              "Dept2-21": [
+                25,
+                25
+              ],
+              "Dept2-23": [
+                25,
+                25
+              ],
+              "Dept2-26": [
+                23,
+                25
+              ],
+              "Dept2-29": [
+                24,
+                25
+              ]
+            }
+          },
+          "both": {
+            "n": 100,
+            "covered": 46,
+            "mean_size": 37.99,
+            "median_size": 38.0,
+            "random_same_size_rate": 0.06414434706634657,
+            "by_window": {
+              "Dept2-21": [
+                10,
+                25
+              ],
+              "Dept2-23": [
+                13,
+                25
+              ],
+              "Dept2-26": [
+                11,
+                25
+              ],
+              "Dept2-29": [
+                12,
+                25
+              ]
+            }
+          },
+          "one_in_first_five": 52,
+          "first_two_exact": 0
+        },
+        "reach": {
+          "at_least_one": {
+            "n": 100,
+            "covered": 97,
+            "mean_size": 16.18,
+            "median_size": 16.0,
+            "random_same_size_rate": 0.2066858657435779,
+            "by_window": {
+              "Dept2-21": [
+                25,
+                25
+              ],
+              "Dept2-23": [
+                25,
+                25
+              ],
+              "Dept2-26": [
+                23,
+                25
+              ],
+              "Dept2-29": [
+                24,
+                25
+              ]
+            }
+          },
+          "both": {
+            "n": 100,
+            "covered": 43,
+            "mean_size": 33.01,
+            "median_size": 33.0,
+            "random_same_size_rate": 0.04823225441055383,
+            "by_window": {
+              "Dept2-21": [
+                10,
+                25
+              ],
+              "Dept2-23": [
+                13,
+                25
+              ],
+              "Dept2-26": [
+                7,
+                25
+              ],
+              "Dept2-29": [
+                13,
+                25
+              ]
+            }
+          },
+          "one_in_first_five": 67,
+          "first_two_exact": 0
+        }
+      },
+      "fixed": {
+        "source": {
+          "5": [
+            63,
+            7
+          ],
+          "12": [
+            92,
+            21
+          ],
+          "30": [
+            100,
+            43
+          ]
+        },
+        "pair_cover": {
+          "5": [
+            59,
+            6
+          ],
+          "12": [
+            93,
+            20
+          ],
+          "30": [
+            100,
+            40
+          ]
+        },
+        "prior": {
+          "5": [
+            8,
+            1
+          ],
+          "12": [
+            18,
+            2
+          ],
+          "30": [
+            55,
+            6
+          ]
+        },
+        "distance": {
+          "5": [
+            52,
+            2
+          ],
+          "12": [
+            82,
+            17
+          ],
+          "30": [
+            100,
+            38
+          ]
+        },
+        "reach": {
+          "5": [
+            67,
+            4
+          ],
+          "12": [
+            95,
+            16
+          ],
+          "30": [
+            100,
+            43
+          ]
+        }
+      }
+    }
+  },
+  "calibration": {
+    "source": [
+      0.104,
+      0.20155038759689922
+    ],
+    "pair_cover": [
+      0.07692307692307693,
+      0.23015873015873015
+    ],
+    "prior": [
+      0.375,
+      0.6
+    ],
+    "distance": [
+      0.11940298507462686,
+      0.2518518518518518
+    ],
+    "reach": [
+      0.10569105691056911,
+      0.21875
+    ]
+  },
+  "single_required": {
+    "core": {
+      "total": 129,
+      "named_required": 17,
+      "named_either": 27
+    },
+    "source": {
+      "total": 129,
+      "named_required": 17,
+      "named_either": 30
+    },
+    "prior": {
+      "total": 129,
+      "named_required": 0,
+      "named_either": 3
+    }
+  },
+  "repeat_draw": {
+    "Dept2-21": {
+      "dual": 80,
+      "ordinary": 25,
+      "attempts": 5108,
+      "seed": 779103
+    },
+    "Dept2-23": {
+      "dual": 80,
+      "ordinary": 25,
+      "attempts": 627,
+      "seed": 779104
+    },
+    "Dept2-26": {
+      "dual": 80,
+      "ordinary": 25,
+      "attempts": 452,
+      "seed": 779105
+    },
+    "Dept2-29": {
+      "dual": 80,
+      "ordinary": 25,
+      "attempts": 372,
+      "seed": 779106
+    }
+  },
+  "model_sha256": "711c1cf25a4480262974d5e4d99d78d9a5461eced0f429b61b70d19b0f82643b"
+}

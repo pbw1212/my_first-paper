@@ -1,0 +1,26 @@
+{
+  "Dept2-13": {
+    "dual": 0,
+    "ordinary": 100,
+    "attempts": 315,
+    "seed": 9052100,
+    "start": 24931309,
+    "end": 26140909
+  },
+  "Dept2-16": {
+    "dual": 0,
+    "ordinary": 100,
+    "attempts": 185,
+    "seed": 9052101,
+    "start": 28560109,
+    "end": 29769709
+  },
+  "Dept2-18": {
+    "dual": 0,
+    "ordinary": 100,
+    "attempts": 181,
+    "seed": 9052102,
+    "start": 30979309,
+    "end": 32188909
+  }
+}

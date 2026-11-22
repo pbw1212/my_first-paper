@@ -1,0 +1,122 @@
+{
+  "train-01": {
+    "conditional": {
+      "accepted": 40,
+      "attempts": 544
+    },
+    "matched": {
+      "accepted": 40,
+      "attempts": 92
+    }
+  },
+  "train-02": {
+    "conditional": {
+      "accepted": 40,
+      "attempts": 568
+    },
+    "matched": {
+      "accepted": 40,
+      "attempts": 93
+    }
+  },
+  "train-03": {
+    "conditional": {
+      "accepted": 40,
+      "attempts": 2426
+    },
+    "matched": {
+      "accepted": 40,
+      "attempts": 508
+    }
+  },
+  "train-04": {
+    "conditional": {
+      "accepted": 40,
+      "attempts": 4450
+    },
+    "matched": {
+      "accepted": 40,
+      "attempts": 343
+    }
+  },
+  "train-05": {
+    "conditional": {
+      "accepted": 40,
+      "attempts": 12086
+    },
+    "matched": {
+      "accepted": 40,
+      "attempts": 639
+    }
+  },
+  "train-06": {
+    "conditional": {
+      "accepted": 0,
+      "attempts": 120000
+    },
+    "matched": {
+      "accepted": 0,
+      "attempts": 0
+    }
+  },
+  "train-07": {
+    "conditional": {
+      "accepted": 40,
+      "attempts": 27773
+    },
+    "matched": {
+      "accepted": 40,
+      "attempts": 790
+    }
+  },
+  "train-08": {
+    "conditional": {
+      "accepted": 40,
+      "attempts": 24153
+    },
+    "matched": {
+      "accepted": 40,
+      "attempts": 712
+    }
+  },
+  "train-09": {
+    "conditional": {
+      "accepted": 40,
+      "attempts": 31431
+    },
+    "matched": {
+      "accepted": 40,
+      "attempts": 1562
+    }
+  },
+  "train-10": {
+    "conditional": {
+      "accepted": 40,
+      "attempts": 112458
+    },
+    "matched": {
+      "accepted": 40,
+      "attempts": 3012
+    }
+  },
+  "train-11": {
+    "conditional": {
+      "accepted": 40,
+      "attempts": 65954
+    },
+    "matched": {
+      "accepted": 40,
+      "attempts": 1851
+    }
+  },
+  "train-12": {
+    "conditional": {
+      "accepted": 40,
+      "attempts": 62523
+    },
+    "matched": {
+      "accepted": 40,
+      "attempts": 1825
+    }
+  }
+}

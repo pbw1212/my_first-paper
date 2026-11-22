@@ -1,0 +1,22 @@
+{
+  "r-devel": {
+    "eligible": 170,
+    "role_lists_verified": 453,
+    "one_swap_objectives_checked": 72
+  },
+  "r-package-devel": {
+    "eligible": 227,
+    "role_lists_verified": 645,
+    "one_swap_objectives_checked": 72
+  },
+  "libc-alpha": {
+    "eligible": 880,
+    "role_lists_verified": 2484,
+    "one_swap_objectives_checked": 72
+  },
+  "libc-alpha-2024": {
+    "eligible": 437,
+    "role_lists_verified": 1236,
+    "one_swap_objectives_checked": 36
+  }
+}

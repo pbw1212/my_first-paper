@@ -1,0 +1,6 @@
+{
+  "soft_membership_directional_derivative_error": 0.0001278895345335762,
+  "teacher_probability_error": 1.1102230246251565e-16,
+  "permutation_check": true,
+  "pair_rank_check": true
+}

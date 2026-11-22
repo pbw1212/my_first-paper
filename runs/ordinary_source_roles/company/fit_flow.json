@@ -1,0 +1,42 @@
+{
+  "company-01": {
+    "dual": 0,
+    "ordinary": 200,
+    "attempts": 214,
+    "seed": 9051700,
+    "start": 1265968582,
+    "end": 1267178182
+  },
+  "company-02": {
+    "dual": 0,
+    "ordinary": 200,
+    "attempts": 212,
+    "seed": 9051701,
+    "start": 1267178182,
+    "end": 1268387782
+  },
+  "company-03": {
+    "dual": 0,
+    "ordinary": 200,
+    "attempts": 229,
+    "seed": 9051702,
+    "start": 1268387782,
+    "end": 1269597382
+  },
+  "company-05": {
+    "dual": 0,
+    "ordinary": 200,
+    "attempts": 221,
+    "seed": 9051703,
+    "start": 1270806982,
+    "end": 1272016582
+  },
+  "company-06": {
+    "dual": 0,
+    "ordinary": 200,
+    "attempts": 233,
+    "seed": 9051704,
+    "start": 1272016582,
+    "end": 1273226182
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "python-dev": {
+    "n": 24,
+    "scored": 21,
+    "methods": {
+      "volume": {
+        "hits": 5,
+        "month_hits": [
+          0,
+          3,
+          2
+        ]
+      },
+      "prior": {
+        "hits": 5,
+        "month_hits": [
+          0,
+          3,
+          2
+        ]
+      },
+      "relations": {
+        "hits": 5,
+        "month_hits": [
+          0,
+          3,
+          2
+        ]
+      }
+    },
+    "paired": {
+      "gained": 0,
+      "lost": 0
+    },
+    "month_counts": [
+      8,
+      11,
+      5
+    ]
+  },
+  "python-ideas": {
+    "n": 27,
+    "scored": 22,
+    "methods": {
+      "volume": {
+        "hits": 2,
+        "month_hits": [
+          1,
+          1,
+          0
+        ]
+      },
+      "prior": {
+        "hits": 1,
+        "month_hits": [
+          0,
+          1,
+          0
+        ]
+      },
+      "relations": {
+        "hits": 1,
+        "month_hits": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    "paired": {
+      "gained": 0,
+      "lost": 1
+    },
+    "month_counts": [
+      7,
+      12,
+      8
+    ]
+  }
+}

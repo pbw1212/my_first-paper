@@ -1,0 +1,17 @@
+{
+  "primary": "pair_soft; both true sources in 12 on ordinary mask-eligible cascades",
+  "training": "same 1000 earlier ordinary events as previous pooled tree; 2x2 matched node/pair and hard/exact conditional labels",
+  "selection": "separate minimum hard-label pair negative log likelihood on 300 intermediate ordinary events at epochs 3,7,12; tie earlier",
+  "training_seed": 314159,
+  "optimizer": "AdamW lr .002, weight decay .005, batch 24; no candidate negative sampling",
+  "test_seeds": [
+    87034211,
+    93015411
+  ],
+  "local_per_window": 150,
+  "external_per_window": 60,
+  "split": "four existing late windows; two new ordinary draws per window. Dept1 and CollegeMsg use frozen Dept2 weights",
+  "decoder": "node top 12; pair local search on union of top 48 posterior marginals and endpoints of top 48 pairs; legacy baseline full original decoder",
+  "contrasts": "pair_soft vs node_soft, pair_hard, ordinary pooled tree and old dual-trained joint; matched marginals decoder ablation",
+  "interpretation": "consistent development improvement requires higher hits than both legacy baselines on both batches of both local networks"
+}

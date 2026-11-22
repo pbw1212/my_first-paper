@@ -1,0 +1,38 @@
+{
+  "Manufacturing": {
+    "dual": {
+      "n": 455,
+      "ambiguous": 275,
+      "median": 2.0,
+      "p90": 8.600000000000023,
+      "maximum": 141,
+      "mean_reciprocal_class_size": 0.5915063641705643
+    },
+    "ordinary": {
+      "n": 195,
+      "ambiguous": 161,
+      "median": 59.0,
+      "p90": 128.0,
+      "maximum": 279,
+      "mean_reciprocal_class_size": 0.26366368930241524
+    }
+  },
+  "Dept2": {
+    "dual": {
+      "n": 540,
+      "ambiguous": 288,
+      "median": 2.0,
+      "p90": 4.0,
+      "maximum": 23,
+      "mean_reciprocal_class_size": 0.6626214337416029
+    },
+    "ordinary": {
+      "n": 200,
+      "ambiguous": 170,
+      "median": 69.5,
+      "p90": 234.1,
+      "maximum": 467,
+      "mean_reciprocal_class_size": 0.23910407600108072
+    }
+  }
+}

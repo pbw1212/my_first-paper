@@ -1,0 +1,63 @@
+{
+  "selected": {
+    "direction": "forward",
+    "epoch": 50
+  },
+  "validation": {
+    "forward_10": {
+      "n": 300,
+      "nll": 9.973471523295556,
+      "hits": 0
+    },
+    "forward_25": {
+      "n": 300,
+      "nll": 8.755217434952728,
+      "hits": 6
+    },
+    "forward_50": {
+      "n": 300,
+      "nll": 8.714518387185295,
+      "hits": 6
+    },
+    "reverse_10": {
+      "n": 300,
+      "nll": 8.94840739454174,
+      "hits": 7
+    },
+    "reverse_25": {
+      "n": 300,
+      "nll": 9.06654055417064,
+      "hits": 7
+    },
+    "reverse_50": {
+      "n": 300,
+      "nll": 8.83924942886996,
+      "hits": 5
+    },
+    "undirected_10": {
+      "n": 300,
+      "nll": 10.578428832071877,
+      "hits": 6
+    },
+    "undirected_25": {
+      "n": 300,
+      "nll": 8.91665373432617,
+      "hits": 7
+    },
+    "undirected_50": {
+      "n": 300,
+      "nll": 8.7507216387125,
+      "hits": 6
+    }
+  },
+  "upstream_max_errors": [
+    4.76837158203125e-07,
+    4.76837158203125e-07
+  ],
+  "upstream": {
+    "commit": "3346a3bd527a06cf0b199143167ad6cdc69efc9a",
+    "url": "https://raw.githubusercontent.com/xianggebenben/GraphSL/3346a3bd527a06cf0b199143167ad6cdc69efc9a/GraphSL/GNN/GCNSI/model.py",
+    "sha256": "a93649d9fb1d10a1b8f65d5d078bd490b007573c5a3eef92a804b751082f5cec"
+  },
+  "weights_sha256": "af5699bd416deeab25f9298b43283e21910e8b1f281ac358e317a7b58937bd97"
+}

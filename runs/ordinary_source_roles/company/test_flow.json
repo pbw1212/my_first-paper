@@ -1,0 +1,34 @@
+{
+  "company-11": {
+    "dual": 0,
+    "ordinary": 150,
+    "attempts": 194,
+    "seed": 9052500,
+    "start": 1278064582,
+    "end": 1279274182
+  },
+  "company-13": {
+    "dual": 0,
+    "ordinary": 150,
+    "attempts": 185,
+    "seed": 9052501,
+    "start": 1280483782,
+    "end": 1281693382
+  },
+  "company-14": {
+    "dual": 0,
+    "ordinary": 150,
+    "attempts": 180,
+    "seed": 9052502,
+    "start": 1281693382,
+    "end": 1282902982
+  },
+  "company-16": {
+    "dual": 0,
+    "ordinary": 150,
+    "attempts": 176,
+    "seed": 9052503,
+    "start": 1284112582,
+    "end": 1285322182
+  }
+}

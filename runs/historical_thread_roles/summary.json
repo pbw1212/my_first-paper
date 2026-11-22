@@ -1,0 +1,364 @@
+{
+  "gcc": {
+    "n": 32,
+    "roots": 1510,
+    "scored": 17,
+    "reachable": 5,
+    "methods": {
+      "volume": {
+        "both": 0,
+        "first": 1,
+        "second": 4,
+        "pct": 0.0
+      },
+      "role_history": {
+        "both": 1,
+        "first": 3,
+        "second": 5,
+        "pct": 3.125
+      },
+      "direct": {
+        "both": 1,
+        "first": 3,
+        "second": 5,
+        "pct": 3.125
+      },
+      "retrieval": {
+        "both": 1,
+        "first": 3,
+        "second": 5,
+        "pct": 3.125
+      },
+      "retrieval_marginal": {
+        "both": 1,
+        "first": 3,
+        "second": 5,
+        "pct": 3.125
+      }
+    },
+    "contrasts": {
+      "retrieval-volume": {
+        "pp": 3.125,
+        "gains": 1,
+        "losses": 0,
+        "monthly": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ci95": [
+          0.0,
+          8.823529411764707
+        ]
+      },
+      "retrieval-direct": {
+        "pp": 0.0,
+        "gains": 0,
+        "losses": 0,
+        "monthly": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "direct-role_history": {
+        "pp": 0.0,
+        "gains": 0,
+        "losses": 0,
+        "monthly": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "retrieval-retrieval_marginal": {
+        "pp": 0.0,
+        "gains": 0,
+        "losses": 0,
+        "monthly": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "prediction_sha256": "75e0ceb06e58e885aeeaf2b76ee70174316cd67f3a665af91fc446eb142cc6d9"
+  },
+  "ffmpeg-devel": {
+    "n": 24,
+    "roots": 5014,
+    "scored": 21,
+    "reachable": 13,
+    "methods": {
+      "volume": {
+        "both": 9,
+        "first": 12,
+        "second": 14,
+        "pct": 37.5
+      },
+      "role_history": {
+        "both": 9,
+        "first": 12,
+        "second": 15,
+        "pct": 37.5
+      },
+      "direct": {
+        "both": 9,
+        "first": 11,
+        "second": 15,
+        "pct": 37.5
+      },
+      "retrieval": {
+        "both": 9,
+        "first": 11,
+        "second": 15,
+        "pct": 37.5
+      },
+      "retrieval_marginal": {
+        "both": 9,
+        "first": 11,
+        "second": 15,
+        "pct": 37.5
+      }
+    },
+    "contrasts": {
+      "retrieval-volume": {
+        "pp": 0.0,
+        "gains": 0,
+        "losses": 0,
+        "monthly": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "retrieval-direct": {
+        "pp": 0.0,
+        "gains": 0,
+        "losses": 0,
+        "monthly": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "direct-role_history": {
+        "pp": 0.0,
+        "gains": 0,
+        "losses": 0,
+        "monthly": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "retrieval-retrieval_marginal": {
+        "pp": 0.0,
+        "gains": 0,
+        "losses": 0,
+        "monthly": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "prediction_sha256": "81034133022c8bc388bc0a08728198c614a308c2ecdb6ade3abba0c2a111f8f5"
+  }
+}

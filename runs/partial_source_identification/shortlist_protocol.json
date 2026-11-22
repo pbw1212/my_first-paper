@@ -1,0 +1,15 @@
+{
+  "target": 0.9,
+  "methods": [
+    "source",
+    "pair_cover",
+    "prior"
+  ],
+  "endpoint": [
+    "at_least_one",
+    "both"
+  ],
+  "note": "Exploratory after naming benchmark; fixed rules and old fit/cal/test windows.",
+  "pair_cover": "Symmetrized distribution from learned anchor logits and conditional partner for best 12 anchors; independent fallback elsewhere. Greedily maximize probability of touching a pair.",
+  "sizes": "90% calibration quantile with ceil((m+1)*0.90); fixed rank fraction; dual calibration only"
+}

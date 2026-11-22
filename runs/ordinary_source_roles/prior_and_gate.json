@@ -1,0 +1,182 @@
+{
+  "company": {
+    "gate": {
+      "auc": 0.6282978532751315,
+      "brier": 0.22120222233157227,
+      "training_constant_brier": 0.22558433333333336,
+      "actual": 0.31833333333333336,
+      "mean_forecast": 0.4276402794441505
+    },
+    "alternative_prior": "P({a,b}) proportional to sqrt((1+historical outdegree[a])*(1+historical outdegree[b]))",
+    "windows": {
+      "company-11": {
+        "n": 109,
+        "effective_n": 63.6399950821416,
+        "expected": 0.5692085094093275,
+        "empirical": 0.6075249713858389,
+        "uniform": 0.32510795793536745
+      },
+      "company-13": {
+        "n": 96,
+        "effective_n": 54.24889577782001,
+        "expected": 0.5447364590068521,
+        "empirical": 0.49900927066322026,
+        "uniform": 0.3124645025464343
+      },
+      "company-14": {
+        "n": 116,
+        "effective_n": 70.62917040620536,
+        "expected": 0.46071726945527197,
+        "empirical": 0.532752932919429,
+        "uniform": 0.2609314076392544
+      },
+      "company-16": {
+        "n": 88,
+        "effective_n": 58.20223564737909,
+        "expected": 0.6537488605511835,
+        "empirical": 0.7164790346312034,
+        "uniform": 0.37424098652950466
+      }
+    },
+    "equal_window": {
+      "expected": 0.5571027746056588,
+      "uniform": 0.3181862136626402,
+      "empirical": 0.5889415523999229
+    }
+  },
+  "Dept2": {
+    "gate": {
+      "auc": 0.8285010411118106,
+      "brier": 0.1218429574221249,
+      "training_constant_brier": 0.23004766666666665,
+      "actual": 0.3566666666666667,
+      "mean_forecast": 0.301107697430266
+    },
+    "alternative_prior": "P({a,b}) proportional to sqrt((1+historical outdegree[a])*(1+historical outdegree[b]))",
+    "windows": {
+      "Dept2-21": {
+        "n": 117,
+        "effective_n": 92.95151506822803,
+        "expected": 0.1934423060962473,
+        "empirical": 0.17527949791199918,
+        "uniform": 0.11836800154561344
+      },
+      "Dept2-23": {
+        "n": 85,
+        "effective_n": 67.91781046193451,
+        "expected": 0.28100156466024545,
+        "empirical": 0.3260515164636198,
+        "uniform": 0.17549352366701562
+      },
+      "Dept2-26": {
+        "n": 94,
+        "effective_n": 68.90849285141235,
+        "expected": 0.3393841629119721,
+        "empirical": 0.34087689704878643,
+        "uniform": 0.20063420212689864
+      },
+      "Dept2-29": {
+        "n": 90,
+        "effective_n": 60.465706388118065,
+        "expected": 0.3647485701591374,
+        "empirical": 0.40955156447348984,
+        "uniform": 0.201258241691922
+      }
+    },
+    "equal_window": {
+      "expected": 0.29464415095690055,
+      "uniform": 0.17393849225786243,
+      "empirical": 0.3129398689744738
+    }
+  },
+  "Dept1": {
+    "gate": {
+      "auc": 0.8379523688448175,
+      "brier": 0.1680405039114371,
+      "training_constant_brier": 0.21358599999999997,
+      "actual": 0.2875,
+      "mean_forecast": 0.10362334633952909
+    },
+    "alternative_prior": "P({a,b}) proportional to sqrt((1+historical outdegree[a])*(1+historical outdegree[b]))",
+    "windows": {
+      "Dept1-26": {
+        "n": 43,
+        "effective_n": 28.76212337133662,
+        "expected": 0.1504347533985476,
+        "empirical": 0.15147689983249898,
+        "uniform": 0.09208071779232313
+      },
+      "Dept1-27": {
+        "n": 39,
+        "effective_n": 27.602104953459243,
+        "expected": 0.15426400225624393,
+        "empirical": 0.1961521142767342,
+        "uniform": 0.09133756589986364
+      },
+      "Dept1-28": {
+        "n": 48,
+        "effective_n": 35.130220444005154,
+        "expected": 0.16483065701443814,
+        "empirical": 0.07213868430269943,
+        "uniform": 0.08360758377549114
+      },
+      "Dept1-29": {
+        "n": 41,
+        "effective_n": 29.63881145299988,
+        "expected": 0.16648961247412353,
+        "empirical": 0.18871495170689792,
+        "uniform": 0.08788540604522156
+      }
+    },
+    "equal_window": {
+      "expected": 0.1590047562858383,
+      "uniform": 0.08872781837822487,
+      "empirical": 0.15212066252970763
+    }
+  },
+  "CollegeMsg": {
+    "gate": {
+      "auc": 0.5718518518518518,
+      "brier": 0.07484061101249492,
+      "training_constant_brier": 0.160036,
+      "actual": 0.0625,
+      "mean_forecast": 0.03047538016668607
+    },
+    "alternative_prior": "P({a,b}) proportional to sqrt((1+historical outdegree[a])*(1+historical outdegree[b]))",
+    "windows": {
+      "CollegeMsg-08": {
+        "n": 53,
+        "effective_n": 34.52753253155933,
+        "expected": 0.03044781369905733,
+        "empirical": 0.0,
+        "uniform": 0.010409404438868921
+      },
+      "CollegeMsg-09": {
+        "n": 58,
+        "effective_n": 27.795746963609293,
+        "expected": 0.030405580959266786,
+        "empirical": 0.0,
+        "uniform": 0.008042066455502511
+      },
+      "CollegeMsg-10": {
+        "n": 56,
+        "effective_n": 34.586695242666494,
+        "expected": 0.03077000643801418,
+        "empirical": 0.0,
+        "uniform": 0.008701144825571465
+      },
+      "CollegeMsg-11": {
+        "n": 58,
+        "effective_n": 36.65604473204393,
+        "expected": 0.030831328821122637,
+        "empirical": 0.0,
+        "uniform": 0.007140725374352692
+      }
+    },
+    "equal_window": {
+      "expected": 0.03061368247936523,
+      "uniform": 0.008573335273573898,
+      "empirical": 0.0
+    }
+  }
+}

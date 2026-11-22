@@ -1,0 +1,7 @@
+# Historical protocols compare file hashes across checkouts.
+*.py -text whitespace=cr-at-eol
+*.json -text whitespace=cr-at-eol
+*.md text eol=lf
+*.txt text eol=lf
+/.gitattributes text eol=lf
+/.gitignore text eol=lf

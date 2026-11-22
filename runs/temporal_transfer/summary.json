@@ -1,0 +1,5924 @@
+{
+  "company": {
+    "all": {
+      "n": 1200,
+      "methods": {
+        "gcnsi": {
+          "both": 15,
+          "at_least_one": 293,
+          "top1": 1,
+          "top5": 3,
+          "top32": 6,
+          "mrr": 0.0023371391475185137
+        },
+        "jordan": {
+          "both": 16,
+          "at_least_one": 265,
+          "top1": 1,
+          "top5": 2,
+          "top32": 9,
+          "mrr": 0.0023686629794599495
+        },
+        "pair_soft": {
+          "both": 30,
+          "at_least_one": 449,
+          "top1": 1,
+          "top5": 1,
+          "top32": 11,
+          "mrr": 0.002918999952720682
+        },
+        "fgssi": {
+          "both": 16,
+          "at_least_one": 295,
+          "top1": 0,
+          "top5": 0,
+          "top32": 9,
+          "mrr": 0.001484088738067284
+        },
+        "five_hard": {
+          "both": 32,
+          "at_least_one": 446,
+          "top1": 1,
+          "top5": 2,
+          "top32": 10,
+          "mrr": 0.002993006687786463
+        },
+        "snapshot": {
+          "both": 31,
+          "at_least_one": 458,
+          "top1": 1,
+          "top5": 3,
+          "top32": 11,
+          "mrr": 0.0031657351607541303
+        },
+        "pair_hard": {
+          "both": 31,
+          "at_least_one": 453
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 29,
+          "lost": 15,
+          "difference_pp": 1.1666666666666667
+        },
+        "five_hard-fgssi": {
+          "gained": 31,
+          "lost": 15,
+          "difference_pp": 1.3333333333333335
+        },
+        "pair_soft-jordan": {
+          "gained": 30,
+          "lost": 16,
+          "difference_pp": 1.1666666666666667
+        },
+        "five_hard-pair_soft": {
+          "gained": 6,
+          "lost": 4,
+          "difference_pp": 0.16666666666666669
+        }
+      }
+    },
+    "company-11": {
+      "n": 300,
+      "methods": {
+        "gcnsi": {
+          "both": 4,
+          "at_least_one": 81,
+          "top1": 0,
+          "top5": 0,
+          "top32": 2,
+          "mrr": 0.0012482963065856827
+        },
+        "jordan": {
+          "both": 1,
+          "at_least_one": 51,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 0.0008833729240885763
+        },
+        "pair_soft": {
+          "both": 11,
+          "at_least_one": 125,
+          "top1": 0,
+          "top5": 0,
+          "top32": 1,
+          "mrr": 0.0020460185625205945
+        },
+        "fgssi": {
+          "both": 3,
+          "at_least_one": 71,
+          "top1": 0,
+          "top5": 0,
+          "top32": 1,
+          "mrr": 0.0010396093956365514
+        },
+        "five_hard": {
+          "both": 11,
+          "at_least_one": 123,
+          "top1": 0,
+          "top5": 0,
+          "top32": 2,
+          "mrr": 0.001841015688378859
+        },
+        "snapshot": {
+          "both": 11,
+          "at_least_one": 126,
+          "top1": 0,
+          "top5": 0,
+          "top32": 3,
+          "mrr": 0.0021193091997014106
+        },
+        "pair_hard": {
+          "both": 9,
+          "at_least_one": 126
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 11,
+          "lost": 3,
+          "difference_pp": 2.6666666666666665
+        },
+        "five_hard-fgssi": {
+          "gained": 11,
+          "lost": 3,
+          "difference_pp": 2.6666666666666665
+        },
+        "pair_soft-jordan": {
+          "gained": 11,
+          "lost": 1,
+          "difference_pp": 3.3333333333333335
+        },
+        "five_hard-pair_soft": {
+          "gained": 2,
+          "lost": 2,
+          "difference_pp": 0.0
+        }
+      }
+    },
+    "emitters_2": {
+      "n": 377,
+      "methods": {
+        "gcnsi": {
+          "both": 10,
+          "at_least_one": 123,
+          "top1": 1,
+          "top5": 2,
+          "top32": 3,
+          "mrr": 0.0051050626383265865
+        },
+        "jordan": {
+          "both": 12,
+          "at_least_one": 111,
+          "top1": 0,
+          "top5": 1,
+          "top32": 4,
+          "mrr": 0.0029357688389061534
+        },
+        "pair_soft": {
+          "both": 23,
+          "at_least_one": 176,
+          "top1": 1,
+          "top5": 1,
+          "top32": 9,
+          "mrr": 0.006581591113202986
+        },
+        "fgssi": {
+          "both": 11,
+          "at_least_one": 126,
+          "top1": 0,
+          "top5": 0,
+          "top32": 7,
+          "mrr": 0.0026525291078476412
+        },
+        "five_hard": {
+          "both": 23,
+          "at_least_one": 169,
+          "top1": 1,
+          "top5": 2,
+          "top32": 6,
+          "mrr": 0.006650544891795956
+        },
+        "snapshot": {
+          "both": 20,
+          "at_least_one": 176,
+          "top1": 1,
+          "top5": 3,
+          "top32": 8,
+          "mrr": 0.0072718191350236005
+        },
+        "pair_hard": {
+          "both": 22,
+          "at_least_one": 174
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 22,
+          "lost": 10,
+          "difference_pp": 3.183023872679045
+        },
+        "five_hard-fgssi": {
+          "gained": 22,
+          "lost": 10,
+          "difference_pp": 3.183023872679045
+        },
+        "pair_soft-jordan": {
+          "gained": 23,
+          "lost": 12,
+          "difference_pp": 2.9177718832891246
+        },
+        "five_hard-pair_soft": {
+          "gained": 4,
+          "lost": 4,
+          "difference_pp": 0.0
+        }
+      }
+    },
+    "emitters_1": {
+      "n": 823,
+      "methods": {
+        "gcnsi": {
+          "both": 5,
+          "at_least_one": 170,
+          "top1": 0,
+          "top5": 1,
+          "top32": 3,
+          "mrr": 0.0010692082167352288
+        },
+        "jordan": {
+          "both": 4,
+          "at_least_one": 154,
+          "top1": 1,
+          "top5": 1,
+          "top32": 5,
+          "mrr": 0.0021088830171133895
+        },
+        "pair_soft": {
+          "both": 7,
+          "at_least_one": 273,
+          "top1": 0,
+          "top5": 0,
+          "top32": 2,
+          "mrr": 0.0012412394818800637
+        },
+        "fgssi": {
+          "both": 5,
+          "at_least_one": 169,
+          "top1": 0,
+          "top5": 0,
+          "top32": 2,
+          "mrr": 0.0009488493463209967
+        },
+        "five_hard": {
+          "both": 9,
+          "at_least_one": 277,
+          "top1": 0,
+          "top5": 0,
+          "top32": 4,
+          "mrr": 0.0013175608762292582
+        },
+        "snapshot": {
+          "both": 11,
+          "at_least_one": 282,
+          "top1": 0,
+          "top5": 0,
+          "top32": 3,
+          "mrr": 0.0012848194155541414
+        },
+        "pair_hard": {
+          "both": 9,
+          "at_least_one": 279
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 7,
+          "lost": 5,
+          "difference_pp": 0.24301336573511537
+        },
+        "five_hard-fgssi": {
+          "gained": 9,
+          "lost": 5,
+          "difference_pp": 0.4860267314702309
+        },
+        "pair_soft-jordan": {
+          "gained": 7,
+          "lost": 4,
+          "difference_pp": 0.3645200486026731
+        },
+        "five_hard-pair_soft": {
+          "gained": 2,
+          "lost": 0,
+          "difference_pp": 0.24301336573511553
+        }
+      }
+    },
+    "company-13": {
+      "n": 300,
+      "methods": {
+        "gcnsi": {
+          "both": 3,
+          "at_least_one": 71,
+          "top1": 0,
+          "top5": 2,
+          "top32": 2,
+          "mrr": 0.0025169033008783748
+        },
+        "jordan": {
+          "both": 9,
+          "at_least_one": 81,
+          "top1": 0,
+          "top5": 0,
+          "top32": 3,
+          "mrr": 0.0015801692630154488
+        },
+        "pair_soft": {
+          "both": 5,
+          "at_least_one": 125,
+          "top1": 0,
+          "top5": 0,
+          "top32": 5,
+          "mrr": 0.0024539961202999588
+        },
+        "fgssi": {
+          "both": 6,
+          "at_least_one": 75,
+          "top1": 0,
+          "top5": 0,
+          "top32": 4,
+          "mrr": 0.0016595285165276455
+        },
+        "five_hard": {
+          "both": 4,
+          "at_least_one": 126,
+          "top1": 0,
+          "top5": 0,
+          "top32": 3,
+          "mrr": 0.0022844620046775428
+        },
+        "snapshot": {
+          "both": 5,
+          "at_least_one": 125,
+          "top1": 0,
+          "top5": 1,
+          "top32": 3,
+          "mrr": 0.0028050882820635603
+        },
+        "pair_hard": {
+          "both": 5,
+          "at_least_one": 127
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 5,
+          "lost": 6,
+          "difference_pp": -0.33333333333333337
+        },
+        "five_hard-fgssi": {
+          "gained": 4,
+          "lost": 6,
+          "difference_pp": -0.6666666666666666
+        },
+        "pair_soft-jordan": {
+          "gained": 5,
+          "lost": 9,
+          "difference_pp": -1.3333333333333333
+        },
+        "five_hard-pair_soft": {
+          "gained": 0,
+          "lost": 1,
+          "difference_pp": -0.3333333333333332
+        }
+      }
+    },
+    "company-14": {
+      "n": 300,
+      "methods": {
+        "gcnsi": {
+          "both": 5,
+          "at_least_one": 74,
+          "top1": 1,
+          "top5": 1,
+          "top32": 1,
+          "mrr": 0.004447852495273577
+        },
+        "jordan": {
+          "both": 4,
+          "at_least_one": 72,
+          "top1": 0,
+          "top5": 0,
+          "top32": 2,
+          "mrr": 0.0009587159370959462
+        },
+        "pair_soft": {
+          "both": 10,
+          "at_least_one": 104,
+          "top1": 1,
+          "top5": 1,
+          "top32": 3,
+          "mrr": 0.0056351841278691325
+        },
+        "fgssi": {
+          "both": 3,
+          "at_least_one": 79,
+          "top1": 0,
+          "top5": 0,
+          "top32": 1,
+          "mrr": 0.0014080292655609056
+        },
+        "five_hard": {
+          "both": 11,
+          "at_least_one": 104,
+          "top1": 1,
+          "top5": 2,
+          "top32": 3,
+          "mrr": 0.006071595309782717
+        },
+        "snapshot": {
+          "both": 10,
+          "at_least_one": 110,
+          "top1": 1,
+          "top5": 2,
+          "top32": 3,
+          "mrr": 0.005917049462913102
+        },
+        "pair_hard": {
+          "both": 12,
+          "at_least_one": 107
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 10,
+          "lost": 3,
+          "difference_pp": 2.333333333333333
+        },
+        "five_hard-fgssi": {
+          "gained": 11,
+          "lost": 3,
+          "difference_pp": 2.6666666666666665
+        },
+        "pair_soft-jordan": {
+          "gained": 10,
+          "lost": 4,
+          "difference_pp": 1.9999999999999998
+        },
+        "five_hard-pair_soft": {
+          "gained": 2,
+          "lost": 1,
+          "difference_pp": 0.33333333333333337
+        }
+      }
+    },
+    "company-16": {
+      "n": 300,
+      "methods": {
+        "gcnsi": {
+          "both": 3,
+          "at_least_one": 67,
+          "top1": 0,
+          "top5": 0,
+          "top32": 1,
+          "mrr": 0.0011355044873364213
+        },
+        "jordan": {
+          "both": 2,
+          "at_least_one": 61,
+          "top1": 1,
+          "top5": 2,
+          "top32": 4,
+          "mrr": 0.006052393793639826
+        },
+        "pair_soft": {
+          "both": 4,
+          "at_least_one": 95,
+          "top1": 0,
+          "top5": 0,
+          "top32": 2,
+          "mrr": 0.0015408010001930436
+        },
+        "fgssi": {
+          "both": 4,
+          "at_least_one": 70,
+          "top1": 0,
+          "top5": 0,
+          "top32": 3,
+          "mrr": 0.0018291877745440336
+        },
+        "five_hard": {
+          "both": 6,
+          "at_least_one": 93,
+          "top1": 0,
+          "top5": 0,
+          "top32": 2,
+          "mrr": 0.001774953748306732
+        },
+        "snapshot": {
+          "both": 5,
+          "at_least_one": 97,
+          "top1": 0,
+          "top5": 0,
+          "top32": 2,
+          "mrr": 0.0018214936983384478
+        },
+        "pair_hard": {
+          "both": 5,
+          "at_least_one": 93
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 3,
+          "lost": 3,
+          "difference_pp": 0.0
+        },
+        "five_hard-fgssi": {
+          "gained": 5,
+          "lost": 3,
+          "difference_pp": 0.6666666666666666
+        },
+        "pair_soft-jordan": {
+          "gained": 4,
+          "lost": 2,
+          "difference_pp": 0.6666666666666667
+        },
+        "five_hard-pair_soft": {
+          "gained": 2,
+          "lost": 0,
+          "difference_pp": 0.6666666666666666
+        }
+      }
+    }
+  },
+  "Dept2": {
+    "all": {
+      "n": 1200,
+      "methods": {
+        "gcnsi": {
+          "both": 114,
+          "at_least_one": 969,
+          "top1": 4,
+          "top5": 13,
+          "top32": 62,
+          "mrr": 0.01158484350498724
+        },
+        "jordan": {
+          "both": 163,
+          "at_least_one": 969,
+          "top1": 3,
+          "top5": 18,
+          "top32": 96,
+          "mrr": 0.014402646170576511
+        },
+        "pair_soft": {
+          "both": 213,
+          "at_least_one": 1018,
+          "top1": 3,
+          "top5": 33,
+          "top32": 160,
+          "mrr": 0.02226284728235397
+        },
+        "fgssi": {
+          "both": 158,
+          "at_least_one": 959,
+          "top1": 2,
+          "top5": 11,
+          "top32": 92,
+          "mrr": 0.012719685910739222
+        },
+        "five_hard": {
+          "both": 208,
+          "at_least_one": 1037,
+          "top1": 4,
+          "top5": 34,
+          "top32": 160,
+          "mrr": 0.02327135376986026
+        },
+        "snapshot": {
+          "both": 181,
+          "at_least_one": 912,
+          "top1": 8,
+          "top5": 30,
+          "top32": 154,
+          "mrr": 0.02491331221359895
+        },
+        "pair_hard": {
+          "both": 208,
+          "at_least_one": 1034
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 108,
+          "lost": 53,
+          "difference_pp": 4.583333333333334
+        },
+        "five_hard-fgssi": {
+          "gained": 96,
+          "lost": 46,
+          "difference_pp": 4.166666666666669
+        },
+        "pair_soft-jordan": {
+          "gained": 104,
+          "lost": 54,
+          "difference_pp": 4.166666666666666
+        },
+        "five_hard-pair_soft": {
+          "gained": 19,
+          "lost": 24,
+          "difference_pp": -0.4166666666666652
+        }
+      }
+    },
+    "Dept2-21": {
+      "n": 300,
+      "methods": {
+        "gcnsi": {
+          "both": 25,
+          "at_least_one": 255,
+          "top1": 2,
+          "top5": 4,
+          "top32": 17,
+          "mrr": 0.013109974688652427
+        },
+        "jordan": {
+          "both": 30,
+          "at_least_one": 258,
+          "top1": 1,
+          "top5": 4,
+          "top32": 13,
+          "mrr": 0.011733189082329015
+        },
+        "pair_soft": {
+          "both": 36,
+          "at_least_one": 260,
+          "top1": 0,
+          "top5": 7,
+          "top32": 23,
+          "mrr": 0.01397283658896699
+        },
+        "fgssi": {
+          "both": 29,
+          "at_least_one": 252,
+          "top1": 1,
+          "top5": 4,
+          "top32": 18,
+          "mrr": 0.01307485056112303
+        },
+        "five_hard": {
+          "both": 36,
+          "at_least_one": 267,
+          "top1": 0,
+          "top5": 7,
+          "top32": 24,
+          "mrr": 0.015664438796512248
+        },
+        "snapshot": {
+          "both": 23,
+          "at_least_one": 188,
+          "top1": 2,
+          "top5": 4,
+          "top32": 21,
+          "mrr": 0.01510861361867942
+        },
+        "pair_hard": {
+          "both": 36,
+          "at_least_one": 267
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 17,
+          "lost": 10,
+          "difference_pp": 2.333333333333333
+        },
+        "five_hard-fgssi": {
+          "gained": 15,
+          "lost": 8,
+          "difference_pp": 2.333333333333333
+        },
+        "pair_soft-jordan": {
+          "gained": 14,
+          "lost": 8,
+          "difference_pp": 1.9999999999999991
+        },
+        "five_hard-pair_soft": {
+          "gained": 5,
+          "lost": 5,
+          "difference_pp": 0.0
+        }
+      }
+    },
+    "emitters_1": {
+      "n": 778,
+      "methods": {
+        "gcnsi": {
+          "both": 43,
+          "at_least_one": 638,
+          "top1": 2,
+          "top5": 3,
+          "top32": 23,
+          "mrr": 0.00706989458528881
+        },
+        "jordan": {
+          "both": 52,
+          "at_least_one": 641,
+          "top1": 1,
+          "top5": 5,
+          "top32": 22,
+          "mrr": 0.006648441396207443
+        },
+        "pair_soft": {
+          "both": 46,
+          "at_least_one": 659,
+          "top1": 0,
+          "top5": 2,
+          "top32": 24,
+          "mrr": 0.0060566022308123
+        },
+        "fgssi": {
+          "both": 48,
+          "at_least_one": 641,
+          "top1": 0,
+          "top5": 3,
+          "top32": 24,
+          "mrr": 0.005843089832319848
+        },
+        "five_hard": {
+          "both": 43,
+          "at_least_one": 672,
+          "top1": 0,
+          "top5": 2,
+          "top32": 26,
+          "mrr": 0.005910146484507644
+        },
+        "snapshot": {
+          "both": 42,
+          "at_least_one": 561,
+          "top1": 0,
+          "top5": 4,
+          "top32": 29,
+          "mrr": 0.006837973799842034
+        },
+        "pair_hard": {
+          "both": 43,
+          "at_least_one": 671
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 22,
+          "lost": 24,
+          "difference_pp": -0.25706940874035966
+        },
+        "five_hard-fgssi": {
+          "gained": 12,
+          "lost": 17,
+          "difference_pp": -0.6426735218508999
+        },
+        "pair_soft-jordan": {
+          "gained": 20,
+          "lost": 26,
+          "difference_pp": -0.771208226221079
+        },
+        "five_hard-pair_soft": {
+          "gained": 12,
+          "lost": 15,
+          "difference_pp": -0.3856041131105402
+        }
+      }
+    },
+    "emitters_2": {
+      "n": 422,
+      "methods": {
+        "gcnsi": {
+          "both": 71,
+          "at_least_one": 331,
+          "top1": 2,
+          "top5": 10,
+          "top32": 39,
+          "mrr": 0.01990861189248814
+        },
+        "jordan": {
+          "both": 111,
+          "at_least_one": 328,
+          "top1": 2,
+          "top5": 13,
+          "top32": 74,
+          "mrr": 0.02869831279251759
+        },
+        "pair_soft": {
+          "both": 167,
+          "at_least_one": 359,
+          "top1": 3,
+          "top5": 31,
+          "top32": 136,
+          "mrr": 0.05214071138211562
+        },
+        "fgssi": {
+          "both": 110,
+          "at_least_one": 318,
+          "top1": 2,
+          "top5": 8,
+          "top32": 68,
+          "mrr": 0.025397391477114284
+        },
+        "five_hard": {
+          "both": 165,
+          "at_least_one": 365,
+          "top1": 4,
+          "top5": 32,
+          "top32": 134,
+          "mrr": 0.05527850843337764
+        },
+        "snapshot": {
+          "both": 139,
+          "at_least_one": 351,
+          "top1": 8,
+          "top5": 26,
+          "top32": 125,
+          "mrr": 0.0582370403792456
+        },
+        "pair_hard": {
+          "both": 165,
+          "at_least_one": 363
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 86,
+          "lost": 29,
+          "difference_pp": 13.507109004739332
+        },
+        "five_hard-fgssi": {
+          "gained": 84,
+          "lost": 29,
+          "difference_pp": 13.033175355450233
+        },
+        "pair_soft-jordan": {
+          "gained": 84,
+          "lost": 28,
+          "difference_pp": 13.270142180094785
+        },
+        "five_hard-pair_soft": {
+          "gained": 7,
+          "lost": 9,
+          "difference_pp": -0.47393364928909887
+        }
+      }
+    },
+    "Dept2-23": {
+      "n": 300,
+      "methods": {
+        "gcnsi": {
+          "both": 23,
+          "at_least_one": 218,
+          "top1": 0,
+          "top5": 0,
+          "top32": 10,
+          "mrr": 0.005503468250588086
+        },
+        "jordan": {
+          "both": 37,
+          "at_least_one": 231,
+          "top1": 0,
+          "top5": 6,
+          "top32": 25,
+          "mrr": 0.015184193584496158
+        },
+        "pair_soft": {
+          "both": 47,
+          "at_least_one": 244,
+          "top1": 0,
+          "top5": 9,
+          "top32": 40,
+          "mrr": 0.01931398655781394
+        },
+        "fgssi": {
+          "both": 33,
+          "at_least_one": 228,
+          "top1": 0,
+          "top5": 1,
+          "top32": 21,
+          "mrr": 0.009248393762879987
+        },
+        "five_hard": {
+          "both": 44,
+          "at_least_one": 248,
+          "top1": 0,
+          "top5": 7,
+          "top32": 37,
+          "mrr": 0.01820031266942484
+        },
+        "snapshot": {
+          "both": 45,
+          "at_least_one": 231,
+          "top1": 1,
+          "top5": 9,
+          "top32": 37,
+          "mrr": 0.024416248063868825
+        },
+        "pair_hard": {
+          "both": 43,
+          "at_least_one": 248
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 28,
+          "lost": 14,
+          "difference_pp": 4.666666666666668
+        },
+        "five_hard-fgssi": {
+          "gained": 25,
+          "lost": 14,
+          "difference_pp": 3.6666666666666665
+        },
+        "pair_soft-jordan": {
+          "gained": 25,
+          "lost": 15,
+          "difference_pp": 3.333333333333334
+        },
+        "five_hard-pair_soft": {
+          "gained": 0,
+          "lost": 3,
+          "difference_pp": -1.0000000000000009
+        }
+      }
+    },
+    "Dept2-26": {
+      "n": 300,
+      "methods": {
+        "gcnsi": {
+          "both": 34,
+          "at_least_one": 238,
+          "top1": 2,
+          "top5": 5,
+          "top32": 19,
+          "mrr": 0.01583675334223928
+        },
+        "jordan": {
+          "both": 50,
+          "at_least_one": 242,
+          "top1": 1,
+          "top5": 4,
+          "top32": 30,
+          "mrr": 0.015071014613994033
+        },
+        "pair_soft": {
+          "both": 59,
+          "at_least_one": 258,
+          "top1": 0,
+          "top5": 7,
+          "top32": 42,
+          "mrr": 0.020477769202067345
+        },
+        "fgssi": {
+          "both": 43,
+          "at_least_one": 231,
+          "top1": 1,
+          "top5": 4,
+          "top32": 27,
+          "mrr": 0.01614394780544981
+        },
+        "five_hard": {
+          "both": 56,
+          "at_least_one": 265,
+          "top1": 0,
+          "top5": 8,
+          "top32": 41,
+          "mrr": 0.021229775390052733
+        },
+        "snapshot": {
+          "both": 54,
+          "at_least_one": 251,
+          "top1": 2,
+          "top5": 8,
+          "top32": 47,
+          "mrr": 0.027647806043701328
+        },
+        "pair_hard": {
+          "both": 57,
+          "at_least_one": 265
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 30,
+          "lost": 14,
+          "difference_pp": 5.333333333333331
+        },
+        "five_hard-fgssi": {
+          "gained": 25,
+          "lost": 12,
+          "difference_pp": 4.333333333333334
+        },
+        "pair_soft-jordan": {
+          "gained": 27,
+          "lost": 18,
+          "difference_pp": 3.0
+        },
+        "five_hard-pair_soft": {
+          "gained": 4,
+          "lost": 7,
+          "difference_pp": -0.9999999999999981
+        }
+      }
+    },
+    "Dept2-29": {
+      "n": 300,
+      "methods": {
+        "gcnsi": {
+          "both": 32,
+          "at_least_one": 258,
+          "top1": 0,
+          "top5": 4,
+          "top32": 16,
+          "mrr": 0.011889177738469169
+        },
+        "jordan": {
+          "both": 46,
+          "at_least_one": 238,
+          "top1": 1,
+          "top5": 4,
+          "top32": 28,
+          "mrr": 0.01562218740148684
+        },
+        "pair_soft": {
+          "both": 71,
+          "at_least_one": 256,
+          "top1": 3,
+          "top5": 10,
+          "top32": 55,
+          "mrr": 0.03528679678056759
+        },
+        "fgssi": {
+          "both": 53,
+          "at_least_one": 248,
+          "top1": 0,
+          "top5": 2,
+          "top32": 26,
+          "mrr": 0.012411551513504064
+        },
+        "five_hard": {
+          "both": 72,
+          "at_least_one": 257,
+          "top1": 4,
+          "top5": 12,
+          "top32": 58,
+          "mrr": 0.037990888223451216
+        },
+        "snapshot": {
+          "both": 59,
+          "at_least_one": 242,
+          "top1": 3,
+          "top5": 9,
+          "top32": 49,
+          "mrr": 0.03248058112814623
+        },
+        "pair_hard": {
+          "both": 72,
+          "at_least_one": 254
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 33,
+          "lost": 15,
+          "difference_pp": 6.0
+        },
+        "five_hard-fgssi": {
+          "gained": 31,
+          "lost": 12,
+          "difference_pp": 6.333333333333332
+        },
+        "pair_soft-jordan": {
+          "gained": 38,
+          "lost": 13,
+          "difference_pp": 8.333333333333334
+        },
+        "five_hard-pair_soft": {
+          "gained": 10,
+          "lost": 9,
+          "difference_pp": 0.3333333333333327
+        }
+      }
+    }
+  },
+  "Dept1": {
+    "all": {
+      "n": 480,
+      "methods": {
+        "gcnsi": {
+          "both": 20,
+          "at_least_one": 328,
+          "top1": 0,
+          "top5": 1,
+          "top32": 9,
+          "mrr": 0.0038969134346330814
+        },
+        "jordan": {
+          "both": 32,
+          "at_least_one": 348,
+          "top1": 1,
+          "top5": 6,
+          "top32": 27,
+          "mrr": 0.011235163502741997
+        },
+        "pair_soft": {
+          "both": 45,
+          "at_least_one": 335,
+          "top1": 2,
+          "top5": 8,
+          "top32": 39,
+          "mrr": 0.016445310802185923
+        },
+        "fgssi": {
+          "both": 32,
+          "at_least_one": 326,
+          "top1": 0,
+          "top5": 6,
+          "top32": 15,
+          "mrr": 0.0072068761549354855
+        },
+        "five_hard": {
+          "both": 44,
+          "at_least_one": 349,
+          "top1": 2,
+          "top5": 7,
+          "top32": 36,
+          "mrr": 0.01506776066220128
+        },
+        "snapshot": {
+          "both": 30,
+          "at_least_one": 280,
+          "top1": 1,
+          "top5": 7,
+          "top32": 33,
+          "mrr": 0.012334754000154175
+        },
+        "pair_hard": {
+          "both": 44,
+          "at_least_one": 348
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 26,
+          "lost": 13,
+          "difference_pp": 2.7083333333333335
+        },
+        "five_hard-fgssi": {
+          "gained": 24,
+          "lost": 12,
+          "difference_pp": 2.4999999999999996
+        },
+        "pair_soft-jordan": {
+          "gained": 24,
+          "lost": 11,
+          "difference_pp": 2.7083333333333335
+        },
+        "five_hard-pair_soft": {
+          "gained": 4,
+          "lost": 5,
+          "difference_pp": -0.20833333333333398
+        }
+      }
+    },
+    "Dept1-26": {
+      "n": 120,
+      "methods": {
+        "gcnsi": {
+          "both": 2,
+          "at_least_one": 86,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 0.0024877443198612226
+        },
+        "jordan": {
+          "both": 10,
+          "at_least_one": 96,
+          "top1": 0,
+          "top5": 2,
+          "top32": 7,
+          "mrr": 0.01110827919252622
+        },
+        "pair_soft": {
+          "both": 11,
+          "at_least_one": 92,
+          "top1": 0,
+          "top5": 1,
+          "top32": 9,
+          "mrr": 0.010045562603426424
+        },
+        "fgssi": {
+          "both": 8,
+          "at_least_one": 95,
+          "top1": 0,
+          "top5": 1,
+          "top32": 3,
+          "mrr": 0.005778177253387135
+        },
+        "five_hard": {
+          "both": 12,
+          "at_least_one": 92,
+          "top1": 0,
+          "top5": 1,
+          "top32": 9,
+          "mrr": 0.010976762597394026
+        },
+        "snapshot": {
+          "both": 7,
+          "at_least_one": 84,
+          "top1": 1,
+          "top5": 2,
+          "top32": 8,
+          "mrr": 0.01699912072002525
+        },
+        "pair_hard": {
+          "both": 12,
+          "at_least_one": 92
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 7,
+          "lost": 4,
+          "difference_pp": 2.4999999999999996
+        },
+        "five_hard-fgssi": {
+          "gained": 7,
+          "lost": 3,
+          "difference_pp": 3.333333333333334
+        },
+        "pair_soft-jordan": {
+          "gained": 5,
+          "lost": 4,
+          "difference_pp": 0.8333333333333331
+        },
+        "five_hard-pair_soft": {
+          "gained": 2,
+          "lost": 1,
+          "difference_pp": 0.8333333333333346
+        }
+      }
+    },
+    "emitters_2": {
+      "n": 165,
+      "methods": {
+        "gcnsi": {
+          "both": 12,
+          "at_least_one": 106,
+          "top1": 0,
+          "top5": 0,
+          "top32": 4,
+          "mrr": 0.005281065314456177
+        },
+        "jordan": {
+          "both": 25,
+          "at_least_one": 120,
+          "top1": 1,
+          "top5": 5,
+          "top32": 23,
+          "mrr": 0.02526139940575208
+        },
+        "pair_soft": {
+          "both": 37,
+          "at_least_one": 124,
+          "top1": 2,
+          "top5": 8,
+          "top32": 33,
+          "mrr": 0.042443089802787895
+        },
+        "fgssi": {
+          "both": 25,
+          "at_least_one": 112,
+          "top1": 0,
+          "top5": 4,
+          "top32": 10,
+          "mrr": 0.012319963915032678
+        },
+        "five_hard": {
+          "both": 36,
+          "at_least_one": 126,
+          "top1": 2,
+          "top5": 7,
+          "top32": 33,
+          "mrr": 0.03952838318863396
+        },
+        "snapshot": {
+          "both": 22,
+          "at_least_one": 111,
+          "top1": 1,
+          "top5": 6,
+          "top32": 27,
+          "mrr": 0.030038843871484915
+        },
+        "pair_hard": {
+          "both": 37,
+          "at_least_one": 126
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 23,
+          "lost": 11,
+          "difference_pp": 7.2727272727272725
+        },
+        "five_hard-fgssi": {
+          "gained": 21,
+          "lost": 10,
+          "difference_pp": 6.666666666666665
+        },
+        "pair_soft-jordan": {
+          "gained": 20,
+          "lost": 8,
+          "difference_pp": 7.2727272727272725
+        },
+        "five_hard-pair_soft": {
+          "gained": 2,
+          "lost": 3,
+          "difference_pp": -0.6060606060606072
+        }
+      }
+    },
+    "emitters_1": {
+      "n": 315,
+      "methods": {
+        "gcnsi": {
+          "both": 8,
+          "at_least_one": 222,
+          "top1": 0,
+          "top5": 1,
+          "top32": 5,
+          "mrr": 0.0031718814975828877
+        },
+        "jordan": {
+          "both": 7,
+          "at_least_one": 228,
+          "top1": 0,
+          "top5": 1,
+          "top32": 4,
+          "mrr": 0.0038880875535462346
+        },
+        "pair_soft": {
+          "both": 8,
+          "at_least_one": 211,
+          "top1": 0,
+          "top5": 0,
+          "top32": 6,
+          "mrr": 0.0028274265637753667
+        },
+        "fgssi": {
+          "both": 7,
+          "at_least_one": 214,
+          "top1": 0,
+          "top5": 2,
+          "top32": 5,
+          "mrr": 0.00452859209012267
+        },
+        "five_hard": {
+          "both": 8,
+          "at_least_one": 223,
+          "top1": 0,
+          "top5": 0,
+          "top32": 3,
+          "mrr": 0.002255053624546064
+        },
+        "snapshot": {
+          "both": 8,
+          "at_least_one": 169,
+          "top1": 0,
+          "top5": 1,
+          "top32": 6,
+          "mrr": 0.0030611831151714066
+        },
+        "pair_hard": {
+          "both": 7,
+          "at_least_one": 222
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 3,
+          "lost": 2,
+          "difference_pp": 0.3174603174603174
+        },
+        "five_hard-fgssi": {
+          "gained": 3,
+          "lost": 2,
+          "difference_pp": 0.3174603174603174
+        },
+        "pair_soft-jordan": {
+          "gained": 4,
+          "lost": 3,
+          "difference_pp": 0.3174603174603174
+        },
+        "five_hard-pair_soft": {
+          "gained": 2,
+          "lost": 2,
+          "difference_pp": 0.0
+        }
+      }
+    },
+    "Dept1-27": {
+      "n": 120,
+      "methods": {
+        "gcnsi": {
+          "both": 6,
+          "at_least_one": 82,
+          "top1": 0,
+          "top5": 1,
+          "top32": 4,
+          "mrr": 0.0062496339204844206
+        },
+        "jordan": {
+          "both": 5,
+          "at_least_one": 78,
+          "top1": 0,
+          "top5": 1,
+          "top32": 4,
+          "mrr": 0.008163484416269106
+        },
+        "pair_soft": {
+          "both": 9,
+          "at_least_one": 77,
+          "top1": 0,
+          "top5": 0,
+          "top32": 7,
+          "mrr": 0.007470882884461807
+        },
+        "fgssi": {
+          "both": 7,
+          "at_least_one": 74,
+          "top1": 0,
+          "top5": 3,
+          "top32": 5,
+          "mrr": 0.01090965694888587
+        },
+        "five_hard": {
+          "both": 10,
+          "at_least_one": 80,
+          "top1": 0,
+          "top5": 0,
+          "top32": 7,
+          "mrr": 0.008298844455675905
+        },
+        "snapshot": {
+          "both": 7,
+          "at_least_one": 66,
+          "top1": 0,
+          "top5": 1,
+          "top32": 6,
+          "mrr": 0.007511393538045216
+        },
+        "pair_hard": {
+          "both": 9,
+          "at_least_one": 78
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 4,
+          "lost": 2,
+          "difference_pp": 1.6666666666666663
+        },
+        "five_hard-fgssi": {
+          "gained": 5,
+          "lost": 2,
+          "difference_pp": 2.4999999999999996
+        },
+        "pair_soft-jordan": {
+          "gained": 4,
+          "lost": 0,
+          "difference_pp": 3.3333333333333335
+        },
+        "five_hard-pair_soft": {
+          "gained": 1,
+          "lost": 0,
+          "difference_pp": 0.8333333333333331
+        }
+      }
+    },
+    "Dept1-28": {
+      "n": 120,
+      "methods": {
+        "gcnsi": {
+          "both": 1,
+          "at_least_one": 77,
+          "top1": 0,
+          "top5": 0,
+          "top32": 1,
+          "mrr": 0.0020349713099736574
+        },
+        "jordan": {
+          "both": 3,
+          "at_least_one": 84,
+          "top1": 0,
+          "top5": 0,
+          "top32": 4,
+          "mrr": 0.004906606559614072
+        },
+        "pair_soft": {
+          "both": 6,
+          "at_least_one": 74,
+          "top1": 1,
+          "top5": 2,
+          "top32": 7,
+          "mrr": 0.017953724000748416
+        },
+        "fgssi": {
+          "both": 4,
+          "at_least_one": 77,
+          "top1": 0,
+          "top5": 0,
+          "top32": 1,
+          "mrr": 0.002678755910688509
+        },
+        "five_hard": {
+          "both": 4,
+          "at_least_one": 82,
+          "top1": 2,
+          "top5": 2,
+          "top32": 5,
+          "mrr": 0.020734155867703552
+        },
+        "snapshot": {
+          "both": 6,
+          "at_least_one": 63,
+          "top1": 0,
+          "top5": 1,
+          "top32": 8,
+          "mrr": 0.01216440464127378
+        },
+        "pair_hard": {
+          "both": 4,
+          "at_least_one": 83
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 4,
+          "lost": 2,
+          "difference_pp": 1.666666666666667
+        },
+        "five_hard-fgssi": {
+          "gained": 2,
+          "lost": 2,
+          "difference_pp": 0.0
+        },
+        "pair_soft-jordan": {
+          "gained": 5,
+          "lost": 2,
+          "difference_pp": 2.5
+        },
+        "five_hard-pair_soft": {
+          "gained": 0,
+          "lost": 2,
+          "difference_pp": -1.666666666666667
+        }
+      }
+    },
+    "Dept1-29": {
+      "n": 120,
+      "methods": {
+        "gcnsi": {
+          "both": 11,
+          "at_least_one": 83,
+          "top1": 0,
+          "top5": 0,
+          "top32": 4,
+          "mrr": 0.0048153041882130244
+        },
+        "jordan": {
+          "both": 14,
+          "at_least_one": 90,
+          "top1": 1,
+          "top5": 3,
+          "top32": 12,
+          "mrr": 0.02076228384255858
+        },
+        "pair_soft": {
+          "both": 19,
+          "at_least_one": 92,
+          "top1": 1,
+          "top5": 5,
+          "top32": 16,
+          "mrr": 0.030311073720107044
+        },
+        "fgssi": {
+          "both": 13,
+          "at_least_one": 80,
+          "top1": 0,
+          "top5": 2,
+          "top32": 6,
+          "mrr": 0.009460914506780431
+        },
+        "five_hard": {
+          "both": 18,
+          "at_least_one": 95,
+          "top1": 0,
+          "top5": 4,
+          "top32": 15,
+          "mrr": 0.02026127972803164
+        },
+        "snapshot": {
+          "both": 10,
+          "at_least_one": 67,
+          "top1": 0,
+          "top5": 3,
+          "top32": 11,
+          "mrr": 0.01266409710127245
+        },
+        "pair_hard": {
+          "both": 19,
+          "at_least_one": 95
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 11,
+          "lost": 5,
+          "difference_pp": 4.999999999999999
+        },
+        "five_hard-fgssi": {
+          "gained": 10,
+          "lost": 5,
+          "difference_pp": 4.166666666666666
+        },
+        "pair_soft-jordan": {
+          "gained": 10,
+          "lost": 5,
+          "difference_pp": 4.166666666666666
+        },
+        "five_hard-pair_soft": {
+          "gained": 1,
+          "lost": 2,
+          "difference_pp": -0.8333333333333331
+        }
+      }
+    }
+  },
+  "CollegeMsg": {
+    "all": {
+      "n": 480,
+      "methods": {
+        "gcnsi": {
+          "both": 0,
+          "at_least_one": 1,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 1.7120862998186997e-06
+        },
+        "jordan": {
+          "both": 0,
+          "at_least_one": 66,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 4.299473104165862e-05
+        },
+        "pair_soft": {
+          "both": 0,
+          "at_least_one": 52,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 4.701136662765319e-05
+        },
+        "fgssi": {
+          "both": 0,
+          "at_least_one": 37,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 4.187499388737109e-05
+        },
+        "five_hard": {
+          "both": 0,
+          "at_least_one": 52,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 4.0735901123642883e-05
+        },
+        "snapshot": {
+          "both": 0,
+          "at_least_one": 16,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 1.7835282525990356e-05
+        },
+        "pair_hard": {
+          "both": 0,
+          "at_least_one": 53
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 0,
+          "lost": 0,
+          "difference_pp": 0.0
+        },
+        "five_hard-fgssi": {
+          "gained": 0,
+          "lost": 0,
+          "difference_pp": 0.0
+        },
+        "pair_soft-jordan": {
+          "gained": 0,
+          "lost": 0,
+          "difference_pp": 0.0
+        },
+        "five_hard-pair_soft": {
+          "gained": 0,
+          "lost": 0,
+          "difference_pp": 0.0
+        }
+      }
+    },
+    "CollegeMsg-08": {
+      "n": 120,
+      "methods": {
+        "gcnsi": {
+          "both": 0,
+          "at_least_one": 0,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 3.5628826976095986e-06
+        },
+        "jordan": {
+          "both": 0,
+          "at_least_one": 14,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 3.677292023187295e-05
+        },
+        "pair_soft": {
+          "both": 0,
+          "at_least_one": 11,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 6.0870414986422353e-05
+        },
+        "fgssi": {
+          "both": 0,
+          "at_least_one": 7,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 5.2713174198583145e-05
+        },
+        "five_hard": {
+          "both": 0,
+          "at_least_one": 12,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 3.122054770351116e-05
+        },
+        "snapshot": {
+          "both": 0,
+          "at_least_one": 3,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 1.2963768840671462e-05
+        },
+        "pair_hard": {
+          "both": 0,
+          "at_least_one": 12
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 0,
+          "lost": 0,
+          "difference_pp": 0.0
+        },
+        "five_hard-fgssi": {
+          "gained": 0,
+          "lost": 0,
+          "difference_pp": 0.0
+        },
+        "pair_soft-jordan": {
+          "gained": 0,
+          "lost": 0,
+          "difference_pp": 0.0
+        },
+        "five_hard-pair_soft": {
+          "gained": 0,
+          "lost": 0,
+          "difference_pp": 0.0
+        }
+      }
+    },
+    "emitters_1": {
+      "n": 465,
+      "methods": {
+        "gcnsi": {
+          "both": 0,
+          "at_least_one": 1,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 1.741487036203709e-06
+        },
+        "jordan": {
+          "both": 0,
+          "at_least_one": 61,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 4.225366374702339e-05
+        },
+        "pair_soft": {
+          "both": 0,
+          "at_least_one": 46,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 4.4948934678625564e-05
+        },
+        "fgssi": {
+          "both": 0,
+          "at_least_one": 35,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 4.1058596028539246e-05
+        },
+        "five_hard": {
+          "both": 0,
+          "at_least_one": 46,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 3.63656544575943e-05
+        },
+        "snapshot": {
+          "both": 0,
+          "at_least_one": 15,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 1.694067856744751e-05
+        },
+        "pair_hard": {
+          "both": 0,
+          "at_least_one": 47
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 0,
+          "lost": 0,
+          "difference_pp": 0.0
+        },
+        "five_hard-fgssi": {
+          "gained": 0,
+          "lost": 0,
+          "difference_pp": 0.0
+        },
+        "pair_soft-jordan": {
+          "gained": 0,
+          "lost": 0,
+          "difference_pp": 0.0
+        },
+        "five_hard-pair_soft": {
+          "gained": 0,
+          "lost": 0,
+          "difference_pp": 0.0
+        }
+      }
+    },
+    "emitters_2": {
+      "n": 15,
+      "methods": {
+        "gcnsi": {
+          "both": 0,
+          "at_least_one": 0,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 8.006634718834153e-07
+        },
+        "jordan": {
+          "both": 0,
+          "at_least_one": 5,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 6.596781717535051e-05
+        },
+        "pair_soft": {
+          "both": 0,
+          "at_least_one": 6,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 0.00011094675704750971
+        },
+        "fgssi": {
+          "both": 0,
+          "at_least_one": 2,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 6.718332751115825e-05
+        },
+        "five_hard": {
+          "both": 0,
+          "at_least_one": 6,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 0.00017621354777114874
+        },
+        "snapshot": {
+          "both": 0,
+          "at_least_one": 1,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 4.5568005240818536e-05
+        },
+        "pair_hard": {
+          "both": 0,
+          "at_least_one": 6
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 0,
+          "lost": 0,
+          "difference_pp": 0.0
+        },
+        "five_hard-fgssi": {
+          "gained": 0,
+          "lost": 0,
+          "difference_pp": 0.0
+        },
+        "pair_soft-jordan": {
+          "gained": 0,
+          "lost": 0,
+          "difference_pp": 0.0
+        },
+        "five_hard-pair_soft": {
+          "gained": 0,
+          "lost": 0,
+          "difference_pp": 0.0
+        }
+      }
+    },
+    "CollegeMsg-09": {
+      "n": 120,
+      "methods": {
+        "gcnsi": {
+          "both": 0,
+          "at_least_one": 1,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 1.0655862289931197e-06
+        },
+        "jordan": {
+          "both": 0,
+          "at_least_one": 19,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 2.937345961610833e-05
+        },
+        "pair_soft": {
+          "both": 0,
+          "at_least_one": 9,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 2.4200781320351942e-05
+        },
+        "fgssi": {
+          "both": 0,
+          "at_least_one": 14,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 6.0058241664796234e-05
+        },
+        "five_hard": {
+          "both": 0,
+          "at_least_one": 9,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 2.287864229989462e-05
+        },
+        "snapshot": {
+          "both": 0,
+          "at_least_one": 3,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 2.900311388224222e-05
+        },
+        "pair_hard": {
+          "both": 0,
+          "at_least_one": 10
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 0,
+          "lost": 0,
+          "difference_pp": 0.0
+        },
+        "five_hard-fgssi": {
+          "gained": 0,
+          "lost": 0,
+          "difference_pp": 0.0
+        },
+        "pair_soft-jordan": {
+          "gained": 0,
+          "lost": 0,
+          "difference_pp": 0.0
+        },
+        "five_hard-pair_soft": {
+          "gained": 0,
+          "lost": 0,
+          "difference_pp": 0.0
+        }
+      }
+    },
+    "CollegeMsg-10": {
+      "n": 120,
+      "methods": {
+        "gcnsi": {
+          "both": 0,
+          "at_least_one": 0,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 1.0887360958536015e-06
+        },
+        "jordan": {
+          "both": 0,
+          "at_least_one": 13,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 2.9038639172937995e-05
+        },
+        "pair_soft": {
+          "both": 0,
+          "at_least_one": 11,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 3.5645013530183784e-05
+        },
+        "fgssi": {
+          "both": 0,
+          "at_least_one": 4,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 2.4778431468794455e-05
+        },
+        "five_hard": {
+          "both": 0,
+          "at_least_one": 11,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 3.797274821715402e-05
+        },
+        "snapshot": {
+          "both": 0,
+          "at_least_one": 5,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 9.603123453736206e-06
+        },
+        "pair_hard": {
+          "both": 0,
+          "at_least_one": 10
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 0,
+          "lost": 0,
+          "difference_pp": 0.0
+        },
+        "five_hard-fgssi": {
+          "gained": 0,
+          "lost": 0,
+          "difference_pp": 0.0
+        },
+        "pair_soft-jordan": {
+          "gained": 0,
+          "lost": 0,
+          "difference_pp": 0.0
+        },
+        "five_hard-pair_soft": {
+          "gained": 0,
+          "lost": 0,
+          "difference_pp": 0.0
+        }
+      }
+    },
+    "CollegeMsg-11": {
+      "n": 120,
+      "methods": {
+        "gcnsi": {
+          "both": 0,
+          "at_least_one": 0,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 1.1311401768184794e-06
+        },
+        "jordan": {
+          "both": 0,
+          "at_least_one": 20,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 7.679390514571521e-05
+        },
+        "pair_soft": {
+          "both": 0,
+          "at_least_one": 21,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 6.73292566736547e-05
+        },
+        "fgssi": {
+          "both": 0,
+          "at_least_one": 12,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 2.995012821731053e-05
+        },
+        "five_hard": {
+          "both": 0,
+          "at_least_one": 20,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 7.087166627401172e-05
+        },
+        "snapshot": {
+          "both": 0,
+          "at_least_one": 5,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 1.977112392731153e-05
+        },
+        "pair_hard": {
+          "both": 0,
+          "at_least_one": 21
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 0,
+          "lost": 0,
+          "difference_pp": 0.0
+        },
+        "five_hard-fgssi": {
+          "gained": 0,
+          "lost": 0,
+          "difference_pp": 0.0
+        },
+        "pair_soft-jordan": {
+          "gained": 0,
+          "lost": 0,
+          "difference_pp": 0.0
+        },
+        "five_hard-pair_soft": {
+          "gained": 0,
+          "lost": 0,
+          "difference_pp": 0.0
+        }
+      }
+    }
+  },
+  "CopenhagenSMS": {
+    "all": {
+      "n": 300,
+      "methods": {
+        "gcnsi": {
+          "both": 21,
+          "at_least_one": 131,
+          "top1": 2,
+          "top5": 3,
+          "top32": 17,
+          "mrr": 0.012127168439129771
+        },
+        "jordan": {
+          "both": 45,
+          "at_least_one": 193,
+          "top1": 6,
+          "top5": 15,
+          "top32": 40,
+          "mrr": 0.03754786802923339
+        },
+        "pair_soft": {
+          "both": 51,
+          "at_least_one": 186,
+          "top1": 4,
+          "top5": 20,
+          "top32": 41,
+          "mrr": 0.03790563082331236
+        },
+        "fgssi": {
+          "both": 46,
+          "at_least_one": 187,
+          "top1": 2,
+          "top5": 8,
+          "top32": 31,
+          "mrr": 0.02173972921976949
+        },
+        "five_hard": {
+          "both": 51,
+          "at_least_one": 188,
+          "top1": 4,
+          "top5": 17,
+          "top32": 40,
+          "mrr": 0.036567906002452674
+        },
+        "snapshot": {
+          "both": 45,
+          "at_least_one": 164,
+          "top1": 5,
+          "top5": 13,
+          "top32": 45,
+          "mrr": 0.03599378896029156
+        },
+        "pair_hard": {
+          "both": 51,
+          "at_least_one": 189
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 18,
+          "lost": 13,
+          "difference_pp": 1.6666666666666692
+        },
+        "five_hard-fgssi": {
+          "gained": 18,
+          "lost": 13,
+          "difference_pp": 1.6666666666666692
+        },
+        "pair_soft-jordan": {
+          "gained": 19,
+          "lost": 13,
+          "difference_pp": 2.0000000000000018
+        },
+        "five_hard-pair_soft": {
+          "gained": 2,
+          "lost": 2,
+          "difference_pp": 0.0
+        }
+      }
+    },
+    "CopenhagenSMS-01": {
+      "n": 300,
+      "methods": {
+        "gcnsi": {
+          "both": 21,
+          "at_least_one": 131,
+          "top1": 2,
+          "top5": 3,
+          "top32": 17,
+          "mrr": 0.012127168439129771
+        },
+        "jordan": {
+          "both": 45,
+          "at_least_one": 193,
+          "top1": 6,
+          "top5": 15,
+          "top32": 40,
+          "mrr": 0.03754786802923339
+        },
+        "pair_soft": {
+          "both": 51,
+          "at_least_one": 186,
+          "top1": 4,
+          "top5": 20,
+          "top32": 41,
+          "mrr": 0.03790563082331236
+        },
+        "fgssi": {
+          "both": 46,
+          "at_least_one": 187,
+          "top1": 2,
+          "top5": 8,
+          "top32": 31,
+          "mrr": 0.02173972921976949
+        },
+        "five_hard": {
+          "both": 51,
+          "at_least_one": 188,
+          "top1": 4,
+          "top5": 17,
+          "top32": 40,
+          "mrr": 0.036567906002452674
+        },
+        "snapshot": {
+          "both": 45,
+          "at_least_one": 164,
+          "top1": 5,
+          "top5": 13,
+          "top32": 45,
+          "mrr": 0.03599378896029156
+        },
+        "pair_hard": {
+          "both": 51,
+          "at_least_one": 189
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 18,
+          "lost": 13,
+          "difference_pp": 1.6666666666666692
+        },
+        "five_hard-fgssi": {
+          "gained": 18,
+          "lost": 13,
+          "difference_pp": 1.6666666666666692
+        },
+        "pair_soft-jordan": {
+          "gained": 19,
+          "lost": 13,
+          "difference_pp": 2.0000000000000018
+        },
+        "five_hard-pair_soft": {
+          "gained": 2,
+          "lost": 2,
+          "difference_pp": 0.0
+        }
+      }
+    },
+    "emitters_2": {
+      "n": 208,
+      "methods": {
+        "gcnsi": {
+          "both": 21,
+          "at_least_one": 99,
+          "top1": 2,
+          "top5": 3,
+          "top32": 17,
+          "mrr": 0.01717553161689029
+        },
+        "jordan": {
+          "both": 44,
+          "at_least_one": 139,
+          "top1": 6,
+          "top5": 15,
+          "top32": 40,
+          "mrr": 0.05377051609469618
+        },
+        "pair_soft": {
+          "both": 49,
+          "at_least_one": 141,
+          "top1": 4,
+          "top5": 19,
+          "top32": 40,
+          "mrr": 0.052720333875894726
+        },
+        "fgssi": {
+          "both": 46,
+          "at_least_one": 144,
+          "top1": 2,
+          "top5": 8,
+          "top32": 31,
+          "mrr": 0.030955090796490607
+        },
+        "five_hard": {
+          "both": 50,
+          "at_least_one": 144,
+          "top1": 4,
+          "top5": 17,
+          "top32": 39,
+          "mrr": 0.052257608756235446
+        },
+        "snapshot": {
+          "both": 45,
+          "at_least_one": 133,
+          "top1": 5,
+          "top5": 13,
+          "top32": 45,
+          "mrr": 0.051778135659393515
+        },
+        "pair_hard": {
+          "both": 50,
+          "at_least_one": 145
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 16,
+          "lost": 13,
+          "difference_pp": 1.4423076923076927
+        },
+        "five_hard-fgssi": {
+          "gained": 17,
+          "lost": 13,
+          "difference_pp": 1.9230769230769247
+        },
+        "pair_soft-jordan": {
+          "gained": 18,
+          "lost": 13,
+          "difference_pp": 2.4038461538461537
+        },
+        "five_hard-pair_soft": {
+          "gained": 2,
+          "lost": 1,
+          "difference_pp": 0.48076923076923184
+        }
+      }
+    },
+    "emitters_1": {
+      "n": 92,
+      "methods": {
+        "gcnsi": {
+          "both": 0,
+          "at_least_one": 32,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 0.0007134777763668691
+        },
+        "jordan": {
+          "both": 1,
+          "at_least_one": 54,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 0.000870576750795761
+        },
+        "pair_soft": {
+          "both": 2,
+          "at_least_one": 45,
+          "top1": 0,
+          "top5": 1,
+          "top32": 1,
+          "mrr": 0.004411519573995702
+        },
+        "fgssi": {
+          "both": 0,
+          "at_least_one": 43,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 0.0009049986984869632
+        },
+        "five_hard": {
+          "both": 1,
+          "at_least_one": 44,
+          "top1": 0,
+          "top5": 0,
+          "top32": 1,
+          "mrr": 0.0010955345591177024
+        },
+        "snapshot": {
+          "both": 0,
+          "at_least_one": 31,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 0.0003074399014523642
+        },
+        "pair_hard": {
+          "both": 1,
+          "at_least_one": 44
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 2,
+          "lost": 0,
+          "difference_pp": 2.1739130434782608
+        },
+        "five_hard-fgssi": {
+          "gained": 1,
+          "lost": 0,
+          "difference_pp": 1.0869565217391304
+        },
+        "pair_soft-jordan": {
+          "gained": 1,
+          "lost": 0,
+          "difference_pp": 1.0869565217391304
+        },
+        "five_hard-pair_soft": {
+          "gained": 0,
+          "lost": 1,
+          "difference_pp": -1.0869565217391304
+        }
+      }
+    }
+  },
+  "company_new_windows": {
+    "all": {
+      "n": 300,
+      "methods": {
+        "gcnsi": {
+          "both": 5,
+          "at_least_one": 76,
+          "top1": 0,
+          "top5": 1,
+          "top32": 4,
+          "mrr": 0.0036157847250536685
+        },
+        "jordan": {
+          "both": 5,
+          "at_least_one": 75,
+          "top1": 0,
+          "top5": 0,
+          "top32": 2,
+          "mrr": 0.0015270386900961483
+        },
+        "pair_soft": {
+          "both": 11,
+          "at_least_one": 129,
+          "top1": 0,
+          "top5": 1,
+          "top32": 4,
+          "mrr": 0.0038702495281505585
+        },
+        "fgssi": {
+          "both": 4,
+          "at_least_one": 102,
+          "top1": 0,
+          "top5": 0,
+          "top32": 3,
+          "mrr": 0.0017009484283574614
+        },
+        "five_hard": {
+          "both": 12,
+          "at_least_one": 121,
+          "top1": 0,
+          "top5": 2,
+          "top32": 6,
+          "mrr": 0.004342307500651815
+        },
+        "snapshot": {
+          "both": 14,
+          "at_least_one": 127,
+          "top1": 0,
+          "top5": 1,
+          "top32": 8,
+          "mrr": 0.004204995065410507
+        },
+        "pair_hard": {
+          "both": 11,
+          "at_least_one": 126
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 10,
+          "lost": 3,
+          "difference_pp": 2.333333333333333
+        },
+        "five_hard-fgssi": {
+          "gained": 11,
+          "lost": 3,
+          "difference_pp": 2.6666666666666665
+        },
+        "pair_soft-jordan": {
+          "gained": 11,
+          "lost": 5,
+          "difference_pp": 2.0
+        },
+        "five_hard-pair_soft": {
+          "gained": 2,
+          "lost": 1,
+          "difference_pp": 0.33333333333333337
+        }
+      }
+    },
+    "company-12": {
+      "n": 150,
+      "methods": {
+        "gcnsi": {
+          "both": 0,
+          "at_least_one": 40,
+          "top1": 0,
+          "top5": 0,
+          "top32": 1,
+          "mrr": 0.0009802491444950315
+        },
+        "jordan": {
+          "both": 0,
+          "at_least_one": 34,
+          "top1": 0,
+          "top5": 0,
+          "top32": 1,
+          "mrr": 0.0013740690477250564
+        },
+        "pair_soft": {
+          "both": 3,
+          "at_least_one": 59,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 0.0019943314692741927
+        },
+        "fgssi": {
+          "both": 1,
+          "at_least_one": 47,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 0.0009801971142125603
+        },
+        "five_hard": {
+          "both": 3,
+          "at_least_one": 59,
+          "top1": 0,
+          "top5": 0,
+          "top32": 1,
+          "mrr": 0.0022165230234398787
+        },
+        "snapshot": {
+          "both": 4,
+          "at_least_one": 61,
+          "top1": 0,
+          "top5": 0,
+          "top32": 1,
+          "mrr": 0.0021706851604619258
+        },
+        "pair_hard": {
+          "both": 3,
+          "at_least_one": 59
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 3,
+          "lost": 1,
+          "difference_pp": 1.3333333333333333
+        },
+        "five_hard-fgssi": {
+          "gained": 3,
+          "lost": 1,
+          "difference_pp": 1.3333333333333333
+        },
+        "pair_soft-jordan": {
+          "gained": 3,
+          "lost": 0,
+          "difference_pp": 2.0
+        },
+        "five_hard-pair_soft": {
+          "gained": 1,
+          "lost": 1,
+          "difference_pp": 0.0
+        }
+      }
+    },
+    "emitters_1": {
+      "n": 190,
+      "methods": {
+        "gcnsi": {
+          "both": 2,
+          "at_least_one": 42,
+          "top1": 0,
+          "top5": 1,
+          "top32": 3,
+          "mrr": 0.003780620824448565
+        },
+        "jordan": {
+          "both": 4,
+          "at_least_one": 44,
+          "top1": 0,
+          "top5": 0,
+          "top32": 1,
+          "mrr": 0.0012494516229512999
+        },
+        "pair_soft": {
+          "both": 1,
+          "at_least_one": 67,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 0.0011416921797390435
+        },
+        "fgssi": {
+          "both": 1,
+          "at_least_one": 60,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 0.0007906670722183218
+        },
+        "five_hard": {
+          "both": 2,
+          "at_least_one": 63,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 0.0012592991921861652
+        },
+        "snapshot": {
+          "both": 3,
+          "at_least_one": 66,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 0.001108431122553244
+        },
+        "pair_hard": {
+          "both": 1,
+          "at_least_one": 64
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 1,
+          "lost": 1,
+          "difference_pp": 0.0
+        },
+        "five_hard-fgssi": {
+          "gained": 2,
+          "lost": 1,
+          "difference_pp": 0.5263157894736842
+        },
+        "pair_soft-jordan": {
+          "gained": 1,
+          "lost": 4,
+          "difference_pp": -1.5789473684210527
+        },
+        "five_hard-pair_soft": {
+          "gained": 1,
+          "lost": 0,
+          "difference_pp": 0.5263157894736842
+        }
+      }
+    },
+    "emitters_2": {
+      "n": 110,
+      "methods": {
+        "gcnsi": {
+          "both": 3,
+          "at_least_one": 34,
+          "top1": 0,
+          "top5": 0,
+          "top32": 1,
+          "mrr": 0.003331067826098846
+        },
+        "jordan": {
+          "both": 1,
+          "at_least_one": 31,
+          "top1": 0,
+          "top5": 0,
+          "top32": 1,
+          "mrr": 0.0020065072606190687
+        },
+        "pair_soft": {
+          "both": 10,
+          "at_least_one": 62,
+          "top1": 0,
+          "top5": 1,
+          "top32": 4,
+          "mrr": 0.008583212220861359
+        },
+        "fgssi": {
+          "both": 3,
+          "at_least_one": 42,
+          "top1": 0,
+          "top5": 0,
+          "top32": 3,
+          "mrr": 0.0032732525889614295
+        },
+        "five_hard": {
+          "both": 10,
+          "at_least_one": 58,
+          "top1": 0,
+          "top5": 2,
+          "top32": 6,
+          "mrr": 0.009667503669819754
+        },
+        "snapshot": {
+          "both": 11,
+          "at_least_one": 61,
+          "top1": 0,
+          "top5": 1,
+          "top32": 8,
+          "mrr": 0.009553605512163959
+        },
+        "pair_hard": {
+          "both": 10,
+          "at_least_one": 62
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 9,
+          "lost": 2,
+          "difference_pp": 6.363636363636364
+        },
+        "five_hard-fgssi": {
+          "gained": 9,
+          "lost": 2,
+          "difference_pp": 6.363636363636364
+        },
+        "pair_soft-jordan": {
+          "gained": 10,
+          "lost": 1,
+          "difference_pp": 8.181818181818182
+        },
+        "five_hard-pair_soft": {
+          "gained": 1,
+          "lost": 1,
+          "difference_pp": 0.0
+        }
+      }
+    },
+    "company-15": {
+      "n": 150,
+      "methods": {
+        "gcnsi": {
+          "both": 5,
+          "at_least_one": 36,
+          "top1": 0,
+          "top5": 1,
+          "top32": 3,
+          "mrr": 0.006251320305612306
+        },
+        "jordan": {
+          "both": 5,
+          "at_least_one": 41,
+          "top1": 0,
+          "top5": 0,
+          "top32": 1,
+          "mrr": 0.00168000833246724
+        },
+        "pair_soft": {
+          "both": 8,
+          "at_least_one": 70,
+          "top1": 0,
+          "top5": 1,
+          "top32": 4,
+          "mrr": 0.005746167587026924
+        },
+        "fgssi": {
+          "both": 3,
+          "at_least_one": 55,
+          "top1": 0,
+          "top5": 0,
+          "top32": 3,
+          "mrr": 0.002421699742502362
+        },
+        "five_hard": {
+          "both": 9,
+          "at_least_one": 62,
+          "top1": 0,
+          "top5": 2,
+          "top32": 5,
+          "mrr": 0.0064680919778637505
+        },
+        "snapshot": {
+          "both": 10,
+          "at_least_one": 66,
+          "top1": 0,
+          "top5": 1,
+          "top32": 7,
+          "mrr": 0.006239304970359088
+        },
+        "pair_hard": {
+          "both": 8,
+          "at_least_one": 67
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 7,
+          "lost": 2,
+          "difference_pp": 3.333333333333334
+        },
+        "five_hard-fgssi": {
+          "gained": 8,
+          "lost": 2,
+          "difference_pp": 3.9999999999999996
+        },
+        "pair_soft-jordan": {
+          "gained": 8,
+          "lost": 5,
+          "difference_pp": 2.0000000000000004
+        },
+        "five_hard-pair_soft": {
+          "gained": 1,
+          "lost": 0,
+          "difference_pp": 0.6666666666666661
+        }
+      }
+    }
+  },
+  "Dept2_new_windows": {
+    "all": {
+      "n": 1050,
+      "methods": {
+        "gcnsi": {
+          "both": 112,
+          "at_least_one": 863,
+          "top1": 2,
+          "top5": 12,
+          "top32": 62,
+          "mrr": 0.01268743204439712
+        },
+        "jordan": {
+          "both": 162,
+          "at_least_one": 853,
+          "top1": 6,
+          "top5": 22,
+          "top32": 97,
+          "mrr": 0.0206988308026919
+        },
+        "pair_soft": {
+          "both": 210,
+          "at_least_one": 913,
+          "top1": 14,
+          "top5": 48,
+          "top32": 176,
+          "mrr": 0.038361981270891
+        },
+        "fgssi": {
+          "both": 145,
+          "at_least_one": 854,
+          "top1": 1,
+          "top5": 12,
+          "top32": 81,
+          "mrr": 0.013123433824964167
+        },
+        "five_hard": {
+          "both": 209,
+          "at_least_one": 928,
+          "top1": 14,
+          "top5": 45,
+          "top32": 170,
+          "mrr": 0.03728782819942613
+        },
+        "snapshot": {
+          "both": 204,
+          "at_least_one": 880,
+          "top1": 11,
+          "top5": 46,
+          "top32": 182,
+          "mrr": 0.03447263594967267
+        },
+        "pair_hard": {
+          "both": 209,
+          "at_least_one": 932
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 105,
+          "lost": 40,
+          "difference_pp": 6.190476190476191
+        },
+        "five_hard-fgssi": {
+          "gained": 101,
+          "lost": 37,
+          "difference_pp": 6.095238095238095
+        },
+        "pair_soft-jordan": {
+          "gained": 99,
+          "lost": 51,
+          "difference_pp": 4.571428571428574
+        },
+        "five_hard-pair_soft": {
+          "gained": 16,
+          "lost": 17,
+          "difference_pp": -0.09523809523809545
+        }
+      }
+    },
+    "Dept2-19": {
+      "n": 150,
+      "methods": {
+        "gcnsi": {
+          "both": 20,
+          "at_least_one": 125,
+          "top1": 2,
+          "top5": 3,
+          "top32": 15,
+          "mrr": 0.0265364400015207
+        },
+        "jordan": {
+          "both": 34,
+          "at_least_one": 132,
+          "top1": 2,
+          "top5": 3,
+          "top32": 20,
+          "mrr": 0.02874013632759309
+        },
+        "pair_soft": {
+          "both": 44,
+          "at_least_one": 138,
+          "top1": 5,
+          "top5": 12,
+          "top32": 42,
+          "mrr": 0.06751588635650836
+        },
+        "fgssi": {
+          "both": 32,
+          "at_least_one": 130,
+          "top1": 0,
+          "top5": 3,
+          "top32": 16,
+          "mrr": 0.017307675542891535
+        },
+        "five_hard": {
+          "both": 43,
+          "at_least_one": 136,
+          "top1": 4,
+          "top5": 9,
+          "top32": 40,
+          "mrr": 0.06040523050678896
+        },
+        "snapshot": {
+          "both": 41,
+          "at_least_one": 136,
+          "top1": 3,
+          "top5": 10,
+          "top32": 44,
+          "mrr": 0.05622624500534628
+        },
+        "pair_hard": {
+          "both": 43,
+          "at_least_one": 136
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 17,
+          "lost": 5,
+          "difference_pp": 7.999999999999999
+        },
+        "five_hard-fgssi": {
+          "gained": 16,
+          "lost": 5,
+          "difference_pp": 7.333333333333333
+        },
+        "pair_soft-jordan": {
+          "gained": 16,
+          "lost": 6,
+          "difference_pp": 6.666666666666668
+        },
+        "five_hard-pair_soft": {
+          "gained": 2,
+          "lost": 3,
+          "difference_pp": -0.6666666666666654
+        }
+      }
+    },
+    "emitters_2": {
+      "n": 393,
+      "methods": {
+        "gcnsi": {
+          "both": 60,
+          "at_least_one": 313,
+          "top1": 2,
+          "top5": 8,
+          "top32": 34,
+          "mrr": 0.02037264383743707
+        },
+        "jordan": {
+          "both": 118,
+          "at_least_one": 307,
+          "top1": 5,
+          "top5": 16,
+          "top32": 77,
+          "mrr": 0.04132456798518359
+        },
+        "pair_soft": {
+          "both": 151,
+          "at_least_one": 337,
+          "top1": 13,
+          "top5": 43,
+          "top32": 143,
+          "mrr": 0.08537707972959788
+        },
+        "fgssi": {
+          "both": 101,
+          "at_least_one": 314,
+          "top1": 1,
+          "top5": 9,
+          "top32": 55,
+          "mrr": 0.023410017493908725
+        },
+        "five_hard": {
+          "both": 156,
+          "at_least_one": 339,
+          "top1": 13,
+          "top5": 40,
+          "top32": 144,
+          "mrr": 0.08291691711608419
+        },
+        "snapshot": {
+          "both": 155,
+          "at_least_one": 342,
+          "top1": 10,
+          "top5": 39,
+          "top32": 146,
+          "mrr": 0.07452173553184978
+        },
+        "pair_hard": {
+          "both": 156,
+          "at_least_one": 341
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 76,
+          "lost": 26,
+          "difference_pp": 12.722646310432568
+        },
+        "five_hard-fgssi": {
+          "gained": 80,
+          "lost": 25,
+          "difference_pp": 13.994910941475824
+        },
+        "pair_soft-jordan": {
+          "gained": 71,
+          "lost": 38,
+          "difference_pp": 8.396946564885493
+        },
+        "five_hard-pair_soft": {
+          "gained": 10,
+          "lost": 5,
+          "difference_pp": 1.2722646310432573
+        }
+      }
+    },
+    "emitters_1": {
+      "n": 657,
+      "methods": {
+        "gcnsi": {
+          "both": 52,
+          "at_least_one": 550,
+          "top1": 0,
+          "top5": 4,
+          "top32": 28,
+          "mrr": 0.008090341885090117
+        },
+        "jordan": {
+          "both": 44,
+          "at_least_one": 546,
+          "top1": 1,
+          "top5": 6,
+          "top32": 20,
+          "mrr": 0.00836106107252564
+        },
+        "pair_soft": {
+          "both": 59,
+          "at_least_one": 576,
+          "top1": 1,
+          "top5": 5,
+          "top32": 33,
+          "mrr": 0.010238794521618862
+        },
+        "fgssi": {
+          "both": 44,
+          "at_least_one": 540,
+          "top1": 0,
+          "top5": 3,
+          "top32": 26,
+          "mrr": 0.006970271904271303
+        },
+        "five_hard": {
+          "both": 53,
+          "at_least_one": 589,
+          "top1": 1,
+          "top5": 5,
+          "top32": 26,
+          "mrr": 0.009993715651105552
+        },
+        "snapshot": {
+          "both": 49,
+          "at_least_one": 538,
+          "top1": 1,
+          "top5": 7,
+          "top32": 36,
+          "mrr": 0.010516325240699138
+        },
+        "pair_hard": {
+          "both": 53,
+          "at_least_one": 591
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 29,
+          "lost": 14,
+          "difference_pp": 2.28310502283105
+        },
+        "five_hard-fgssi": {
+          "gained": 21,
+          "lost": 12,
+          "difference_pp": 1.36986301369863
+        },
+        "pair_soft-jordan": {
+          "gained": 28,
+          "lost": 13,
+          "difference_pp": 2.28310502283105
+        },
+        "five_hard-pair_soft": {
+          "gained": 6,
+          "lost": 12,
+          "difference_pp": -0.91324200913242
+        }
+      }
+    },
+    "Dept2-20": {
+      "n": 150,
+      "methods": {
+        "gcnsi": {
+          "both": 18,
+          "at_least_one": 124,
+          "top1": 0,
+          "top5": 1,
+          "top32": 10,
+          "mrr": 0.011137373234862604
+        },
+        "jordan": {
+          "both": 22,
+          "at_least_one": 120,
+          "top1": 1,
+          "top5": 1,
+          "top32": 8,
+          "mrr": 0.015270597238362769
+        },
+        "pair_soft": {
+          "both": 32,
+          "at_least_one": 130,
+          "top1": 1,
+          "top5": 9,
+          "top32": 27,
+          "mrr": 0.03954637886087407
+        },
+        "fgssi": {
+          "both": 18,
+          "at_least_one": 121,
+          "top1": 0,
+          "top5": 1,
+          "top32": 12,
+          "mrr": 0.011322654162410666
+        },
+        "five_hard": {
+          "both": 32,
+          "at_least_one": 133,
+          "top1": 2,
+          "top5": 9,
+          "top32": 25,
+          "mrr": 0.04197533355265913
+        },
+        "snapshot": {
+          "both": 32,
+          "at_least_one": 125,
+          "top1": 1,
+          "top5": 7,
+          "top32": 29,
+          "mrr": 0.032926098681580244
+        },
+        "pair_hard": {
+          "both": 31,
+          "at_least_one": 133
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 18,
+          "lost": 4,
+          "difference_pp": 9.333333333333336
+        },
+        "five_hard-fgssi": {
+          "gained": 16,
+          "lost": 2,
+          "difference_pp": 9.333333333333336
+        },
+        "pair_soft-jordan": {
+          "gained": 16,
+          "lost": 6,
+          "difference_pp": 6.666666666666668
+        },
+        "five_hard-pair_soft": {
+          "gained": 6,
+          "lost": 6,
+          "difference_pp": 0.0
+        }
+      }
+    },
+    "Dept2-22": {
+      "n": 150,
+      "methods": {
+        "gcnsi": {
+          "both": 12,
+          "at_least_one": 122,
+          "top1": 0,
+          "top5": 1,
+          "top32": 7,
+          "mrr": 0.007434350632992539
+        },
+        "jordan": {
+          "both": 17,
+          "at_least_one": 118,
+          "top1": 0,
+          "top5": 2,
+          "top32": 16,
+          "mrr": 0.014961546651195829
+        },
+        "pair_soft": {
+          "both": 19,
+          "at_least_one": 132,
+          "top1": 1,
+          "top5": 4,
+          "top32": 17,
+          "mrr": 0.022660943518047774
+        },
+        "fgssi": {
+          "both": 15,
+          "at_least_one": 123,
+          "top1": 0,
+          "top5": 2,
+          "top32": 7,
+          "mrr": 0.011428094844853704
+        },
+        "five_hard": {
+          "both": 22,
+          "at_least_one": 136,
+          "top1": 0,
+          "top5": 4,
+          "top32": 16,
+          "mrr": 0.02018129570811897
+        },
+        "snapshot": {
+          "both": 19,
+          "at_least_one": 119,
+          "top1": 1,
+          "top5": 5,
+          "top32": 19,
+          "mrr": 0.023395553383844025
+        },
+        "pair_hard": {
+          "both": 22,
+          "at_least_one": 137
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 10,
+          "lost": 6,
+          "difference_pp": 2.666666666666667
+        },
+        "five_hard-fgssi": {
+          "gained": 13,
+          "lost": 6,
+          "difference_pp": 4.666666666666666
+        },
+        "pair_soft-jordan": {
+          "gained": 12,
+          "lost": 10,
+          "difference_pp": 1.333333333333335
+        },
+        "five_hard-pair_soft": {
+          "gained": 3,
+          "lost": 0,
+          "difference_pp": 1.9999999999999991
+        }
+      }
+    },
+    "Dept2-24": {
+      "n": 150,
+      "methods": {
+        "gcnsi": {
+          "both": 13,
+          "at_least_one": 119,
+          "top1": 0,
+          "top5": 1,
+          "top32": 8,
+          "mrr": 0.011475935766612811
+        },
+        "jordan": {
+          "both": 19,
+          "at_least_one": 112,
+          "top1": 1,
+          "top5": 5,
+          "top32": 9,
+          "mrr": 0.02319953045853685
+        },
+        "pair_soft": {
+          "both": 28,
+          "at_least_one": 124,
+          "top1": 1,
+          "top5": 6,
+          "top32": 26,
+          "mrr": 0.029981461762033354
+        },
+        "fgssi": {
+          "both": 25,
+          "at_least_one": 118,
+          "top1": 0,
+          "top5": 2,
+          "top32": 16,
+          "mrr": 0.01388986010701723
+        },
+        "five_hard": {
+          "both": 29,
+          "at_least_one": 125,
+          "top1": 1,
+          "top5": 7,
+          "top32": 25,
+          "mrr": 0.031691928183208894
+        },
+        "snapshot": {
+          "both": 28,
+          "at_least_one": 123,
+          "top1": 3,
+          "top5": 6,
+          "top32": 25,
+          "mrr": 0.041312925423514384
+        },
+        "pair_hard": {
+          "both": 29,
+          "at_least_one": 127
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 10,
+          "lost": 7,
+          "difference_pp": 2.0000000000000018
+        },
+        "five_hard-fgssi": {
+          "gained": 11,
+          "lost": 7,
+          "difference_pp": 2.666666666666667
+        },
+        "pair_soft-jordan": {
+          "gained": 16,
+          "lost": 7,
+          "difference_pp": 6.0
+        },
+        "five_hard-pair_soft": {
+          "gained": 2,
+          "lost": 1,
+          "difference_pp": 0.6666666666666654
+        }
+      }
+    },
+    "Dept2-25": {
+      "n": 150,
+      "methods": {
+        "gcnsi": {
+          "both": 16,
+          "at_least_one": 127,
+          "top1": 0,
+          "top5": 3,
+          "top32": 9,
+          "mrr": 0.015141973173449704
+        },
+        "jordan": {
+          "both": 26,
+          "at_least_one": 131,
+          "top1": 2,
+          "top5": 6,
+          "top32": 21,
+          "mrr": 0.03332178257117848
+        },
+        "pair_soft": {
+          "both": 32,
+          "at_least_one": 137,
+          "top1": 2,
+          "top5": 9,
+          "top32": 24,
+          "mrr": 0.046087465560649375
+        },
+        "fgssi": {
+          "both": 20,
+          "at_least_one": 125,
+          "top1": 0,
+          "top5": 1,
+          "top32": 12,
+          "mrr": 0.01271086103797754
+        },
+        "five_hard": {
+          "both": 31,
+          "at_least_one": 138,
+          "top1": 3,
+          "top5": 10,
+          "top32": 22,
+          "mrr": 0.045150885549154876
+        },
+        "snapshot": {
+          "both": 25,
+          "at_least_one": 129,
+          "top1": 2,
+          "top5": 8,
+          "top32": 22,
+          "mrr": 0.035549299409800145
+        },
+        "pair_hard": {
+          "both": 31,
+          "at_least_one": 139
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 16,
+          "lost": 4,
+          "difference_pp": 8.000000000000002
+        },
+        "five_hard-fgssi": {
+          "gained": 15,
+          "lost": 4,
+          "difference_pp": 7.333333333333333
+        },
+        "pair_soft-jordan": {
+          "gained": 12,
+          "lost": 6,
+          "difference_pp": 4.000000000000001
+        },
+        "five_hard-pair_soft": {
+          "gained": 0,
+          "lost": 1,
+          "difference_pp": -0.6666666666666682
+        }
+      }
+    },
+    "Dept2-27": {
+      "n": 150,
+      "methods": {
+        "gcnsi": {
+          "both": 20,
+          "at_least_one": 120,
+          "top1": 0,
+          "top5": 3,
+          "top32": 9,
+          "mrr": 0.011120496098852298
+        },
+        "jordan": {
+          "both": 24,
+          "at_least_one": 115,
+          "top1": 0,
+          "top5": 3,
+          "top32": 11,
+          "mrr": 0.016957098924710038
+        },
+        "pair_soft": {
+          "both": 24,
+          "at_least_one": 124,
+          "top1": 1,
+          "top5": 3,
+          "top32": 21,
+          "mrr": 0.024474828742252982
+        },
+        "fgssi": {
+          "both": 19,
+          "at_least_one": 115,
+          "top1": 1,
+          "top5": 3,
+          "top32": 11,
+          "mrr": 0.017804977567156623
+        },
+        "five_hard": {
+          "both": 24,
+          "at_least_one": 126,
+          "top1": 1,
+          "top5": 3,
+          "top32": 20,
+          "mrr": 0.02550039279948262
+        },
+        "snapshot": {
+          "both": 30,
+          "at_least_one": 127,
+          "top1": 1,
+          "top5": 5,
+          "top32": 21,
+          "mrr": 0.027427189416632077
+        },
+        "pair_hard": {
+          "both": 24,
+          "at_least_one": 125
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 12,
+          "lost": 7,
+          "difference_pp": 3.3333333333333326
+        },
+        "five_hard-fgssi": {
+          "gained": 11,
+          "lost": 6,
+          "difference_pp": 3.3333333333333326
+        },
+        "pair_soft-jordan": {
+          "gained": 10,
+          "lost": 10,
+          "difference_pp": 0.0
+        },
+        "five_hard-pair_soft": {
+          "gained": 1,
+          "lost": 1,
+          "difference_pp": 0.0
+        }
+      }
+    },
+    "Dept2-28": {
+      "n": 150,
+      "methods": {
+        "gcnsi": {
+          "both": 13,
+          "at_least_one": 126,
+          "top1": 0,
+          "top5": 0,
+          "top32": 4,
+          "mrr": 0.005965455402489185
+        },
+        "jordan": {
+          "both": 20,
+          "at_least_one": 125,
+          "top1": 0,
+          "top5": 2,
+          "top32": 12,
+          "mrr": 0.012441123447266245
+        },
+        "pair_soft": {
+          "both": 31,
+          "at_least_one": 128,
+          "top1": 3,
+          "top5": 5,
+          "top32": 19,
+          "mrr": 0.03826690409587113
+        },
+        "fgssi": {
+          "both": 16,
+          "at_least_one": 122,
+          "top1": 0,
+          "top5": 0,
+          "top32": 7,
+          "mrr": 0.0073999135124418695
+        },
+        "five_hard": {
+          "both": 28,
+          "at_least_one": 134,
+          "top1": 3,
+          "top5": 3,
+          "top32": 22,
+          "mrr": 0.03610973109656945
+        },
+        "snapshot": {
+          "both": 29,
+          "at_least_one": 121,
+          "top1": 0,
+          "top5": 5,
+          "top32": 22,
+          "mrr": 0.024471140326991495
+        },
+        "pair_hard": {
+          "both": 29,
+          "at_least_one": 135
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 22,
+          "lost": 7,
+          "difference_pp": 10.0
+        },
+        "five_hard-fgssi": {
+          "gained": 19,
+          "lost": 7,
+          "difference_pp": 8.0
+        },
+        "pair_soft-jordan": {
+          "gained": 17,
+          "lost": 6,
+          "difference_pp": 7.333333333333333
+        },
+        "five_hard-pair_soft": {
+          "gained": 2,
+          "lost": 5,
+          "difference_pp": -1.9999999999999991
+        }
+      }
+    }
+  },
+  "Enron": {
+    "all": {
+      "n": 1560,
+      "methods": {
+        "fgssi": {
+          "both": 80,
+          "at_least_one": 839,
+          "top1": 1,
+          "top5": 8,
+          "top32": 43,
+          "mrr": 0.005770734576852138
+        },
+        "jordan": {
+          "both": 104,
+          "at_least_one": 984,
+          "top1": 5,
+          "top5": 20,
+          "top32": 85,
+          "mrr": 0.012368291639647658
+        },
+        "five_hard": {
+          "both": 143,
+          "at_least_one": 1040,
+          "top1": 5,
+          "top5": 30,
+          "top32": 95,
+          "mrr": 0.014033468157472735
+        },
+        "pair_soft": {
+          "both": 137,
+          "at_least_one": 1008,
+          "top1": 6,
+          "top5": 29,
+          "top32": 83,
+          "mrr": 0.013739619830097447
+        },
+        "pair_hard": {
+          "both": 145,
+          "at_least_one": 1046,
+          "top1": 5,
+          "top5": 29,
+          "top32": 90,
+          "mrr": 0.014061558162982228
+        },
+        "snapshot": {
+          "both": 101,
+          "at_least_one": 799,
+          "top1": 3,
+          "top5": 18,
+          "top32": 85,
+          "mrr": 0.01078386202573292
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 97,
+          "lost": 40,
+          "difference_pp": 3.6538461538461533
+        },
+        "five_hard-fgssi": {
+          "gained": 100,
+          "lost": 37,
+          "difference_pp": 4.038461538461538
+        },
+        "pair_soft-jordan": {
+          "gained": 81,
+          "lost": 48,
+          "difference_pp": 2.115384615384615
+        },
+        "five_hard-pair_soft": {
+          "gained": 14,
+          "lost": 8,
+          "difference_pp": 0.38461538461538464
+        }
+      }
+    },
+    "Enron-01": {
+      "n": 60,
+      "methods": {
+        "fgssi": {
+          "both": 6,
+          "at_least_one": 41,
+          "top1": 0,
+          "top5": 3,
+          "top32": 4,
+          "mrr": 0.021452808442356964
+        },
+        "jordan": {
+          "both": 6,
+          "at_least_one": 43,
+          "top1": 0,
+          "top5": 1,
+          "top32": 4,
+          "mrr": 0.014455026280503512
+        },
+        "five_hard": {
+          "both": 5,
+          "at_least_one": 51,
+          "top1": 0,
+          "top5": 0,
+          "top32": 5,
+          "mrr": 0.008190323821377936
+        },
+        "pair_soft": {
+          "both": 4,
+          "at_least_one": 49,
+          "top1": 0,
+          "top5": 0,
+          "top32": 2,
+          "mrr": 0.006569143155656626
+        },
+        "pair_hard": {
+          "both": 5,
+          "at_least_one": 49,
+          "top1": 0,
+          "top5": 0,
+          "top32": 5,
+          "mrr": 0.008162825956299583
+        },
+        "snapshot": {
+          "both": 4,
+          "at_least_one": 32,
+          "top1": 0,
+          "top5": 1,
+          "top32": 2,
+          "mrr": 0.013049766746193566
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 1,
+          "lost": 3,
+          "difference_pp": -3.333333333333334
+        },
+        "five_hard-fgssi": {
+          "gained": 2,
+          "lost": 3,
+          "difference_pp": -1.6666666666666676
+        },
+        "pair_soft-jordan": {
+          "gained": 1,
+          "lost": 3,
+          "difference_pp": -3.333333333333334
+        },
+        "five_hard-pair_soft": {
+          "gained": 1,
+          "lost": 0,
+          "difference_pp": 1.6666666666666663
+        }
+      }
+    },
+    "emitters_1": {
+      "n": 1109,
+      "methods": {
+        "fgssi": {
+          "both": 29,
+          "at_least_one": 570,
+          "top1": 1,
+          "top5": 2,
+          "top32": 17,
+          "mrr": 0.003626005351842937
+        },
+        "jordan": {
+          "both": 28,
+          "at_least_one": 666,
+          "top1": 0,
+          "top5": 4,
+          "top32": 27,
+          "mrr": 0.004894695793879966
+        },
+        "five_hard": {
+          "both": 35,
+          "at_least_one": 691,
+          "top1": 1,
+          "top5": 7,
+          "top32": 22,
+          "mrr": 0.005257141581372668
+        },
+        "pair_soft": {
+          "both": 35,
+          "at_least_one": 663,
+          "top1": 2,
+          "top5": 6,
+          "top32": 17,
+          "mrr": 0.006168395486666744
+        },
+        "pair_hard": {
+          "both": 35,
+          "at_least_one": 694,
+          "top1": 1,
+          "top5": 7,
+          "top32": 20,
+          "mrr": 0.005192106696223972
+        },
+        "snapshot": {
+          "both": 26,
+          "at_least_one": 503,
+          "top1": 0,
+          "top5": 3,
+          "top32": 22,
+          "mrr": 0.0037677476271765803
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 27,
+          "lost": 21,
+          "difference_pp": 0.5410279531109109
+        },
+        "five_hard-fgssi": {
+          "gained": 27,
+          "lost": 21,
+          "difference_pp": 0.5410279531109109
+        },
+        "pair_soft-jordan": {
+          "gained": 25,
+          "lost": 18,
+          "difference_pp": 0.631199278629396
+        },
+        "five_hard-pair_soft": {
+          "gained": 5,
+          "lost": 5,
+          "difference_pp": 0.0
+        }
+      }
+    },
+    "emitters_2": {
+      "n": 451,
+      "methods": {
+        "fgssi": {
+          "both": 51,
+          "at_least_one": 269,
+          "top1": 0,
+          "top5": 6,
+          "top32": 26,
+          "mrr": 0.011044580941675203
+        },
+        "jordan": {
+          "both": 76,
+          "at_least_one": 318,
+          "top1": 5,
+          "top5": 16,
+          "top32": 58,
+          "mrr": 0.0307457146838968
+        },
+        "five_hard": {
+          "both": 108,
+          "at_least_one": 349,
+          "top1": 4,
+          "top5": 23,
+          "top32": 73,
+          "mrr": 0.03561428007076536
+        },
+        "pair_soft": {
+          "both": 102,
+          "at_least_one": 345,
+          "top1": 4,
+          "top5": 23,
+          "top32": 66,
+          "mrr": 0.032357109401859416
+        },
+        "pair_hard": {
+          "both": 110,
+          "at_least_one": 352,
+          "top1": 4,
+          "top5": 22,
+          "top32": 70,
+          "mrr": 0.03587136232403524
+        },
+        "snapshot": {
+          "both": 75,
+          "at_least_one": 296,
+          "top1": 3,
+          "top5": 15,
+          "top32": 63,
+          "mrr": 0.02803634732063088
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 70,
+          "lost": 19,
+          "difference_pp": 11.30820399113082
+        },
+        "five_hard-fgssi": {
+          "gained": 73,
+          "lost": 16,
+          "difference_pp": 12.63858093126386
+        },
+        "pair_soft-jordan": {
+          "gained": 56,
+          "lost": 30,
+          "difference_pp": 5.764966740576496
+        },
+        "five_hard-pair_soft": {
+          "gained": 9,
+          "lost": 3,
+          "difference_pp": 1.3303769401330379
+        }
+      }
+    },
+    "Enron-02": {
+      "n": 60,
+      "methods": {
+        "fgssi": {
+          "both": 1,
+          "at_least_one": 30,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 0.0018905547697689003
+        },
+        "jordan": {
+          "both": 3,
+          "at_least_one": 36,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 0.003281844938312252
+        },
+        "five_hard": {
+          "both": 4,
+          "at_least_one": 41,
+          "top1": 0,
+          "top5": 1,
+          "top32": 1,
+          "mrr": 0.006234219440276912
+        },
+        "pair_soft": {
+          "both": 3,
+          "at_least_one": 40,
+          "top1": 0,
+          "top5": 0,
+          "top32": 1,
+          "mrr": 0.00546579173439271
+        },
+        "pair_hard": {
+          "both": 4,
+          "at_least_one": 41,
+          "top1": 0,
+          "top5": 1,
+          "top32": 1,
+          "mrr": 0.006385503671732517
+        },
+        "snapshot": {
+          "both": 4,
+          "at_least_one": 30,
+          "top1": 0,
+          "top5": 0,
+          "top32": 2,
+          "mrr": 0.004930323626471403
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 3,
+          "lost": 1,
+          "difference_pp": 3.333333333333334
+        },
+        "five_hard-fgssi": {
+          "gained": 4,
+          "lost": 1,
+          "difference_pp": 5.0
+        },
+        "pair_soft-jordan": {
+          "gained": 2,
+          "lost": 2,
+          "difference_pp": 0.0
+        },
+        "five_hard-pair_soft": {
+          "gained": 1,
+          "lost": 0,
+          "difference_pp": 1.6666666666666663
+        }
+      }
+    },
+    "Enron-03": {
+      "n": 60,
+      "methods": {
+        "fgssi": {
+          "both": 2,
+          "at_least_one": 30,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 0.0027943778556691556
+        },
+        "jordan": {
+          "both": 3,
+          "at_least_one": 39,
+          "top1": 1,
+          "top5": 2,
+          "top32": 6,
+          "mrr": 0.033150367148260605
+        },
+        "five_hard": {
+          "both": 8,
+          "at_least_one": 44,
+          "top1": 0,
+          "top5": 1,
+          "top32": 5,
+          "mrr": 0.01427295247720216
+        },
+        "pair_soft": {
+          "both": 7,
+          "at_least_one": 45,
+          "top1": 0,
+          "top5": 0,
+          "top32": 5,
+          "mrr": 0.009321707431901733
+        },
+        "pair_hard": {
+          "both": 8,
+          "at_least_one": 44,
+          "top1": 0,
+          "top5": 1,
+          "top32": 5,
+          "mrr": 0.014220029651289936
+        },
+        "snapshot": {
+          "both": 5,
+          "at_least_one": 38,
+          "top1": 0,
+          "top5": 1,
+          "top32": 5,
+          "mrr": 0.016033866307213963
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 6,
+          "lost": 1,
+          "difference_pp": 8.333333333333334
+        },
+        "five_hard-fgssi": {
+          "gained": 6,
+          "lost": 0,
+          "difference_pp": 10.0
+        },
+        "pair_soft-jordan": {
+          "gained": 6,
+          "lost": 2,
+          "difference_pp": 6.666666666666667
+        },
+        "five_hard-pair_soft": {
+          "gained": 1,
+          "lost": 0,
+          "difference_pp": 1.6666666666666663
+        }
+      }
+    },
+    "Enron-04": {
+      "n": 60,
+      "methods": {
+        "fgssi": {
+          "both": 9,
+          "at_least_one": 34,
+          "top1": 0,
+          "top5": 0,
+          "top32": 4,
+          "mrr": 0.00772581552476113
+        },
+        "jordan": {
+          "both": 9,
+          "at_least_one": 47,
+          "top1": 0,
+          "top5": 0,
+          "top32": 6,
+          "mrr": 0.013454553181776279
+        },
+        "five_hard": {
+          "both": 9,
+          "at_least_one": 37,
+          "top1": 0,
+          "top5": 2,
+          "top32": 6,
+          "mrr": 0.01920549757859291
+        },
+        "pair_soft": {
+          "both": 9,
+          "at_least_one": 35,
+          "top1": 0,
+          "top5": 2,
+          "top32": 4,
+          "mrr": 0.018024404133837137
+        },
+        "pair_hard": {
+          "both": 9,
+          "at_least_one": 37,
+          "top1": 0,
+          "top5": 1,
+          "top32": 7,
+          "mrr": 0.018480725189426773
+        },
+        "snapshot": {
+          "both": 5,
+          "at_least_one": 34,
+          "top1": 0,
+          "top5": 0,
+          "top32": 6,
+          "mrr": 0.009969426378488277
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 2,
+          "lost": 2,
+          "difference_pp": 0.0
+        },
+        "five_hard-fgssi": {
+          "gained": 2,
+          "lost": 2,
+          "difference_pp": 0.0
+        },
+        "pair_soft-jordan": {
+          "gained": 2,
+          "lost": 2,
+          "difference_pp": 0.0
+        },
+        "five_hard-pair_soft": {
+          "gained": 0,
+          "lost": 0,
+          "difference_pp": 0.0
+        }
+      }
+    },
+    "Enron-05": {
+      "n": 60,
+      "methods": {
+        "fgssi": {
+          "both": 4,
+          "at_least_one": 35,
+          "top1": 0,
+          "top5": 0,
+          "top32": 2,
+          "mrr": 0.004892411128876095
+        },
+        "jordan": {
+          "both": 8,
+          "at_least_one": 44,
+          "top1": 1,
+          "top5": 4,
+          "top32": 9,
+          "mrr": 0.04082014779053408
+        },
+        "five_hard": {
+          "both": 12,
+          "at_least_one": 50,
+          "top1": 0,
+          "top5": 3,
+          "top32": 7,
+          "mrr": 0.02303575226991259
+        },
+        "pair_soft": {
+          "both": 12,
+          "at_least_one": 48,
+          "top1": 0,
+          "top5": 3,
+          "top32": 6,
+          "mrr": 0.018756456096950303
+        },
+        "pair_hard": {
+          "both": 13,
+          "at_least_one": 50,
+          "top1": 0,
+          "top5": 3,
+          "top32": 7,
+          "mrr": 0.023256974114845057
+        },
+        "snapshot": {
+          "both": 9,
+          "at_least_one": 35,
+          "top1": 0,
+          "top5": 2,
+          "top32": 9,
+          "mrr": 0.019104490377098528
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 9,
+          "lost": 1,
+          "difference_pp": 13.333333333333336
+        },
+        "five_hard-fgssi": {
+          "gained": 9,
+          "lost": 1,
+          "difference_pp": 13.333333333333336
+        },
+        "pair_soft-jordan": {
+          "gained": 5,
+          "lost": 1,
+          "difference_pp": 6.666666666666668
+        },
+        "five_hard-pair_soft": {
+          "gained": 0,
+          "lost": 0,
+          "difference_pp": 0.0
+        }
+      }
+    },
+    "Enron-06": {
+      "n": 60,
+      "methods": {
+        "fgssi": {
+          "both": 3,
+          "at_least_one": 28,
+          "top1": 0,
+          "top5": 0,
+          "top32": 1,
+          "mrr": 0.0029832425878334665
+        },
+        "jordan": {
+          "both": 1,
+          "at_least_one": 34,
+          "top1": 0,
+          "top5": 0,
+          "top32": 4,
+          "mrr": 0.0063497676437236205
+        },
+        "five_hard": {
+          "both": 8,
+          "at_least_one": 45,
+          "top1": 2,
+          "top5": 3,
+          "top32": 4,
+          "mrr": 0.0468605796517472
+        },
+        "pair_soft": {
+          "both": 6,
+          "at_least_one": 45,
+          "top1": 0,
+          "top5": 3,
+          "top32": 4,
+          "mrr": 0.02985859375420643
+        },
+        "pair_hard": {
+          "both": 7,
+          "at_least_one": 45,
+          "top1": 2,
+          "top5": 3,
+          "top32": 4,
+          "mrr": 0.04622918483614304
+        },
+        "snapshot": {
+          "both": 5,
+          "at_least_one": 33,
+          "top1": 0,
+          "top5": 1,
+          "top32": 4,
+          "mrr": 0.010663117593736959
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 5,
+          "lost": 2,
+          "difference_pp": 5.0
+        },
+        "five_hard-fgssi": {
+          "gained": 7,
+          "lost": 2,
+          "difference_pp": 8.333333333333332
+        },
+        "pair_soft-jordan": {
+          "gained": 5,
+          "lost": 0,
+          "difference_pp": 8.333333333333334
+        },
+        "five_hard-pair_soft": {
+          "gained": 2,
+          "lost": 0,
+          "difference_pp": 3.3333333333333326
+        }
+      }
+    },
+    "Enron-07": {
+      "n": 60,
+      "methods": {
+        "fgssi": {
+          "both": 3,
+          "at_least_one": 30,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 0.0024507064842696075
+        },
+        "jordan": {
+          "both": 1,
+          "at_least_one": 35,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 0.003695254957706359
+        },
+        "five_hard": {
+          "both": 4,
+          "at_least_one": 42,
+          "top1": 1,
+          "top5": 2,
+          "top32": 4,
+          "mrr": 0.029784902604602346
+        },
+        "pair_soft": {
+          "both": 4,
+          "at_least_one": 42,
+          "top1": 1,
+          "top5": 1,
+          "top32": 4,
+          "mrr": 0.0234426029829294
+        },
+        "pair_hard": {
+          "both": 4,
+          "at_least_one": 43,
+          "top1": 1,
+          "top5": 2,
+          "top32": 4,
+          "mrr": 0.029950691602227145
+        },
+        "snapshot": {
+          "both": 3,
+          "at_least_one": 40,
+          "top1": 0,
+          "top5": 1,
+          "top32": 2,
+          "mrr": 0.008892476399788437
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 3,
+          "lost": 2,
+          "difference_pp": 1.6666666666666663
+        },
+        "five_hard-fgssi": {
+          "gained": 3,
+          "lost": 2,
+          "difference_pp": 1.6666666666666663
+        },
+        "pair_soft-jordan": {
+          "gained": 4,
+          "lost": 1,
+          "difference_pp": 5.0
+        },
+        "five_hard-pair_soft": {
+          "gained": 0,
+          "lost": 0,
+          "difference_pp": 0.0
+        }
+      }
+    },
+    "Enron-08": {
+      "n": 60,
+      "methods": {
+        "fgssi": {
+          "both": 3,
+          "at_least_one": 24,
+          "top1": 0,
+          "top5": 0,
+          "top32": 3,
+          "mrr": 0.0055356658888834915
+        },
+        "jordan": {
+          "both": 8,
+          "at_least_one": 42,
+          "top1": 0,
+          "top5": 2,
+          "top32": 5,
+          "mrr": 0.022343467996780397
+        },
+        "five_hard": {
+          "both": 5,
+          "at_least_one": 41,
+          "top1": 0,
+          "top5": 0,
+          "top32": 5,
+          "mrr": 0.006556625887138964
+        },
+        "pair_soft": {
+          "both": 4,
+          "at_least_one": 40,
+          "top1": 0,
+          "top5": 1,
+          "top32": 4,
+          "mrr": 0.008596148933503724
+        },
+        "pair_hard": {
+          "both": 5,
+          "at_least_one": 43,
+          "top1": 0,
+          "top5": 0,
+          "top32": 4,
+          "mrr": 0.006290844538723358
+        },
+        "snapshot": {
+          "both": 2,
+          "at_least_one": 30,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 0.00216189642297043
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 2,
+          "lost": 1,
+          "difference_pp": 1.6666666666666663
+        },
+        "five_hard-fgssi": {
+          "gained": 3,
+          "lost": 1,
+          "difference_pp": 3.3333333333333326
+        },
+        "pair_soft-jordan": {
+          "gained": 1,
+          "lost": 5,
+          "difference_pp": -6.666666666666667
+        },
+        "five_hard-pair_soft": {
+          "gained": 1,
+          "lost": 0,
+          "difference_pp": 1.6666666666666663
+        }
+      }
+    },
+    "Enron-09": {
+      "n": 60,
+      "methods": {
+        "fgssi": {
+          "both": 1,
+          "at_least_one": 22,
+          "top1": 0,
+          "top5": 0,
+          "top32": 1,
+          "mrr": 0.0030842462361274684
+        },
+        "jordan": {
+          "both": 4,
+          "at_least_one": 28,
+          "top1": 0,
+          "top5": 0,
+          "top32": 2,
+          "mrr": 0.005339729508661815
+        },
+        "five_hard": {
+          "both": 1,
+          "at_least_one": 25,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 0.0018953467374885975
+        },
+        "pair_soft": {
+          "both": 2,
+          "at_least_one": 28,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 0.002111407628830489
+        },
+        "pair_hard": {
+          "both": 1,
+          "at_least_one": 26,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 0.001895537037038782
+        },
+        "snapshot": {
+          "both": 1,
+          "at_least_one": 22,
+          "top1": 0,
+          "top5": 0,
+          "top32": 1,
+          "mrr": 0.0022916368602643802
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 1,
+          "lost": 0,
+          "difference_pp": 1.6666666666666667
+        },
+        "five_hard-fgssi": {
+          "gained": 0,
+          "lost": 0,
+          "difference_pp": 0.0
+        },
+        "pair_soft-jordan": {
+          "gained": 1,
+          "lost": 3,
+          "difference_pp": -3.3333333333333335
+        },
+        "five_hard-pair_soft": {
+          "gained": 0,
+          "lost": 1,
+          "difference_pp": -1.6666666666666667
+        }
+      }
+    },
+    "Enron-10": {
+      "n": 60,
+      "methods": {
+        "fgssi": {
+          "both": 3,
+          "at_least_one": 30,
+          "top1": 0,
+          "top5": 0,
+          "top32": 1,
+          "mrr": 0.003643770803518115
+        },
+        "jordan": {
+          "both": 6,
+          "at_least_one": 44,
+          "top1": 1,
+          "top5": 3,
+          "top32": 8,
+          "mrr": 0.03405224472130405
+        },
+        "five_hard": {
+          "both": 4,
+          "at_least_one": 43,
+          "top1": 0,
+          "top5": 1,
+          "top32": 2,
+          "mrr": 0.012601092678393917
+        },
+        "pair_soft": {
+          "both": 3,
+          "at_least_one": 40,
+          "top1": 0,
+          "top5": 1,
+          "top32": 2,
+          "mrr": 0.009597647802776896
+        },
+        "pair_hard": {
+          "both": 4,
+          "at_least_one": 43,
+          "top1": 0,
+          "top5": 1,
+          "top32": 2,
+          "mrr": 0.012675585039036891
+        },
+        "snapshot": {
+          "both": 3,
+          "at_least_one": 23,
+          "top1": 0,
+          "top5": 1,
+          "top32": 3,
+          "mrr": 0.007808674945614937
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 1,
+          "lost": 1,
+          "difference_pp": 0.0
+        },
+        "five_hard-fgssi": {
+          "gained": 2,
+          "lost": 1,
+          "difference_pp": 1.6666666666666663
+        },
+        "pair_soft-jordan": {
+          "gained": 1,
+          "lost": 4,
+          "difference_pp": -5.0
+        },
+        "five_hard-pair_soft": {
+          "gained": 1,
+          "lost": 0,
+          "difference_pp": 1.6666666666666663
+        }
+      }
+    },
+    "Enron-11": {
+      "n": 60,
+      "methods": {
+        "fgssi": {
+          "both": 1,
+          "at_least_one": 27,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 0.0016173577213351284
+        },
+        "jordan": {
+          "both": 1,
+          "at_least_one": 40,
+          "top1": 0,
+          "top5": 1,
+          "top32": 3,
+          "mrr": 0.01169219531169729
+        },
+        "five_hard": {
+          "both": 4,
+          "at_least_one": 37,
+          "top1": 0,
+          "top5": 1,
+          "top32": 1,
+          "mrr": 0.006825365837210646
+        },
+        "pair_soft": {
+          "both": 4,
+          "at_least_one": 35,
+          "top1": 0,
+          "top5": 0,
+          "top32": 1,
+          "mrr": 0.004329721545867611
+        },
+        "pair_hard": {
+          "both": 4,
+          "at_least_one": 37,
+          "top1": 0,
+          "top5": 1,
+          "top32": 1,
+          "mrr": 0.006757830295785152
+        },
+        "snapshot": {
+          "both": 5,
+          "at_least_one": 37,
+          "top1": 0,
+          "top5": 1,
+          "top32": 2,
+          "mrr": 0.012578688277176623
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 4,
+          "lost": 1,
+          "difference_pp": 5.0
+        },
+        "five_hard-fgssi": {
+          "gained": 4,
+          "lost": 1,
+          "difference_pp": 5.0
+        },
+        "pair_soft-jordan": {
+          "gained": 3,
+          "lost": 0,
+          "difference_pp": 5.0
+        },
+        "five_hard-pair_soft": {
+          "gained": 0,
+          "lost": 0,
+          "difference_pp": 0.0
+        }
+      }
+    },
+    "Enron-12": {
+      "n": 60,
+      "methods": {
+        "fgssi": {
+          "both": 2,
+          "at_least_one": 38,
+          "top1": 0,
+          "top5": 0,
+          "top32": 1,
+          "mrr": 0.004106634436955618
+        },
+        "jordan": {
+          "both": 4,
+          "at_least_one": 47,
+          "top1": 0,
+          "top5": 1,
+          "top32": 6,
+          "mrr": 0.012418253060014098
+        },
+        "five_hard": {
+          "both": 6,
+          "at_least_one": 45,
+          "top1": 0,
+          "top5": 1,
+          "top32": 4,
+          "mrr": 0.012357326123191627
+        },
+        "pair_soft": {
+          "both": 5,
+          "at_least_one": 46,
+          "top1": 0,
+          "top5": 2,
+          "top32": 4,
+          "mrr": 0.014612512017578261
+        },
+        "pair_hard": {
+          "both": 6,
+          "at_least_one": 46,
+          "top1": 0,
+          "top5": 1,
+          "top32": 4,
+          "mrr": 0.012529257149505868
+        },
+        "snapshot": {
+          "both": 4,
+          "at_least_one": 25,
+          "top1": 0,
+          "top5": 1,
+          "top32": 4,
+          "mrr": 0.008204049552899056
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 3,
+          "lost": 0,
+          "difference_pp": 5.0
+        },
+        "five_hard-fgssi": {
+          "gained": 4,
+          "lost": 0,
+          "difference_pp": 6.666666666666668
+        },
+        "pair_soft-jordan": {
+          "gained": 2,
+          "lost": 1,
+          "difference_pp": 1.6666666666666663
+        },
+        "five_hard-pair_soft": {
+          "gained": 1,
+          "lost": 0,
+          "difference_pp": 1.6666666666666676
+        }
+      }
+    },
+    "Enron-13": {
+      "n": 60,
+      "methods": {
+        "fgssi": {
+          "both": 3,
+          "at_least_one": 43,
+          "top1": 0,
+          "top5": 1,
+          "top32": 2,
+          "mrr": 0.0075480160639751865
+        },
+        "jordan": {
+          "both": 3,
+          "at_least_one": 37,
+          "top1": 1,
+          "top5": 1,
+          "top32": 4,
+          "mrr": 0.02277340040304072
+        },
+        "five_hard": {
+          "both": 6,
+          "at_least_one": 33,
+          "top1": 0,
+          "top5": 3,
+          "top32": 5,
+          "mrr": 0.026122361113279865
+        },
+        "pair_soft": {
+          "both": 6,
+          "at_least_one": 31,
+          "top1": 0,
+          "top5": 3,
+          "top32": 5,
+          "mrr": 0.025897132519749795
+        },
+        "pair_hard": {
+          "both": 6,
+          "at_least_one": 32,
+          "top1": 0,
+          "top5": 3,
+          "top32": 5,
+          "mrr": 0.02604968901644058
+        },
+        "snapshot": {
+          "both": 8,
+          "at_least_one": 34,
+          "top1": 1,
+          "top5": 3,
+          "top32": 6,
+          "mrr": 0.03932350944231555
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 5,
+          "lost": 2,
+          "difference_pp": 5.0
+        },
+        "five_hard-fgssi": {
+          "gained": 5,
+          "lost": 2,
+          "difference_pp": 5.0
+        },
+        "pair_soft-jordan": {
+          "gained": 3,
+          "lost": 0,
+          "difference_pp": 5.0
+        },
+        "five_hard-pair_soft": {
+          "gained": 0,
+          "lost": 0,
+          "difference_pp": 0.0
+        }
+      }
+    },
+    "Enron-14": {
+      "n": 60,
+      "methods": {
+        "fgssi": {
+          "both": 6,
+          "at_least_one": 39,
+          "top1": 1,
+          "top5": 1,
+          "top32": 4,
+          "mrr": 0.021375960361725524
+        },
+        "jordan": {
+          "both": 6,
+          "at_least_one": 49,
+          "top1": 0,
+          "top5": 0,
+          "top32": 2,
+          "mrr": 0.005727126836110434
+        },
+        "five_hard": {
+          "both": 5,
+          "at_least_one": 43,
+          "top1": 0,
+          "top5": 0,
+          "top32": 1,
+          "mrr": 0.004135613373108786
+        },
+        "pair_soft": {
+          "both": 4,
+          "at_least_one": 43,
+          "top1": 0,
+          "top5": 0,
+          "top32": 1,
+          "mrr": 0.0037505111436959646
+        },
+        "pair_hard": {
+          "both": 5,
+          "at_least_one": 45,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 0.003980852077627959
+        },
+        "snapshot": {
+          "both": 2,
+          "at_least_one": 27,
+          "top1": 0,
+          "top5": 0,
+          "top32": 3,
+          "mrr": 0.004410495083609562
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 1,
+          "lost": 3,
+          "difference_pp": -3.333333333333334
+        },
+        "five_hard-fgssi": {
+          "gained": 0,
+          "lost": 1,
+          "difference_pp": -1.6666666666666676
+        },
+        "pair_soft-jordan": {
+          "gained": 2,
+          "lost": 4,
+          "difference_pp": -3.333333333333334
+        },
+        "five_hard-pair_soft": {
+          "gained": 2,
+          "lost": 1,
+          "difference_pp": 1.6666666666666663
+        }
+      }
+    },
+    "Enron-15": {
+      "n": 60,
+      "methods": {
+        "fgssi": {
+          "both": 1,
+          "at_least_one": 22,
+          "top1": 0,
+          "top5": 1,
+          "top32": 2,
+          "mrr": 0.010515813272373857
+        },
+        "jordan": {
+          "both": 3,
+          "at_least_one": 37,
+          "top1": 0,
+          "top5": 1,
+          "top32": 4,
+          "mrr": 0.013507348325631875
+        },
+        "five_hard": {
+          "both": 5,
+          "at_least_one": 32,
+          "top1": 1,
+          "top5": 1,
+          "top32": 3,
+          "mrr": 0.021119318649991992
+        },
+        "pair_soft": {
+          "both": 5,
+          "at_least_one": 31,
+          "top1": 2,
+          "top5": 2,
+          "top32": 3,
+          "mrr": 0.036461075817337214
+        },
+        "pair_hard": {
+          "both": 5,
+          "at_least_one": 32,
+          "top1": 1,
+          "top5": 1,
+          "top32": 3,
+          "mrr": 0.02132476941755696
+        },
+        "snapshot": {
+          "both": 3,
+          "at_least_one": 32,
+          "top1": 1,
+          "top5": 1,
+          "top32": 2,
+          "mrr": 0.01860440891687941
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 5,
+          "lost": 1,
+          "difference_pp": 6.666666666666667
+        },
+        "five_hard-fgssi": {
+          "gained": 5,
+          "lost": 1,
+          "difference_pp": 6.666666666666667
+        },
+        "pair_soft-jordan": {
+          "gained": 4,
+          "lost": 2,
+          "difference_pp": 3.3333333333333326
+        },
+        "five_hard-pair_soft": {
+          "gained": 0,
+          "lost": 0,
+          "difference_pp": 0.0
+        }
+      }
+    },
+    "Enron-16": {
+      "n": 60,
+      "methods": {
+        "fgssi": {
+          "both": 2,
+          "at_least_one": 34,
+          "top1": 0,
+          "top5": 0,
+          "top32": 1,
+          "mrr": 0.00216508806765844
+        },
+        "jordan": {
+          "both": 3,
+          "at_least_one": 34,
+          "top1": 0,
+          "top5": 0,
+          "top32": 1,
+          "mrr": 0.0047269512155251854
+        },
+        "five_hard": {
+          "both": 2,
+          "at_least_one": 32,
+          "top1": 0,
+          "top5": 1,
+          "top32": 3,
+          "mrr": 0.009224206576896921
+        },
+        "pair_soft": {
+          "both": 2,
+          "at_least_one": 31,
+          "top1": 0,
+          "top5": 2,
+          "top32": 2,
+          "mrr": 0.009294454649988402
+        },
+        "pair_hard": {
+          "both": 2,
+          "at_least_one": 32,
+          "top1": 0,
+          "top5": 1,
+          "top32": 3,
+          "mrr": 0.009663497175263026
+        },
+        "snapshot": {
+          "both": 3,
+          "at_least_one": 24,
+          "top1": 0,
+          "top5": 1,
+          "top32": 4,
+          "mrr": 0.014877589963797283
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 2,
+          "lost": 2,
+          "difference_pp": 0.0
+        },
+        "five_hard-fgssi": {
+          "gained": 2,
+          "lost": 2,
+          "difference_pp": 0.0
+        },
+        "pair_soft-jordan": {
+          "gained": 1,
+          "lost": 2,
+          "difference_pp": -1.666666666666667
+        },
+        "five_hard-pair_soft": {
+          "gained": 0,
+          "lost": 0,
+          "difference_pp": 0.0
+        }
+      }
+    },
+    "Enron-17": {
+      "n": 60,
+      "methods": {
+        "fgssi": {
+          "both": 4,
+          "at_least_one": 38,
+          "top1": 0,
+          "top5": 0,
+          "top32": 4,
+          "mrr": 0.006374876845168522
+        },
+        "jordan": {
+          "both": 6,
+          "at_least_one": 40,
+          "top1": 0,
+          "top5": 1,
+          "top32": 4,
+          "mrr": 0.01177363298177585
+        },
+        "five_hard": {
+          "both": 8,
+          "at_least_one": 44,
+          "top1": 0,
+          "top5": 3,
+          "top32": 7,
+          "mrr": 0.019632970944669002
+        },
+        "pair_soft": {
+          "both": 8,
+          "at_least_one": 40,
+          "top1": 0,
+          "top5": 2,
+          "top32": 6,
+          "mrr": 0.017685383601010105
+        },
+        "pair_hard": {
+          "both": 9,
+          "at_least_one": 44,
+          "top1": 0,
+          "top5": 3,
+          "top32": 6,
+          "mrr": 0.02234835170800795
+        },
+        "snapshot": {
+          "both": 7,
+          "at_least_one": 33,
+          "top1": 0,
+          "top5": 1,
+          "top32": 7,
+          "mrr": 0.01530990079006566
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 5,
+          "lost": 1,
+          "difference_pp": 6.666666666666667
+        },
+        "five_hard-fgssi": {
+          "gained": 5,
+          "lost": 1,
+          "difference_pp": 6.666666666666667
+        },
+        "pair_soft-jordan": {
+          "gained": 2,
+          "lost": 0,
+          "difference_pp": 3.3333333333333326
+        },
+        "five_hard-pair_soft": {
+          "gained": 1,
+          "lost": 1,
+          "difference_pp": 0.0
+        }
+      }
+    },
+    "Enron-18": {
+      "n": 60,
+      "methods": {
+        "fgssi": {
+          "both": 5,
+          "at_least_one": 40,
+          "top1": 0,
+          "top5": 0,
+          "top32": 1,
+          "mrr": 0.005723463281483756
+        },
+        "jordan": {
+          "both": 7,
+          "at_least_one": 41,
+          "top1": 0,
+          "top5": 1,
+          "top32": 3,
+          "mrr": 0.01020841228087526
+        },
+        "five_hard": {
+          "both": 8,
+          "at_least_one": 47,
+          "top1": 0,
+          "top5": 2,
+          "top32": 6,
+          "mrr": 0.023719580670513118
+        },
+        "pair_soft": {
+          "both": 8,
+          "at_least_one": 45,
+          "top1": 1,
+          "top5": 3,
+          "top32": 7,
+          "mrr": 0.03317376252688438
+        },
+        "pair_hard": {
+          "both": 8,
+          "at_least_one": 47,
+          "top1": 0,
+          "top5": 2,
+          "top32": 6,
+          "mrr": 0.023238425189485927
+        },
+        "snapshot": {
+          "both": 6,
+          "at_least_one": 38,
+          "top1": 0,
+          "top5": 1,
+          "top32": 5,
+          "mrr": 0.019865659398290145
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 6,
+          "lost": 3,
+          "difference_pp": 5.0
+        },
+        "five_hard-fgssi": {
+          "gained": 6,
+          "lost": 3,
+          "difference_pp": 5.0
+        },
+        "pair_soft-jordan": {
+          "gained": 6,
+          "lost": 5,
+          "difference_pp": 1.6666666666666663
+        },
+        "five_hard-pair_soft": {
+          "gained": 0,
+          "lost": 0,
+          "difference_pp": 0.0
+        }
+      }
+    },
+    "Enron-19": {
+      "n": 60,
+      "methods": {
+        "fgssi": {
+          "both": 3,
+          "at_least_one": 30,
+          "top1": 0,
+          "top5": 1,
+          "top32": 3,
+          "mrr": 0.007436052645044386
+        },
+        "jordan": {
+          "both": 3,
+          "at_least_one": 32,
+          "top1": 1,
+          "top5": 1,
+          "top32": 1,
+          "mrr": 0.01904342731468148
+        },
+        "five_hard": {
+          "both": 4,
+          "at_least_one": 36,
+          "top1": 0,
+          "top5": 1,
+          "top32": 4,
+          "mrr": 0.009333546815052
+        },
+        "pair_soft": {
+          "both": 5,
+          "at_least_one": 35,
+          "top1": 0,
+          "top5": 1,
+          "top32": 3,
+          "mrr": 0.008327382410305532
+        },
+        "pair_hard": {
+          "both": 5,
+          "at_least_one": 37,
+          "top1": 0,
+          "top5": 1,
+          "top32": 4,
+          "mrr": 0.009327683765002258
+        },
+        "snapshot": {
+          "both": 6,
+          "at_least_one": 35,
+          "top1": 0,
+          "top5": 0,
+          "top32": 2,
+          "mrr": 0.005241714406233103
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 3,
+          "lost": 1,
+          "difference_pp": 3.3333333333333326
+        },
+        "five_hard-fgssi": {
+          "gained": 3,
+          "lost": 2,
+          "difference_pp": 1.6666666666666663
+        },
+        "pair_soft-jordan": {
+          "gained": 3,
+          "lost": 1,
+          "difference_pp": 3.3333333333333326
+        },
+        "five_hard-pair_soft": {
+          "gained": 0,
+          "lost": 1,
+          "difference_pp": -1.6666666666666663
+        }
+      }
+    },
+    "Enron-20": {
+      "n": 60,
+      "methods": {
+        "fgssi": {
+          "both": 6,
+          "at_least_one": 39,
+          "top1": 0,
+          "top5": 0,
+          "top32": 3,
+          "mrr": 0.004184575775352822
+        },
+        "jordan": {
+          "both": 6,
+          "at_least_one": 37,
+          "top1": 0,
+          "top5": 0,
+          "top32": 2,
+          "mrr": 0.0052497699735297885
+        },
+        "five_hard": {
+          "both": 3,
+          "at_least_one": 31,
+          "top1": 0,
+          "top5": 0,
+          "top32": 1,
+          "mrr": 0.002983874283272706
+        },
+        "pair_soft": {
+          "both": 2,
+          "at_least_one": 34,
+          "top1": 0,
+          "top5": 0,
+          "top32": 2,
+          "mrr": 0.0034906821093170946
+        },
+        "pair_hard": {
+          "both": 3,
+          "at_least_one": 32,
+          "top1": 0,
+          "top5": 0,
+          "top32": 1,
+          "mrr": 0.0029418372280037687
+        },
+        "snapshot": {
+          "both": 3,
+          "at_least_one": 37,
+          "top1": 0,
+          "top5": 0,
+          "top32": 4,
+          "mrr": 0.005715777060726679
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 0,
+          "lost": 4,
+          "difference_pp": -6.666666666666668
+        },
+        "five_hard-fgssi": {
+          "gained": 0,
+          "lost": 3,
+          "difference_pp": -5.0
+        },
+        "pair_soft-jordan": {
+          "gained": 1,
+          "lost": 5,
+          "difference_pp": -6.666666666666668
+        },
+        "five_hard-pair_soft": {
+          "gained": 1,
+          "lost": 0,
+          "difference_pp": 1.666666666666667
+        }
+      }
+    },
+    "Enron-21": {
+      "n": 60,
+      "methods": {
+        "fgssi": {
+          "both": 0,
+          "at_least_one": 23,
+          "top1": 0,
+          "top5": 0,
+          "top32": 1,
+          "mrr": 0.0017713724595606007
+        },
+        "jordan": {
+          "both": 2,
+          "at_least_one": 28,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 0.0022527933424426726
+        },
+        "five_hard": {
+          "both": 6,
+          "at_least_one": 38,
+          "top1": 0,
+          "top5": 1,
+          "top32": 5,
+          "mrr": 0.008586988091509555
+        },
+        "pair_soft": {
+          "both": 8,
+          "at_least_one": 35,
+          "top1": 0,
+          "top5": 0,
+          "top32": 5,
+          "mrr": 0.007991970375218191
+        },
+        "pair_hard": {
+          "both": 6,
+          "at_least_one": 37,
+          "top1": 0,
+          "top5": 1,
+          "top32": 5,
+          "mrr": 0.009070419927713163
+        },
+        "snapshot": {
+          "both": 3,
+          "at_least_one": 29,
+          "top1": 1,
+          "top5": 2,
+          "top32": 5,
+          "mrr": 0.02551031459252025
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 8,
+          "lost": 0,
+          "difference_pp": 13.333333333333334
+        },
+        "five_hard-fgssi": {
+          "gained": 6,
+          "lost": 0,
+          "difference_pp": 10.0
+        },
+        "pair_soft-jordan": {
+          "gained": 8,
+          "lost": 2,
+          "difference_pp": 10.0
+        },
+        "five_hard-pair_soft": {
+          "gained": 0,
+          "lost": 2,
+          "difference_pp": -3.3333333333333326
+        }
+      }
+    },
+    "Enron-22": {
+      "n": 60,
+      "methods": {
+        "fgssi": {
+          "both": 3,
+          "at_least_one": 26,
+          "top1": 0,
+          "top5": 1,
+          "top32": 1,
+          "mrr": 0.009882364486541157
+        },
+        "jordan": {
+          "both": 2,
+          "at_least_one": 30,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 0.0015596735524189204
+        },
+        "five_hard": {
+          "both": 6,
+          "at_least_one": 36,
+          "top1": 0,
+          "top5": 1,
+          "top32": 4,
+          "mrr": 0.010746668031709983
+        },
+        "pair_soft": {
+          "both": 6,
+          "at_least_one": 36,
+          "top1": 1,
+          "top5": 2,
+          "top32": 4,
+          "mrr": 0.026495526569697805
+        },
+        "pair_hard": {
+          "both": 6,
+          "at_least_one": 37,
+          "top1": 0,
+          "top5": 1,
+          "top32": 4,
+          "mrr": 0.010506307768485237
+        },
+        "snapshot": {
+          "both": 2,
+          "at_least_one": 29,
+          "top1": 0,
+          "top5": 0,
+          "top32": 2,
+          "mrr": 0.0035091018860218775
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 5,
+          "lost": 2,
+          "difference_pp": 5.0
+        },
+        "five_hard-fgssi": {
+          "gained": 5,
+          "lost": 2,
+          "difference_pp": 5.0
+        },
+        "pair_soft-jordan": {
+          "gained": 4,
+          "lost": 0,
+          "difference_pp": 6.666666666666668
+        },
+        "five_hard-pair_soft": {
+          "gained": 0,
+          "lost": 0,
+          "difference_pp": 0.0
+        }
+      }
+    },
+    "Enron-23": {
+      "n": 60,
+      "methods": {
+        "fgssi": {
+          "both": 2,
+          "at_least_one": 27,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 0.00202173712070108
+        },
+        "jordan": {
+          "both": 0,
+          "at_least_one": 24,
+          "top1": 0,
+          "top5": 0,
+          "top32": 2,
+          "mrr": 0.004181031865631804
+        },
+        "five_hard": {
+          "both": 3,
+          "at_least_one": 35,
+          "top1": 0,
+          "top5": 0,
+          "top32": 4,
+          "mrr": 0.006357006970432469
+        },
+        "pair_soft": {
+          "both": 2,
+          "at_least_one": 31,
+          "top1": 0,
+          "top5": 0,
+          "top32": 3,
+          "mrr": 0.0054697328395274655
+        },
+        "pair_hard": {
+          "both": 3,
+          "at_least_one": 34,
+          "top1": 0,
+          "top5": 0,
+          "top32": 3,
+          "mrr": 0.006552352252803593
+        },
+        "snapshot": {
+          "both": 2,
+          "at_least_one": 31,
+          "top1": 0,
+          "top5": 0,
+          "top32": 4,
+          "mrr": 0.006278651015301276
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 2,
+          "lost": 2,
+          "difference_pp": 0.0
+        },
+        "five_hard-fgssi": {
+          "gained": 3,
+          "lost": 2,
+          "difference_pp": 1.666666666666667
+        },
+        "pair_soft-jordan": {
+          "gained": 2,
+          "lost": 0,
+          "difference_pp": 3.3333333333333335
+        },
+        "five_hard-pair_soft": {
+          "gained": 1,
+          "lost": 0,
+          "difference_pp": 1.666666666666667
+        }
+      }
+    },
+    "Enron-24": {
+      "n": 60,
+      "methods": {
+        "fgssi": {
+          "both": 3,
+          "at_least_one": 40,
+          "top1": 0,
+          "top5": 0,
+          "top32": 2,
+          "mrr": 0.003827095783587903
+        },
+        "jordan": {
+          "both": 4,
+          "at_least_one": 39,
+          "top1": 0,
+          "top5": 0,
+          "top32": 4,
+          "mrr": 0.006236861496649511
+        },
+        "five_hard": {
+          "both": 8,
+          "at_least_one": 45,
+          "top1": 0,
+          "top5": 1,
+          "top32": 4,
+          "mrr": 0.010886986582146525
+        },
+        "pair_soft": {
+          "both": 9,
+          "at_least_one": 40,
+          "top1": 0,
+          "top5": 0,
+          "top32": 4,
+          "mrr": 0.006398635026294013
+        },
+        "pair_hard": {
+          "both": 8,
+          "at_least_one": 47,
+          "top1": 0,
+          "top5": 1,
+          "top32": 3,
+          "mrr": 0.009604912831373267
+        },
+        "snapshot": {
+          "both": 0,
+          "at_least_one": 26,
+          "top1": 0,
+          "top5": 0,
+          "top32": 1,
+          "mrr": 0.0023737402587085403
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 8,
+          "lost": 2,
+          "difference_pp": 10.0
+        },
+        "five_hard-fgssi": {
+          "gained": 7,
+          "lost": 2,
+          "difference_pp": 8.333333333333332
+        },
+        "pair_soft-jordan": {
+          "gained": 6,
+          "lost": 1,
+          "difference_pp": 8.333333333333332
+        },
+        "five_hard-pair_soft": {
+          "gained": 0,
+          "lost": 1,
+          "difference_pp": -1.6666666666666663
+        }
+      }
+    },
+    "Enron-25": {
+      "n": 60,
+      "methods": {
+        "fgssi": {
+          "both": 2,
+          "at_least_one": 36,
+          "top1": 0,
+          "top5": 0,
+          "top32": 1,
+          "mrr": 0.002647607763492096
+        },
+        "jordan": {
+          "both": 2,
+          "at_least_one": 42,
+          "top1": 0,
+          "top5": 1,
+          "top32": 4,
+          "mrr": 0.008559840241700395
+        },
+        "five_hard": {
+          "both": 4,
+          "at_least_one": 45,
+          "top1": 1,
+          "top5": 1,
+          "top32": 2,
+          "mrr": 0.020157701402999766
+        },
+        "pair_soft": {
+          "both": 5,
+          "at_least_one": 42,
+          "top1": 1,
+          "top5": 1,
+          "top32": 1,
+          "mrr": 0.01958352634034375
+        },
+        "pair_hard": {
+          "both": 4,
+          "at_least_one": 45,
+          "top1": 1,
+          "top5": 1,
+          "top32": 2,
+          "mrr": 0.020182584404804013
+        },
+        "snapshot": {
+          "both": 3,
+          "at_least_one": 22,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 0.0019204865055436051
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 3,
+          "lost": 0,
+          "difference_pp": 5.0
+        },
+        "five_hard-fgssi": {
+          "gained": 2,
+          "lost": 0,
+          "difference_pp": 3.3333333333333335
+        },
+        "pair_soft-jordan": {
+          "gained": 3,
+          "lost": 0,
+          "difference_pp": 5.0
+        },
+        "five_hard-pair_soft": {
+          "gained": 0,
+          "lost": 1,
+          "difference_pp": -1.6666666666666663
+        }
+      }
+    },
+    "Enron-26": {
+      "n": 60,
+      "methods": {
+        "fgssi": {
+          "both": 2,
+          "at_least_one": 33,
+          "top1": 0,
+          "top5": 0,
+          "top32": 1,
+          "mrr": 0.002387483191135088
+        },
+        "jordan": {
+          "both": 3,
+          "at_least_one": 35,
+          "top1": 0,
+          "top5": 0,
+          "top32": 1,
+          "mrr": 0.0047224602615507875
+        },
+        "five_hard": {
+          "both": 5,
+          "at_least_one": 42,
+          "top1": 0,
+          "top5": 0,
+          "top32": 2,
+          "mrr": 0.004043363481572585
+        },
+        "pair_soft": {
+          "both": 4,
+          "at_least_one": 41,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 0.0025242024347325504
+        },
+        "pair_hard": {
+          "both": 5,
+          "at_least_one": 41,
+          "top1": 0,
+          "top5": 0,
+          "top32": 1,
+          "mrr": 0.003973840392916106
+        },
+        "snapshot": {
+          "both": 3,
+          "at_least_one": 23,
+          "top1": 0,
+          "top5": 0,
+          "top32": 0,
+          "mrr": 0.001750649861126392
+        }
+      },
+      "paired": {
+        "pair_soft-fgssi": {
+          "gained": 4,
+          "lost": 2,
+          "difference_pp": 3.3333333333333335
+        },
+        "five_hard-fgssi": {
+          "gained": 5,
+          "lost": 2,
+          "difference_pp": 5.0
+        },
+        "pair_soft-jordan": {
+          "gained": 3,
+          "lost": 2,
+          "difference_pp": 1.6666666666666663
+        },
+        "five_hard-pair_soft": {
+          "gained": 1,
+          "lost": 0,
+          "difference_pp": 1.6666666666666663
+        }
+      }
+    },
+    "calendar_block_intervals": {
+      "pair_soft-fgssi": [
+        2.4358974358974357,
+        4.935897435897436
+      ],
+      "five_hard-fgssi": [
+        2.8205128205128207,
+        5.32051282051282
+      ],
+      "pair_soft-jordan": [
+        0.19230769230769232,
+        3.91025641025641
+      ],
+      "five_hard-pair_soft": [
+        -0.1282051282051282,
+        0.8974358974358975
+      ]
+    }
+  }
+}

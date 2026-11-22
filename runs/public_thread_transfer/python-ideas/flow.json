@@ -1,0 +1,249 @@
+{
+  "headers": {
+    "parsed": 13053,
+    "unique": 13051,
+    "conflicting_ids": 0,
+    "resolved_messages": 11282,
+    "distinct_contacts": 11583
+  },
+  "months": [
+    {
+      "window": "2017-01",
+      "roster": 149,
+      "roots": 26,
+      "insufficient_suffix": 10,
+      "eligible": 16,
+      "scored": 16,
+      "both_in_history": 7
+    },
+    {
+      "window": "2017-02",
+      "roster": 142,
+      "roots": 29,
+      "eligible": 13,
+      "scored": 12,
+      "both_in_history": 7,
+      "no_second": 3,
+      "insufficient_suffix": 13
+    },
+    {
+      "window": "2017-03",
+      "roster": 134,
+      "roots": 29,
+      "insufficient_suffix": 13,
+      "no_second": 6,
+      "eligible": 10,
+      "scored": 10,
+      "both_in_history": 3
+    },
+    {
+      "window": "2017-04",
+      "roster": 148,
+      "roots": 11,
+      "insufficient_suffix": 7,
+      "eligible": 4,
+      "scored": 2,
+      "both_in_history": 3
+    },
+    {
+      "window": "2017-05",
+      "roster": 136,
+      "roots": 18,
+      "insufficient_suffix": 11,
+      "no_second": 3,
+      "eligible": 4,
+      "scored": 4,
+      "both_in_history": 1
+    },
+    {
+      "window": "2017-06",
+      "roster": 138,
+      "roots": 26,
+      "eligible": 15,
+      "scored": 13,
+      "both_in_history": 10,
+      "insufficient_suffix": 10,
+      "no_second": 1
+    },
+    {
+      "window": "2017-07",
+      "roster": 141,
+      "roots": 21,
+      "insufficient_suffix": 11,
+      "eligible": 8,
+      "scored": 7,
+      "both_in_history": 4,
+      "no_second": 2
+    },
+    {
+      "window": "2017-08",
+      "roster": 139,
+      "roots": 20,
+      "insufficient_suffix": 13,
+      "eligible": 6,
+      "scored": 5,
+      "both_in_history": 3,
+      "no_second": 1
+    },
+    {
+      "window": "2017-09",
+      "roster": 143,
+      "roots": 32,
+      "insufficient_suffix": 17,
+      "eligible": 11,
+      "scored": 10,
+      "both_in_history": 6,
+      "no_second": 4
+    },
+    {
+      "window": "2017-10",
+      "roster": 136,
+      "roots": 17,
+      "insufficient_suffix": 10,
+      "eligible": 6,
+      "scored": 6,
+      "both_in_history": 4,
+      "no_second": 1
+    },
+    {
+      "window": "2017-11",
+      "roster": 130,
+      "roots": 38,
+      "insufficient_suffix": 19,
+      "eligible": 16,
+      "scored": 15,
+      "both_in_history": 8,
+      "no_second": 3
+    },
+    {
+      "window": "2017-12",
+      "roster": 143,
+      "roots": 17,
+      "insufficient_suffix": 11,
+      "eligible": 5,
+      "scored": 5,
+      "both_in_history": 3,
+      "no_second": 1
+    },
+    {
+      "window": "2018-01",
+      "roster": 124,
+      "roots": 21,
+      "insufficient_suffix": 11,
+      "no_second": 3,
+      "eligible": 7,
+      "scored": 7,
+      "both_in_history": 3
+    },
+    {
+      "window": "2018-02",
+      "roster": 130,
+      "roots": 19,
+      "insufficient_suffix": 11,
+      "no_second": 3,
+      "eligible": 5,
+      "scored": 3,
+      "both_in_history": 4
+    },
+    {
+      "window": "2018-03",
+      "roster": 128,
+      "roots": 31,
+      "eligible": 11,
+      "scored": 10,
+      "both_in_history": 4,
+      "no_second": 8,
+      "insufficient_suffix": 12
+    },
+    {
+      "window": "2018-04",
+      "roster": 140,
+      "roots": 36,
+      "no_second": 4,
+      "insufficient_suffix": 16,
+      "eligible": 16,
+      "scored": 16,
+      "both_in_history": 6
+    },
+    {
+      "window": "2018-05",
+      "roster": 148,
+      "roots": 52,
+      "insufficient_suffix": 26,
+      "eligible": 20,
+      "scored": 17,
+      "both_in_history": 15,
+      "no_second": 6
+    },
+    {
+      "window": "2018-06",
+      "roster": 160,
+      "roots": 41,
+      "insufficient_suffix": 27,
+      "eligible": 13,
+      "scored": 11,
+      "both_in_history": 2,
+      "no_second": 1
+    },
+    {
+      "window": "2018-07",
+      "roster": 177,
+      "roots": 31,
+      "insufficient_suffix": 13,
+      "eligible": 15,
+      "scored": 13,
+      "both_in_history": 4,
+      "no_second": 3
+    },
+    {
+      "window": "2018-08",
+      "roster": 195,
+      "roots": 24,
+      "no_second": 3,
+      "eligible": 11,
+      "scored": 10,
+      "both_in_history": 7,
+      "insufficient_suffix": 10
+    },
+    {
+      "window": "2018-09",
+      "roster": 182,
+      "roots": 40,
+      "no_second": 7,
+      "eligible": 13,
+      "scored": 11,
+      "both_in_history": 7,
+      "insufficient_suffix": 20
+    },
+    {
+      "window": "2018-10",
+      "roster": 190,
+      "roots": 36,
+      "eligible": 12,
+      "scored": 11,
+      "both_in_history": 4,
+      "insufficient_suffix": 22,
+      "no_second": 2
+    },
+    {
+      "window": "2018-11",
+      "roster": 182,
+      "roots": 15,
+      "insufficient_suffix": 8,
+      "no_second": 3,
+      "eligible": 4,
+      "scored": 3,
+      "both_in_history": 2
+    },
+    {
+      "window": "2018-12",
+      "roster": 168,
+      "roots": 6,
+      "no_second": 1,
+      "insufficient_suffix": 3,
+      "eligible": 2,
+      "scored": 2,
+      "both_in_history": 0
+    }
+  ]
+}

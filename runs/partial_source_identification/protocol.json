@@ -1,0 +1,11 @@
+{
+  "primary": "Precision and response rate for naming one true source; target empirical calibration precision 80%, minimum 15 answers",
+  "split": "12 evenly spaced activity-eligible complete 14-day windows over 15%-100%; 5 fit, 3 calibration, 4 test",
+  "activity": "at least 100 directed within-roster contacts per window; retrospective cohort frame",
+  "per_window": "fit 140 dual; calibration and test 80 dual plus 25 ordinary, cap 60000; independently seeded",
+  "anchor": "Boosting supervised on mandatory identities in one realized world; compare ordinary source supervision and frequency",
+  "confidence": "maximum raw decision score; descriptive 100%, 25%, 10% calibration-quantile policies plus target80",
+  "partner": "conditional on correctly named anchor; 90% calibration rank fraction; evaluate conditional AND end-to-end coverage",
+  "oracle": "intersection of all compatible pairs; dual-compatible for dual subgroup, any compatible pair for ordinary",
+  "transfer_gate": "Leave Dept4 unexamined unless target80 names at least 15 test cases at >=80% precision on either development network."
+}

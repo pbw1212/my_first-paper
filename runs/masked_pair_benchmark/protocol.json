@@ -1,0 +1,21 @@
+{
+  "network": "Manufacturing emails; unchanged Dept3 proposal and parameters fitted on Dept3 only",
+  "span": [
+    0.3,
+    1.0
+  ],
+  "width_days": 14,
+  "dual_target": 35,
+  "ordinary_target": 15,
+  "primary": "dual cohort exact pair MRR, zero outside pool; secondary Top1/5/32, ordinary cohort",
+  "contrasts": [
+    "joint_tail vs ordered",
+    "joint_tail vs joint_full",
+    "joint_tail vs radius",
+    "joint_tail vs exhaustive snapshot"
+  ],
+  "history": "30 equiprobable draws cycled over at most six complete preceding 14-day windows",
+  "BO": "20 clusters and 50 EI queries, RBF GP, best queried pair first; Hamming peak stopped at first decline",
+  "seed": 196712,
+  "training": "same 770 conditional Dept3 events and 758 eligible pair rows as previous study"
+}

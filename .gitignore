@@ -1,0 +1,15 @@
+/data/
+__pycache__/
+*.py[cod]
+*.nbc
+*.nbi
+.venv/
+/runs/**/headers*/
+/runs/**/fgssi_upstream/
+/runs/temporal_pair_evidence/graphsl_gcnsi_model.py
+*.jsonl
+*.gz
+*.zip
+*.pt
+*.npz
+*.rda

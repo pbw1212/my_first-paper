@@ -1,0 +1,313 @@
+{
+  "validation": {
+    "full100": {
+      "n": 100,
+      "recall_top1_pair": 0.075,
+      "top1_exact": 0,
+      "node_hits": {
+        "8": 52,
+        "12": 69,
+        "20": 93,
+        "32": 131
+      },
+      "both_in_nodes": {
+        "8": 5,
+        "12": 8,
+        "20": 16,
+        "32": 37
+      },
+      "in_32_pairs": 5,
+      "lost_in_node_stage": 92,
+      "lost_in_pair_stage": 3
+    },
+    "history2000": {
+      "n": 100,
+      "recall_top1_pair": 0.06,
+      "top1_exact": 0,
+      "node_hits": {
+        "8": 43,
+        "12": 55,
+        "20": 84,
+        "32": 117
+      },
+      "both_in_nodes": {
+        "8": 2,
+        "12": 4,
+        "20": 13,
+        "32": 27
+      },
+      "in_32_pairs": 3,
+      "lost_in_node_stage": 96,
+      "lost_in_pair_stage": 1
+    },
+    "full2000": {
+      "n": 100,
+      "recall_top1_pair": 0.075,
+      "top1_exact": 0,
+      "node_hits": {
+        "8": 48,
+        "12": 66,
+        "20": 95,
+        "32": 126
+      },
+      "both_in_nodes": {
+        "8": 3,
+        "12": 6,
+        "20": 18,
+        "32": 35
+      },
+      "in_32_pairs": 4,
+      "lost_in_node_stage": 94,
+      "lost_in_pair_stage": 2
+    }
+  },
+  "window": {
+    "validation-02": {
+      "n": 25,
+      "recall_top1_pair": 0.1,
+      "top1_exact": 0,
+      "node_hits": {
+        "8": 16,
+        "12": 19,
+        "20": 26,
+        "32": 35
+      },
+      "both_in_nodes": {
+        "8": 1,
+        "12": 2,
+        "20": 6,
+        "32": 12
+      },
+      "in_32_pairs": 1,
+      "lost_in_node_stage": 23,
+      "lost_in_pair_stage": 1
+    },
+    "validation-01": {
+      "n": 43,
+      "recall_top1_pair": 0.046511627906976744,
+      "top1_exact": 0,
+      "node_hits": {
+        "8": 13,
+        "12": 24,
+        "20": 37,
+        "32": 49
+      },
+      "both_in_nodes": {
+        "8": 0,
+        "12": 2,
+        "20": 6,
+        "32": 12
+      },
+      "in_32_pairs": 1,
+      "lost_in_node_stage": 41,
+      "lost_in_pair_stage": 1
+    },
+    "validation-03": {
+      "n": 32,
+      "recall_top1_pair": 0.09375,
+      "top1_exact": 0,
+      "node_hits": {
+        "8": 19,
+        "12": 23,
+        "20": 32,
+        "32": 42
+      },
+      "both_in_nodes": {
+        "8": 2,
+        "12": 2,
+        "20": 6,
+        "32": 11
+      },
+      "in_32_pairs": 2,
+      "lost_in_node_stage": 30,
+      "lost_in_pair_stage": 0
+    }
+  },
+  "direct_sources": {
+    "2": {
+      "n": 32,
+      "recall_top1_pair": 0.0625,
+      "top1_exact": 0,
+      "node_hits": {
+        "8": 18,
+        "12": 25,
+        "20": 37,
+        "32": 52
+      },
+      "both_in_nodes": {
+        "8": 3,
+        "12": 5,
+        "20": 12,
+        "32": 22
+      },
+      "in_32_pairs": 3,
+      "lost_in_node_stage": 27,
+      "lost_in_pair_stage": 2
+    },
+    "1": {
+      "n": 68,
+      "recall_top1_pair": 0.08088235294117647,
+      "top1_exact": 0,
+      "node_hits": {
+        "8": 30,
+        "12": 41,
+        "20": 58,
+        "32": 74
+      },
+      "both_in_nodes": {
+        "8": 0,
+        "12": 1,
+        "20": 6,
+        "32": 13
+      },
+      "in_32_pairs": 1,
+      "lost_in_node_stage": 67,
+      "lost_in_pair_stage": 0
+    }
+  },
+  "sources_with_visible_descendants": {
+    "1": {
+      "n": 80,
+      "recall_top1_pair": 0.08125,
+      "top1_exact": 0,
+      "node_hits": {
+        "8": 37,
+        "12": 49,
+        "20": 71,
+        "32": 94
+      },
+      "both_in_nodes": {
+        "8": 1,
+        "12": 2,
+        "20": 10,
+        "32": 22
+      },
+      "in_32_pairs": 2,
+      "lost_in_node_stage": 78,
+      "lost_in_pair_stage": 0
+    },
+    "2": {
+      "n": 20,
+      "recall_top1_pair": 0.05,
+      "top1_exact": 0,
+      "node_hits": {
+        "8": 11,
+        "12": 17,
+        "20": 24,
+        "32": 32
+      },
+      "both_in_nodes": {
+        "8": 2,
+        "12": 4,
+        "20": 8,
+        "32": 13
+      },
+      "in_32_pairs": 2,
+      "lost_in_node_stage": 16,
+      "lost_in_pair_stage": 2
+    }
+  },
+  "one_silent": {
+    "cases": 68,
+    "active_in12": 38,
+    "silent_in12": 3
+  },
+  "fixed_pair_budget": {
+    "12": 4,
+    "20": 4,
+    "32": 4
+  },
+  "random_expected": {
+    "both_in12_rate": 0.02137423694803643,
+    "in32_rate": 0.010363266399047964
+  },
+  "cover_vs_full_pair32": {
+    "both": 1,
+    "new_only": 3,
+    "cover_only": 0,
+    "neither": 96
+  },
+  "rolling": {
+    "rolling_10": {
+      "n": 266,
+      "recall_top1_pair": 0.14097744360902256,
+      "top1_exact": 1,
+      "node_hits": {
+        "8": 194,
+        "12": 243,
+        "20": 296,
+        "32": 379
+      },
+      "both_in_nodes": {
+        "8": 33,
+        "12": 48,
+        "20": 72,
+        "32": 123
+      },
+      "in_32_pairs": 35,
+      "lost_in_node_stage": 218,
+      "lost_in_pair_stage": 13
+    },
+    "rolling_15": {
+      "n": 551,
+      "recall_top1_pair": 0.09618874773139746,
+      "top1_exact": 1,
+      "node_hits": {
+        "8": 318,
+        "12": 397,
+        "20": 521,
+        "32": 683
+      },
+      "both_in_nodes": {
+        "8": 32,
+        "12": 53,
+        "20": 111,
+        "32": 189
+      },
+      "in_32_pairs": 29,
+      "lost_in_node_stage": 498,
+      "lost_in_pair_stage": 24
+    },
+    "rolling_20": {
+      "n": 323,
+      "recall_top1_pair": 0.08978328173374613,
+      "top1_exact": 2,
+      "node_hits": {
+        "8": 146,
+        "12": 207,
+        "20": 298,
+        "32": 388
+      },
+      "both_in_nodes": {
+        "8": 10,
+        "12": 25,
+        "20": 58,
+        "32": 102
+      },
+      "in_32_pairs": 9,
+      "lost_in_node_stage": 298,
+      "lost_in_pair_stage": 16
+    }
+  },
+  "rolling_pool": {
+    "n": 1140,
+    "recall_top1_pair": 0.10482456140350878,
+    "top1_exact": 4,
+    "node_hits": {
+      "8": 658,
+      "12": 847,
+      "20": 1115,
+      "32": 1450
+    },
+    "both_in_nodes": {
+      "8": 75,
+      "12": 126,
+      "20": 241,
+      "32": 414
+    },
+    "in_32_pairs": 73,
+    "lost_in_node_stage": 1014,
+    "lost_in_pair_stage": 53
+  },
+  "train_attempts": 6596
+}

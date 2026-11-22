@@ -1,0 +1,20 @@
+{
+  "primary": "both genuine sources among 12 names",
+  "training": [
+    "Dept2",
+    "company"
+  ],
+  "windows": [
+    "CollegeMsg-08",
+    "CollegeMsg-09",
+    "CollegeMsg-10",
+    "CollegeMsg-11"
+  ],
+  "draw": "40 dual and 15 ordinary per window, same actual cases for every predictor; record shortfalls",
+  "seed": 692081,
+  "models": "all weights fixed, no target calibration, budget 12",
+  "weights": {
+    "Dept2": "711c1cf25a4480262974d5e4d99d78d9a5461eced0f429b61b70d19b0f82643b",
+    "company": "3ba5588401153f8d4165b38521a12184d81ed9ed83ebe245790e07feb606be8a"
+  }
+}

@@ -1,0 +1,414 @@
+{
+  "train_has_two_lineages": {
+    "matched": 37,
+    "conditional": 440
+  },
+  "validation": {
+    "original_32": {
+      "events": 200,
+      "both": 31,
+      "top1": 1,
+      "top32": 9,
+      "median_ms": 0.835,
+      "total_seconds": 0.179
+    },
+    "original_64": {
+      "events": 200,
+      "both": 58,
+      "top1": 2,
+      "top32": 7,
+      "median_ms": 3.308,
+      "total_seconds": 0.689
+    },
+    "matched_32": {
+      "events": 200,
+      "both": 29,
+      "top1": 0,
+      "top32": 7,
+      "median_ms": 0.832,
+      "total_seconds": 0.178
+    },
+    "matched_64": {
+      "events": 200,
+      "both": 58,
+      "top1": 1,
+      "top32": 6,
+      "median_ms": 3.351,
+      "total_seconds": 0.698
+    },
+    "conditional_32": {
+      "events": 200,
+      "both": 35,
+      "top1": 1,
+      "top32": 7,
+      "median_ms": 0.834,
+      "total_seconds": 0.183
+    },
+    "conditional_64": {
+      "events": 200,
+      "both": 63,
+      "top1": 0,
+      "top32": 7,
+      "median_ms": 3.283,
+      "total_seconds": 0.683
+    }
+  },
+  "windows": {
+    "validation-01": {
+      "original_32": {
+        "events": 40,
+        "both": 5,
+        "top1": 1,
+        "top32": 3,
+        "median_ms": 0.809,
+        "total_seconds": 0.034
+      },
+      "original_64": {
+        "events": 40,
+        "both": 10,
+        "top1": 1,
+        "top32": 3,
+        "median_ms": 3.178,
+        "total_seconds": 0.128
+      },
+      "matched_32": {
+        "events": 40,
+        "both": 2,
+        "top1": 0,
+        "top32": 0,
+        "median_ms": 0.806,
+        "total_seconds": 0.035
+      },
+      "matched_64": {
+        "events": 40,
+        "both": 6,
+        "top1": 0,
+        "top32": 0,
+        "median_ms": 3.233,
+        "total_seconds": 0.131
+      },
+      "conditional_32": {
+        "events": 40,
+        "both": 4,
+        "top1": 1,
+        "top32": 2,
+        "median_ms": 0.811,
+        "total_seconds": 0.034
+      },
+      "conditional_64": {
+        "events": 40,
+        "both": 10,
+        "top1": 0,
+        "top32": 4,
+        "median_ms": 3.21,
+        "total_seconds": 0.13
+      }
+    },
+    "validation-02": {
+      "original_32": {
+        "events": 40,
+        "both": 5,
+        "top1": 0,
+        "top32": 1,
+        "median_ms": 0.926,
+        "total_seconds": 0.04
+      },
+      "original_64": {
+        "events": 40,
+        "both": 11,
+        "top1": 0,
+        "top32": 0,
+        "median_ms": 3.568,
+        "total_seconds": 0.151
+      },
+      "matched_32": {
+        "events": 40,
+        "both": 8,
+        "top1": 0,
+        "top32": 1,
+        "median_ms": 0.926,
+        "total_seconds": 0.038
+      },
+      "matched_64": {
+        "events": 40,
+        "both": 13,
+        "top1": 0,
+        "top32": 1,
+        "median_ms": 3.635,
+        "total_seconds": 0.155
+      },
+      "conditional_32": {
+        "events": 40,
+        "both": 7,
+        "top1": 0,
+        "top32": 0,
+        "median_ms": 0.942,
+        "total_seconds": 0.04
+      },
+      "conditional_64": {
+        "events": 40,
+        "both": 14,
+        "top1": 0,
+        "top32": 0,
+        "median_ms": 3.725,
+        "total_seconds": 0.155
+      }
+    },
+    "validation-03": {
+      "original_32": {
+        "events": 40,
+        "both": 4,
+        "top1": 0,
+        "top32": 2,
+        "median_ms": 0.845,
+        "total_seconds": 0.036
+      },
+      "original_64": {
+        "events": 40,
+        "both": 6,
+        "top1": 0,
+        "top32": 1,
+        "median_ms": 3.365,
+        "total_seconds": 0.137
+      },
+      "matched_32": {
+        "events": 40,
+        "both": 2,
+        "top1": 0,
+        "top32": 1,
+        "median_ms": 0.842,
+        "total_seconds": 0.036
+      },
+      "matched_64": {
+        "events": 40,
+        "both": 6,
+        "top1": 0,
+        "top32": 1,
+        "median_ms": 3.311,
+        "total_seconds": 0.136
+      },
+      "conditional_32": {
+        "events": 40,
+        "both": 4,
+        "top1": 0,
+        "top32": 2,
+        "median_ms": 0.859,
+        "total_seconds": 0.037
+      },
+      "conditional_64": {
+        "events": 40,
+        "both": 6,
+        "top1": 0,
+        "top32": 1,
+        "median_ms": 3.36,
+        "total_seconds": 0.137
+      }
+    },
+    "validation-04": {
+      "original_32": {
+        "events": 40,
+        "both": 6,
+        "top1": 0,
+        "top32": 1,
+        "median_ms": 0.853,
+        "total_seconds": 0.036
+      },
+      "original_64": {
+        "events": 40,
+        "both": 12,
+        "top1": 1,
+        "top32": 2,
+        "median_ms": 3.301,
+        "total_seconds": 0.139
+      },
+      "matched_32": {
+        "events": 40,
+        "both": 7,
+        "top1": 0,
+        "top32": 3,
+        "median_ms": 0.853,
+        "total_seconds": 0.037
+      },
+      "matched_64": {
+        "events": 40,
+        "both": 12,
+        "top1": 1,
+        "top32": 2,
+        "median_ms": 3.311,
+        "total_seconds": 0.14
+      },
+      "conditional_32": {
+        "events": 40,
+        "both": 6,
+        "top1": 0,
+        "top32": 1,
+        "median_ms": 0.901,
+        "total_seconds": 0.037
+      },
+      "conditional_64": {
+        "events": 40,
+        "both": 12,
+        "top1": 0,
+        "top32": 1,
+        "median_ms": 3.286,
+        "total_seconds": 0.134
+      }
+    },
+    "validation-05": {
+      "original_32": {
+        "events": 40,
+        "both": 11,
+        "top1": 0,
+        "top32": 2,
+        "median_ms": 0.791,
+        "total_seconds": 0.033
+      },
+      "original_64": {
+        "events": 40,
+        "both": 19,
+        "top1": 0,
+        "top32": 1,
+        "median_ms": 3.169,
+        "total_seconds": 0.133
+      },
+      "matched_32": {
+        "events": 40,
+        "both": 10,
+        "top1": 0,
+        "top32": 2,
+        "median_ms": 0.765,
+        "total_seconds": 0.032
+      },
+      "matched_64": {
+        "events": 40,
+        "both": 21,
+        "top1": 0,
+        "top32": 2,
+        "median_ms": 3.289,
+        "total_seconds": 0.135
+      },
+      "conditional_32": {
+        "events": 40,
+        "both": 14,
+        "top1": 0,
+        "top32": 2,
+        "median_ms": 0.795,
+        "total_seconds": 0.035
+      },
+      "conditional_64": {
+        "events": 40,
+        "both": 21,
+        "top1": 0,
+        "top32": 1,
+        "median_ms": 3.107,
+        "total_seconds": 0.127
+      }
+    }
+  },
+  "rolling": {
+    "6": {
+      "n": 80,
+      "original": 7,
+      "matched": 4,
+      "conditional": 6
+    },
+    "8": {
+      "n": 80,
+      "original": 11,
+      "matched": 11,
+      "conditional": 6
+    },
+    "10": {
+      "n": 80,
+      "original": 11,
+      "matched": 14,
+      "conditional": 11
+    }
+  },
+  "paired": {
+    "original32_to_conditional32": {
+      "both": {
+        "gained": 7,
+        "lost": 3,
+        "shared": 28
+      },
+      "top32": {
+        "gained": 1,
+        "lost": 3,
+        "shared": 6
+      }
+    },
+    "original64_to_conditional64": {
+      "both": {
+        "gained": 6,
+        "lost": 1,
+        "shared": 57
+      },
+      "top32": {
+        "gained": 1,
+        "lost": 1,
+        "shared": 6
+      }
+    },
+    "matched32_to_conditional32": {
+      "both": {
+        "gained": 12,
+        "lost": 6,
+        "shared": 23
+      },
+      "top32": {
+        "gained": 3,
+        "lost": 3,
+        "shared": 4
+      }
+    },
+    "matched64_to_conditional64": {
+      "both": {
+        "gained": 14,
+        "lost": 9,
+        "shared": 49
+      },
+      "top32": {
+        "gained": 4,
+        "lost": 3,
+        "shared": 3
+      }
+    },
+    "original32_to_original64": {
+      "both": {
+        "gained": 27,
+        "lost": 0,
+        "shared": 31
+      },
+      "top32": {
+        "gained": 3,
+        "lost": 5,
+        "shared": 4
+      }
+    },
+    "matched32_to_matched64": {
+      "both": {
+        "gained": 29,
+        "lost": 0,
+        "shared": 29
+      },
+      "top32": {
+        "gained": 3,
+        "lost": 4,
+        "shared": 3
+      }
+    },
+    "conditional32_to_conditional64": {
+      "both": {
+        "gained": 28,
+        "lost": 0,
+        "shared": 35
+      },
+      "top32": {
+        "gained": 4,
+        "lost": 4,
+        "shared": 3
+      }
+    }
+  }
+}

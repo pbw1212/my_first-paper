@@ -1,0 +1,108 @@
+{
+  "primary": "role_suffix minus reply, both documented early authors in 12; all early-only eligible roots in each test list",
+  "controls": "roles only, historical direct replies, month-start 28-day post count, frozen Dept2 mixed_offset",
+  "historical_documents": "root starts within previous 98 days; 14-day follow-up finished strictly before cutoff; unique second and at least one later distinct author",
+  "evidence": "per role, smoothed probability ratio of each observed later speaker conditional on candidate role to corpus prevalence; mean and maximum log ratio",
+  "smoothing": 8.0,
+  "training": "Python-dev and Python-ideas Jan 2017-May 2018; June embargo; Jul-Dec 2018 select regularization by role NLL",
+  "known_targets": "previously evaluated R lists and GNU libc; no target-event fit or target-based parameter selection",
+  "models": {
+    "roles": [
+      {
+        "reg": 0.01,
+        "fit_n": 425,
+        "val_n": 108,
+        "val_nll": 4.162060200772333,
+        "theta": [
+          0.33296137276512644,
+          0.4286037062236781,
+          0.642069108905145,
+          0.23224812127575753
+        ]
+      },
+      {
+        "reg": 0.01,
+        "fit_n": 606,
+        "val_n": 195,
+        "val_nll": 3.9572299527636967,
+        "theta": [
+          0.3100065202894621,
+          0.8035922589692244,
+          -0.2521441557272052,
+          0.5482489439546513
+        ]
+      }
+    ],
+    "reply": [
+      {
+        "reg": 0.01,
+        "fit_n": 425,
+        "val_n": 108,
+        "val_nll": 4.142338073628951,
+        "theta": [
+          0.3436325821721024,
+          0.4345829399146705,
+          0.6345540985656875,
+          0.23463718953725693,
+          -0.46913900260844665,
+          0.3467538658144861
+        ]
+      },
+      {
+        "reg": 0.01,
+        "fit_n": 606,
+        "val_n": 195,
+        "val_nll": 3.956204915299045,
+        "theta": [
+          0.303475139101814,
+          0.8043215441660831,
+          -0.2548082896077876,
+          0.5476040506055421,
+          -0.03942401146002142,
+          0.07614937957490735
+        ]
+      }
+    ],
+    "role_suffix": [
+      {
+        "reg": 0.01,
+        "fit_n": 425,
+        "val_n": 108,
+        "val_nll": 4.134904618139599,
+        "theta": [
+          0.35758055949452205,
+          0.4137332308262155,
+          0.6028972269727381,
+          0.2468231770391685,
+          -0.4700099511077461,
+          0.3031653961231886,
+          0.23020631440459016,
+          0.350826362710826
+        ]
+      },
+      {
+        "reg": 0.01,
+        "fit_n": 606,
+        "val_n": 195,
+        "val_nll": 3.951798577833747,
+        "theta": [
+          0.3047994575463633,
+          0.8016482123940939,
+          -0.2503700017889399,
+          0.513102236907697,
+          -0.03829651444123294,
+          0.07398102313230012,
+          -0.17561870864749557,
+          0.1718567068831685
+        ]
+      }
+    ]
+  },
+  "hashes": {
+    "member_role_evidence.py": "1848d615d6ea9b9b93743209ea5df44c10066312d9cd68ff94ba9c7b0810eee0",
+    "protocol.json": "6cd153732a7c99fb09c964fb9eb946966ba7b31190332dd8e06eb1016b3fe8ed",
+    "python-dev-headers.jsonl.gz": "dce5157bf5495b26e07d505a5dc25e0f3708db620e9d8776e6295ed7c3cb3324",
+    "python-ideas-headers.jsonl.gz": "49c0fa5cf33a0fea56432c4bd412d06ef263ba0048da5f3170cdc0441b7ce095",
+    "historical_thread_roles.py": "169dc6ae225e5800c49896cffec9f945222d2fdcf3b382a089caf094b4ddfeaf"
+  }
+}

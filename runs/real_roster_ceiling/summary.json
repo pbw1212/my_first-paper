@@ -1,0 +1,226 @@
+{
+  "python-dev": {
+    "edge98_gated": {
+      "n": 174,
+      "both_reachable": 108,
+      "both_hit": 25,
+      "first_seen": 132,
+      "second_seen": 165,
+      "issued": 146,
+      "median_candidates": 134.0
+    },
+    "edge98": {
+      "n": 174,
+      "both_reachable": 126,
+      "both_hit": 28,
+      "first_seen": 132,
+      "second_seen": 165,
+      "issued": 174,
+      "median_candidates": 134.0
+    },
+    "post98": {
+      "n": 174,
+      "both_reachable": 127,
+      "both_hit": 28,
+      "first_seen": 133,
+      "second_seen": 165,
+      "issued": 174,
+      "median_candidates": 141.0
+    },
+    "archive_at_month": {
+      "n": 174,
+      "both_reachable": 146,
+      "both_hit": 28,
+      "first_seen": 151,
+      "second_seen": 168,
+      "issued": 174,
+      "median_candidates": 353.0
+    },
+    "archive_safe_clock": {
+      "n": 174,
+      "both_reachable": 146,
+      "both_hit": 30,
+      "first_seen": 151,
+      "second_seen": 168,
+      "issued": 174,
+      "median_candidates": 353.0
+    },
+    "archive_at_root": {
+      "n": 174,
+      "both_reachable": 147,
+      "both_hit": 40,
+      "first_seen": 152,
+      "second_seen": 168,
+      "issued": 174,
+      "median_candidates": 353.0
+    }
+  },
+  "python-ideas": {
+    "edge98_gated": {
+      "n": 243,
+      "both_reachable": 108,
+      "both_hit": 17,
+      "first_seen": 128,
+      "second_seen": 222,
+      "issued": 219,
+      "median_candidates": 139.0
+    },
+    "edge98": {
+      "n": 243,
+      "both_reachable": 117,
+      "both_hit": 18,
+      "first_seen": 128,
+      "second_seen": 222,
+      "issued": 243,
+      "median_candidates": 139.0
+    },
+    "post98": {
+      "n": 243,
+      "both_reachable": 119,
+      "both_hit": 18,
+      "first_seen": 129,
+      "second_seen": 223,
+      "issued": 243,
+      "median_candidates": 143.0
+    },
+    "archive_at_month": {
+      "n": 243,
+      "both_reachable": 137,
+      "both_hit": 18,
+      "first_seen": 145,
+      "second_seen": 229,
+      "issued": 243,
+      "median_candidates": 350.0
+    },
+    "archive_safe_clock": {
+      "n": 243,
+      "both_reachable": 139,
+      "both_hit": 17,
+      "first_seen": 145,
+      "second_seen": 233,
+      "issued": 243,
+      "median_candidates": 356.0
+    },
+    "archive_at_root": {
+      "n": 243,
+      "both_reachable": 158,
+      "both_hit": 21,
+      "first_seen": 161,
+      "second_seen": 238,
+      "issued": 243,
+      "median_candidates": 356.0
+    }
+  },
+  "gcc": {
+    "edge98_gated": {
+      "n": 32,
+      "both_reachable": 5,
+      "both_hit": 0,
+      "first_seen": 18,
+      "second_seen": 17,
+      "issued": 17,
+      "median_candidates": 131.5
+    },
+    "edge98": {
+      "n": 32,
+      "both_reachable": 8,
+      "both_hit": 0,
+      "first_seen": 18,
+      "second_seen": 17,
+      "issued": 32,
+      "median_candidates": 131.5
+    },
+    "post98": {
+      "n": 32,
+      "both_reachable": 9,
+      "both_hit": 0,
+      "first_seen": 19,
+      "second_seen": 17,
+      "issued": 32,
+      "median_candidates": 174.0
+    },
+    "archive_at_month": {
+      "n": 32,
+      "both_reachable": 19,
+      "both_hit": 0,
+      "first_seen": 23,
+      "second_seen": 26,
+      "issued": 32,
+      "median_candidates": 470.5
+    },
+    "archive_safe_clock": {
+      "n": 32,
+      "both_reachable": 20,
+      "both_hit": 0,
+      "first_seen": 23,
+      "second_seen": 27,
+      "issued": 32,
+      "median_candidates": 479.5
+    },
+    "archive_at_root": {
+      "n": 32,
+      "both_reachable": 21,
+      "both_hit": 0,
+      "first_seen": 23,
+      "second_seen": 28,
+      "issued": 32,
+      "median_candidates": 486.0
+    }
+  },
+  "ffmpeg-devel": {
+    "edge98_gated": {
+      "n": 24,
+      "both_reachable": 13,
+      "both_hit": 9,
+      "first_seen": 17,
+      "second_seen": 23,
+      "issued": 21,
+      "median_candidates": 148.0
+    },
+    "edge98": {
+      "n": 24,
+      "both_reachable": 16,
+      "both_hit": 10,
+      "first_seen": 17,
+      "second_seen": 23,
+      "issued": 24,
+      "median_candidates": 148.0
+    },
+    "post98": {
+      "n": 24,
+      "both_reachable": 17,
+      "both_hit": 10,
+      "first_seen": 18,
+      "second_seen": 23,
+      "issued": 24,
+      "median_candidates": 178.0
+    },
+    "archive_at_month": {
+      "n": 24,
+      "both_reachable": 19,
+      "both_hit": 10,
+      "first_seen": 20,
+      "second_seen": 23,
+      "issued": 24,
+      "median_candidates": 502.0
+    },
+    "archive_safe_clock": {
+      "n": 24,
+      "both_reachable": 20,
+      "both_hit": 10,
+      "first_seen": 21,
+      "second_seen": 23,
+      "issued": 24,
+      "median_candidates": 504.0
+    },
+    "archive_at_root": {
+      "n": 24,
+      "both_reachable": 21,
+      "both_hit": 11,
+      "first_seen": 22,
+      "second_seen": 23,
+      "issued": 24,
+      "median_candidates": 506.5
+    }
+  }
+}

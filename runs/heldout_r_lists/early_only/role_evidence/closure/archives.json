@@ -1,0 +1,121 @@
+[
+  {
+    "url": "https://lists.samba.org/archive/samba-technical/2019-September.txt.gz",
+    "sha256": "6d67e15fd0647e08e71f21a8672cbe32119e6a354ecfd7a2d0ed9ceea7c720b6",
+    "header_sha256": "918f7389702bfb106ca65f6f55e5d2e651306f3505be8b07b2074398e4e3d3bd",
+    "messages": 225,
+    "parsed": 176
+  },
+  {
+    "url": "https://lists.samba.org/archive/samba-technical/2019-October.txt.gz",
+    "sha256": "3314365f834dedf19bfd475702b6a4cceafbcffa610b4493796f33ff80dea741",
+    "header_sha256": "7e13e96052e24c14bec5210cf62b660c54fc6e29002a0409b1f997bd551b6408",
+    "messages": 192,
+    "parsed": 167
+  },
+  {
+    "url": "https://lists.samba.org/archive/samba-technical/2019-November.txt.gz",
+    "sha256": "48fdac72a4c543ce844363846fe56eaaef72cf408c58b8b671036d5a1295ab95",
+    "header_sha256": "332b1e5cd09d1bc3515b031ed333f98c8933dcafd610d6c831b8a8fb28f83425",
+    "messages": 110,
+    "parsed": 110
+  },
+  {
+    "url": "https://lists.samba.org/archive/samba-technical/2019-December.txt.gz",
+    "sha256": "30a161878802ad772b6d5bcaa7c7accd9938896308d10f4f362c5730bf31dda8",
+    "header_sha256": "0896ecc9016b12571f0af7aa4687a86269003d6cb3b7df506a887327938f0c0f",
+    "messages": 64,
+    "parsed": 64
+  },
+  {
+    "url": "https://lists.samba.org/archive/samba-technical/2020-January.txt.gz",
+    "sha256": "c9b5b8ec90e0fde92cd21798f6e2d924e14055aaee59f32c5d3d79ff4191db0a",
+    "header_sha256": "3420d719900cf141590d439efcad0c38b7fd7aa5e426db3d662bcdf0815f3549",
+    "messages": 121,
+    "parsed": 121
+  },
+  {
+    "url": "https://lists.samba.org/archive/samba-technical/2020-February.txt.gz",
+    "sha256": "8baa76253b6110822b268b268dfd678ae06701d9eab7f89f4d5916bcb19cc528",
+    "header_sha256": "4f3f7812e7e4c77148cb1416dd10c5e9277fbbd26330c5cfa1d0cd7a5c5aafcb",
+    "messages": 124,
+    "parsed": 124
+  },
+  {
+    "url": "https://lists.samba.org/archive/samba-technical/2020-March.txt.gz",
+    "sha256": "0a66a10f5490dccd8f058e13b054de5ade8f06cc8ad5ddd7864ad41e8b3d8dab",
+    "header_sha256": "f772cf55f5ee8e9d4b507c8f290b118aae1349da3a14ad4e8db7f6caf1aa8716",
+    "messages": 145,
+    "parsed": 144
+  },
+  {
+    "url": "https://lists.samba.org/archive/samba-technical/2020-April.txt.gz",
+    "sha256": "cdb82b9276d19f6a74d28ff2fe1293af26ade8e312f4f9dcaa092d72cf5b50b0",
+    "header_sha256": "34d08faa663181deb20093f83d8ea1f55e9ba65827038dbebfa09878c4a00225",
+    "messages": 114,
+    "parsed": 114
+  },
+  {
+    "url": "https://lists.samba.org/archive/samba-technical/2020-May.txt.gz",
+    "sha256": "e6a7ed1a4c3e59c0842c3cca5e65ed82868bed10efff275d9f30d054d7b7083e",
+    "header_sha256": "3c2c459a2735bd1ef10625999c7caba6750158cceaadf28cd7f5693e3bd58d93",
+    "messages": 294,
+    "parsed": 216
+  },
+  {
+    "url": "https://lists.samba.org/archive/samba-technical/2020-June.txt.gz",
+    "sha256": "1a7f228c7738764960c7c52b063072936672a3ed461ff2b798c812b6c1f5ec0c",
+    "header_sha256": "9923203ed3799da889e735ba8d64fbd5cd8cf0737c51aad5582b502864065b94",
+    "messages": 124,
+    "parsed": 123
+  },
+  {
+    "url": "https://lists.samba.org/archive/samba-technical/2020-July.txt.gz",
+    "sha256": "3ac54a6a9c3ceabfd693f48e0802d6ca3e9e3fe32909f44bb2c51d6a78921fd1",
+    "header_sha256": "f004ec0f1bfc3f671bfb9359cf4e3feb13f50fdb345af57aae8848e29e90fd55",
+    "messages": 98,
+    "parsed": 95
+  },
+  {
+    "url": "https://lists.samba.org/archive/samba-technical/2020-August.txt.gz",
+    "sha256": "b6457ed9edd3eebb31d2417ea97a2f895eb951ae04958e0cdbb39e1f3eda1a72",
+    "header_sha256": "125aede0280c5558b64c5078177266a246b7c6781ecc891a40f1137468ab1ab8",
+    "messages": 120,
+    "parsed": 119
+  },
+  {
+    "url": "https://lists.samba.org/archive/samba-technical/2020-September.txt.gz",
+    "sha256": "e0249247fba5d633185aa4ce05324d9b4bd44df1a8c4198a4d8e15773cd3862c",
+    "header_sha256": "ce52d3bdd57333e22abda1526ee569188d70be2f851bf8b61285909f37891936",
+    "messages": 122,
+    "parsed": 118
+  },
+  {
+    "url": "https://lists.samba.org/archive/samba-technical/2020-October.txt.gz",
+    "sha256": "f69b1d234f9896132d229b7c26b30c04e6d9e9fb5a05e489aa3cac59f802c720",
+    "header_sha256": "f6aa671ebbf47d2359fbbd52b9fe4c98d1f8f474ac13873d43cfafb3d9ec022a",
+    "messages": 177,
+    "parsed": 174
+  },
+  {
+    "url": "https://lists.samba.org/archive/samba-technical/2020-November.txt.gz",
+    "sha256": "337bbfd2c735182eab01ee250f5cbb54055d0a6338ed46a0adca111997894963",
+    "header_sha256": "fec5a21f0fc54c2f14deaa7d1fbf5ce3a2d109f752b16fce59fe7157beb932a7",
+    "messages": 44,
+    "parsed": 42
+  },
+  {
+    "url": "https://lists.samba.org/archive/samba-technical/2020-December.txt.gz",
+    "sha256": "c5f39d7815aa507dc0c539d81cb09947885b643506b12ca4c4570bc80d8f3827",
+    "header_sha256": "4ecb63cc61ff9e3d93e1edd505db8d4637acf926de212555f9a7a3cd04a39aca",
+    "messages": 95,
+    "parsed": 95
+  },
+  {
+    "url": "https://lists.samba.org/archive/samba-technical/2021-January.txt.gz",
+    "sha256": "363b201cb1f21fa282343909a2d4efc45ab93fad1366e6050a65df6f8b1ff39c",
+    "header_sha256": "ee3df4411f0e5c3660c951cde9d7375a3433e56cb3ed5ede7743d23a53005aad",
+    "messages": 102,
+    "parsed": 100
+  }
+]

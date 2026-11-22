@@ -1,0 +1,31 @@
+{
+  "test": "GNU libc January to December 2024; real early-only task; previous period 2021-22",
+  "urls": [
+    "https://sourceware.org/pipermail/libc-alpha/2023-September.txt.gz",
+    "https://sourceware.org/pipermail/libc-alpha/2023-October.txt.gz",
+    "https://sourceware.org/pipermail/libc-alpha/2023-November.txt.gz",
+    "https://sourceware.org/pipermail/libc-alpha/2023-December.txt.gz",
+    "https://sourceware.org/pipermail/libc-alpha/2024-January.txt.gz",
+    "https://sourceware.org/pipermail/libc-alpha/2024-February.txt.gz",
+    "https://sourceware.org/pipermail/libc-alpha/2024-March.txt.gz",
+    "https://sourceware.org/pipermail/libc-alpha/2024-April.txt.gz",
+    "https://sourceware.org/pipermail/libc-alpha/2024-May.txt.gz",
+    "https://sourceware.org/pipermail/libc-alpha/2024-June.txt.gz",
+    "https://sourceware.org/pipermail/libc-alpha/2024-July.txt.gz",
+    "https://sourceware.org/pipermail/libc-alpha/2024-August.txt.gz",
+    "https://sourceware.org/pipermail/libc-alpha/2024-September.txt.gz",
+    "https://sourceware.org/pipermail/libc-alpha/2024-October.txt.gz",
+    "https://sourceware.org/pipermail/libc-alpha/2024-November.txt.gz",
+    "https://sourceware.org/pipermail/libc-alpha/2024-December.txt.gz",
+    "https://sourceware.org/pipermail/libc-alpha/2025-January.txt.gz"
+  ],
+  "primary": "role_suffix minus reply on all eligible discussions; secondaries vs roles, post volume and frozen Dept2 models",
+  "training": "Python 2017-18 coefficients frozen; month-start history only; no target calibration",
+  "intervals": "10000 paired circular blocks of three of the twelve months; paired seeds for neural comparators",
+  "hashes": {
+    "scripts/role_evidence_time_holdout.py": "42b48f2c29cc720c143001a833eef5bfad65b94e452d38f7fa030c64cf833475",
+    "runs/heldout_r_lists/early_only/role_evidence/protocol.json": "5256de212f472bfec892f59d64612581f691c3709d9c483df09d4daf4706e13a",
+    "scripts/member_role_evidence.py": "1848d615d6ea9b9b93743209ea5df44c10066312d9cd68ff94ba9c7b0810eee0",
+    "runs/heldout_r_lists/early_only/protocol.json": "6cd153732a7c99fb09c964fb9eb946966ba7b31190332dd8e06eb1016b3fe8ed"
+  }
+}

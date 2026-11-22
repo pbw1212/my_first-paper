@@ -1,0 +1,23 @@
+{
+  "r-devel": {
+    "events": 66,
+    "additional_member_sets": 132,
+    "explicit_models_per_set": 5,
+    "max_probability_error": 1.8041124150158794e-16,
+    "sha256": "0d1c788687ef7f084c7dcdce1e0d383ebb379e9ed8216bd18937c42fbf755064"
+  },
+  "r-package-devel": {
+    "events": 106,
+    "additional_member_sets": 168,
+    "explicit_models_per_set": 5,
+    "max_probability_error": 1.942890293094024e-16,
+    "sha256": "166200e1d07bff56d955aa6c0241bb0bed8bcd18a7d17352a8413275f5b37310"
+  },
+  "libc-alpha": {
+    "events": 314,
+    "additional_member_sets": 516,
+    "explicit_models_per_set": 5,
+    "max_probability_error": 2.220446049250313e-16,
+    "sha256": "c87098a07da0017d09f204355007104785b318603801716b7bf7c59afdc575f6"
+  }
+}

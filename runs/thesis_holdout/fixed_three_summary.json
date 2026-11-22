@@ -1,0 +1,70 @@
+{
+  "Dept1": {
+    "all": {
+      "n": 125,
+      "hits": {
+        "early": 19,
+        "late": 13
+      },
+      "paired": {
+        "gain": 8,
+        "loss": 14,
+        "difference_pp": -4.8,
+        "interval_pp": [
+          -8.130081300813009,
+          -0.7299270072992701
+        ]
+      }
+    },
+    "both_lineages_in_both": {
+      "n": 30,
+      "hits": {
+        "early": 9,
+        "late": 4
+      },
+      "paired": {
+        "gain": 1,
+        "loss": 6,
+        "difference_pp": -16.666666666666668,
+        "interval_pp": [
+          -32.0,
+          -3.0303030303030303
+        ]
+      }
+    }
+  },
+  "CollegeMsg": {
+    "all": {
+      "n": 77,
+      "hits": {
+        "early": 5,
+        "late": 5
+      },
+      "paired": {
+        "gain": 5,
+        "loss": 5,
+        "difference_pp": 0.0,
+        "interval_pp": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "both_lineages_in_both": {
+      "n": 18,
+      "hits": {
+        "early": 3,
+        "late": 1
+      },
+      "paired": {
+        "gain": 1,
+        "loss": 3,
+        "difference_pp": -11.11111111111111,
+        "interval_pp": [
+          -40.0,
+          0.0
+        ]
+      }
+    }
+  }
+}

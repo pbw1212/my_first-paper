@@ -1,0 +1,273 @@
+{
+  "historical": {
+    "Dept3_rolling": {
+      "total": 1140,
+      "n": 304,
+      "in_pool": 204,
+      "gained": 23,
+      "lost": 23,
+      "direct": {
+        "top1": 5,
+        "top32": 61,
+        "median_in_pool": 115.0
+      },
+      "prefix128": {
+        "top1": 6,
+        "top32": 61,
+        "median_in_pool": 73.0
+      }
+    },
+    "CollegeMsg_rolling": {
+      "total": 314,
+      "n": 12,
+      "in_pool": 1,
+      "gained": 0,
+      "lost": 0,
+      "direct": {
+        "top1": 0,
+        "top32": 0,
+        "median_in_pool": 105
+      },
+      "prefix128": {
+        "top1": 0,
+        "top32": 0,
+        "median_in_pool": 109
+      }
+    },
+    "Dept3_validation": {
+      "total": 100,
+      "n": 20,
+      "in_pool": 13,
+      "gained": 2,
+      "lost": 2,
+      "direct": {
+        "top1": 0,
+        "top32": 3,
+        "median_in_pool": 109
+      },
+      "prefix128": {
+        "top1": 0,
+        "top32": 3,
+        "median_in_pool": 80
+      }
+    },
+    "CollegeMsg_validation": {
+      "total": 500,
+      "n": 15,
+      "in_pool": 2,
+      "gained": 0,
+      "lost": 0,
+      "direct": {
+        "top1": 0,
+        "top32": 1,
+        "median_in_pool": 124.5
+      },
+      "prefix128": {
+        "top1": 0,
+        "top32": 1,
+        "median_in_pool": 123.5
+      }
+    }
+  },
+  "new": {
+    "n": 200,
+    "in_pool": 31,
+    "gained": 1,
+    "lost": 1,
+    "sum": {
+      "top1": 0,
+      "top32": 7,
+      "median_in_pool": 94
+    },
+    "joint": {
+      "top1": 0,
+      "top32": 0,
+      "median_in_pool": 286
+    },
+    "direct": {
+      "top1": 1,
+      "top32": 9,
+      "median_in_pool": 90
+    },
+    "prefix32": {
+      "top1": 1,
+      "top32": 8,
+      "median_in_pool": 115
+    },
+    "prefix128": {
+      "top1": 1,
+      "top32": 9,
+      "median_in_pool": 134
+    }
+  },
+  "flow": {
+    "attempts": 640442,
+    "zero_growth": 596543,
+    "mask_eligible": 9633,
+    "both_direct": 337,
+    "both_visible": 200
+  },
+  "windows": {
+    "validation-01": {
+      "n": 40,
+      "in_pool": 5,
+      "gained": 0,
+      "lost": 0,
+      "sum": {
+        "top1": 0,
+        "top32": 1,
+        "median_in_pool": 187
+      },
+      "joint": {
+        "top1": 0,
+        "top32": 0,
+        "median_in_pool": 270
+      },
+      "direct": {
+        "top1": 1,
+        "top32": 3,
+        "median_in_pool": 21
+      },
+      "prefix32": {
+        "top1": 1,
+        "top32": 3,
+        "median_in_pool": 20
+      },
+      "prefix128": {
+        "top1": 1,
+        "top32": 3,
+        "median_in_pool": 24
+      }
+    },
+    "validation-02": {
+      "n": 40,
+      "in_pool": 5,
+      "gained": 0,
+      "lost": 0,
+      "sum": {
+        "top1": 0,
+        "top32": 1,
+        "median_in_pool": 249
+      },
+      "joint": {
+        "top1": 0,
+        "top32": 0,
+        "median_in_pool": 348
+      },
+      "direct": {
+        "top1": 0,
+        "top32": 1,
+        "median_in_pool": 78
+      },
+      "prefix32": {
+        "top1": 0,
+        "top32": 0,
+        "median_in_pool": 162
+      },
+      "prefix128": {
+        "top1": 0,
+        "top32": 1,
+        "median_in_pool": 163
+      }
+    },
+    "validation-03": {
+      "n": 40,
+      "in_pool": 4,
+      "gained": 0,
+      "lost": 0,
+      "sum": {
+        "top1": 0,
+        "top32": 0,
+        "median_in_pool": 231.0
+      },
+      "joint": {
+        "top1": 0,
+        "top32": 0,
+        "median_in_pool": 120.5
+      },
+      "direct": {
+        "top1": 0,
+        "top32": 2,
+        "median_in_pool": 72.0
+      },
+      "prefix32": {
+        "top1": 0,
+        "top32": 1,
+        "median_in_pool": 74.5
+      },
+      "prefix128": {
+        "top1": 0,
+        "top32": 2,
+        "median_in_pool": 69.5
+      }
+    },
+    "validation-04": {
+      "n": 40,
+      "in_pool": 6,
+      "gained": 0,
+      "lost": 1,
+      "sum": {
+        "top1": 0,
+        "top32": 3,
+        "median_in_pool": 33.5
+      },
+      "joint": {
+        "top1": 0,
+        "top32": 0,
+        "median_in_pool": 140.0
+      },
+      "direct": {
+        "top1": 0,
+        "top32": 1,
+        "median_in_pool": 84.0
+      },
+      "prefix32": {
+        "top1": 0,
+        "top32": 2,
+        "median_in_pool": 96.0
+      },
+      "prefix128": {
+        "top1": 0,
+        "top32": 0,
+        "median_in_pool": 93.5
+      }
+    },
+    "validation-05": {
+      "n": 40,
+      "in_pool": 11,
+      "gained": 1,
+      "lost": 0,
+      "sum": {
+        "top1": 0,
+        "top32": 2,
+        "median_in_pool": 94
+      },
+      "joint": {
+        "top1": 0,
+        "top32": 0,
+        "median_in_pool": 382
+      },
+      "direct": {
+        "top1": 0,
+        "top32": 2,
+        "median_in_pool": 177
+      },
+      "prefix32": {
+        "top1": 0,
+        "top32": 2,
+        "median_in_pool": 237
+      },
+      "prefix128": {
+        "top1": 0,
+        "top32": 3,
+        "median_in_pool": 187
+      }
+    }
+  },
+  "both_by_budget": {
+    "12": 11,
+    "32": 31,
+    "64": 58,
+    "128": 92
+  }
+}

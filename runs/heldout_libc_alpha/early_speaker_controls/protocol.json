@@ -1,0 +1,13 @@
+{
+  "primary": [
+    "paired minus roles",
+    "reverse contact history minus forward with prior fixed"
+  ],
+  "source_configs": [
+    "a10066dd896071e9d9295170201b876bc1084ee137deb10e855691e557628074",
+    "e29f0a54176343aca0c96f01d1f6c04809f032cee4b311a686205aaaf7aeced7",
+    "0cefee5253bfede4c5413106d6c3a1249e6d5a13b262cacd342d0f78b1f169ed"
+  ],
+  "hypotheses": "reuse earlier thresholds and five Dept2 seeds; no new fitting on libc",
+  "script": "cd07c8ea886d7f5460cb12dd40fb3c79e1990c56b5809d8c5017e6de2b78d7cc"
+}

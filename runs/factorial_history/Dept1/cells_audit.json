@@ -1,0 +1,22 @@
+{
+  "n": 480,
+  "seeds": [
+    111,
+    314159,
+    431,
+    2027,
+    9001
+  ],
+  "input_hashes": {
+    "public.jsonl": "ff9d0d70267fbef278fb5c13bca216afb2a6f27bb0e8473515653d07c6dbb81b",
+    "truth.jsonl": "b56c1945f9a540b7e95860b96469e0dcc518e3f2242a3976c0ac1330c095360b"
+  },
+  "hash": "6db1d1eed2016da1cc83af55962e3dcadd64c54e9394371183e4593515e3ae9b",
+  "wall_seconds": 50.23942050000187,
+  "score_decode_seconds": {
+    "A": 2.7271170006715693,
+    "B": 19.844092799641658,
+    "C": 1.9819202013895847,
+    "D": 19.341228999954183
+  }
+}

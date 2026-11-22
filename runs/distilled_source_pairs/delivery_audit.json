@@ -1,0 +1,15 @@
+{
+  "verified_events": {
+    "company": 1200,
+    "Dept2": 1200,
+    "Dept1": 480,
+    "CollegeMsg": 480,
+    "CopenhagenSMS": 300,
+    "Dept2_new_windows": 1050,
+    "company_new_windows": 300
+  },
+  "main_table_checked_against_predictions": true,
+  "exact_rank_table_verified": true,
+  "small_sample_recounted": true,
+  "local_report_links_verified": true
+}

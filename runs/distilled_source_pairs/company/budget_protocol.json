@@ -1,0 +1,14 @@
+{
+  "budget": 12,
+  "temperature": 0.45,
+  "learning_rate": 0.0004,
+  "nll_weight": 0.03,
+  "checkpoints": [
+    0,
+    2,
+    5,
+    9
+  ],
+  "selection": "Most validation double hits, then lower validation pair NLL, then earlier epoch; checkpoint zero is the frozen additive model",
+  "loss": "Negative expected product of the two inclusion probabilities plus 0.03 pair NLL. Shared soft cutoff chosen to allocate exactly 12 slots per event."
+}

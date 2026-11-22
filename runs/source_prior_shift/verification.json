@@ -1,0 +1,11 @@
+{
+  "matrix_probability_max_absolute_error": 1.1102230246251565e-16,
+  "simulations_replayed": {
+    "Dept2": 1920,
+    "company": 1920,
+    "Dept4": 5760,
+    "Enron": 12480
+  },
+  "calibration_replays": 2016,
+  "summary_sha256": "c2f6f278b396c703891ca5ac93da0e3c0f9e6832e78e0671d16407d5c762cf9f"
+}

@@ -1,0 +1,14 @@
+{
+  "source": "Dept2",
+  "main": {
+    "public.jsonl": "ff9d0d70267fbef278fb5c13bca216afb2a6f27bb0e8473515653d07c6dbb81b",
+    "truth.jsonl": "b56c1945f9a540b7e95860b96469e0dcc518e3f2242a3976c0ac1330c095360b",
+    "predictions.jsonl": "0eec94a3f85a89438e1b18463d4851a6c84de8ac3c9f86c1f88a83f534241cff",
+    "test_plan.json": "0a655815cf80df9f8e10703b70fcde5bbb06cbc04d2442014d6dc1938827f689"
+  },
+  "config": {
+    "gcnsi_selection.json": "6d8e087cd882a84f9a1e5dc8b121534dc15dd24a3afd21ba1ae58d3385ed4327",
+    "jordan_selection.json": "33d48b083cb781081d19d81477cfdb149f377ee4ea0b9845aaf25eff393f19e7",
+    "gcnsi.pt": "df29e09103d895883f24fbbe88a907b5c430fce0884a84196780a69179799878"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "definition": "Each of the two sampled sources has at least one descendant in the observed suffix; shared descendants count.",
+  "sampling": "Existing five CollegeMsg validation weeks; uniform historical roster; original growth and masking; fresh draws.",
+  "target_per_week": 40,
+  "attempt_cap_per_week": 250000,
+  "seed_per_week": "31117 + 1-based window number",
+  "models": "Frozen CollegeMsg replication fits through training window 12; no source injection; full historical candidate roster.",
+  "primary": "Fraction of all retained events with the true pair in the first 32 pairs, prefix128 versus direct, among a fixed 32-node proposal.",
+  "secondary": [
+    "node coverage",
+    "top1",
+    "per-window paired gains and losses",
+    "32-particle sensitivity"
+  ]
+}

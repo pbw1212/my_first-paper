@@ -1,0 +1,27 @@
+{
+  "test-01": {
+    "ordinary": 20,
+    "dual": 40,
+    "attempts": 193262
+  },
+  "test-02": {
+    "ordinary": 20,
+    "dual": 40,
+    "attempts": 151894
+  },
+  "test-03": {
+    "ordinary": 20,
+    "dual": 22,
+    "attempts": 300000
+  },
+  "test-04": {
+    "ordinary": 20,
+    "dual": 12,
+    "attempts": 300000
+  },
+  "test-05": {
+    "ordinary": 20,
+    "dual": 6,
+    "attempts": 300000
+  }
+}

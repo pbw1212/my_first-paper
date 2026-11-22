@@ -1,0 +1,26 @@
+{
+  "company-07": {
+    "dual": 0,
+    "ordinary": 100,
+    "attempts": 114,
+    "seed": 9052100,
+    "start": 1273226182,
+    "end": 1274435782
+  },
+  "company-09": {
+    "dual": 0,
+    "ordinary": 100,
+    "attempts": 124,
+    "seed": 9052101,
+    "start": 1275645382,
+    "end": 1276854982
+  },
+  "company-10": {
+    "dual": 0,
+    "ordinary": 100,
+    "attempts": 132,
+    "seed": 9052102,
+    "start": 1276854982,
+    "end": 1278064582
+  }
+}

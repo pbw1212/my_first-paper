@@ -1,0 +1,49 @@
+{
+  "primary": "paired minus roles, all real eligible threads; separate test communities; fixed 12-person budget",
+  "controls": "28-day message volume; maximum entropy legal ordered pair table with exactly matched role marginals",
+  "training": "2017-2018 Python lists only, conditional ordered-pair NLL on scoreable two-reachable discussions; first select role smoothing then conditional smoothing",
+  "disjoint_tests": [
+    "2019 Python follow-up",
+    "GCC",
+    "FFmpeg",
+    "R-devel",
+    "R-package-devel"
+  ],
+  "tau": [
+    4.0,
+    32.0,
+    256.0
+  ],
+  "kappa": [
+    1.0,
+    8.0,
+    64.0,
+    512.0
+  ],
+  "sha256": "b920d58318b230e2254f8f0d74ef914006c70ccc99489c0070af236f4e48deb4",
+  "dependencies": {
+    "protocol_v2.json": "104b489444fa03c1a428614099117dcc9334bf9f7c5a884a159a33586d3c1de0",
+    "test_reply_direction.py": "2c8239537d84297a3104881d6695d466ab46cc434bcec782b9fa756cf1e0116c",
+    "joint_source_shortlist.py": "c437443a1485386521c999a2f40bda23f126e05d6984cdca11c7a8489676dc89"
+  },
+  "selected_tau": 256.0,
+  "selected_kappa": 512.0,
+  "n": 216,
+  "mean_nll": {
+    "(4.0, None)": 9.80480349580257,
+    "(4.0, 1.0)": 10.316862025006866,
+    "(4.0, 8.0)": 9.908480761370289,
+    "(4.0, 64.0)": 9.816476286222219,
+    "(4.0, 512.0)": 9.806096862389381,
+    "(32.0, None)": 8.615532993899187,
+    "(32.0, 1.0)": 9.118493419575735,
+    "(32.0, 8.0)": 8.713349678533515,
+    "(32.0, 64.0)": 8.625277114086742,
+    "(32.0, 512.0)": 8.616509028187306,
+    "(256.0, None)": 8.287265287174753,
+    "(256.0, 1.0)": 8.76802639114152,
+    "(256.0, 8.0)": 8.367467440867427,
+    "(256.0, 64.0)": 8.289383745202844,
+    "(256.0, 512.0)": 8.286803846429068
+  }
+}

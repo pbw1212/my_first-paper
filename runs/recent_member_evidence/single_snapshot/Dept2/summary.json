@@ -1,0 +1,15 @@
+{
+  "snapshot": {
+    "n": 100,
+    "top1": 0,
+    "at_least_one": 25,
+    "seconds": 0.6333767001051456
+  },
+  "bosoul": {
+    "n": 100,
+    "top1": 0,
+    "at_least_one": 9,
+    "seconds": 172.6773057996761
+  },
+  "simulations": 30000
+}

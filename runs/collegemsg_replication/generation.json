@@ -1,0 +1,120 @@
+{
+  "train-01": {
+    "attempts": 1558,
+    "zero_growth": 673,
+    "accepted": 681,
+    "known_nodes": 1062,
+    "contacts": 6623
+  },
+  "train-02": {
+    "attempts": 1559,
+    "zero_growth": 739,
+    "accepted": 601,
+    "known_nodes": 1271,
+    "contacts": 7092
+  },
+  "train-03": {
+    "attempts": 1558,
+    "zero_growth": 1027,
+    "accepted": 125,
+    "known_nodes": 1480,
+    "contacts": 2348
+  },
+  "train-04": {
+    "attempts": 1558,
+    "zero_growth": 1081,
+    "accepted": 190,
+    "known_nodes": 1606,
+    "contacts": 2678
+  },
+  "train-05": {
+    "attempts": 1559,
+    "zero_growth": 1281,
+    "accepted": 89,
+    "known_nodes": 1681,
+    "contacts": 1335
+  },
+  "train-06": {
+    "attempts": 1558,
+    "zero_growth": 1540,
+    "known_nodes": 1709,
+    "contacts": 43
+  },
+  "train-07": {
+    "attempts": 1559,
+    "zero_growth": 1355,
+    "accepted": 79,
+    "known_nodes": 1718,
+    "contacts": 1065
+  },
+  "train-08": {
+    "attempts": 1559,
+    "zero_growth": 1330,
+    "accepted": 89,
+    "known_nodes": 1733,
+    "contacts": 1075
+  },
+  "train-09": {
+    "attempts": 1559,
+    "zero_growth": 1392,
+    "accepted": 44,
+    "known_nodes": 1746,
+    "contacts": 849
+  },
+  "train-10": {
+    "attempts": 1558,
+    "zero_growth": 1454,
+    "accepted": 24,
+    "known_nodes": 1753,
+    "contacts": 446
+  },
+  "train-11": {
+    "attempts": 1558,
+    "zero_growth": 1408,
+    "accepted": 45,
+    "known_nodes": 1765,
+    "contacts": 695
+  },
+  "train-12": {
+    "attempts": 1559,
+    "zero_growth": 1422,
+    "accepted": 33,
+    "known_nodes": 1780,
+    "contacts": 545
+  },
+  "validation-01": {
+    "attempts": 5604,
+    "zero_growth": 5226,
+    "accepted": 97,
+    "known_nodes": 1786,
+    "contacts": 429
+  },
+  "validation-02": {
+    "attempts": 5604,
+    "zero_growth": 5125,
+    "accepted": 195,
+    "known_nodes": 1798,
+    "contacts": 725
+  },
+  "validation-03": {
+    "attempts": 5604,
+    "zero_growth": 5205,
+    "accepted": 87,
+    "known_nodes": 1807,
+    "contacts": 605
+  },
+  "validation-04": {
+    "attempts": 5603,
+    "zero_growth": 5240,
+    "accepted": 56,
+    "known_nodes": 1827,
+    "contacts": 451
+  },
+  "validation-05": {
+    "attempts": 5603,
+    "zero_growth": 5246,
+    "accepted": 65,
+    "known_nodes": 1832,
+    "contacts": 402
+  }
+}

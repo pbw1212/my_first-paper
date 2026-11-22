@@ -1,0 +1,26 @@
+{
+  "target_per_week": 40,
+  "attempt_cap": 120000,
+  "budgets": [
+    32,
+    64
+  ],
+  "arms": [
+    "original",
+    "matched",
+    "conditional"
+  ],
+  "train_seed_base": [
+    61100,
+    71100
+  ],
+  "rolling_cuts": [
+    6,
+    8,
+    10
+  ],
+  "final_cut": 12,
+  "control": "Independent mask-eligible draws, same number per week as conditional",
+  "primary": "Both true sources among first 32 nodes of frozen validation events",
+  "secondary": "Top 1 and top 32 unordered pairs by frozen direct score. Warm single-thread kernel timing."
+}

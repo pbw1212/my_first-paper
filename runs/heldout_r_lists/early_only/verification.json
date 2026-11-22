@@ -1,0 +1,113 @@
+{
+  "r-devel": {
+    "roots": 170,
+    "checked_dense_lists": 150,
+    "sha256": "d8923e103ee4c52d0302bedd46f205a5aab45abff7436716fdebb89470b28cdb",
+    "same_scoreable": {
+      "n": 9,
+      "old_filter_updated_pct": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "filter_minus_old": {
+        "n": 9,
+        "pp": 0.0,
+        "ci95_pp": [
+          0.0,
+          0.0
+        ]
+      },
+      "update_minus_filter": {
+        "n": 9,
+        "pp": 0.0,
+        "ci95_pp": [
+          0.0,
+          0.0
+        ]
+      },
+      "update_minus_old": {
+        "n": 9,
+        "pp": 0.0,
+        "ci95_pp": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "r-package-devel": {
+    "roots": 227,
+    "checked_dense_lists": 140,
+    "sha256": "74884db56f770d9ae01d471fb322be89769a5689a152a5039a6774153ddcf5b8",
+    "same_scoreable": {
+      "n": 5,
+      "old_filter_updated_pct": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "filter_minus_old": {
+        "n": 5,
+        "pp": 0.0,
+        "ci95_pp": [
+          0.0,
+          0.0
+        ]
+      },
+      "update_minus_filter": {
+        "n": 5,
+        "pp": 0.0,
+        "ci95_pp": [
+          0.0,
+          0.0
+        ]
+      },
+      "update_minus_old": {
+        "n": 5,
+        "pp": 0.0,
+        "ci95_pp": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "libc-alpha": {
+    "roots": 880,
+    "checked_dense_lists": 215,
+    "sha256": "79f2798eb8781b231bf7022766132c2c4b8923bcf8e8205f40fc6a3ae0975f26",
+    "same_scoreable": {
+      "n": 19,
+      "old_filter_updated_pct": [
+        15.789473684210526,
+        16.842105263157894,
+        31.57894736842105
+      ],
+      "filter_minus_old": {
+        "n": 19,
+        "pp": 1.0526315789473684,
+        "ci95_pp": [
+          0.0,
+          5.0
+        ]
+      },
+      "update_minus_filter": {
+        "n": 19,
+        "pp": 14.736842105263156,
+        "ci95_pp": [
+          -0.8695652173913043,
+          38.18181818181818
+        ]
+      },
+      "update_minus_old": {
+        "n": 19,
+        "pp": 15.789473684210526,
+        "ci95_pp": [
+          0.7142857142857143,
+          38.401538461538436
+        ]
+      }
+    }
+  }
+}

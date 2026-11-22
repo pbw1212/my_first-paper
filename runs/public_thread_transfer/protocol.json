@@ -1,0 +1,170 @@
+{
+  "plan": {
+    "lists": [
+      "python-dev",
+      "python-ideas"
+    ],
+    "months": [
+      [
+        2017,
+        1
+      ],
+      [
+        2017,
+        2
+      ],
+      [
+        2017,
+        3
+      ],
+      [
+        2017,
+        4
+      ],
+      [
+        2017,
+        5
+      ],
+      [
+        2017,
+        6
+      ],
+      [
+        2017,
+        7
+      ],
+      [
+        2017,
+        8
+      ],
+      [
+        2017,
+        9
+      ],
+      [
+        2017,
+        10
+      ],
+      [
+        2017,
+        11
+      ],
+      [
+        2017,
+        12
+      ],
+      [
+        2018,
+        1
+      ],
+      [
+        2018,
+        2
+      ],
+      [
+        2018,
+        3
+      ],
+      [
+        2018,
+        4
+      ],
+      [
+        2018,
+        5
+      ],
+      [
+        2018,
+        6
+      ],
+      [
+        2018,
+        7
+      ],
+      [
+        2018,
+        8
+      ],
+      [
+        2018,
+        9
+      ],
+      [
+        2018,
+        10
+      ],
+      [
+        2018,
+        11
+      ],
+      [
+        2018,
+        12
+      ]
+    ],
+    "history_days": 98,
+    "followup_days": 14,
+    "candidates": "endpoints of distinct nonself, resolved replies in 98 days before calendar month",
+    "edges": "reply author to immediate parent author; distinct (second,sender,recipient)",
+    "population": "verified roots in calendar period and 14-day thread; first two distinct addresses, unique second arrival, ordinary mask on later first arrivals",
+    "observations": "filter suffix to historical roster after masking; abstain if fewer than 3 retained; out-of-roster gold counted as miss",
+    "primary": "both in 12, all mask-eligible threads, frozen Dept2 links minus 28-day message volume; separate by list",
+    "secondary": [
+      "full",
+      "person",
+      "FGSSI",
+      "28-day outgoing contact count to visible members",
+      "uniform expected",
+      "root",
+      "second"
+    ],
+    "seeds": [
+      111,
+      314159,
+      431,
+      2027,
+      9001
+    ],
+    "bootstrap": "10000 paired draws over training seeds and circular three-month blocks"
+  },
+  "hashes": {
+    "scripts/public_thread_transfer.py": "8d014b92d6b53023f602109a83b7d3d736dbc1515e178e7174dfd61c162845c5",
+    "scripts/public_thread_archive.py": "5e8277d30e9e681f6f94f6330d6f020ac64e7a18ee695d97dc0bfe135cd98850",
+    "scripts/fgssi_suffix.py": "b6b70938b7754ed88000d6b8245ee7d8c15d996d6031f4f51e1948fe0d2ac6ca",
+    "scripts/ordinary_source_roles.py": "7dea6d9721287f98e93b1f4598cdd69b07b5dae2bf265b86c982326e443e66dc",
+    "scripts/distilled_source_pairs.py": "62a31a3b4cb3032f05bd55d5b3cd6acc4a28335ea566bd6897b0d0aabffa331d",
+    "scripts/temporal_pair_evidence.py": "3001fa7088316401761dfe2c8bee9c02b98e93435cd66dfc18a1e96f8e1383a1",
+    "scripts/run_dept3_candidates.py": "b1610ea1aa1ea26d4883c13f5d79fe412007b2aced696b6e90e5b4b97d802ab6",
+    "scripts/build_dept3_pilot.py": "102fb3aec0b5b2c1e9820fccf0bbc22c5c2b929dd371324e8edec90a1302c15f",
+    "scripts/partial_source_identification.py": "6ba2428623ceffd7fc29a203b420e4187315af86d3e12358e8e9f46256cefdcc",
+    "scripts/five_frame_pairs.py": "b79310b2fd03a100a11861376efe2953f44a5c3d18440cfd6e8d0e0375ae1fc9",
+    "scripts/history_components.py": "6c8c14fc81f1e9bdddc5c8a6108a74f7a31e44db436a796a58e1839b3fbbc22f",
+    "scripts/recent_member_evidence.py": "861c83f7113cd886f5f45588549508d740245fd06d7448c62653256d04beac88",
+    "scripts/evaluate_factorial_history.py": "3975349c22a92d0f2aa0d14b8da4fe849e95fa686f5ed82710b060b447788008",
+    "runs/temporal_transfer/fgssi_upstream/model.py": "9b5e83f92a8586bd710a667338b7ff641092e38c63096bdbbdccfff5bf71c418",
+    "runs/temporal_transfer/fgssi_upstream/args.py": "fe23434cd23dd362117feec3be2170a06b9a9647959e49af1b29ac74ffc2a4f0",
+    "runs/factorial_history/fits/Dept2/temporal/add111.pt": "ab61c5516f94bc60eebeb59f083c1326f1975dceaa550f85368268530622211d",
+    "runs/factorial_history/fits/Dept2/temporal/scale.npz": "8505e3d28fd08925abd7f9d94d8ab697d94b587b2f250c7db7859a4f2b73ab0a",
+    "runs/temporal_transfer/Dept2/fgssi.pt": "ce8542bdb2b13373447aab02aa1d5e3c746707a69bf39211bdb8cd8c16bab110",
+    "runs/recent_member_evidence/Dept2/links-111.pt": "eea0549d611b710d2a2ad8012c88139c2f53a5653e1e7b8c931754870c5c7b1b",
+    "runs/recent_member_evidence/Dept2/links.npz": "c90f47b7306428c7c3960096654ee8d65a069ed9952cfcd17462a1821e3070ae",
+    "runs/recent_member_evidence/Dept2/person-111.pt": "b485cac84423b256ae97065dc1297b3980ca16e954ed915dcdfac93fc2cdfff4",
+    "runs/recent_member_evidence/Dept2/person.npz": "f8149dd3109f56c8e0c40352bf97b95c86207abf5e7ace4a2d12a4a3b3812292",
+    "runs/factorial_history/fits/Dept2/temporal/add314159.pt": "bc42400f1f946259054199511a412e967d323d4f09350d18965348007be6cdfa",
+    "runs/factorial_history/fgssi/314159/Dept2/fgssi.pt": "dd53fe5588afe17948e9a4f3e8b2accdfd7eb705a911bf3c7cc911d511758cad",
+    "runs/recent_member_evidence/Dept2/links-314159.pt": "a3775da92c4c8d8b831d707716cfc6b93825499b71c70c0a095f6ea731667618",
+    "runs/recent_member_evidence/Dept2/person-314159.pt": "b833c927451c38fdda0a2024774d212470b328b5deea69c64a9691c5b5173110",
+    "runs/factorial_history/fits/Dept2/temporal/add431.pt": "ed4242e243e23e060c1ab1a992b20ea181f411703c42a5e0fbebd2209773f60c",
+    "runs/factorial_history/fgssi/431/Dept2/fgssi.pt": "111ddab6c4d43786f89f0ac9ac3f9ac15ea4a3a8ec3461389c0384881d819e9b",
+    "runs/recent_member_evidence/Dept2/links-431.pt": "eb351db15baf14f519602b78c0db81c18f020a1f684c3d0923f5e75685e235af",
+    "runs/recent_member_evidence/Dept2/person-431.pt": "2d4f41b9609e0398f6dd76a1c6b5410446c3f153761076a3d71e3b307433ac9e",
+    "runs/factorial_history/fits/Dept2/temporal/add2027.pt": "5b0f2f7b2de828ca6ce5680a7711ce8b7ad3fa7533ccdeb1ee107e94fa7f8e6a",
+    "runs/factorial_history/fgssi/2027/Dept2/fgssi.pt": "74aeb09ac9f9a0efedfffa0c9180dfdaced41f3b0a761a43b6fac19cd2f6db84",
+    "runs/recent_member_evidence/Dept2/links-2027.pt": "2ae1075357ad7470d3cab79ed8669144a12a7a7fb3f99d22da9f5bebe2c9cf0a",
+    "runs/recent_member_evidence/Dept2/person-2027.pt": "5d8acb1e49a162b34b3642a3b052e3a46ac926dad6076ff36ea9087227435e2d",
+    "runs/factorial_history/fits/Dept2/temporal/add9001.pt": "9943a20b0cd8f9ea844072292550c2c77606e3bcd20bc8c977eb332e040cb8cb",
+    "runs/factorial_history/fgssi/9001/Dept2/fgssi.pt": "b5cf5d18b9c98ab07d97105a59b1e6a99f790e5cab099d3292257ad6c6d8eacc",
+    "runs/recent_member_evidence/Dept2/links-9001.pt": "625376b7822e70aaa5e26036914654ba008e33a111887bb2f570402074bbb18c",
+    "runs/recent_member_evidence/Dept2/person-9001.pt": "f6ee0527fc6635d111e8af4c19d9d839dfee3187a9f797a61f0d2aa97d1b4208"
+  }
+}

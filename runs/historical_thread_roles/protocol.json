@@ -1,0 +1,111 @@
+{
+  "primary": "all mask-eligible real threads; both early addresses in twelve; retrieval vs volume and versus direct; evaluate projects separately",
+  "width": 14,
+  "source": "Python-Dev and Python-Ideas: 2017-01..2018-05 fit, June gap, 2018-07..12 validation",
+  "target": {
+    "gcc": "https://gcc.gnu.org/pipermail/gcc/",
+    "ffmpeg-devel": "https://ffmpeg.org/pipermail/ffmpeg-devel/"
+  },
+  "first": "2021-01",
+  "last": "2022-12",
+  "hashes": {
+    "historical_thread_roles.py": "169dc6ae225e5800c49896cffec9f945222d2fdcf3b382a089caf094b4ddfeaf",
+    "public_thread_archive.py": "5e8277d30e9e681f6f94f6330d6f020ac64e7a18ee695d97dc0bfe135cd98850",
+    "public_thread_transfer.py": "8d014b92d6b53023f602109a83b7d3d736dbc1515e178e7174dfd61c162845c5",
+    "build_dept3_pilot.py": "102fb3aec0b5b2c1e9820fccf0bbc22c5c2b929dd371324e8edec90a1302c15f",
+    "python-dev-headers.jsonl.gz": "dce5157bf5495b26e07d505a5dc25e0f3708db620e9d8776e6295ed7c3cb3324",
+    "python-ideas-headers.jsonl.gz": "49c0fa5cf33a0fea56432c4bd412d06ef263ba0048da5f3170cdc0441b7ce095"
+  },
+  "models": {
+    "role_history": [
+      {
+        "reg": 0.01,
+        "loss": 4.30196785065144,
+        "theta": [
+          0.34638183832633573,
+          0.30246568125502865,
+          0.5169064926032224,
+          0.2886244678601993
+        ],
+        "fit_n": 176,
+        "val_n": 48
+      },
+      {
+        "reg": 0.01,
+        "loss": 3.9214428933556635,
+        "theta": [
+          0.1952545624189516,
+          0.8327433083542033,
+          -0.2339041740625871,
+          0.4309063206851287
+        ],
+        "fit_n": 250,
+        "val_n": 77
+      }
+    ],
+    "direct": [
+      {
+        "reg": 0.01,
+        "loss": 4.284335932076794,
+        "theta": [
+          0.3954862021165959,
+          0.3179158704567422,
+          0.48953342163162017,
+          0.29945757423783387,
+          -0.43759452410574046,
+          0.22141576220468143
+        ],
+        "fit_n": 176,
+        "val_n": 48
+      },
+      {
+        "reg": 0.01,
+        "loss": 3.90331075560138,
+        "theta": [
+          0.25585664106691797,
+          0.834292365280686,
+          -0.23503540255744124,
+          0.438768988610386,
+          -0.15160053025920475,
+          -0.03154449547656997
+        ],
+        "fit_n": 250,
+        "val_n": 77
+      }
+    ],
+    "retrieval": [
+      {
+        "reg": 0.01,
+        "loss": 4.2828576799716425,
+        "theta": [
+          0.3942652486151982,
+          0.3192349465834758,
+          0.47124029530766354,
+          0.3146758944012802,
+          -0.43749748459497306,
+          0.22089005383085825,
+          0.384487250428738,
+          -0.37850846019452133
+        ],
+        "fit_n": 176,
+        "val_n": 48
+      },
+      {
+        "reg": 0.01,
+        "loss": 3.9028213552085798,
+        "theta": [
+          0.254546830551309,
+          0.8333151586878969,
+          -0.2351886352040476,
+          0.46177389612751263,
+          -0.14848819924028492,
+          -0.027533838251168476,
+          0.015395449830041817,
+          -0.4572063541014581
+        ],
+        "fit_n": 250,
+        "val_n": 77
+      }
+    ]
+  }
+}

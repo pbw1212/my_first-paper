@@ -1,0 +1,9 @@
+{
+  "scale.npz": "f0ad6c8ceeb5337a2af5553d915aeb5c5116c5094adf9d1daac9e7ffd97e8b9f",
+  "protocol.json": "65df000686a57027f42cf385bfad329bb1081159182efadb9c7df94f265a4069",
+  "fit.json": "0296018e5c0dae287abe74a27f23bd53cdeee1f3d368467adf9d7a84d13d1446",
+  "node_hard.pt": "ac9c37e0b9cabbb1ddbfa04575c328d58cf7f06e347ffad73bc0a426c314a337",
+  "node_soft.pt": "c4dab1f56992fe01ade36772d2dd81d0c63ea2e3531e915f402335729c8b70a3",
+  "pair_hard.pt": "29489b3c48ade748567dcf9342a0f9efde8858954a12033fc229b1a230368c31",
+  "pair_soft.pt": "5342fe43904cd7073841e6c863f624e839bf78b101bbdd3797daafafed7db970"
+}

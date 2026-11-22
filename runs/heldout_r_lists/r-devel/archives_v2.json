@@ -1,0 +1,236 @@
+[
+  {
+    "url": "https://stat.ethz.ch/pipermail/r-devel/2020-September.txt.gz",
+    "sha256": "f0055ecdb690213c4278a764f0eea78bb50b51a4d39e8fa28c6e99e2d4c26ea8",
+    "messages": 104,
+    "parsed": 104,
+    "skipped": {},
+    "headers_sha256": "69afaedf174f1e3ee45098892ad55209862d5217a38be6719ff7e1ddb8f1c659"
+  },
+  {
+    "url": "https://stat.ethz.ch/pipermail/r-devel/2020-October.txt.gz",
+    "sha256": "93f2c7d0ab99efb752ff491ae9f675cf9afc31ba15601cc80a8ad1256e352115",
+    "messages": 62,
+    "parsed": 62,
+    "skipped": {},
+    "headers_sha256": "7d20cddfc4f5049d5d1811e1cb7bf355af3198f6d3dbd2f0de8b3efc1df8b613"
+  },
+  {
+    "url": "https://stat.ethz.ch/pipermail/r-devel/2020-November.txt.gz",
+    "sha256": "4d2a86a5da47a81c9981bea3363418ab5753dfb4ae4f5acd4b12c9196d360d30",
+    "messages": 97,
+    "parsed": 97,
+    "skipped": {},
+    "headers_sha256": "348772a282ad09433948147be7bdf85ba58f8a7649564945b0a0a63c08721127"
+  },
+  {
+    "url": "https://stat.ethz.ch/pipermail/r-devel/2020-December.txt.gz",
+    "sha256": "d2708c56a1e2c97ef564ef0817fad388dd1b33beb77722b3cc597660b7eaaa94",
+    "messages": 220,
+    "parsed": 220,
+    "skipped": {},
+    "headers_sha256": "f7a7b5709b00844b0e70bce347930fb63c9dd511f046d77dd9afd56f7ef45842"
+  },
+  {
+    "url": "https://stat.ethz.ch/pipermail/r-devel/2021-January.txt.gz",
+    "sha256": "a4b627e76056f80ba541f7243452793c7150f92f2587c8be94341b30f3547569",
+    "messages": 57,
+    "parsed": 57,
+    "skipped": {},
+    "headers_sha256": "97f5341bc4d889a30acf961cfd6225a341e9ca3dcba002d147ccf54809bb1434"
+  },
+  {
+    "url": "https://stat.ethz.ch/pipermail/r-devel/2021-February.txt.gz",
+    "sha256": "c3a29b5ae23fe932ca3c32bff1e1322612dfa769b6dcb17b36efee9da19cb3dc",
+    "messages": 62,
+    "parsed": 62,
+    "skipped": {},
+    "headers_sha256": "5e9f83e0ae0a205d92060c227b6f95961293e89b5f68ff506f3120bf16a415b4"
+  },
+  {
+    "url": "https://stat.ethz.ch/pipermail/r-devel/2021-March.txt.gz",
+    "sha256": "6578ecc7126741043dac4c038fe0b393be7f61d9be75375cf4d8d940e90719db",
+    "messages": 99,
+    "parsed": 99,
+    "skipped": {},
+    "headers_sha256": "e971fac2605dffe6f1637bca4b7d97bb95697f02928cbccb2359d2617f09a586"
+  },
+  {
+    "url": "https://stat.ethz.ch/pipermail/r-devel/2021-April.txt.gz",
+    "sha256": "dd335152f09550016b598f08805342ca49cf422090b122c0611dea1a336aa039",
+    "messages": 95,
+    "parsed": 93,
+    "skipped": {
+      "date_or_message_id": 2
+    },
+    "headers_sha256": "39f13a20251eb80a07395cb99c4c5c0b8b09e3b93dafa2c9649410a3c12c2964"
+  },
+  {
+    "url": "https://stat.ethz.ch/pipermail/r-devel/2021-May.txt.gz",
+    "sha256": "c65fd10daa829bad93f4de64500c570741f89d3f723bfe76ded4c4b90ebbc8ab",
+    "messages": 105,
+    "parsed": 105,
+    "skipped": {},
+    "headers_sha256": "42923e56a26e72faefd30abf2c71c53649bf1eaa0471c22916933698aedeccb1"
+  },
+  {
+    "url": "https://stat.ethz.ch/pipermail/r-devel/2021-June.txt.gz",
+    "sha256": "006c1f0cdae0883636121875e602fceb953836fae05778431111da7d1a831840",
+    "messages": 92,
+    "parsed": 92,
+    "skipped": {},
+    "headers_sha256": "1aed8f8e9a8c1c1c072309cd278dfca5370544228b4faabcb0fd9ba02f4307f6"
+  },
+  {
+    "url": "https://stat.ethz.ch/pipermail/r-devel/2021-July.txt.gz",
+    "sha256": "69c578cb2c1cf11670207b566123b92ec64c5673bef43414532cd4029e67348e",
+    "messages": 78,
+    "parsed": 78,
+    "skipped": {},
+    "headers_sha256": "797c6ce4bc65ab5bb0fda41761f9a8ec47ecc80d079c2e9cd36d6c2ee98039d1"
+  },
+  {
+    "url": "https://stat.ethz.ch/pipermail/r-devel/2021-August.txt.gz",
+    "sha256": "2425d5b6b4998ab01c2b1b9627cf918acc21d08c06d217a1ef10b308b2a8f2a7",
+    "messages": 102,
+    "parsed": 102,
+    "skipped": {},
+    "headers_sha256": "1c74b09787ec018999207d9122c1812e1f52cec21e23ebdd8686ecfe57b6b9f6"
+  },
+  {
+    "url": "https://stat.ethz.ch/pipermail/r-devel/2021-September.txt.gz",
+    "sha256": "0fd5ef34b29f2b5ee06ce5908aaf3675ecd9590ea4325f9ca45578de6c99dfe6",
+    "messages": 68,
+    "parsed": 68,
+    "skipped": {},
+    "headers_sha256": "a649bad661da4040be48c0657b797cf2738bb4a4fd6805a9de89ff5789a2852d"
+  },
+  {
+    "url": "https://stat.ethz.ch/pipermail/r-devel/2021-October.txt.gz",
+    "sha256": "35a4365f1d2564d52349c968ee8824c70ac017fd2668f8700572d8c4571a55a9",
+    "messages": 69,
+    "parsed": 69,
+    "skipped": {},
+    "headers_sha256": "e723705842912d3618698235e08cee6fee4563b5803aa683f84a91770393f214"
+  },
+  {
+    "url": "https://stat.ethz.ch/pipermail/r-devel/2021-November.txt.gz",
+    "sha256": "4f0b6897e98ab969ae80958ebc65e45c0026b68d77e50d39965eaaa7c30416e8",
+    "messages": 93,
+    "parsed": 93,
+    "skipped": {},
+    "headers_sha256": "58f5f3e8563e8cebb8f5cc0acadd418e400f9ea364c03373a437416d3bd2ff00"
+  },
+  {
+    "url": "https://stat.ethz.ch/pipermail/r-devel/2021-December.txt.gz",
+    "sha256": "201026698ed286f715897fd288a84cd125183323dfbdf5b09658b812b1da2c18",
+    "messages": 107,
+    "parsed": 107,
+    "skipped": {},
+    "headers_sha256": "4e576ddf61a877ab73cb255608f3984d5305d9ac755a84d980267dd7e905cb0d"
+  },
+  {
+    "url": "https://stat.ethz.ch/pipermail/r-devel/2022-January.txt.gz",
+    "sha256": "831dee78674f8461ffe40686980255520ecd20500c7302cdecd4f9fc00323ec0",
+    "messages": 50,
+    "parsed": 50,
+    "skipped": {},
+    "headers_sha256": "ba2fa3b50bc3d9f76fb07424073a0adfc0deba87862702ce4ebd9243ca36f3bd"
+  },
+  {
+    "url": "https://stat.ethz.ch/pipermail/r-devel/2022-February.txt.gz",
+    "sha256": "49780cf9e17970ba27f2eb15b92a6b2622bf27b0fc70c4ca251441b719e9a997",
+    "messages": 59,
+    "parsed": 59,
+    "skipped": {},
+    "headers_sha256": "24994f59333f60c7e8f2928a8c9fda01357d45ae3fe943a13cb486f4794312d5"
+  },
+  {
+    "url": "https://stat.ethz.ch/pipermail/r-devel/2022-March.txt.gz",
+    "sha256": "e76c05ce72845b663beb45692a0056610c22d04e78ab171d1c7f92bf8f2d43b2",
+    "messages": 74,
+    "parsed": 74,
+    "skipped": {},
+    "headers_sha256": "53a75bcc6b96576ada03e94f6b95990563cc6809c040637ee12ad071dd488aae"
+  },
+  {
+    "url": "https://stat.ethz.ch/pipermail/r-devel/2022-April.txt.gz",
+    "sha256": "4f8d916fe4966b995a86e9138b1378f856e93c21c5630d70f81d3c02b4ada56c",
+    "messages": 81,
+    "parsed": 81,
+    "skipped": {},
+    "headers_sha256": "42823f41778c2d802c0c4609c464f8e1bfd198e49c2c2a83fcf844f624c49625"
+  },
+  {
+    "url": "https://stat.ethz.ch/pipermail/r-devel/2022-May.txt.gz",
+    "sha256": "59eab92fd04e191b34c4d885bc4d55d05637c5cc443b124a8a671812ed34a67b",
+    "messages": 107,
+    "parsed": 107,
+    "skipped": {},
+    "headers_sha256": "921b9379a6b0031ba586ddf710cab62316b5e5df6173e2a39f79460e550e67ef"
+  },
+  {
+    "url": "https://stat.ethz.ch/pipermail/r-devel/2022-June.txt.gz",
+    "sha256": "f062e560e05f7609728e06609fa95f050f984f7dc6c28383f8647209b614ca3d",
+    "messages": 69,
+    "parsed": 69,
+    "skipped": {},
+    "headers_sha256": "cd921250b0b857b2f0a64d9cd4d0cba6ef1f15085ecb5a61013098d737ce101a"
+  },
+  {
+    "url": "https://stat.ethz.ch/pipermail/r-devel/2022-July.txt.gz",
+    "sha256": "5b0201ca3521b4cb52ea3dc542b8db3a1964e5928aac05aada026f9031ad5151",
+    "messages": 78,
+    "parsed": 78,
+    "skipped": {},
+    "headers_sha256": "84bce433b401bee06902718ef143cc05b4f3e17e13dfea8f23315682d16747c7"
+  },
+  {
+    "url": "https://stat.ethz.ch/pipermail/r-devel/2022-August.txt.gz",
+    "sha256": "9dd26fbe4b6db01282534e7c8d36e6e60c433f98c0f619bd56114401b0dbd84f",
+    "messages": 36,
+    "parsed": 36,
+    "skipped": {},
+    "headers_sha256": "385d90fe4630b386009215cb0f15b7db19057da2d0d344e68e5d188fb5714739"
+  },
+  {
+    "url": "https://stat.ethz.ch/pipermail/r-devel/2022-September.txt.gz",
+    "sha256": "89f1b9a79fba3fa040d1b4ecb416db742e5ad7ee0e8292d91bba0ac142def825",
+    "messages": 99,
+    "parsed": 99,
+    "skipped": {},
+    "headers_sha256": "88822cdde02b93884fbb00257ed6c9433d48468b46481f0ef1dd063438272493"
+  },
+  {
+    "url": "https://stat.ethz.ch/pipermail/r-devel/2022-October.txt.gz",
+    "sha256": "0a43f55c441fd201c9a673da23f9a215b51ceb88447758339cd6456b1b1a5888",
+    "messages": 61,
+    "parsed": 61,
+    "skipped": {},
+    "headers_sha256": "f0762256dba565724ca4780a0ce57b728b8d98dac5cfa6ed22e15157a2d81db1"
+  },
+  {
+    "url": "https://stat.ethz.ch/pipermail/r-devel/2022-November.txt.gz",
+    "sha256": "5af6ad8b043b06f3c6f7f5c168c6f399107311b4ad77434b2ed14770566d67eb",
+    "messages": 27,
+    "parsed": 27,
+    "skipped": {},
+    "headers_sha256": "06b42bedb41b63f465a0588f16180a197e337a9fbde366d02ada7420643b85d7"
+  },
+  {
+    "url": "https://stat.ethz.ch/pipermail/r-devel/2022-December.txt.gz",
+    "sha256": "153d243ab192ab9d85b2d6bd3c2e0b898cb1c3f4928df329eac2a2b47cffdd00",
+    "messages": 42,
+    "parsed": 42,
+    "skipped": {},
+    "headers_sha256": "b1b2c02e67da0004a48495239d50fd541678fd3196a2836becfdaaeb9943a0a1"
+  },
+  {
+    "url": "https://stat.ethz.ch/pipermail/r-devel/2023-January.txt.gz",
+    "sha256": "8ca021e1a827fa9cb2a1498c2e55a0d17e47d7961dee2cf85180e67d6aad35cd",
+    "messages": 96,
+    "parsed": 96,
+    "skipped": {},
+    "headers_sha256": "577e47c759d0c6ae0441785c3316c52de79eb610975feb405b4a30e4891642be"
+  }
+]

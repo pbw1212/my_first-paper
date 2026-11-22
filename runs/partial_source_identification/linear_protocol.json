@@ -1,0 +1,5 @@
+{
+  "training": "Dept2 original 700 events",
+  "models": "raw standardized versus within-candidate percentile standardized, L2 logistic C=1, class-balanced per event",
+  "endpoint": "both sources in 12 people; same frozen evaluation cases; no parameter search"
+}

@@ -1,0 +1,144 @@
+{
+  "r-devel": {
+    "eligible": 17,
+    "scored": 9,
+    "methods": {
+      "volume": {
+        "both_pct": 0.0,
+        "first_pct": 0.0,
+        "second_pct": 11.76470588235294,
+        "hits_by_seed": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "forward_out": {
+        "both_pct": 0.0,
+        "first_pct": 5.88235294117647,
+        "second_pct": 20.0,
+        "hits_by_seed": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "reverse_out": {
+        "both_pct": 0.0,
+        "first_pct": 2.3529411764705883,
+        "second_pct": 11.76470588235294,
+        "hits_by_seed": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "forward_in": {
+        "both_pct": 0.0,
+        "first_pct": 2.3529411764705883,
+        "second_pct": 21.176470588235293,
+        "hits_by_seed": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "reverse_in": {
+        "both_pct": 0.0,
+        "first_pct": 0.0,
+        "second_pct": 11.76470588235294,
+        "hits_by_seed": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "primary_pp": 0.0,
+    "ci95_pp": [
+      0.0,
+      0.0
+    ]
+  },
+  "r-package-devel": {
+    "eligible": 13,
+    "scored": 5,
+    "methods": {
+      "volume": {
+        "both_pct": 0.0,
+        "first_pct": 7.6923076923076925,
+        "second_pct": 15.384615384615385,
+        "hits_by_seed": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "forward_out": {
+        "both_pct": 0.0,
+        "first_pct": 7.6923076923076925,
+        "second_pct": 20.0,
+        "hits_by_seed": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "reverse_out": {
+        "both_pct": 0.0,
+        "first_pct": 7.6923076923076925,
+        "second_pct": 15.384615384615385,
+        "hits_by_seed": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "forward_in": {
+        "both_pct": 0.0,
+        "first_pct": 7.6923076923076925,
+        "second_pct": 16.923076923076923,
+        "hits_by_seed": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "reverse_in": {
+        "both_pct": 0.0,
+        "first_pct": 7.6923076923076925,
+        "second_pct": 15.384615384615385,
+        "hits_by_seed": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "primary_pp": 0.0,
+    "ci95_pp": [
+      0.0,
+      0.0
+    ]
+  }
+}

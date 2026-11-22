@@ -1,0 +1,354 @@
+{
+  "python-dev": {
+    "2016-September": {
+      "url": "https://mail.python.org/pipermail/python-dev/2016-September.txt",
+      "sha256": "50dd1a9390eac58a62d0fc92bf8b5928096b1384e7fbcd6ac0e7d5dc38ec30f7",
+      "messages": 538,
+      "parsed": 537
+    },
+    "2016-October": {
+      "url": "https://mail.python.org/pipermail/python-dev/2016-October.txt",
+      "sha256": "3c734c05ff770d1893fa971f85112b731c67b08da8515f6dd521efa4fda981c5",
+      "messages": 207,
+      "parsed": 207
+    },
+    "2016-November": {
+      "url": "https://mail.python.org/pipermail/python-dev/2016-November.txt",
+      "sha256": "617fa1c6a0f0c77518efd0f6415c524beb079415a107d1b69493e545fe7a5593",
+      "messages": 110,
+      "parsed": 110
+    },
+    "2016-December": {
+      "url": "https://mail.python.org/pipermail/python-dev/2016-December.txt",
+      "sha256": "3560741480dce7e234f19e9855c9bdb81c6fd833eebc06737028223b309ee36f",
+      "messages": 200,
+      "parsed": 200
+    },
+    "2017-January": {
+      "url": "https://mail.python.org/pipermail/python-dev/2017-January.txt",
+      "sha256": "56d5ae0da6324ff02600dce3565e15774b7ea70324a0199b08dc0873fff3d320",
+      "messages": 220,
+      "parsed": 220
+    },
+    "2017-February": {
+      "url": "https://mail.python.org/pipermail/python-dev/2017-February.txt",
+      "sha256": "f53920ed3d878de28a0ef91c7a95b32f7c5d7783b45df677506a5ad0a595952d",
+      "messages": 192,
+      "parsed": 191
+    },
+    "2017-March": {
+      "url": "https://mail.python.org/pipermail/python-dev/2017-March.txt",
+      "sha256": "e577c8dac6e0075ec034cd38265b35066b9a886e47997c24e4b83ebc208c8e45",
+      "messages": 241,
+      "parsed": 239
+    },
+    "2017-April": {
+      "url": "https://mail.python.org/pipermail/python-dev/2017-April.txt",
+      "sha256": "a00f223cb82b8983de12f35686d96fa8c6c67a408fe13f16594539da151a239c",
+      "messages": 79,
+      "parsed": 79
+    },
+    "2017-May": {
+      "url": "https://mail.python.org/pipermail/python-dev/2017-May.txt",
+      "sha256": "9f882fd72c8ed18485200d6463767f32a9adbf2131afbe2d240963898e7ab6a0",
+      "messages": 282,
+      "parsed": 281
+    },
+    "2017-June": {
+      "url": "https://mail.python.org/pipermail/python-dev/2017-June.txt",
+      "sha256": "f1b85730a5b0f69480772b4d05b6f2544ad653b861b6be06283429fc53bc590c",
+      "messages": 426,
+      "parsed": 426
+    },
+    "2017-July": {
+      "url": "https://mail.python.org/pipermail/python-dev/2017-July.txt",
+      "sha256": "47fb0ab146e380b484cee0037f7af4731006067b4a147f68ee1eca159be80da4",
+      "messages": 253,
+      "parsed": 253
+    },
+    "2017-August": {
+      "url": "https://mail.python.org/pipermail/python-dev/2017-August.txt",
+      "sha256": "29d6d45c89eca57b47bf9d1f78e447139ed29257106d03eea63136efa9a5c2df",
+      "messages": 326,
+      "parsed": 326
+    },
+    "2017-September": {
+      "url": "https://mail.python.org/pipermail/python-dev/2017-September.txt",
+      "sha256": "d5046606de9896676e2050cb19773ab6cd1809e56dcfae24bbc82eead7f2f031",
+      "messages": 549,
+      "parsed": 548
+    },
+    "2017-October": {
+      "url": "https://mail.python.org/pipermail/python-dev/2017-October.txt",
+      "sha256": "c60b9f053b7890b77e4ffedadc1817bee60aa3875a2c4060012c8f3e78341167",
+      "messages": 403,
+      "parsed": 402
+    },
+    "2017-November": {
+      "url": "https://mail.python.org/pipermail/python-dev/2017-November.txt",
+      "sha256": "ddf6b2369195c518534dc89fc0e607771fd06b1f28a384f61d15940f8ab55611",
+      "messages": 942,
+      "parsed": 942
+    },
+    "2017-December": {
+      "url": "https://mail.python.org/pipermail/python-dev/2017-December.txt",
+      "sha256": "9c52568abe72877ea76bf8364f14992ed11453b6f24e1d6c5c9f585104a6510e",
+      "messages": 536,
+      "parsed": 536
+    },
+    "2018-January": {
+      "url": "https://mail.python.org/pipermail/python-dev/2018-January.txt",
+      "sha256": "88bd6badc3d8186206b1c570c1eb3e04ac7be9f215201d60daf803342c828bd0",
+      "messages": 504,
+      "parsed": 504
+    },
+    "2018-February": {
+      "url": "https://mail.python.org/pipermail/python-dev/2018-February.txt",
+      "sha256": "d3f2beae462cb54003fc2be229234e9410bbd663c343c0d88cedd060705da84a",
+      "messages": 286,
+      "parsed": 286
+    },
+    "2018-March": {
+      "url": "https://mail.python.org/pipermail/python-dev/2018-March.txt",
+      "sha256": "2c9fb96e1cfc756739f41f65d72602a7e27e86ff1c6c8c172102161d1ff27338",
+      "messages": 247,
+      "parsed": 246
+    },
+    "2018-April": {
+      "url": "https://mail.python.org/pipermail/python-dev/2018-April.txt",
+      "sha256": "b4ca3cedfc7acd7e8203f85b3c6de3aedd28ee4f8c32c983cac9b7ee01ec3ea0",
+      "messages": 715,
+      "parsed": 715
+    },
+    "2018-May": {
+      "url": "https://mail.python.org/pipermail/python-dev/2018-May.txt",
+      "sha256": "1bc723f0f25b566f5a0bab8c8ef2dd0a220447c00e9a73deb37fe1f47237d2c7",
+      "messages": 488,
+      "parsed": 488
+    },
+    "2018-June": {
+      "url": "https://mail.python.org/pipermail/python-dev/2018-June.txt",
+      "sha256": "2cafcc0c0dcefd7cedc33a19477a6c8317ab49e19c3f23e48286db0554c6c64f",
+      "messages": 425,
+      "parsed": 425
+    },
+    "2018-July": {
+      "url": "https://mail.python.org/pipermail/python-dev/2018-July.txt",
+      "sha256": "7860affac06511f2f5940b844ba6e45b7c2c369519874ca628b293369d8fc0f8",
+      "messages": 689,
+      "parsed": 689
+    },
+    "2018-August": {
+      "url": "https://mail.python.org/pipermail/python-dev/2018-August.txt",
+      "sha256": "463bb6f413d41b1efd51514fe7697ea2ef0878e19efea087a3cfbcdec5f4cdac",
+      "messages": 170,
+      "parsed": 169
+    },
+    "2018-September": {
+      "url": "https://mail.python.org/pipermail/python-dev/2018-September.txt",
+      "sha256": "4f92bcbe346377e48de677ae97e2b09179a39d1bb9bd33a546a809dba06cdc1a",
+      "messages": 316,
+      "parsed": 316
+    },
+    "2018-October": {
+      "url": "https://mail.python.org/pipermail/python-dev/2018-October.txt",
+      "sha256": "b9e663933dc867973792f08694d4f60fd66239e29c68467e62cb8296373195c2",
+      "messages": 268,
+      "parsed": 268
+    },
+    "2018-November": {
+      "url": "https://mail.python.org/pipermail/python-dev/2018-November.txt",
+      "sha256": "bd5334c978e023cb920819d261122e6f4f31bb2b390f39d7de790fd7061e844c",
+      "messages": 273,
+      "parsed": 273
+    },
+    "2018-December": {
+      "url": "https://mail.python.org/pipermail/python-dev/2018-December.txt",
+      "sha256": "de2707f54547a701a4f3689a3cb5f9555bf2b241803033d1c9050fb8e849d920",
+      "messages": 69,
+      "parsed": 69
+    },
+    "2019-January": {
+      "url": "https://mail.python.org/pipermail/python-dev/2019-January.txt",
+      "sha256": "8c9e78ef171de072c8a2575d6a9a169a5905fc317712dd66223ea09eb5dea121",
+      "messages": 194,
+      "parsed": 191
+    }
+  },
+  "python-ideas": {
+    "2016-September": {
+      "url": "https://mail.python.org/pipermail/python-ideas/2016-September.txt",
+      "sha256": "fc18de66912015902de609106e1be1af98ec9092a4e2293068399ae775206aa0",
+      "messages": 576,
+      "parsed": 576
+    },
+    "2016-October": {
+      "url": "https://mail.python.org/pipermail/python-ideas/2016-October.txt",
+      "sha256": "11484e350694be8e721b2bf13eab94c8ff5ca0fa28f193a21c1af63eff8e357b",
+      "messages": 876,
+      "parsed": 876
+    },
+    "2016-November": {
+      "url": "https://mail.python.org/pipermail/python-ideas/2016-November.txt",
+      "sha256": "16f4d56da190af226dd04ee1028b83b71b98b067b00f523665f1efc9e6f03747",
+      "messages": 405,
+      "parsed": 405
+    },
+    "2016-December": {
+      "url": "https://mail.python.org/pipermail/python-ideas/2016-December.txt",
+      "sha256": "845310263d6ba49e9e42c95001ed4a18dc14e4e52f9afa2597325143b12db72a",
+      "messages": 173,
+      "parsed": 173
+    },
+    "2017-January": {
+      "url": "https://mail.python.org/pipermail/python-ideas/2017-January.txt",
+      "sha256": "cdd9b0dea6a4e337a62f571c4f106bf81e5ebf75edcf64ce4a0f025cca2c4680",
+      "messages": 432,
+      "parsed": 432
+    },
+    "2017-February": {
+      "url": "https://mail.python.org/pipermail/python-ideas/2017-February.txt",
+      "sha256": "80638f39a4111d4fe452c60b164bb84e73673747ae21a3b49bbf285c91325b4e",
+      "messages": 419,
+      "parsed": 419
+    },
+    "2017-March": {
+      "url": "https://mail.python.org/pipermail/python-ideas/2017-March.txt",
+      "sha256": "913deacc03e322d48ce41471e2861679d806f52a11e515c12a4742fa6ae1d51d",
+      "messages": 457,
+      "parsed": 456
+    },
+    "2017-April": {
+      "url": "https://mail.python.org/pipermail/python-ideas/2017-April.txt",
+      "sha256": "3346f08c08ebaf1f759474dd85d93ef835b1cadd4cb385b1a80e5a72139dc92b",
+      "messages": 164,
+      "parsed": 164
+    },
+    "2017-May": {
+      "url": "https://mail.python.org/pipermail/python-ideas/2017-May.txt",
+      "sha256": "024ec5891c8b970444abf8e667f61df22f7de49673ceaa126d7e7f053c530479",
+      "messages": 258,
+      "parsed": 258
+    },
+    "2017-June": {
+      "url": "https://mail.python.org/pipermail/python-ideas/2017-June.txt",
+      "sha256": "b606f03e64e080cc6dd8ede3d27c223ab41a670c9d4a92a381338f8750df758d",
+      "messages": 484,
+      "parsed": 484
+    },
+    "2017-July": {
+      "url": "https://mail.python.org/pipermail/python-ideas/2017-July.txt",
+      "sha256": "8b2a22ae7f5e2658b9fbe52ca432739a248dc22a84d3b0a73551845c65194f85",
+      "messages": 328,
+      "parsed": 328
+    },
+    "2017-August": {
+      "url": "https://mail.python.org/pipermail/python-ideas/2017-August.txt",
+      "sha256": "9df90eab39d2955cd51a59fac2b13c8f436c0c8c2913371d5de382bb103807b4",
+      "messages": 290,
+      "parsed": 290
+    },
+    "2017-September": {
+      "url": "https://mail.python.org/pipermail/python-ideas/2017-September.txt",
+      "sha256": "1f235beeef5be35c456e2828a63825ceb9cfb1bb2aa65a508c387ed13b7dcf78",
+      "messages": 345,
+      "parsed": 345
+    },
+    "2017-October": {
+      "url": "https://mail.python.org/pipermail/python-ideas/2017-October.txt",
+      "sha256": "2efe1a06544d9b0d1a5081b83aa0a61b4aa8b6b2885f1f4f43e9b683d186859e",
+      "messages": 364,
+      "parsed": 364
+    },
+    "2017-November": {
+      "url": "https://mail.python.org/pipermail/python-ideas/2017-November.txt",
+      "sha256": "7598ea5f791f32475c68f898cf1367c09f7802b13aedd05b20b1dbfadd89899b",
+      "messages": 712,
+      "parsed": 712
+    },
+    "2017-December": {
+      "url": "https://mail.python.org/pipermail/python-ideas/2017-December.txt",
+      "sha256": "b6dee110a65371db2b9d8c9c79dffbad458215a8c2a2b5b62a7b27bdea3a70b8",
+      "messages": 188,
+      "parsed": 188
+    },
+    "2018-January": {
+      "url": "https://mail.python.org/pipermail/python-ideas/2018-January.txt",
+      "sha256": "24961c73418cd52be40a3ee98c5e6479d4662faaf1ef16570d2fb1cfa0cac05c",
+      "messages": 337,
+      "parsed": 336
+    },
+    "2018-February": {
+      "url": "https://mail.python.org/pipermail/python-ideas/2018-February.txt",
+      "sha256": "2731311851fcde8109244c50ed4f3e9ac63493d452bc7eae6fcdf57d475798f1",
+      "messages": 253,
+      "parsed": 252
+    },
+    "2018-March": {
+      "url": "https://mail.python.org/pipermail/python-ideas/2018-March.txt",
+      "sha256": "f9583c3bb03de43f107f693de1ceef9f8e80bb9e80cdac51a999c247210375fb",
+      "messages": 475,
+      "parsed": 475
+    },
+    "2018-April": {
+      "url": "https://mail.python.org/pipermail/python-ideas/2018-April.txt",
+      "sha256": "57256a43960c9f0f52ab8f042a7c70e0b297cabf7f839b1e3f61262e37a5adbe",
+      "messages": 646,
+      "parsed": 645
+    },
+    "2018-May": {
+      "url": "https://mail.python.org/pipermail/python-ideas/2018-May.txt",
+      "sha256": "51a54b3747ef39aba3a9df3931d04bbfea170703d3b3674570f2b837f6146bd6",
+      "messages": 951,
+      "parsed": 951
+    },
+    "2018-June": {
+      "url": "https://mail.python.org/pipermail/python-ideas/2018-June.txt",
+      "sha256": "c4c6e730714f6e8fc306dc905d5afbb224f09fce08d120b56843f0ccddc1b0eb",
+      "messages": 608,
+      "parsed": 608
+    },
+    "2018-July": {
+      "url": "https://mail.python.org/pipermail/python-ideas/2018-July.txt",
+      "sha256": "91b04b4d6af504a26a5b507acb3ab9ea1cd97049a6838724fa4b0a8fac437520",
+      "messages": 746,
+      "parsed": 746
+    },
+    "2018-August": {
+      "url": "https://mail.python.org/pipermail/python-ideas/2018-August.txt",
+      "sha256": "d85aeb45fcc035b9d4fbb9fad524ffcdfb351504d020799bc7695a44a4b8370f",
+      "messages": 626,
+      "parsed": 626
+    },
+    "2018-September": {
+      "url": "https://mail.python.org/pipermail/python-ideas/2018-September.txt",
+      "sha256": "f53d8cf257db9ebb446172c32e77c9b8db59a38f5d710cda7c2bba8d56f1c873",
+      "messages": 766,
+      "parsed": 766
+    },
+    "2018-October": {
+      "url": "https://mail.python.org/pipermail/python-ideas/2018-October.txt",
+      "sha256": "83748f55a96f65f019aa846bbbbc1d52bc77010251e40884f4d5783e3d47565f",
+      "messages": 489,
+      "parsed": 488
+    },
+    "2018-November": {
+      "url": "https://mail.python.org/pipermail/python-ideas/2018-November.txt",
+      "sha256": "0f190f118151d8ab88d9d459e61fc132946597aefd89385d95fc874ea776153c",
+      "messages": 231,
+      "parsed": 231
+    },
+    "2018-December": {
+      "url": "https://mail.python.org/pipermail/python-ideas/2018-December.txt",
+      "sha256": "66ab753c76b620c750999ed6937ba18f39ef8b75a2a095f383f2c42e3406375e",
+      "messages": 148,
+      "parsed": 148
+    },
+    "2019-January": {
+      "url": "https://mail.python.org/pipermail/python-ideas/2019-January.txt",
+      "sha256": "180260a891926efb04878d73153a02e59d8d55183ba030ef774db9418021a94c",
+      "messages": 311,
+      "parsed": 311
+    }
+  }
+}

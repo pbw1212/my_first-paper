@@ -1,0 +1,190 @@
+{
+  "dual": {
+    "total": {
+      "n": 160,
+      "sum_legal": 46940,
+      "expected_random_both": 0.24663277978911613,
+      "Dept2_source_both": 41,
+      "Dept2_source_one": 118,
+      "Dept2_joint_both": 42,
+      "Dept2_joint_one": 115,
+      "company_source_both": 5,
+      "company_source_one": 64,
+      "company_joint_both": 4,
+      "company_joint_one": 64,
+      "reach_both": 12,
+      "reach_one": 120
+    },
+    "Dept1-26": {
+      "n": 40,
+      "sum_legal": 11594,
+      "expected_random_both": 0.06315506368260054,
+      "Dept2_source_both": 7,
+      "Dept2_source_one": 28,
+      "Dept2_joint_both": 6,
+      "Dept2_joint_one": 27,
+      "company_source_both": 1,
+      "company_source_one": 16,
+      "company_joint_both": 2,
+      "company_joint_one": 16,
+      "reach_both": 1,
+      "reach_one": 30
+    },
+    "Dept1-27": {
+      "n": 40,
+      "sum_legal": 11688,
+      "expected_random_both": 0.06217317768447038,
+      "Dept2_source_both": 8,
+      "Dept2_source_one": 29,
+      "Dept2_joint_both": 7,
+      "Dept2_joint_one": 29,
+      "company_source_both": 1,
+      "company_source_one": 15,
+      "company_joint_both": 0,
+      "company_joint_one": 12,
+      "reach_both": 3,
+      "reach_one": 30
+    },
+    "Dept1-28": {
+      "n": 40,
+      "sum_legal": 11929,
+      "expected_random_both": 0.05961327636581457,
+      "Dept2_source_both": 8,
+      "Dept2_source_one": 27,
+      "Dept2_joint_both": 10,
+      "Dept2_joint_one": 28,
+      "company_source_both": 2,
+      "company_source_one": 16,
+      "company_joint_both": 1,
+      "company_joint_one": 17,
+      "reach_both": 5,
+      "reach_one": 27
+    },
+    "Dept1-29": {
+      "n": 40,
+      "sum_legal": 11729,
+      "expected_random_both": 0.06169126205623072,
+      "Dept2_source_both": 18,
+      "Dept2_source_one": 34,
+      "Dept2_joint_both": 19,
+      "Dept2_joint_one": 31,
+      "company_source_both": 1,
+      "company_source_one": 17,
+      "company_joint_both": 1,
+      "company_joint_one": 19,
+      "reach_both": 3,
+      "reach_one": 33
+    }
+  },
+  "ordinary": {
+    "total": {
+      "n": 60,
+      "sum_legal": 17782,
+      "expected_random_both": 0.09055945823207424,
+      "Dept2_source_both": 7,
+      "Dept2_source_one": 37,
+      "Dept2_joint_both": 6,
+      "Dept2_joint_one": 38,
+      "company_source_both": 0,
+      "company_source_one": 25,
+      "company_joint_both": 0,
+      "company_joint_one": 26,
+      "reach_both": 3,
+      "reach_one": 39
+    },
+    "Dept1-26": {
+      "n": 15,
+      "sum_legal": 4389,
+      "expected_random_both": 0.023221059885271397,
+      "Dept2_source_both": 2,
+      "Dept2_source_one": 10,
+      "Dept2_joint_both": 2,
+      "Dept2_joint_one": 11,
+      "company_source_both": 0,
+      "company_source_one": 11,
+      "company_joint_both": 0,
+      "company_joint_one": 9,
+      "reach_both": 0,
+      "reach_one": 10
+    },
+    "Dept1-27": {
+      "n": 15,
+      "sum_legal": 4421,
+      "expected_random_both": 0.02288614201218197,
+      "Dept2_source_both": 4,
+      "Dept2_source_one": 11,
+      "Dept2_joint_both": 3,
+      "Dept2_joint_one": 10,
+      "company_source_both": 0,
+      "company_source_one": 5,
+      "company_joint_both": 0,
+      "company_joint_one": 6,
+      "reach_both": 3,
+      "reach_one": 10
+    },
+    "Dept1-28": {
+      "n": 15,
+      "sum_legal": 4493,
+      "expected_random_both": 0.022153775157764795,
+      "Dept2_source_both": 0,
+      "Dept2_source_one": 8,
+      "Dept2_joint_both": 0,
+      "Dept2_joint_one": 7,
+      "company_source_both": 0,
+      "company_source_one": 3,
+      "company_joint_both": 0,
+      "company_joint_one": 4,
+      "reach_both": 0,
+      "reach_one": 9
+    },
+    "Dept1-29": {
+      "n": 15,
+      "sum_legal": 4479,
+      "expected_random_both": 0.022298481176856087,
+      "Dept2_source_both": 1,
+      "Dept2_source_one": 8,
+      "Dept2_joint_both": 1,
+      "Dept2_joint_one": 10,
+      "company_source_both": 0,
+      "company_source_one": 6,
+      "company_joint_both": 0,
+      "company_joint_one": 7,
+      "reach_both": 0,
+      "reach_one": 10
+    }
+  },
+  "flow": {
+    "Dept1-26": {
+      "dual": 40,
+      "ordinary": 15,
+      "attempts": 372,
+      "start": 40656692,
+      "end": 41866292,
+      "roster": 304
+    },
+    "Dept1-27": {
+      "dual": 40,
+      "ordinary": 15,
+      "attempts": 422,
+      "start": 41866292,
+      "end": 43075892,
+      "roster": 305
+    },
+    "Dept1-28": {
+      "dual": 40,
+      "ordinary": 15,
+      "attempts": 514,
+      "start": 43075892,
+      "end": 44285492,
+      "roster": 307
+    },
+    "Dept1-29": {
+      "dual": 40,
+      "ordinary": 15,
+      "attempts": 423,
+      "start": 44285492,
+      "end": 45495092,
+      "roster": 308
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "url": "https://raw.githubusercontent.com/igraph/igraphdata/d61dabac88607cf726323dcc68109fb5753aebc7/data/enron.rda",
+  "raw_sha256": "68df616583a009c323131574c833f615443756087dda9a97e27a0ad8d658fd5a",
+  "contacts_sha256": "17cc2ea27a871a8046e503dd17f6f3cefadf65d6e924f7fd392f811c8158e14e",
+  "original": 125409,
+  "pre1998": 174,
+  "self_after_cut": 16410,
+  "duplicates_after_filter": 74398,
+  "distinct": 34427,
+  "vertices": 182
+}

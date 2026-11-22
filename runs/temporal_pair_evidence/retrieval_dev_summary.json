@@ -1,0 +1,62 @@
+{
+  "dual": {
+    "ordered": {
+      "mrr": 0.07299790038852744,
+      "top1": 4,
+      "top5": 16,
+      "hit32": 47
+    },
+    "retrieval": {
+      "mrr": 0.04217707599248385,
+      "top1": 3,
+      "top5": 7,
+      "hit32": 25
+    },
+    "with_prior": {
+      "mrr": 0.07214085389193915,
+      "top1": 4,
+      "top5": 17,
+      "hit32": 41
+    },
+    "with_retrieval": {
+      "mrr": 0.07307434000834458,
+      "top1": 4,
+      "top5": 14,
+      "hit32": 44
+    }
+  },
+  "ordinary": {
+    "ordered": {
+      "mrr": 0.006232485188946952,
+      "top1": 0,
+      "top5": 0,
+      "hit32": 5
+    },
+    "retrieval": {
+      "mrr": 0.025029155409964803,
+      "top1": 1,
+      "top5": 2,
+      "hit32": 4
+    },
+    "with_prior": {
+      "mrr": 0.006047423535628786,
+      "top1": 0,
+      "top5": 0,
+      "hit32": 4
+    },
+    "with_retrieval": {
+      "mrr": 0.007027921147136629,
+      "top1": 0,
+      "top5": 0,
+      "hit32": 6
+    }
+  },
+  "bank_sizes": {
+    "external-01": 5866,
+    "external-06": 7062,
+    "external-11": 6459,
+    "external-16": 4075,
+    "external-21": 7170,
+    "external-26": 5227
+  }
+}

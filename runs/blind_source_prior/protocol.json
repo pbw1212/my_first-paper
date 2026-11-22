@@ -1,0 +1,40 @@
+{
+  "primary": "adaptive versus fixed equal draw mixture on all eligible evaluation events, per network and profile",
+  "secondary": "adaptive vs raw and vs activity; oracle sees true draw mixture but not latent per-event component",
+  "generators": {
+    "flat": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "mixed": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "mostly_active": [
+      0.05,
+      0.15,
+      0.8
+    ],
+    "linked": null
+  },
+  "source_models": {
+    "Dept2": "Dept2",
+    "company": "company",
+    "Dept4": "Dept2",
+    "Enron": "Dept2"
+  },
+  "random_seed": 47361122,
+  "reference_windows": 4,
+  "reference_draws_per_component": 100,
+  "adaptation_draws": 120,
+  "max_unlabelled_suffixes": 32,
+  "test_draws": 180,
+  "pseudo_accepted_events": 3,
+  "hashes": {
+    "scripts\\blind_source_prior.py": "75d45356c42378ba76079e38f520f2b9cfbd7f3911fdb1d0f022cb461c5c3186",
+    "runs\\source_prior_shift\\protocol.json": "3a2b5d1ce27059a625ea90e63e284d7d9d0dc956d5d4a1d0556bf6721503221d",
+    "scripts\\source_prior_shift.py": "1ac1b61d8365c73ce3b2ad1a7309c957a1ab7d5e83ffbaf64969b4d3ef6fdb5e"
+  }
+}

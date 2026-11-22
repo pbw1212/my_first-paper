@@ -1,0 +1,34 @@
+{
+  "CollegeMsg-08": {
+    "dual": 0,
+    "ordinary": 60,
+    "attempts": 1513,
+    "seed": 9060500,
+    "start": 1093018588,
+    "end": 1094228188
+  },
+  "CollegeMsg-09": {
+    "dual": 0,
+    "ordinary": 60,
+    "attempts": 1774,
+    "seed": 9060501,
+    "start": 1094228188,
+    "end": 1095437788
+  },
+  "CollegeMsg-10": {
+    "dual": 0,
+    "ordinary": 60,
+    "attempts": 1860,
+    "seed": 9060502,
+    "start": 1095437788,
+    "end": 1096647388
+  },
+  "CollegeMsg-11": {
+    "dual": 0,
+    "ordinary": 60,
+    "attempts": 5312,
+    "seed": 9060503,
+    "start": 1096647388,
+    "end": 1097856988
+  }
+}

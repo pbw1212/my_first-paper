@@ -1,0 +1,38 @@
+{
+  "synthetic": {
+    "exhaustive_distributions": 165,
+    "multi_member_covers": 12,
+    "max_log_posterior_error": 7.993605777301127e-15,
+    "milp_subsets_checked": 3876
+  },
+  "networks": {
+    "Dept2": {
+      "events": 1148,
+      "window_law_direct_checks": 12,
+      "direct_pair_checks": 44,
+      "max_log_odds_error": 1.7763568394002505e-14,
+      "events_sha256": "db580f82a5355b4f3f008647d5b27ed0e593c2a45f4cdb52f406d48908d8fe84"
+    },
+    "company": {
+      "events": 1774,
+      "window_law_direct_checks": 12,
+      "direct_pair_checks": 50,
+      "max_log_odds_error": 1.616484723854228e-13,
+      "events_sha256": "374eacb327a48e08e44ae9e873d7352f7f11c66fa0170dc776e9479deb6b2c5b"
+    },
+    "Dept4": {
+      "events": 2459,
+      "window_law_direct_checks": 21,
+      "direct_pair_checks": 83,
+      "max_log_odds_error": 1.0658141036401503e-13,
+      "events_sha256": "4f16c80ab66d23a1a790ba0fe1f5ae55582fb54970062e78ae675346c47cf391"
+    },
+    "Enron": {
+      "events": 6899,
+      "window_law_direct_checks": 78,
+      "direct_pair_checks": 322,
+      "max_log_odds_error": 1.8474111129762605e-13,
+      "events_sha256": "be1d50abd4dd5ab7ab36e28e7fde3858e51fc4380ddbdbb5eaeee71956009923"
+    }
+  }
+}

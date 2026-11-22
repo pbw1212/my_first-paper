@@ -1,0 +1,124 @@
+[
+  {
+    "url": "https://sourceware.org/pipermail/libc-alpha/2023-September.txt.gz",
+    "sha256": "d097cb30fcc74bd8c7460ca8604fcc0d33b3c2ab4002d7f6658e411f24962817",
+    "messages": 566,
+    "parsed": 566,
+    "headers_sha256": "6ac01accb8f89407f74564315bfff53744d0a1fc2a1c567032e7e4a590e2f47c"
+  },
+  {
+    "url": "https://sourceware.org/pipermail/libc-alpha/2023-October.txt.gz",
+    "sha256": "16ee9f3bba2968b51539d7b51934d75fdb000249290797c723df1ec27548f1a4",
+    "messages": 581,
+    "parsed": 581,
+    "headers_sha256": "72caa385382e0f144d5d933b7958a25730be6d8bf052c5280f90935ba7788842"
+  },
+  {
+    "url": "https://sourceware.org/pipermail/libc-alpha/2023-November.txt.gz",
+    "sha256": "dcf4460ef4d2a1bb1cdf25b0bcd9162a03d49eb43eb803b3f6df7ff0e727035f",
+    "messages": 625,
+    "parsed": 625,
+    "headers_sha256": "2e6779c1164dd7f7ea6518766a7c76f74f7e6b38e0ca0179978f6cb4b2443408"
+  },
+  {
+    "url": "https://sourceware.org/pipermail/libc-alpha/2023-December.txt.gz",
+    "sha256": "ecd0bd375154bdd5a0bd5b863ce79e5859615243025425f185142be3fd6fb360",
+    "messages": 542,
+    "parsed": 542,
+    "headers_sha256": "d51e15df128774f3f5d26fb8b4224c7d3f66fcc62fa38399186cb0796a7c3d59"
+  },
+  {
+    "url": "https://sourceware.org/pipermail/libc-alpha/2024-January.txt.gz",
+    "sha256": "d29eadfe29dfd0cc42f28c456ca6bbadde6bcfaea0c2358f986869016694e413",
+    "messages": 773,
+    "parsed": 773,
+    "headers_sha256": "36edf331110597a8da4ec72ad9340e12ae862414ce0e224dd8fc3435735b5994"
+  },
+  {
+    "url": "https://sourceware.org/pipermail/libc-alpha/2024-February.txt.gz",
+    "sha256": "d6be37955b22cefde9abc0e99586cf1ee52c364f832ccf5c65a271af6ee196e1",
+    "messages": 722,
+    "parsed": 722,
+    "headers_sha256": "2978cef739b9f9197f849ddc88104c2c9976801c0a16a846c7ae80593d317558"
+  },
+  {
+    "url": "https://sourceware.org/pipermail/libc-alpha/2024-March.txt.gz",
+    "sha256": "15f8a8f4297c3753c5f4d420d968ba9065ec2704e79500a0b8005a30d6ef4bb4",
+    "messages": 627,
+    "parsed": 627,
+    "headers_sha256": "4d190d3bb9c8e6109b2d5af96fa7aa9f89f3222ded43a6b4c2ad66aba02387c9"
+  },
+  {
+    "url": "https://sourceware.org/pipermail/libc-alpha/2024-April.txt.gz",
+    "sha256": "fdf39a2d5e787d5e597b7cc19a224fddf2e1f535a5b08e393e7bcb5aed7b9ade",
+    "messages": 735,
+    "parsed": 733,
+    "headers_sha256": "5dc08cb8cf2ced5aabd9877077eea21d55ad101aa35339eaf81e5572db1a42f0"
+  },
+  {
+    "url": "https://sourceware.org/pipermail/libc-alpha/2024-May.txt.gz",
+    "sha256": "ed61db4663e61f5c87c0bffc39eed42627d463d1e029853f6c7f7be408084ccc",
+    "messages": 757,
+    "parsed": 754,
+    "headers_sha256": "accb413d9937968af724411dfc602cb5d55ebed0f862fd158a51965047207af3"
+  },
+  {
+    "url": "https://sourceware.org/pipermail/libc-alpha/2024-June.txt.gz",
+    "sha256": "2ab7ce3a1ec982ab20492d8cb5fc7a6ddccf5fbff9a31a229a45ac01fabbcc03",
+    "messages": 687,
+    "parsed": 686,
+    "headers_sha256": "2048b81c588efb4b4f59a561fdd5148433d92c534148a854df60f0f83fd08b5b"
+  },
+  {
+    "url": "https://sourceware.org/pipermail/libc-alpha/2024-July.txt.gz",
+    "sha256": "65d21280f108ccaf93463a0b967f6a0fd38ba77939c305077f4a1ebbdfbfecd6",
+    "messages": 927,
+    "parsed": 926,
+    "headers_sha256": "ed18680188167eddcfbbd8798725f3d1df2251849775171de5940917003962ff"
+  },
+  {
+    "url": "https://sourceware.org/pipermail/libc-alpha/2024-August.txt.gz",
+    "sha256": "44ba4838f5569bf48ba306a1ee0b7442d7f89786a63c68b0386b3da82b3058c0",
+    "messages": 742,
+    "parsed": 741,
+    "headers_sha256": "f7d79d2f9b94a1b6bdd7be18f410fa9f5efffa14bb5506e8fe342b611d1ef033"
+  },
+  {
+    "url": "https://sourceware.org/pipermail/libc-alpha/2024-September.txt.gz",
+    "sha256": "4a89f61c3d6d0b18de38cfb7deb867f2ee85271f22181753bd88abfb99c0b57e",
+    "messages": 749,
+    "parsed": 749,
+    "converted_messages": 1,
+    "headers_sha256": "547a4b8517283ed2171f86893e3356f654e48c79bdd3f43f05d0fb44c5327012"
+  },
+  {
+    "url": "https://sourceware.org/pipermail/libc-alpha/2024-October.txt.gz",
+    "sha256": "68acc9d1c45ca9732dedad06c0ac0c2651e752e5358096fca49af2f44dbf4580",
+    "messages": 866,
+    "parsed": 863,
+    "headers_sha256": "d85d7e11e8bb4a3f6dbf6828863083ff114e97d44f0a21e4c9246fb8ebe8c448"
+  },
+  {
+    "url": "https://sourceware.org/pipermail/libc-alpha/2024-November.txt.gz",
+    "sha256": "1af10ef6a51cc21fa3471088544221d95e24842ae34c286e6ab251df29472aa6",
+    "messages": 766,
+    "parsed": 763,
+    "converted_messages": 0,
+    "headers_sha256": "1161e61f428fdc585b34c6fa8e5aeff20c7ef2b6fc9fc22f660fa53f957cca68"
+  },
+  {
+    "url": "https://sourceware.org/pipermail/libc-alpha/2024-December.txt.gz",
+    "sha256": "5786c10f46406397dbcd3eb0d9146222d11f11de9945042c4f4eddfdc3cf5801",
+    "messages": 1331,
+    "parsed": 1331,
+    "headers_sha256": "a258c5e8534d80aa23011b32da83dde128630f47584e653a867b0bd566a2a4ee"
+  },
+  {
+    "url": "https://sourceware.org/pipermail/libc-alpha/2025-January.txt.gz",
+    "sha256": "57f32baf616c379896b699af53d31a015298fd067569612fc73f5aa7d81552fa",
+    "messages": 1172,
+    "parsed": 1169,
+    "converted_messages": 0,
+    "headers_sha256": "ede7c254aee10b7d85252494f1c1c1f728c39aab746dfac396a34645a5a34f5d"
+  }
+]

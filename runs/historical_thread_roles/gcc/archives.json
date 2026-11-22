@@ -1,0 +1,205 @@
+[
+  {
+    "url": "https://gcc.gnu.org/pipermail/gcc/2020-September.txt.gz",
+    "sha256": "fcbcb5d54acf2a0520847d000d2025b7673152d35fd1880af12d8b991c67fec6",
+    "messages": 290,
+    "parsed": 289,
+    "metadata_sha256": "b3a299572b6b9acd95ccac9ebdd4d59da9eafcefee7e0c4da553e85fe0034af7"
+  },
+  {
+    "url": "https://gcc.gnu.org/pipermail/gcc/2020-October.txt.gz",
+    "sha256": "4151ff2d428684f366d20d3acd22134c6a740ba9263ac8d6dbc55e584ae3e976",
+    "messages": 264,
+    "parsed": 264,
+    "metadata_sha256": "9f5679a9067c065b0109df3adc373a331ec863cb202e52dd4ec363901c18d620"
+  },
+  {
+    "url": "https://gcc.gnu.org/pipermail/gcc/2020-November.txt.gz",
+    "sha256": "b077d3d64d9594dda8b4fd0f7e239bfb2b20e13426941cb6bf4892b3e06a94f5",
+    "messages": 300,
+    "parsed": 298,
+    "metadata_sha256": "6d64d8fa2c7613d711d4d4ea1488c0c590c7ca26b726765f8ad69cef0543f53a"
+  },
+  {
+    "url": "https://gcc.gnu.org/pipermail/gcc/2020-December.txt.gz",
+    "sha256": "5646d790e9665723fbe80f3daa45919d174940a08774423cb5d1f7c8b7abadc5",
+    "messages": 211,
+    "parsed": 210,
+    "metadata_sha256": "9fc22d6bfa146faa2cb7d53f972b1174aca87a47d9d9b49009c73fefbe368990"
+  },
+  {
+    "url": "https://gcc.gnu.org/pipermail/gcc/2021-January.txt.gz",
+    "sha256": "2c5a996982ff985377105b0a3973d17191a03ad9ccc5ca91d6043fde4c6671d5",
+    "messages": 163,
+    "parsed": 163,
+    "metadata_sha256": "c9d53a0f30e0696d89c2963e9729aba5344ba78923aace7dd557f4819be02fde"
+  },
+  {
+    "url": "https://gcc.gnu.org/pipermail/gcc/2021-February.txt.gz",
+    "sha256": "741a783dacb8060d87e0f17f45757452ccdc2b498152d40c354b6a002d8773d4",
+    "messages": 157,
+    "parsed": 157,
+    "metadata_sha256": "b0d62346a1a598dca23b426998f28628af97ccef6bacee42fae3a82e7f4e9b47"
+  },
+  {
+    "url": "https://gcc.gnu.org/pipermail/gcc/2021-March.txt.gz",
+    "sha256": "7b78dbc999fe55001a50bf76705ee8abb0ca26712b3bc8ba4fc304d2ece8d722",
+    "messages": 327,
+    "parsed": 327,
+    "metadata_sha256": "dab2b400ce8585e0cc19a84fcf67291517bff766654cc1e4502e3b530f621fba"
+  },
+  {
+    "url": "https://gcc.gnu.org/pipermail/gcc/2021-April.txt.gz",
+    "sha256": "7eb2c3888f585346b688a63e92e26d6b53acd9a28213f91395e8457f0ab7f437",
+    "messages": 710,
+    "parsed": 709,
+    "metadata_sha256": "c9680159d8f69b3b868618fee5f5e00ca402981c285d630546f70cb18542cc09"
+  },
+  {
+    "url": "https://gcc.gnu.org/pipermail/gcc/2021-May.txt.gz",
+    "sha256": "825b0b4fe4d6fd363fcf8012d67d8ca475e7b39eb3c3814154750ef60c1d850b",
+    "messages": 215,
+    "parsed": 212,
+    "metadata_sha256": "ef5fee6f5d194f7322b542c05b37fd303e00c31b0143eaf41b64a358fdfa51c0"
+  },
+  {
+    "url": "https://gcc.gnu.org/pipermail/gcc/2021-June.txt.gz",
+    "sha256": "41e32a3277a7db765dc0f78f086a60b688cef201b352af8701e9b852a3827bfc",
+    "messages": 460,
+    "parsed": 460,
+    "metadata_sha256": "427a90504663bfadd0ea8f6f5ab1d126e2a89b273493beec409dd9cb1a7e3a28"
+  },
+  {
+    "url": "https://gcc.gnu.org/pipermail/gcc/2021-July.txt.gz",
+    "sha256": "eb2879a42d3501ed671abba4830c8dd7ea578dd8b63109db8b18ae5a0af4ecaa",
+    "messages": 319,
+    "parsed": 319,
+    "metadata_sha256": "f51fe703b92894fb8f56c8a04c6cbf1a690ead48d4af8e2b384df907c08cc4a9"
+  },
+  {
+    "url": "https://gcc.gnu.org/pipermail/gcc/2021-August.txt.gz",
+    "sha256": "5e9dee1b8ea05c1c3befc36ce2fd15e4538b56ffe8c7ca96224fee29ff7a3ba4",
+    "messages": 257,
+    "parsed": 256,
+    "metadata_sha256": "b44d7e0a05bbe2eae9ff2894148cc9f86b3ce1d5869b16a260998e19ba43c922"
+  },
+  {
+    "url": "https://gcc.gnu.org/pipermail/gcc/2021-September.txt.gz",
+    "sha256": "cc1f6d81cdb4934eca9d1578e3c79fb895784e13f5615fbd8a35e4b7ed6d5b1e",
+    "messages": 255,
+    "parsed": 255,
+    "metadata_sha256": "7457362d61e1c05c034bf7ddf46c7263660b184efda594c05fb7f79b270854a1"
+  },
+  {
+    "url": "https://gcc.gnu.org/pipermail/gcc/2021-October.txt.gz",
+    "sha256": "ae32cd576d4afaa2760a25fbc3336a80a6a68092de086a4c493d253ad46e1df3",
+    "messages": 215,
+    "parsed": 215,
+    "metadata_sha256": "341ccf919a08a6b4423babf66fc5cc2ebff51dc79e462d4cb9dd2a6518cf5e54"
+  },
+  {
+    "url": "https://gcc.gnu.org/pipermail/gcc/2021-November.txt.gz",
+    "sha256": "0797a31a9f8701e3fa899edee0c1fd7d48f1ff10b51d81d1bbde513d30847c37",
+    "messages": 171,
+    "parsed": 170,
+    "metadata_sha256": "d50e615b8f1bd888226d004d4b5326813d55b33e07cdba2472c3fd1ae50d555a"
+  },
+  {
+    "url": "https://gcc.gnu.org/pipermail/gcc/2021-December.txt.gz",
+    "sha256": "d26ece9206d7609bed9e9b6a11505fa7065e3fb23e1af84414ec8b40812e3a4e",
+    "messages": 140,
+    "parsed": 140,
+    "metadata_sha256": "81d88fa88326fc662d9da38212c32f316e188c0b176652afa85f559f83962286"
+  },
+  {
+    "url": "https://gcc.gnu.org/pipermail/gcc/2022-January.txt.gz",
+    "sha256": "0904dd41d2147f03a9a8282b66fe47c6805e2d68689492ce08c81a8a9544bd8e",
+    "messages": 226,
+    "parsed": 226,
+    "metadata_sha256": "0fbab2008ca2a2e46928f7c1e04271c559ce7bc7db22838aec238022dbe1db84"
+  },
+  {
+    "url": "https://gcc.gnu.org/pipermail/gcc/2022-February.txt.gz",
+    "sha256": "c7b07b03716f4731f8a6b1c5eff9540f4dbd975a13aeeb597b9e0b9fc3a0737a",
+    "messages": 129,
+    "parsed": 129,
+    "metadata_sha256": "56cbfae74c71fb17145d1b771a4003f9260c0b78f5e036f60e711a281ff7f16e"
+  },
+  {
+    "url": "https://gcc.gnu.org/pipermail/gcc/2022-March.txt.gz",
+    "sha256": "73a4bf03bc94c13575dbbc138f674fa91466b9c5b7728bcdcd4e601e7ec9e669",
+    "messages": 129,
+    "parsed": 129,
+    "metadata_sha256": "f46dc8159f81711b625577e6042af73feb4b9e6132fac0d8a58b44894206354c"
+  },
+  {
+    "url": "https://gcc.gnu.org/pipermail/gcc/2022-April.txt.gz",
+    "sha256": "13062a2e4fbab9c819fcfcbe9bf16ac47ea8c76aeb703ae3e1bc95455dad79f0",
+    "messages": 160,
+    "parsed": 160,
+    "metadata_sha256": "f199c4f9368b20ce891bc9db101c3bcbe441ea5ae28043f6a6c8b1d794b10314"
+  },
+  {
+    "url": "https://gcc.gnu.org/pipermail/gcc/2022-May.txt.gz",
+    "sha256": "49bec795f2c6cd702875abf8399b6101c2f91f04ff8cd8eeedede7a6477d8d79",
+    "messages": 164,
+    "parsed": 163,
+    "metadata_sha256": "85f67f3281f5d55c4155d4847bdd86a2df9130b4f1b292c300263cfb8b6e556e"
+  },
+  {
+    "url": "https://gcc.gnu.org/pipermail/gcc/2022-June.txt.gz",
+    "sha256": "ba413ac97aaf48177aada6d8f7af8f28b6c0f294f05bde7f8bee2854667029f8",
+    "messages": 216,
+    "parsed": 216,
+    "metadata_sha256": "9011ee60b4fb201d426116df7a3f5f9487f2dab62d0ae98e6cfe952619cde205"
+  },
+  {
+    "url": "https://gcc.gnu.org/pipermail/gcc/2022-July.txt.gz",
+    "sha256": "130239372919002ae4e48724be1aa6b885bfb95f83ffdf6a0e21fbaf10c78fb8",
+    "messages": 211,
+    "parsed": 210,
+    "metadata_sha256": "b42bef69ab5a6d8f5da677cfaec34853c75d48fcd0878395ec3f6fb62701ef15"
+  },
+  {
+    "url": "https://gcc.gnu.org/pipermail/gcc/2022-August.txt.gz",
+    "sha256": "e0a2fb67507379523eabbb38e1eed47f22552808d178e9c918ec1185c2d6f899",
+    "messages": 132,
+    "parsed": 132,
+    "metadata_sha256": "3680322c07446e254d800d715ad24a66fb634a30b7017ffbb8a9456328b108da"
+  },
+  {
+    "url": "https://gcc.gnu.org/pipermail/gcc/2022-September.txt.gz",
+    "sha256": "10c8800dc3c42d8f694a5efe8ffc25d47c80516ac19f40b068615d0a76bd4d25",
+    "messages": 148,
+    "parsed": 148,
+    "metadata_sha256": "125583870bd0aad0f22085691f062e4fbbe98babcabbb469c79f336df591f48d"
+  },
+  {
+    "url": "https://gcc.gnu.org/pipermail/gcc/2022-October.txt.gz",
+    "sha256": "ac45b44df8e844f5e38096c33a9da1f9e9d4048e0534716b6ac4beb284543a64",
+    "messages": 293,
+    "parsed": 293,
+    "metadata_sha256": "e859ff0aee73b2a181b2a8c361c9fe39d31123c881372e933b528170f7c66d3c"
+  },
+  {
+    "url": "https://gcc.gnu.org/pipermail/gcc/2022-November.txt.gz",
+    "sha256": "4c8c3cdde4fd7d777bdfd091765dd9dc0c60be0263f8d216caaf79a209683b00",
+    "messages": 404,
+    "parsed": 403,
+    "metadata_sha256": "92a859095f1f3fa9eebdf6fa7fe3d48c25402bd3a7327f7866ea2af6243ede98"
+  },
+  {
+    "url": "https://gcc.gnu.org/pipermail/gcc/2022-December.txt.gz",
+    "sha256": "2a1fa41901a34c3ead153d9100adaf44340c1afadaec240650cf8378388b06eb",
+    "messages": 254,
+    "parsed": 254,
+    "metadata_sha256": "59aa430fc5061f59f1f4c666d43ea293d172c8568710c1ca5b74ae9ddd51a658"
+  },
+  {
+    "url": "https://gcc.gnu.org/pipermail/gcc/2023-January.txt.gz",
+    "sha256": "58ce9476afc220cfb2c1f41c51026768bf63b9d47493433384fd743b17243846",
+    "messages": 155,
+    "parsed": 155,
+    "metadata_sha256": "2da858847f36fb9b2063d3d9c2f7fa52b8925cb8d2d132d50c691a3adfcdb589"
+  }
+]

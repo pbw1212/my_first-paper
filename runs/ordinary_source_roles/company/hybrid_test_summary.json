@@ -1,0 +1,262 @@
+{
+  "all": {
+    "total": {
+      "n": 600,
+      "activity": 13,
+      "pooled": 16,
+      "dual_node": 8,
+      "0.0": 12,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 12
+    },
+    "company-11": {
+      "n": 150,
+      "activity": 3,
+      "pooled": 3,
+      "dual_node": 2,
+      "0.0": 5,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 5
+    },
+    "company-13": {
+      "n": 150,
+      "activity": 4,
+      "pooled": 7,
+      "dual_node": 1,
+      "0.0": 1,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 1
+    },
+    "company-14": {
+      "n": 150,
+      "activity": 2,
+      "pooled": 3,
+      "dual_node": 2,
+      "0.0": 3,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 3
+    },
+    "company-16": {
+      "n": 150,
+      "activity": 4,
+      "pooled": 3,
+      "dual_node": 3,
+      "0.0": 3,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 3
+    }
+  },
+  "two_emitters": {
+    "total": {
+      "n": 187,
+      "activity": 9,
+      "pooled": 10,
+      "dual_node": 6,
+      "0.0": 9,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 9
+    },
+    "company-11": {
+      "n": 50,
+      "activity": 2,
+      "pooled": 1,
+      "dual_node": 0,
+      "0.0": 3,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 3
+    },
+    "company-13": {
+      "n": 41,
+      "activity": 3,
+      "pooled": 5,
+      "dual_node": 1,
+      "0.0": 1,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 1
+    },
+    "company-14": {
+      "n": 44,
+      "activity": 1,
+      "pooled": 2,
+      "dual_node": 2,
+      "0.0": 2,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 2
+    },
+    "company-16": {
+      "n": 52,
+      "activity": 3,
+      "pooled": 2,
+      "dual_node": 3,
+      "0.0": 3,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 3
+    }
+  },
+  "dual_visible": {
+    "total": {
+      "n": 148,
+      "activity": 6,
+      "pooled": 7,
+      "dual_node": 5,
+      "0.0": 7,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 7
+    },
+    "company-11": {
+      "n": 44,
+      "activity": 1,
+      "pooled": 1,
+      "dual_node": 0,
+      "0.0": 2,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 2
+    },
+    "company-13": {
+      "n": 34,
+      "activity": 3,
+      "pooled": 4,
+      "dual_node": 1,
+      "0.0": 1,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 1
+    },
+    "company-14": {
+      "n": 33,
+      "activity": 1,
+      "pooled": 1,
+      "dual_node": 2,
+      "0.0": 2,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 2
+    },
+    "company-16": {
+      "n": 37,
+      "activity": 1,
+      "pooled": 1,
+      "dual_node": 2,
+      "0.0": 2,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 2
+    }
+  },
+  "silent": {
+    "total": {
+      "n": 413,
+      "activity": 4,
+      "pooled": 6,
+      "dual_node": 2,
+      "0.0": 3,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 3
+    },
+    "company-11": {
+      "n": 100,
+      "activity": 1,
+      "pooled": 2,
+      "dual_node": 2,
+      "0.0": 2,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 2
+    },
+    "company-13": {
+      "n": 109,
+      "activity": 1,
+      "pooled": 2,
+      "dual_node": 0,
+      "0.0": 0,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 0
+    },
+    "company-14": {
+      "n": 106,
+      "activity": 1,
+      "pooled": 1,
+      "dual_node": 0,
+      "0.0": 1,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 1
+    },
+    "company-16": {
+      "n": 98,
+      "activity": 1,
+      "pooled": 1,
+      "dual_node": 0,
+      "0.0": 0,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 0
+    }
+  },
+  "one_visible": {
+    "total": {
+      "n": 452,
+      "activity": 7,
+      "pooled": 9,
+      "dual_node": 3,
+      "0.0": 5,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 5
+    },
+    "company-11": {
+      "n": 106,
+      "activity": 2,
+      "pooled": 2,
+      "dual_node": 2,
+      "0.0": 3,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 3
+    },
+    "company-13": {
+      "n": 116,
+      "activity": 1,
+      "pooled": 3,
+      "dual_node": 0,
+      "0.0": 0,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 0
+    },
+    "company-14": {
+      "n": 117,
+      "activity": 1,
+      "pooled": 2,
+      "dual_node": 0,
+      "0.0": 1,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 1
+    },
+    "company-16": {
+      "n": 113,
+      "activity": 3,
+      "pooled": 2,
+      "dual_node": 1,
+      "0.0": 1,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 1
+    }
+  }
+}

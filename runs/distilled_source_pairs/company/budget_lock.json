@@ -1,0 +1,7 @@
+{
+  "budget_fit.json": "6d71c0f92a3356d1d3f2ab4520d9a51427dd9e76f062b91ac1a7b4d52acd08d7",
+  "budget_hard.pt": "8b2b43360591a71a6b3247c40d0d8e0797741af08ffbd1692f7d02f79750389f",
+  "budget_soft.pt": "05ab5474134eb1ce9e9f3aeb4d9ffe90d0944bd9a72f3d6daef33d6c04751435",
+  "budget_protocol.json": "35c0772c386e2cc4828e9c72bf0d0f485096de45c56c25b400981d09745b38ab",
+  "weights_lock.json": "b2e5e22702afd68ff5326d9a4673d8b1d49d2d86b85b0450e2424b9fee407df0"
+}

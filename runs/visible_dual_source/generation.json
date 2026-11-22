@@ -1,0 +1,37 @@
+{
+  "validation-01": {
+    "attempts": 116862,
+    "zero_growth": 109279,
+    "mask_eligible": 1739,
+    "both_direct": 60,
+    "both_visible": 40
+  },
+  "validation-02": {
+    "attempts": 53186,
+    "zero_growth": 48773,
+    "mask_eligible": 1854,
+    "both_direct": 60,
+    "both_visible": 40
+  },
+  "validation-03": {
+    "attempts": 119073,
+    "zero_growth": 109910,
+    "mask_eligible": 1936,
+    "both_direct": 77,
+    "both_visible": 40
+  },
+  "validation-04": {
+    "attempts": 155553,
+    "zero_growth": 145408,
+    "mask_eligible": 1719,
+    "both_direct": 63,
+    "both_visible": 40
+  },
+  "validation-05": {
+    "attempts": 195768,
+    "zero_growth": 183173,
+    "mask_eligible": 2385,
+    "both_direct": 77,
+    "both_visible": 40
+  }
+}

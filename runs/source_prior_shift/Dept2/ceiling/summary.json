@@ -1,0 +1,188 @@
+{
+  "flat": {
+    "all": {
+      "n": 272,
+      "cap": 45.49391778725114,
+      "methods": {
+        "raw": {
+          "actual": 14.26470588235294,
+          "conditional": 13.848401261107062,
+          "gap": 31.64551652614408,
+          "missing_anchor_loss": null,
+          "partner_ranking_loss": null
+        },
+        "calibrated": {
+          "actual": 16.397058823529413,
+          "conditional": 15.603929190420383,
+          "gap": 29.88998859683076,
+          "missing_anchor_loss": null,
+          "partner_ranking_loss": null
+        }
+      }
+    },
+    "one": {
+      "n": 178,
+      "cap": 16.709806955799493,
+      "methods": {
+        "raw": {
+          "actual": 6.51685393258427,
+          "conditional": 5.880703050680439,
+          "gap": 10.829103905119055,
+          "missing_anchor_loss": 2.129798602369015,
+          "partner_ranking_loss": 8.699305302750016
+        },
+        "calibrated": {
+          "actual": 6.741573033707865,
+          "conditional": 5.529599661765958,
+          "gap": 11.180207294033536,
+          "missing_anchor_loss": 1.7483613849114157,
+          "partner_ranking_loss": 9.431845909122103
+        }
+      }
+    },
+    "two": {
+      "n": 94,
+      "cap": 100.0,
+      "methods": {
+        "raw": {
+          "actual": 28.936170212765955,
+          "conditional": 28.936170212765955,
+          "gap": 71.06382978723404,
+          "missing_anchor_loss": null,
+          "partner_ranking_loss": null
+        },
+        "calibrated": {
+          "actual": 34.680851063829785,
+          "conditional": 34.680851063829785,
+          "gap": 65.31914893617022,
+          "missing_anchor_loss": null,
+          "partner_ranking_loss": null
+        }
+      }
+    }
+  },
+  "one": {
+    "all": {
+      "n": 416,
+      "cap": 59.10910070275971,
+      "methods": {
+        "raw": {
+          "actual": 20.528846153846153,
+          "conditional": 21.67816340135137,
+          "gap": 37.43093730140834,
+          "missing_anchor_loss": null,
+          "partner_ranking_loss": null
+        },
+        "calibrated": {
+          "actual": 27.64423076923077,
+          "conditional": 28.876115638861684,
+          "gap": 30.232985063898028,
+          "missing_anchor_loss": null,
+          "partner_ranking_loss": null
+        }
+      }
+    },
+    "one": {
+      "n": 224,
+      "cap": 24.05975844798232,
+      "methods": {
+        "raw": {
+          "actual": 7.5892857142857135,
+          "conditional": 9.723732031081123,
+          "gap": 14.336026416901195,
+          "missing_anchor_loss": 2.940875997846417,
+          "partner_ranking_loss": 11.395150419054758
+        },
+        "calibrated": {
+          "actual": 8.125,
+          "conditional": 10.412786186457435,
+          "gap": 13.646972261524883,
+          "missing_anchor_loss": 1.290228401435261,
+          "partner_ranking_loss": 12.356743860089612
+        }
+      }
+    },
+    "two": {
+      "n": 192,
+      "cap": 100.0,
+      "methods": {
+        "raw": {
+          "actual": 35.625,
+          "conditional": 35.625,
+          "gap": 64.375,
+          "missing_anchor_loss": null,
+          "partner_ranking_loss": null
+        },
+        "calibrated": {
+          "actual": 50.416666666666664,
+          "conditional": 50.416666666666664,
+          "gap": 49.583333333333336,
+          "missing_anchor_loss": null,
+          "partner_ranking_loss": null
+        }
+      }
+    }
+  },
+  "both": {
+    "all": {
+      "n": 460,
+      "cap": 90.36281980827187,
+      "methods": {
+        "raw": {
+          "actual": 37.69565217391304,
+          "conditional": 38.150773766934016,
+          "gap": 52.21204604133785,
+          "missing_anchor_loss": null,
+          "partner_ranking_loss": null
+        },
+        "calibrated": {
+          "actual": 59.78260869565217,
+          "conditional": 60.606968964443716,
+          "gap": 29.75585084382815,
+          "missing_anchor_loss": null,
+          "partner_ranking_loss": null
+        }
+      }
+    },
+    "one": {
+      "n": 107,
+      "cap": 58.56913188602857,
+      "methods": {
+        "raw": {
+          "actual": 24.299065420560748,
+          "conditional": 26.25566292326762,
+          "gap": 32.31346896276095,
+          "missing_anchor_loss": 8.41868325733304,
+          "partner_ranking_loss": 23.894785705427925
+        },
+        "calibrated": {
+          "actual": 28.598130841121495,
+          "conditional": 32.142109566767495,
+          "gap": 26.427022319261077,
+          "missing_anchor_loss": 1.5765989466392731,
+          "partner_ranking_loss": 24.85042337262177
+        }
+      }
+    },
+    "two": {
+      "n": 353,
+      "cap": 100.0,
+      "methods": {
+        "raw": {
+          "actual": 41.756373937677054,
+          "conditional": 41.756373937677054,
+          "gap": 58.243626062322946,
+          "missing_anchor_loss": null,
+          "partner_ranking_loss": null
+        },
+        "calibrated": {
+          "actual": 69.23512747875354,
+          "conditional": 69.23512747875354,
+          "gap": 30.76487252124646,
+          "missing_anchor_loss": null,
+          "partner_ranking_loss": null
+        }
+      }
+    }
+  }
+}

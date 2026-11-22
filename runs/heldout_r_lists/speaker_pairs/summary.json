@@ -1,0 +1,308 @@
+{
+  "python-dev-2019": {
+    "n": 24,
+    "scored": 21,
+    "methods": {
+      "volume": {
+        "both": 5,
+        "first": 10,
+        "second": 9
+      },
+      "roles": {
+        "both": 5,
+        "first": 11,
+        "second": 9
+      },
+      "paired": {
+        "both": 5,
+        "first": 11,
+        "second": 9
+      },
+      "matched_margins": {
+        "both": 5,
+        "first": 11,
+        "second": 9
+      }
+    },
+    "paired_differences": {
+      "volume": {
+        "pp": 0.0,
+        "gained": 0,
+        "lost": 0
+      },
+      "roles": {
+        "pp": 0.0,
+        "gained": 0,
+        "lost": 0
+      },
+      "matched_margins": {
+        "pp": 0.0,
+        "gained": 0,
+        "lost": 0
+      }
+    }
+  },
+  "python-ideas-2019": {
+    "n": 27,
+    "scored": 22,
+    "methods": {
+      "volume": {
+        "both": 2,
+        "first": 6,
+        "second": 10
+      },
+      "roles": {
+        "both": 2,
+        "first": 6,
+        "second": 10
+      },
+      "paired": {
+        "both": 2,
+        "first": 6,
+        "second": 9
+      },
+      "matched_margins": {
+        "both": 2,
+        "first": 6,
+        "second": 9
+      }
+    },
+    "paired_differences": {
+      "volume": {
+        "pp": 0.0,
+        "gained": 0,
+        "lost": 0
+      },
+      "roles": {
+        "pp": 0.0,
+        "gained": 0,
+        "lost": 0
+      },
+      "matched_margins": {
+        "pp": 0.0,
+        "gained": 0,
+        "lost": 0
+      }
+    }
+  },
+  "gcc": {
+    "n": 32,
+    "scored": 17,
+    "methods": {
+      "volume": {
+        "both": 0,
+        "first": 1,
+        "second": 4
+      },
+      "roles": {
+        "both": 0,
+        "first": 1,
+        "second": 5
+      },
+      "paired": {
+        "both": 0,
+        "first": 1,
+        "second": 5
+      },
+      "matched_margins": {
+        "both": 0,
+        "first": 1,
+        "second": 5
+      }
+    },
+    "paired_differences": {
+      "volume": {
+        "pp": 0.0,
+        "gained": 0,
+        "lost": 0,
+        "ci95_pp": [
+          0.0,
+          0.0
+        ]
+      },
+      "roles": {
+        "pp": 0.0,
+        "gained": 0,
+        "lost": 0,
+        "ci95_pp": [
+          0.0,
+          0.0
+        ]
+      },
+      "matched_margins": {
+        "pp": 0.0,
+        "gained": 0,
+        "lost": 0,
+        "ci95_pp": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "ffmpeg-devel": {
+    "n": 24,
+    "scored": 21,
+    "methods": {
+      "volume": {
+        "both": 9,
+        "first": 12,
+        "second": 14
+      },
+      "roles": {
+        "both": 9,
+        "first": 12,
+        "second": 14
+      },
+      "paired": {
+        "both": 9,
+        "first": 12,
+        "second": 14
+      },
+      "matched_margins": {
+        "both": 9,
+        "first": 12,
+        "second": 14
+      }
+    },
+    "paired_differences": {
+      "volume": {
+        "pp": 0.0,
+        "gained": 0,
+        "lost": 0,
+        "ci95_pp": [
+          0.0,
+          0.0
+        ]
+      },
+      "roles": {
+        "pp": 0.0,
+        "gained": 0,
+        "lost": 0,
+        "ci95_pp": [
+          0.0,
+          0.0
+        ]
+      },
+      "matched_margins": {
+        "pp": 0.0,
+        "gained": 0,
+        "lost": 0,
+        "ci95_pp": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "r-devel": {
+    "n": 17,
+    "scored": 9,
+    "methods": {
+      "volume": {
+        "both": 0,
+        "first": 0,
+        "second": 2
+      },
+      "roles": {
+        "both": 0,
+        "first": 0,
+        "second": 3
+      },
+      "paired": {
+        "both": 0,
+        "first": 0,
+        "second": 3
+      },
+      "matched_margins": {
+        "both": 0,
+        "first": 0,
+        "second": 3
+      }
+    },
+    "paired_differences": {
+      "volume": {
+        "pp": 0.0,
+        "gained": 0,
+        "lost": 0,
+        "ci95_pp": [
+          0.0,
+          0.0
+        ]
+      },
+      "roles": {
+        "pp": 0.0,
+        "gained": 0,
+        "lost": 0,
+        "ci95_pp": [
+          0.0,
+          0.0
+        ]
+      },
+      "matched_margins": {
+        "pp": 0.0,
+        "gained": 0,
+        "lost": 0,
+        "ci95_pp": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "r-package-devel": {
+    "n": 13,
+    "scored": 5,
+    "methods": {
+      "volume": {
+        "both": 0,
+        "first": 1,
+        "second": 2
+      },
+      "roles": {
+        "both": 0,
+        "first": 1,
+        "second": 3
+      },
+      "paired": {
+        "both": 0,
+        "first": 1,
+        "second": 3
+      },
+      "matched_margins": {
+        "both": 0,
+        "first": 1,
+        "second": 3
+      }
+    },
+    "paired_differences": {
+      "volume": {
+        "pp": 0.0,
+        "gained": 0,
+        "lost": 0,
+        "ci95_pp": [
+          0.0,
+          0.0
+        ]
+      },
+      "roles": {
+        "pp": 0.0,
+        "gained": 0,
+        "lost": 0,
+        "ci95_pp": [
+          0.0,
+          0.0
+        ]
+      },
+      "matched_margins": {
+        "pp": 0.0,
+        "gained": 0,
+        "lost": 0,
+        "ci95_pp": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  }
+}

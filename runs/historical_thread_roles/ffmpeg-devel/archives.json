@@ -1,0 +1,205 @@
+[
+  {
+    "url": "https://ffmpeg.org/pipermail/ffmpeg-devel/2020-September.txt.gz",
+    "sha256": "1c031796c2e962fe9726ea096813942200706412178ac591d34e3e64d7744e10",
+    "messages": 1538,
+    "parsed": 1534,
+    "metadata_sha256": "561b76047f79d2346cdff3075c4b5ca446c88da22c4ed140db53a3524d633687"
+  },
+  {
+    "url": "https://ffmpeg.org/pipermail/ffmpeg-devel/2020-October.txt.gz",
+    "sha256": "c9f52cc334b798a73d62a5d2080c109e354fad47b711bab09d6102bd8093afbe",
+    "messages": 1281,
+    "parsed": 1281,
+    "metadata_sha256": "65e8c8716d6be6ade8d841212ca5c2682c7535dd29f4267ef8c93c269ebbc81f"
+  },
+  {
+    "url": "https://ffmpeg.org/pipermail/ffmpeg-devel/2020-November.txt.gz",
+    "sha256": "10247369b02ebaa62931ac093f64ed15065a881c58b329d98d576f9170c44499",
+    "messages": 1387,
+    "parsed": 1385,
+    "metadata_sha256": "a2ce07d177d97f47de41f945b8cd8c6ce8744a42fdd78bba398a1ddeb2f9e07d"
+  },
+  {
+    "url": "https://ffmpeg.org/pipermail/ffmpeg-devel/2020-December.txt.gz",
+    "sha256": "b0846df302592cffb731d26fa3a7108e534cde820dc2a6e614cad1883dc463bb",
+    "messages": 1000,
+    "parsed": 1000,
+    "metadata_sha256": "cd936ff5be079d291806162935131845984bf2a5d5eebb0228580ac503b5c396"
+  },
+  {
+    "url": "https://ffmpeg.org/pipermail/ffmpeg-devel/2021-January.txt.gz",
+    "sha256": "46c40cad84d0322f3d4209f4cad3ead51ee6f91576c9cde264896803a9239b2a",
+    "messages": 1284,
+    "parsed": 1282,
+    "metadata_sha256": "49b6f9865b9fd671c7223e931b79caf02e11cbc6d12c88496e8ab4394e08cf7e"
+  },
+  {
+    "url": "https://ffmpeg.org/pipermail/ffmpeg-devel/2021-February.txt.gz",
+    "sha256": "9d89f0801658b98c427a6e4c18c369755ad3044be095d44335ba90dd61b11cc4",
+    "messages": 1542,
+    "parsed": 1534,
+    "metadata_sha256": "db14d0a420e40f9c14453c3e53ca17a49f2fa715c05b4c374354887b2e2251c5"
+  },
+  {
+    "url": "https://ffmpeg.org/pipermail/ffmpeg-devel/2021-March.txt.gz",
+    "sha256": "7f7360118583bd89a669dae73dfe15922889320acd57052cb8fad9bf3a7c66bb",
+    "messages": 1477,
+    "parsed": 1476,
+    "metadata_sha256": "aa128515617eb6f2da965d5c2c1a995ef5bd90c7c699fa05576d209fb353041f"
+  },
+  {
+    "url": "https://ffmpeg.org/pipermail/ffmpeg-devel/2021-April.txt.gz",
+    "sha256": "6c4a5540c9cf6886e4dd3be94125d282c6347a9ebb09189129e41908ae5fbd20",
+    "messages": 1385,
+    "parsed": 1380,
+    "metadata_sha256": "bcb309f01571f19d6d3050d4eb4f74d98619c4e32e7c542746531bbe0896ff94"
+  },
+  {
+    "url": "https://ffmpeg.org/pipermail/ffmpeg-devel/2021-May.txt.gz",
+    "sha256": "f524ed6c1f9e09e81e0b611f117b518bc08bf8b806b765d5b63638c908a9603a",
+    "messages": 968,
+    "parsed": 968,
+    "metadata_sha256": "af190d816be86d1ce3493464aecb260237ceab66d0062c2220b5c3f1f6b02bb1"
+  },
+  {
+    "url": "https://ffmpeg.org/pipermail/ffmpeg-devel/2021-June.txt.gz",
+    "sha256": "fa81eab0b7a78f220aba067b8d4a3974475401c9bd969fd35e8b212f8aa9c531",
+    "messages": 1093,
+    "parsed": 1070,
+    "metadata_sha256": "80083fe0aa1056132d7c9471f00341d0fdce9032542fb04b82ddc000d2e184b2"
+  },
+  {
+    "url": "https://ffmpeg.org/pipermail/ffmpeg-devel/2021-July.txt.gz",
+    "sha256": "57180e66f96baa1d398fae53b4933d74df74f2cec22eb2bb36aafc212664b035",
+    "messages": 964,
+    "parsed": 954,
+    "metadata_sha256": "2a165a7d306999947477da274d8e5b5ca3c4bd8087f007f74df96c2a508d64df"
+  },
+  {
+    "url": "https://ffmpeg.org/pipermail/ffmpeg-devel/2021-August.txt.gz",
+    "sha256": "a6dd19c27704434d46f0edd5b83e87c5a7a0703a6c4d1b9b952cbea3f8eb09f9",
+    "messages": 1793,
+    "parsed": 1756,
+    "metadata_sha256": "5a7cf283322f5606f2c2924ccfbfeac1f473dfa16805e8f5d76b04d3934b9498"
+  },
+  {
+    "url": "https://ffmpeg.org/pipermail/ffmpeg-devel/2021-September.txt.gz",
+    "sha256": "40cf2f07867411792819ce55891a3e4c267350871e0762446cbe553acab59db7",
+    "messages": 1885,
+    "parsed": 1880,
+    "metadata_sha256": "7e90d56275c1e4e70920664c803942ee5180970cc4817565c0153c529a711ac7"
+  },
+  {
+    "url": "https://ffmpeg.org/pipermail/ffmpeg-devel/2021-October.txt.gz",
+    "sha256": "0afda2dbd0fbd19b252dbb93218a0a1187442f2dd5ebaecd599acbb288da592e",
+    "messages": 946,
+    "parsed": 945,
+    "metadata_sha256": "a62e839bdd9f0ea0f369eb75cf0ebad52d8c7cfec5a28d047477e8274ab1fe6a"
+  },
+  {
+    "url": "https://ffmpeg.org/pipermail/ffmpeg-devel/2021-November.txt.gz",
+    "sha256": "ffd5fe8d93059c9baa5ba3b603de6da049ffc8e6ef23737e96055921d778fa7c",
+    "messages": 1179,
+    "parsed": 1166,
+    "metadata_sha256": "0e7f9f47c03e70c5def1cce6554338726e3ff00b5b81dc526e5b75e4b8d68f44"
+  },
+  {
+    "url": "https://ffmpeg.org/pipermail/ffmpeg-devel/2021-December.txt.gz",
+    "sha256": "435a88c7050414a7bdbbf0880163de9c8f2f9e79212fc319a51f3a7ce09d6d7d",
+    "messages": 1991,
+    "parsed": 1980,
+    "metadata_sha256": "a70dcdb74b1f67a5d742afffba03772980e05540b59dd09f2f638e869d0ffb26"
+  },
+  {
+    "url": "https://ffmpeg.org/pipermail/ffmpeg-devel/2022-January.txt.gz",
+    "sha256": "f40f5eced5b4643632ecd1a4156b1b24d0f6f608211d5810977e5a3e6d2fead8",
+    "messages": 1734,
+    "parsed": 1726,
+    "metadata_sha256": "79f459ed4d4599e0fbdd53dcb1e4606d328a4d8c47ab97491025dc76a1eb2537"
+  },
+  {
+    "url": "https://ffmpeg.org/pipermail/ffmpeg-devel/2022-February.txt.gz",
+    "sha256": "6c628318ef5180da9bc6da65901dc6d52f784b0fd71c68c29c3e83d4f45f3a69",
+    "messages": 1259,
+    "parsed": 1252,
+    "metadata_sha256": "1184ec7acc07deef1164147a31f58cf1dba427de123138f3e9e5bff12e928b13"
+  },
+  {
+    "url": "https://ffmpeg.org/pipermail/ffmpeg-devel/2022-March.txt.gz",
+    "sha256": "02b3143c972d8fb9c8010a984a7104cedf4df6f4f9973ed82f7398238e5a7cb6",
+    "messages": 1275,
+    "parsed": 1271,
+    "metadata_sha256": "fcd0d35689507fbf8e72bb64209bdf0280025f01fc129245a45144e3592e9c74"
+  },
+  {
+    "url": "https://ffmpeg.org/pipermail/ffmpeg-devel/2022-April.txt.gz",
+    "sha256": "655a4019944e03b3d854ed837f759c6121719ab2c69cc82ddc50dec0de633f8a",
+    "messages": 1050,
+    "parsed": 1037,
+    "metadata_sha256": "9965fd84471edeffd066e1834a628d516635a25b1349bb8ae8c0399a2e2a6bc3"
+  },
+  {
+    "url": "https://ffmpeg.org/pipermail/ffmpeg-devel/2022-May.txt.gz",
+    "sha256": "a25fd391c94d4bd1f3f8b645090da7592172ed5e065932494e441d478b4e6446",
+    "messages": 1169,
+    "parsed": 1165,
+    "metadata_sha256": "66804639fe965a6883d028f739482ef59c5a3fb521f3b8da413603a4544a49c2"
+  },
+  {
+    "url": "https://ffmpeg.org/pipermail/ffmpeg-devel/2022-June.txt.gz",
+    "sha256": "f566ac7faba12ec64176231525e26c586e435b6c7d0d214436da94a87cb77c22",
+    "messages": 1252,
+    "parsed": 1242,
+    "metadata_sha256": "81a627d5c0e2d9dfb1255184ad810521cb7cadef37817bf275a291365899326b"
+  },
+  {
+    "url": "https://ffmpeg.org/pipermail/ffmpeg-devel/2022-July.txt.gz",
+    "sha256": "f4bba2d4192fc583f1e3a0c7031237b1c6b3cea8a60e060fe10bde9e0c7e641c",
+    "messages": 1233,
+    "parsed": 1221,
+    "metadata_sha256": "d8f97826c281a2160a176222c9f090b5aefecdfab6061438c16da51c4135d606"
+  },
+  {
+    "url": "https://ffmpeg.org/pipermail/ffmpeg-devel/2022-August.txt.gz",
+    "sha256": "ab3c5855b1429e78a5588d75c0d67701670228fd7dcda7f309a665f1f317f80a",
+    "messages": 1255,
+    "parsed": 1249,
+    "metadata_sha256": "c69691613505ff6f6d4df7227e8838a9cade936f52438701df0ed1d3bdeac491"
+  },
+  {
+    "url": "https://ffmpeg.org/pipermail/ffmpeg-devel/2022-September.txt.gz",
+    "sha256": "a504ac65a09d5cdacbbde1c25f2207743e32777563142927b16d8116a8208a81",
+    "messages": 1674,
+    "parsed": 1671,
+    "metadata_sha256": "6685374e751532bc938a16f35ac2fd0764fa85d380e50fb601202d23269e45d3"
+  },
+  {
+    "url": "https://ffmpeg.org/pipermail/ffmpeg-devel/2022-October.txt.gz",
+    "sha256": "2cbc45a0b608547b0be2059aa3189ff3780c9d48d8970b224c080db99c51a1f5",
+    "messages": 1076,
+    "parsed": 1076,
+    "metadata_sha256": "86c5adc995b61be0dba129de2080211f9eb04bca19a961e73c665cce6a7d5e1e"
+  },
+  {
+    "url": "https://ffmpeg.org/pipermail/ffmpeg-devel/2022-November.txt.gz",
+    "sha256": "ce6f30c53b8a957f139b95433262d2fe48788507f5775720ef36b5f04d38af55",
+    "messages": 976,
+    "parsed": 976,
+    "metadata_sha256": "afb374379566472ce9fcc4b4b72c3b9d3278dc63e8f2dc4893f5250807ec7c72"
+  },
+  {
+    "url": "https://ffmpeg.org/pipermail/ffmpeg-devel/2022-December.txt.gz",
+    "sha256": "9de4884ed3038627a7af24457d7a5d1fad94a41bb7c53e3f833ce80972a4024c",
+    "messages": 726,
+    "parsed": 724,
+    "metadata_sha256": "99e7601a2ab87836cff0b092357fd1c7df11ba8263dd5ee4664341af5f51f2be"
+  },
+  {
+    "url": "https://ffmpeg.org/pipermail/ffmpeg-devel/2023-January.txt.gz",
+    "sha256": "62064f9dad6dc3f6f060500a3176bd498cb027011204f796bd70c3114ac65974",
+    "messages": 981,
+    "parsed": 966,
+    "metadata_sha256": "4e83bcfc19f85059db284dc51ffb3a31a9b3f58896ac3c407d2ca2c9a3c7e608"
+  }
+]

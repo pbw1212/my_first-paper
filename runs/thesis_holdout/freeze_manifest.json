@@ -1,0 +1,9 @@
+{
+  "frozen": "21c4f643c7b1be47ef4fb73e3a06d36b3902133e6e229c1623e4be0755347a7c",
+  "protocol": "b0a9024f3c781c7d20f5f68ceb4bd98dc855b0dea4e558e2fe383e6b08e3d0c4",
+  "python": "3.13.5",
+  "numpy": "2.1.3",
+  "scipy": "1.15.3",
+  "sklearn": "1.6.1",
+  "numba": "0.61.0"
+}

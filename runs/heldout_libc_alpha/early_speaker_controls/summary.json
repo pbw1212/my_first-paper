@@ -1,0 +1,106 @@
+{
+  "n": 34,
+  "scored": 19,
+  "hits": {
+    "volume": 3,
+    "roles": 4,
+    "paired": 4,
+    "matched_margins": 4,
+    "forward/111": 3,
+    "forward/314159": 4,
+    "forward/431": 3,
+    "forward/2027": 3,
+    "forward/9001": 2,
+    "reverse/111": 4,
+    "reverse/314159": 4,
+    "reverse/431": 4,
+    "reverse/2027": 3,
+    "reverse/9001": 4
+  },
+  "contrasts": {
+    "paired-roles": {
+      "pp": 0.0,
+      "ci95_pp": [
+        0.0,
+        0.0
+      ],
+      "gained_per_seed": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lost_per_seed": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "paired-matched_margins": {
+      "pp": 0.0,
+      "ci95_pp": [
+        0.0,
+        0.0
+      ],
+      "gained_per_seed": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lost_per_seed": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "paired-volume": {
+      "pp": 2.941176470588235,
+      "ci95_pp": [
+        0.0,
+        9.67741935483871
+      ],
+      "gained_per_seed": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "lost_per_seed": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "reverse-forward": {
+      "pp": 2.3529411764705883,
+      "ci95_pp": [
+        0.0,
+        7.407407407407407
+      ],
+      "gained_per_seed": [
+        1,
+        0,
+        1,
+        0,
+        2
+      ],
+      "lost_per_seed": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+}

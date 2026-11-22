@@ -1,0 +1,18 @@
+{
+  "source": "Dept1",
+  "model": "Dept3",
+  "span": [
+    0.15,
+    0.8
+  ],
+  "width_days": 14,
+  "selection": "8 indices evenly spaced over all complete windows, rounded down",
+  "seed": 84100,
+  "per_window": {
+    "dual": 25,
+    "ordinary": 12
+  },
+  "attempt_cap": 300000,
+  "sha256": "d914eb16d63cf48db86bb197fd939231092013937d04e80c8e0298bd20248fbf",
+  "frozen": "21c4f643c7b1be47ef4fb73e3a06d36b3902133e6e229c1623e4be0755347a7c"
+}

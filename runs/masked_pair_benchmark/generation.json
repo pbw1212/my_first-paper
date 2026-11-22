@@ -1,0 +1,67 @@
+{
+  "company-01": {
+    "dual": 35,
+    "ordinary": 15,
+    "attempts": 103
+  },
+  "company-02": {
+    "dual": 35,
+    "ordinary": 15,
+    "attempts": 88
+  },
+  "company-03": {
+    "dual": 35,
+    "ordinary": 15,
+    "attempts": 128
+  },
+  "company-04": {
+    "dual": 35,
+    "ordinary": 15,
+    "attempts": 120
+  },
+  "company-05": {
+    "dual": 35,
+    "ordinary": 15,
+    "attempts": 154
+  },
+  "company-06": {
+    "dual": 35,
+    "ordinary": 15,
+    "attempts": 147
+  },
+  "company-07": {
+    "dual": 35,
+    "ordinary": 15,
+    "attempts": 131
+  },
+  "company-08": {
+    "dual": 35,
+    "ordinary": 15,
+    "attempts": 167
+  },
+  "company-09": {
+    "dual": 35,
+    "ordinary": 15,
+    "attempts": 185
+  },
+  "company-10": {
+    "dual": 35,
+    "ordinary": 15,
+    "attempts": 113
+  },
+  "company-11": {
+    "dual": 35,
+    "ordinary": 15,
+    "attempts": 162
+  },
+  "company-12": {
+    "dual": 35,
+    "ordinary": 15,
+    "attempts": 82
+  },
+  "company-13": {
+    "dual": 35,
+    "ordinary": 15,
+    "attempts": 180
+  }
+}

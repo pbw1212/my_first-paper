@@ -1,0 +1,50 @@
+{
+  "1_CollegeMsg-08": {
+    "dual": 0,
+    "ordinary": 60,
+    "attempts": 1404,
+    "seed": 87037211
+  },
+  "2_CollegeMsg-08": {
+    "dual": 0,
+    "ordinary": 60,
+    "attempts": 1382,
+    "seed": 93018411
+  },
+  "1_CollegeMsg-09": {
+    "dual": 0,
+    "ordinary": 60,
+    "attempts": 1478,
+    "seed": 87037212
+  },
+  "2_CollegeMsg-09": {
+    "dual": 0,
+    "ordinary": 60,
+    "attempts": 1635,
+    "seed": 93018412
+  },
+  "1_CollegeMsg-10": {
+    "dual": 0,
+    "ordinary": 60,
+    "attempts": 2315,
+    "seed": 87037213
+  },
+  "2_CollegeMsg-10": {
+    "dual": 0,
+    "ordinary": 60,
+    "attempts": 2051,
+    "seed": 93018413
+  },
+  "1_CollegeMsg-11": {
+    "dual": 0,
+    "ordinary": 60,
+    "attempts": 6030,
+    "seed": 87037214
+  },
+  "2_CollegeMsg-11": {
+    "dual": 0,
+    "ordinary": 60,
+    "attempts": 5567,
+    "seed": 93018414
+  }
+}

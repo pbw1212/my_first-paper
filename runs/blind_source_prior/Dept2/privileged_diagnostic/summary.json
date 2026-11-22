@@ -1,0 +1,74 @@
+{
+  "flat": {
+    "past_public": {
+      "n": 308,
+      "pct": 21.298701298701296
+    },
+    "current_public": {
+      "n": 308,
+      "pct": 21.298701298701296
+    },
+    "current_trace": {
+      "n": 308,
+      "pct": 22.142857142857142
+    },
+    "current_identities": {
+      "n": 308,
+      "pct": 22.01298701298701
+    }
+  },
+  "mixed": {
+    "past_public": {
+      "n": 431,
+      "pct": 35.40603248259861
+    },
+    "current_public": {
+      "n": 431,
+      "pct": 35.638051044083525
+    },
+    "current_trace": {
+      "n": 431,
+      "pct": 36.148491879350345
+    },
+    "current_identities": {
+      "n": 431,
+      "pct": 36.24129930394432
+    }
+  },
+  "mostly_active": {
+    "past_public": {
+      "n": 522,
+      "pct": 57.62452107279693
+    },
+    "current_public": {
+      "n": 522,
+      "pct": 57.35632183908046
+    },
+    "current_trace": {
+      "n": 522,
+      "pct": 57.81609195402299
+    },
+    "current_identities": {
+      "n": 522,
+      "pct": 57.931034482758626
+    }
+  },
+  "linked": {
+    "past_public": {
+      "n": 341,
+      "pct": 39.41348973607038
+    },
+    "current_public": {
+      "n": 341,
+      "pct": 39.47214076246334
+    },
+    "current_trace": {
+      "n": 341,
+      "pct": 40.23460410557185
+    },
+    "current_identities": {
+      "n": 341,
+      "pct": 40.17595307917888
+    }
+  }
+}

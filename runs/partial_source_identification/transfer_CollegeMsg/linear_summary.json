@@ -1,0 +1,76 @@
+{
+  "dual": {
+    "total": {
+      "n": 139,
+      "absolute_one": 33,
+      "absolute_both": 3,
+      "relative_one": 40,
+      "relative_both": 6
+    },
+    "CollegeMsg-08": {
+      "n": 40,
+      "absolute_one": 11,
+      "absolute_both": 0,
+      "relative_one": 8,
+      "relative_both": 0
+    },
+    "CollegeMsg-09": {
+      "n": 40,
+      "absolute_one": 6,
+      "absolute_both": 2,
+      "relative_one": 10,
+      "relative_both": 1
+    },
+    "CollegeMsg-10": {
+      "n": 40,
+      "absolute_one": 10,
+      "absolute_both": 1,
+      "relative_one": 15,
+      "relative_both": 5
+    },
+    "CollegeMsg-11": {
+      "n": 19,
+      "absolute_one": 6,
+      "absolute_both": 0,
+      "relative_one": 7,
+      "relative_both": 0
+    }
+  },
+  "ordinary": {
+    "total": {
+      "n": 60,
+      "absolute_one": 5,
+      "absolute_both": 0,
+      "relative_one": 10,
+      "relative_both": 0
+    },
+    "CollegeMsg-08": {
+      "n": 15,
+      "absolute_one": 1,
+      "absolute_both": 0,
+      "relative_one": 0,
+      "relative_both": 0
+    },
+    "CollegeMsg-09": {
+      "n": 15,
+      "absolute_one": 0,
+      "absolute_both": 0,
+      "relative_one": 3,
+      "relative_both": 0
+    },
+    "CollegeMsg-10": {
+      "n": 15,
+      "absolute_one": 3,
+      "absolute_both": 0,
+      "relative_one": 5,
+      "relative_both": 0
+    },
+    "CollegeMsg-11": {
+      "n": 15,
+      "absolute_one": 1,
+      "absolute_both": 0,
+      "relative_one": 2,
+      "relative_both": 0
+    }
+  }
+}

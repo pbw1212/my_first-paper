@@ -1,0 +1,7 @@
+{
+  "seed_pairs": 120,
+  "live_masks": 128,
+  "nonempty_traces": 37,
+  "single_emitter_traces": 15,
+  "max_error": 3.3306690738754696e-16
+}

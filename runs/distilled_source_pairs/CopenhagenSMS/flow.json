@@ -1,0 +1,14 @@
+{
+  "1_CopenhagenSMS-01": {
+    "dual": 0,
+    "ordinary": 150,
+    "attempts": 325,
+    "seed": 87038211
+  },
+  "2_CopenhagenSMS-01": {
+    "dual": 0,
+    "ordinary": 150,
+    "attempts": 329,
+    "seed": 93019411
+  }
+}

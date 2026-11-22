@@ -1,0 +1,93 @@
+{
+  "selected": {
+    "direction": "forward",
+    "epoch": 100
+  },
+  "validation": {
+    "forward_10": {
+      "n": 300,
+      "nll": 8.145491585506006,
+      "hits": 29
+    },
+    "forward_25": {
+      "n": 300,
+      "nll": 8.01567951392759,
+      "hits": 27
+    },
+    "forward_50": {
+      "n": 300,
+      "nll": 7.94447111129371,
+      "hits": 33
+    },
+    "forward_100": {
+      "n": 300,
+      "nll": 7.848949441017052,
+      "hits": 32
+    },
+    "forward_150": {
+      "n": 300,
+      "nll": 7.861731030756352,
+      "hits": 31
+    },
+    "reverse_10": {
+      "n": 300,
+      "nll": 8.238532989926028,
+      "hits": 25
+    },
+    "reverse_25": {
+      "n": 300,
+      "nll": 8.153658342356804,
+      "hits": 23
+    },
+    "reverse_50": {
+      "n": 300,
+      "nll": 8.102676214510286,
+      "hits": 28
+    },
+    "reverse_100": {
+      "n": 300,
+      "nll": 7.904648139264856,
+      "hits": 30
+    },
+    "reverse_150": {
+      "n": 300,
+      "nll": 7.91931966212132,
+      "hits": 31
+    },
+    "undirected_10": {
+      "n": 300,
+      "nll": 8.020789128807348,
+      "hits": 27
+    },
+    "undirected_25": {
+      "n": 300,
+      "nll": 8.354163491168649,
+      "hits": 24
+    },
+    "undirected_50": {
+      "n": 300,
+      "nll": 8.135255014767857,
+      "hits": 26
+    },
+    "undirected_100": {
+      "n": 300,
+      "nll": 7.854220448969554,
+      "hits": 28
+    },
+    "undirected_150": {
+      "n": 300,
+      "nll": 7.860507980564642,
+      "hits": 28
+    }
+  },
+  "upstream_max_errors": [
+    4.76837158203125e-07,
+    4.76837158203125e-07
+  ],
+  "upstream": {
+    "commit": "3346a3bd527a06cf0b199143167ad6cdc69efc9a",
+    "url": "https://raw.githubusercontent.com/xianggebenben/GraphSL/3346a3bd527a06cf0b199143167ad6cdc69efc9a/GraphSL/GNN/GCNSI/model.py",
+    "sha256": "a93649d9fb1d10a1b8f65d5d078bd490b007573c5a3eef92a804b751082f5cec"
+  },
+  "weights_sha256": "0954a2096fc4de3ecb2ce268ac1d77e6be48e23ec7faf53a018fcd13fbeaf610"
+}

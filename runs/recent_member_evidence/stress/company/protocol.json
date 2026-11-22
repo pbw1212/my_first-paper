@@ -1,0 +1,48 @@
+{
+  "rules": {
+    "low": [
+      0.15,
+      false
+    ],
+    "original": [
+      0.3,
+      false
+    ],
+    "high": [
+      0.5,
+      false
+    ],
+    "once": [
+      0.3,
+      true
+    ]
+  },
+  "attempts": 200,
+  "windows": [
+    "company-11",
+    "company-13",
+    "company-14",
+    "company-16"
+  ],
+  "seed": 612207,
+  "hashes": {
+    "scripts/contact_rule_stress.py": "8b73c71be17cc2d7b6fac84cdf0eb2f26c5c0eba01744d48190fcf9b7e098fc0",
+    "runs/temporal_transfer/company/fgssi.pt": "4422d065d43f3eb84d777c2bf42ff118670c87310573a8b480b8217d315056fa",
+    "runs/factorial_history/fits/company/temporal/add111.pt": "7979543f04c116ace6f69a95f67f1a00e66865122c0a19ffa84327e56a0b4893",
+    "runs/factorial_history/fits/company/temporal/scale.npz": "35b87a6e63e7fdbcd103a466aa6e02fabd703717a4b199ed54102205811b7cf8",
+    "runs/factorial_history/fits/company/static/add111.pt": "66ea252fd639e0f689b86841301073ebb50f08032cb0d5401658da81227d6b29",
+    "runs/factorial_history/fits/company/static/scale.npz": "4cfbbb6b468f7fced160762b88875e075fbc4001669e0c363e2ba62f15906877",
+    "runs/factorial_history/fgssi/314159/company/fgssi.pt": "84e08119cccbeae33d79bc75a3527fb551d697084ad0d69cb41f7d06be63b801",
+    "runs/factorial_history/fits/company/temporal/add314159.pt": "ba14dbdbc7d63685ad15193713612ecba2f57e9529f700d1f48f488f5a779669",
+    "runs/factorial_history/fits/company/static/add314159.pt": "d9855a5c21d414e9fd4d130ba0c759000031522db5ed1bd89f2fa35d5b9291af",
+    "runs/factorial_history/fgssi/431/company/fgssi.pt": "34aad11fbb73b97329be8729ccf0dfb1fedfd941040722fcc83399fbc9e524c7",
+    "runs/factorial_history/fits/company/temporal/add431.pt": "2c0a4a54cba2a876959fd9fa02222116760b69c2c4aa282be0a82c11067688a6",
+    "runs/factorial_history/fits/company/static/add431.pt": "321c9ca40af2e04959cf235b158f3532b656dee27931878d3a45ba33f937e1f3",
+    "runs/factorial_history/fgssi/2027/company/fgssi.pt": "37cf17c6630498dd88cbfea13065c4631fff8c8facd266a28d271d372b24ffef",
+    "runs/factorial_history/fits/company/temporal/add2027.pt": "e5220e30584962d410058bd56a3370e16aa18de103bb6bb00f447affc8b7ef85",
+    "runs/factorial_history/fits/company/static/add2027.pt": "6416a212fd2a28bb6a011cae5bff3bfcb0c9e3d37aa91fbbd77c14229cf27760",
+    "runs/factorial_history/fgssi/9001/company/fgssi.pt": "b178f89d22ae80260e390f368ada549064b3becb96704b32ed8a569a76ac8461",
+    "runs/factorial_history/fits/company/temporal/add9001.pt": "74e99feeca38b46ab0a094b474412da5ae0bc1d5343d5a382e920b018d2c6801",
+    "runs/factorial_history/fits/company/static/add9001.pt": "06f39c5ea9244322a0e40b0bc69b5482aa2fc2edb583bf4a354a34d96fdcfe8d"
+  }
+}

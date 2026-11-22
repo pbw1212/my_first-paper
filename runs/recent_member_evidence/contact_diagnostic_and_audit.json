@@ -1,0 +1,24 @@
+{
+  "Dept2": {
+    "events": 1200,
+    "true_source_has_contact": 0.5220833333333333,
+    "other_candidate_has_contact": 0.08607769156303742,
+    "mean_within_event_auc": 0.7194435073700909,
+    "checks": {
+      "draws": 800,
+      "rule_trajectories": 3200,
+      "eligible_predictions": 1274
+    }
+  },
+  "company": {
+    "events": 1200,
+    "true_source_has_contact": 0.6770833333333334,
+    "other_candidate_has_contact": 0.5506506417187585,
+    "mean_within_event_auc": 0.5563858938917517,
+    "checks": {
+      "draws": 800,
+      "rule_trajectories": 3200,
+      "eligible_predictions": 2549
+    }
+  }
+}

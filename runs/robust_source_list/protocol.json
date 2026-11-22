@@ -1,0 +1,52 @@
+{
+  "random_seed": 82041693,
+  "draws_per_profile_window": 120,
+  "budget": 12,
+  "profiles": {
+    "flat": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "mixed": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "mostly_active": [
+      0.05,
+      0.15,
+      0.8
+    ],
+    "linked": null
+  },
+  "seeds": [
+    111,
+    314159,
+    431,
+    2027,
+    9001
+  ],
+  "source_models": {
+    "Dept2": "Dept2",
+    "company": "company",
+    "Dept4": "Dept2",
+    "Enron": "Dept2"
+  },
+  "methods": [
+    "activity",
+    "raw",
+    "fixed_marginal",
+    "fixed_joint",
+    "robust",
+    "both"
+  ],
+  "primary": "paired robust versus fixed joint coverage, by network and generator; no pooled winner",
+  "certificate": "minimum ratio of within-list pair mass to a component optimum upper bound; model-based",
+  "solver": "same four starts; improving single swaps for both objectives; dominance reduction",
+  "hashes": {
+    "scripts/robust_source_list.py": "b96c72f22a6bc2506f5319247519a0800e7816840ad2fdfaac6446b16f6d6d98",
+    "runs/source_prior_shift/protocol.json": "3a2b5d1ce27059a625ea90e63e284d7d9d0dc956d5d4a1d0556bf6721503221d",
+    "runs/blind_source_prior/protocol.json": "83301f6fbc8c945ba691f3d53e7c381d5b6bd3b324d95eb0c736c68e967624c6"
+  }
+}

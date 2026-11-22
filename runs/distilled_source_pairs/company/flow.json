@@ -1,0 +1,50 @@
+{
+  "1_company-11": {
+    "dual": 0,
+    "ordinary": 150,
+    "attempts": 182,
+    "seed": 87035211
+  },
+  "2_company-11": {
+    "dual": 0,
+    "ordinary": 150,
+    "attempts": 183,
+    "seed": 93016411
+  },
+  "1_company-13": {
+    "dual": 0,
+    "ordinary": 150,
+    "attempts": 186,
+    "seed": 87035212
+  },
+  "2_company-13": {
+    "dual": 0,
+    "ordinary": 150,
+    "attempts": 184,
+    "seed": 93016412
+  },
+  "1_company-14": {
+    "dual": 0,
+    "ordinary": 150,
+    "attempts": 198,
+    "seed": 87035213
+  },
+  "2_company-14": {
+    "dual": 0,
+    "ordinary": 150,
+    "attempts": 191,
+    "seed": 93016413
+  },
+  "1_company-16": {
+    "dual": 0,
+    "ordinary": 150,
+    "attempts": 179,
+    "seed": 87035214
+  },
+  "2_company-16": {
+    "dual": 0,
+    "ordinary": 150,
+    "attempts": 173,
+    "seed": 93016414
+  }
+}

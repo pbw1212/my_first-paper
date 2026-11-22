@@ -1,0 +1,265 @@
+{
+  "all": {
+    "total": {
+      "n": 240,
+      "activity": 0,
+      "pooled": 0,
+      "dual_node": 1,
+      "0.0": 1,
+      "0.25": 1,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 1
+    },
+    "CollegeMsg-08": {
+      "n": 60,
+      "activity": 0,
+      "pooled": 0,
+      "dual_node": 0,
+      "0.0": 0,
+      "0.25": 0,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 0
+    },
+    "CollegeMsg-09": {
+      "n": 60,
+      "activity": 0,
+      "pooled": 0,
+      "dual_node": 0,
+      "0.0": 1,
+      "0.25": 1,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 1
+    },
+    "CollegeMsg-10": {
+      "n": 60,
+      "activity": 0,
+      "pooled": 0,
+      "dual_node": 1,
+      "0.0": 0,
+      "0.25": 0,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 0
+    },
+    "CollegeMsg-11": {
+      "n": 60,
+      "activity": 0,
+      "pooled": 0,
+      "dual_node": 0,
+      "0.0": 0,
+      "0.25": 0,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 0
+    }
+  },
+  "silent": {
+    "total": {
+      "n": 233,
+      "activity": 0,
+      "pooled": 0,
+      "dual_node": 0,
+      "0.0": 1,
+      "0.25": 1,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 1
+    },
+    "CollegeMsg-08": {
+      "n": 59,
+      "activity": 0,
+      "pooled": 0,
+      "dual_node": 0,
+      "0.0": 0,
+      "0.25": 0,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 0
+    },
+    "CollegeMsg-09": {
+      "n": 57,
+      "activity": 0,
+      "pooled": 0,
+      "dual_node": 0,
+      "0.0": 1,
+      "0.25": 1,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 1
+    },
+    "CollegeMsg-10": {
+      "n": 59,
+      "activity": 0,
+      "pooled": 0,
+      "dual_node": 0,
+      "0.0": 0,
+      "0.25": 0,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 0
+    },
+    "CollegeMsg-11": {
+      "n": 58,
+      "activity": 0,
+      "pooled": 0,
+      "dual_node": 0,
+      "0.0": 0,
+      "0.25": 0,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 0
+    }
+  },
+  "one_visible": {
+    "total": {
+      "n": 238,
+      "activity": 0,
+      "pooled": 0,
+      "dual_node": 0,
+      "0.0": 1,
+      "0.25": 1,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 1
+    },
+    "CollegeMsg-08": {
+      "n": 60,
+      "activity": 0,
+      "pooled": 0,
+      "dual_node": 0,
+      "0.0": 0,
+      "0.25": 0,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 0
+    },
+    "CollegeMsg-09": {
+      "n": 60,
+      "activity": 0,
+      "pooled": 0,
+      "dual_node": 0,
+      "0.0": 1,
+      "0.25": 1,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 1
+    },
+    "CollegeMsg-10": {
+      "n": 59,
+      "activity": 0,
+      "pooled": 0,
+      "dual_node": 0,
+      "0.0": 0,
+      "0.25": 0,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 0
+    },
+    "CollegeMsg-11": {
+      "n": 59,
+      "activity": 0,
+      "pooled": 0,
+      "dual_node": 0,
+      "0.0": 0,
+      "0.25": 0,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 0
+    }
+  },
+  "two_emitters": {
+    "total": {
+      "n": 7,
+      "activity": 0,
+      "pooled": 0,
+      "dual_node": 1,
+      "0.0": 0,
+      "0.25": 0,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 0
+    },
+    "CollegeMsg-08": {
+      "n": 1,
+      "activity": 0,
+      "pooled": 0,
+      "dual_node": 0,
+      "0.0": 0,
+      "0.25": 0,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 0
+    },
+    "CollegeMsg-09": {
+      "n": 3,
+      "activity": 0,
+      "pooled": 0,
+      "dual_node": 0,
+      "0.0": 0,
+      "0.25": 0,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 0
+    },
+    "CollegeMsg-10": {
+      "n": 1,
+      "activity": 0,
+      "pooled": 0,
+      "dual_node": 1,
+      "0.0": 0,
+      "0.25": 0,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 0
+    },
+    "CollegeMsg-11": {
+      "n": 2,
+      "activity": 0,
+      "pooled": 0,
+      "dual_node": 0,
+      "0.0": 0,
+      "0.25": 0,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 0
+    }
+  },
+  "dual_visible": {
+    "total": {
+      "n": 2,
+      "activity": 0,
+      "pooled": 0,
+      "dual_node": 1,
+      "0.0": 0,
+      "0.25": 0,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 0
+    },
+    "CollegeMsg-10": {
+      "n": 1,
+      "activity": 0,
+      "pooled": 0,
+      "dual_node": 1,
+      "0.0": 0,
+      "0.25": 0,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 0
+    },
+    "CollegeMsg-11": {
+      "n": 1,
+      "activity": 0,
+      "pooled": 0,
+      "dual_node": 0,
+      "0.0": 0,
+      "0.25": 0,
+      "selected_gained": 0,
+      "selected_lost": 0,
+      "selected": 0
+    }
+  }
+}

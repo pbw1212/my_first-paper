@@ -1,0 +1,74 @@
+{
+  "flat": {
+    "past_public": {
+      "n": 1288,
+      "pct": 8.400621118012422
+    },
+    "current_public": {
+      "n": 1288,
+      "pct": 8.012422360248447
+    },
+    "current_trace": {
+      "n": 1288,
+      "pct": 9.114906832298136
+    },
+    "current_identities": {
+      "n": 1288,
+      "pct": 9.192546583850932
+    }
+  },
+  "mixed": {
+    "past_public": {
+      "n": 2586,
+      "pct": 23.11678267594741
+    },
+    "current_public": {
+      "n": 2586,
+      "pct": 23.248259860788863
+    },
+    "current_trace": {
+      "n": 2586,
+      "pct": 26.0015467904099
+    },
+    "current_identities": {
+      "n": 2586,
+      "pct": 26.0015467904099
+    }
+  },
+  "mostly_active": {
+    "past_public": {
+      "n": 3393,
+      "pct": 32.938402593575006
+    },
+    "current_public": {
+      "n": 3393,
+      "pct": 33.109342764515176
+    },
+    "current_trace": {
+      "n": 3393,
+      "pct": 37.69525493663425
+    },
+    "current_identities": {
+      "n": 3393,
+      "pct": 37.718832891246684
+    }
+  },
+  "linked": {
+    "past_public": {
+      "n": 1551,
+      "pct": 16.14442295293359
+    },
+    "current_public": {
+      "n": 1551,
+      "pct": 16.118633139909736
+    },
+    "current_trace": {
+      "n": 1551,
+      "pct": 17.36943907156673
+    },
+    "current_identities": {
+      "n": 1551,
+      "pct": 17.356544165054803
+    }
+  }
+}

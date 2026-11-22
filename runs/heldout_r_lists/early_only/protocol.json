@@ -1,0 +1,45 @@
+{
+  "targets": [
+    "r-devel",
+    "r-package-devel",
+    "libc-alpha"
+  ],
+  "months": [
+    "2021-01",
+    "2021-02",
+    "2021-03",
+    "2021-04",
+    "2021-05",
+    "2021-06",
+    "2021-07",
+    "2021-08",
+    "2021-09",
+    "2021-10",
+    "2021-11",
+    "2021-12",
+    "2022-01",
+    "2022-02",
+    "2022-03",
+    "2022-04",
+    "2022-05",
+    "2022-06",
+    "2022-07",
+    "2022-08",
+    "2022-09",
+    "2022-10",
+    "2022-11",
+    "2022-12"
+  ],
+  "primary": "frozen mixed_offset versus 28-day post count, all threads with a unique second and a later distinct speaker",
+  "eligibility": "root confirmed; 14-day horizon; unique second arrival strictly later than root; at least one further distinct author",
+  "observations": "hide initial two only; retain all later first arrivals on closed 98-day roster",
+  "scoring": "at least one visible historical author and 12 legal candidates; all participants outside remain misses; shared abstentions",
+  "comparisons": "all four frozen source models; old-mask common roots separately; also common scorable under both rules",
+  "tie": "as in ordinary cohorts; no real labels for fitting",
+  "budget": 12,
+  "hashes": {
+    "early_only_discussions.py0": "96ce98f2620fefabcbf28632986be6b62daa29c173dec2f5efa4281892376217",
+    "protocol_v2.json1": "104b489444fa03c1a428614099117dcc9334bf9f7c5a884a159a33586d3c1de0",
+    "protocol.json2": "0cefee5253bfede4c5413106d6c3a1249e6d5a13b262cacd342d0f78b1f169ed"
+  }
+}

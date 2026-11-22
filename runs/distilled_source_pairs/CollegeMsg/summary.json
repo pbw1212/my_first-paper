@@ -1,0 +1,578 @@
+{
+  "total": {
+    "n": 480,
+    "one": {
+      "old_joint": 88,
+      "pooled": 72,
+      "node_hard": 55,
+      "node_soft": 55,
+      "pair_hard": 53,
+      "pair_hard_marginal": 69,
+      "pair_soft": 52,
+      "pair_soft_marginal": 69,
+      "budget_hard": 54,
+      "budget_soft": 51
+    },
+    "both": {
+      "old_joint": 0,
+      "pooled": 1,
+      "node_hard": 0,
+      "node_soft": 0,
+      "pair_hard": 0,
+      "pair_hard_marginal": 0,
+      "pair_soft": 0,
+      "pair_soft_marginal": 0,
+      "budget_hard": 0,
+      "budget_soft": 0
+    },
+    "nll": {
+      "node_hard": 13.769428475943835,
+      "node_soft": 13.792218209238344,
+      "pair_hard": 13.576453298476675,
+      "pair_soft": 13.585576519305999,
+      "budget_hard": 14.020256752928187,
+      "budget_soft": 14.005594985516163
+    },
+    "pool": {
+      "pair_hard": 6,
+      "pair_soft": 6
+    },
+    "gains": {
+      "old_joint": 0,
+      "pooled": 0,
+      "node_hard": 0,
+      "node_soft": 0,
+      "pair_hard": 0,
+      "pair_hard_marginal": 0,
+      "pair_soft": 0,
+      "pair_soft_marginal": 0,
+      "budget_hard": 0,
+      "budget_soft": 0
+    },
+    "losses": {
+      "old_joint": 0,
+      "pooled": 1,
+      "node_hard": 0,
+      "node_soft": 0,
+      "pair_hard": 0,
+      "pair_hard_marginal": 0,
+      "pair_soft": 0,
+      "pair_soft_marginal": 0,
+      "budget_hard": 0,
+      "budget_soft": 0
+    },
+    "exact": {}
+  },
+  "batch1": {
+    "n": 240,
+    "one": {
+      "old_joint": 42,
+      "pooled": 39,
+      "node_hard": 24,
+      "node_soft": 25,
+      "pair_hard": 23,
+      "pair_hard_marginal": 33,
+      "pair_soft": 21,
+      "pair_soft_marginal": 34,
+      "budget_hard": 25,
+      "budget_soft": 21
+    },
+    "both": {
+      "old_joint": 0,
+      "pooled": 1,
+      "node_hard": 0,
+      "node_soft": 0,
+      "pair_hard": 0,
+      "pair_hard_marginal": 0,
+      "pair_soft": 0,
+      "pair_soft_marginal": 0,
+      "budget_hard": 0,
+      "budget_soft": 0
+    },
+    "nll": {
+      "node_hard": 13.677317261901091,
+      "node_soft": 13.706399524739172,
+      "pair_hard": 13.480210489099266,
+      "pair_soft": 13.492774677870896,
+      "budget_hard": 13.908666690077016,
+      "budget_soft": 13.907056549908782
+    },
+    "pool": {
+      "pair_hard": 6,
+      "pair_soft": 5
+    },
+    "gains": {
+      "old_joint": 0,
+      "pooled": 0,
+      "node_hard": 0,
+      "node_soft": 0,
+      "pair_hard": 0,
+      "pair_hard_marginal": 0,
+      "pair_soft": 0,
+      "pair_soft_marginal": 0,
+      "budget_hard": 0,
+      "budget_soft": 0
+    },
+    "losses": {
+      "old_joint": 0,
+      "pooled": 1,
+      "node_hard": 0,
+      "node_soft": 0,
+      "pair_hard": 0,
+      "pair_hard_marginal": 0,
+      "pair_soft": 0,
+      "pair_soft_marginal": 0,
+      "budget_hard": 0,
+      "budget_soft": 0
+    },
+    "exact": {}
+  },
+  "CollegeMsg-08": {
+    "n": 120,
+    "one": {
+      "old_joint": 20,
+      "pooled": 13,
+      "node_hard": 14,
+      "node_soft": 14,
+      "pair_hard": 12,
+      "pair_hard_marginal": 17,
+      "pair_soft": 11,
+      "pair_soft_marginal": 15,
+      "budget_hard": 15,
+      "budget_soft": 14
+    },
+    "both": {
+      "old_joint": 0,
+      "pooled": 0,
+      "node_hard": 0,
+      "node_soft": 0,
+      "pair_hard": 0,
+      "pair_hard_marginal": 0,
+      "pair_soft": 0,
+      "pair_soft_marginal": 0,
+      "budget_hard": 0,
+      "budget_soft": 0
+    },
+    "nll": {
+      "node_hard": 14.048816907034006,
+      "node_soft": 14.034313421963917,
+      "pair_hard": 13.903108964258392,
+      "pair_soft": 13.907984839510183,
+      "budget_hard": 14.321768319863434,
+      "budget_soft": 14.233103619950192
+    },
+    "pool": {
+      "pair_hard": 1,
+      "pair_soft": 1
+    },
+    "gains": {
+      "old_joint": 0,
+      "pooled": 0,
+      "node_hard": 0,
+      "node_soft": 0,
+      "pair_hard": 0,
+      "pair_hard_marginal": 0,
+      "pair_soft": 0,
+      "pair_soft_marginal": 0,
+      "budget_hard": 0,
+      "budget_soft": 0
+    },
+    "losses": {
+      "old_joint": 0,
+      "pooled": 0,
+      "node_hard": 0,
+      "node_soft": 0,
+      "pair_hard": 0,
+      "pair_hard_marginal": 0,
+      "pair_soft": 0,
+      "pair_soft_marginal": 0,
+      "budget_hard": 0,
+      "budget_soft": 0
+    },
+    "exact": {}
+  },
+  "silent": {
+    "n": 465,
+    "one": {
+      "old_joint": 85,
+      "pooled": 70,
+      "node_hard": 49,
+      "node_soft": 49,
+      "pair_hard": 47,
+      "pair_hard_marginal": 63,
+      "pair_soft": 46,
+      "pair_soft_marginal": 63,
+      "budget_hard": 48,
+      "budget_soft": 45
+    },
+    "both": {
+      "old_joint": 0,
+      "pooled": 0,
+      "node_hard": 0,
+      "node_soft": 0,
+      "pair_hard": 0,
+      "pair_hard_marginal": 0,
+      "pair_soft": 0,
+      "pair_soft_marginal": 0,
+      "budget_hard": 0,
+      "budget_soft": 0
+    },
+    "nll": {
+      "node_hard": 13.81026101217561,
+      "node_soft": 13.826111645070883,
+      "pair_hard": 13.613251043700883,
+      "pair_soft": 13.616305944909127,
+      "budget_hard": 14.06433422411942,
+      "budget_soft": 14.034514997818917
+    },
+    "pool": {
+      "pair_hard": 5,
+      "pair_soft": 5
+    },
+    "gains": {
+      "old_joint": 0,
+      "pooled": 0,
+      "node_hard": 0,
+      "node_soft": 0,
+      "pair_hard": 0,
+      "pair_hard_marginal": 0,
+      "pair_soft": 0,
+      "pair_soft_marginal": 0,
+      "budget_hard": 0,
+      "budget_soft": 0
+    },
+    "losses": {
+      "old_joint": 0,
+      "pooled": 0,
+      "node_hard": 0,
+      "node_soft": 0,
+      "pair_hard": 0,
+      "pair_hard_marginal": 0,
+      "pair_soft": 0,
+      "pair_soft_marginal": 0,
+      "budget_hard": 0,
+      "budget_soft": 0
+    },
+    "exact": {}
+  },
+  "two_emitters": {
+    "n": 15,
+    "one": {
+      "old_joint": 3,
+      "pooled": 2,
+      "node_hard": 6,
+      "node_soft": 6,
+      "pair_hard": 6,
+      "pair_hard_marginal": 6,
+      "pair_soft": 6,
+      "pair_soft_marginal": 6,
+      "budget_hard": 6,
+      "budget_soft": 6
+    },
+    "both": {
+      "old_joint": 0,
+      "pooled": 1,
+      "node_hard": 0,
+      "node_soft": 0,
+      "pair_hard": 0,
+      "pair_hard_marginal": 0,
+      "pair_soft": 0,
+      "pair_soft_marginal": 0,
+      "budget_hard": 0,
+      "budget_soft": 0
+    },
+    "nll": {
+      "node_hard": 12.503619852758838,
+      "node_soft": 12.741521698429882,
+      "pair_hard": 12.435723196526244,
+      "pair_soft": 12.63296432560903,
+      "budget_hard": 12.65385514599993,
+      "budget_soft": 13.109074604130846
+    },
+    "pool": {
+      "pair_hard": 1,
+      "pair_soft": 1
+    },
+    "gains": {
+      "old_joint": 0,
+      "pooled": 0,
+      "node_hard": 0,
+      "node_soft": 0,
+      "pair_hard": 0,
+      "pair_hard_marginal": 0,
+      "pair_soft": 0,
+      "pair_soft_marginal": 0,
+      "budget_hard": 0,
+      "budget_soft": 0
+    },
+    "losses": {
+      "old_joint": 0,
+      "pooled": 1,
+      "node_hard": 0,
+      "node_soft": 0,
+      "pair_hard": 0,
+      "pair_hard_marginal": 0,
+      "pair_soft": 0,
+      "pair_soft_marginal": 0,
+      "budget_hard": 0,
+      "budget_soft": 0
+    },
+    "exact": {}
+  },
+  "batch2": {
+    "n": 240,
+    "one": {
+      "old_joint": 46,
+      "pooled": 33,
+      "node_hard": 31,
+      "node_soft": 30,
+      "pair_hard": 30,
+      "pair_hard_marginal": 36,
+      "pair_soft": 31,
+      "pair_soft_marginal": 35,
+      "budget_hard": 29,
+      "budget_soft": 30
+    },
+    "both": {
+      "old_joint": 0,
+      "pooled": 0,
+      "node_hard": 0,
+      "node_soft": 0,
+      "pair_hard": 0,
+      "pair_hard_marginal": 0,
+      "pair_soft": 0,
+      "pair_soft_marginal": 0,
+      "budget_hard": 0,
+      "budget_soft": 0
+    },
+    "nll": {
+      "node_hard": 13.861539689986582,
+      "node_soft": 13.878036893737557,
+      "pair_hard": 13.672696107854133,
+      "pair_soft": 13.678378360741089,
+      "budget_hard": 14.131846815779376,
+      "budget_soft": 14.104133421123562
+    },
+    "pool": {
+      "pair_hard": 0,
+      "pair_soft": 1
+    },
+    "gains": {
+      "old_joint": 0,
+      "pooled": 0,
+      "node_hard": 0,
+      "node_soft": 0,
+      "pair_hard": 0,
+      "pair_hard_marginal": 0,
+      "pair_soft": 0,
+      "pair_soft_marginal": 0,
+      "budget_hard": 0,
+      "budget_soft": 0
+    },
+    "losses": {
+      "old_joint": 0,
+      "pooled": 0,
+      "node_hard": 0,
+      "node_soft": 0,
+      "pair_hard": 0,
+      "pair_hard_marginal": 0,
+      "pair_soft": 0,
+      "pair_soft_marginal": 0,
+      "budget_hard": 0,
+      "budget_soft": 0
+    },
+    "exact": {}
+  },
+  "CollegeMsg-09": {
+    "n": 120,
+    "one": {
+      "old_joint": 26,
+      "pooled": 13,
+      "node_hard": 7,
+      "node_soft": 7,
+      "pair_hard": 10,
+      "pair_hard_marginal": 15,
+      "pair_soft": 9,
+      "pair_soft_marginal": 15,
+      "budget_hard": 7,
+      "budget_soft": 7
+    },
+    "both": {
+      "old_joint": 0,
+      "pooled": 0,
+      "node_hard": 0,
+      "node_soft": 0,
+      "pair_hard": 0,
+      "pair_hard_marginal": 0,
+      "pair_soft": 0,
+      "pair_soft_marginal": 0,
+      "budget_hard": 0,
+      "budget_soft": 0
+    },
+    "nll": {
+      "node_hard": 13.770563013867228,
+      "node_soft": 13.773571290553134,
+      "pair_hard": 13.561056607555788,
+      "pair_soft": 13.579773746942625,
+      "budget_hard": 14.03666975933186,
+      "budget_soft": 13.97695625368949
+    },
+    "pool": {
+      "pair_hard": 0,
+      "pair_soft": 0
+    },
+    "gains": {
+      "old_joint": 0,
+      "pooled": 0,
+      "node_hard": 0,
+      "node_soft": 0,
+      "pair_hard": 0,
+      "pair_hard_marginal": 0,
+      "pair_soft": 0,
+      "pair_soft_marginal": 0,
+      "budget_hard": 0,
+      "budget_soft": 0
+    },
+    "losses": {
+      "old_joint": 0,
+      "pooled": 0,
+      "node_hard": 0,
+      "node_soft": 0,
+      "pair_hard": 0,
+      "pair_hard_marginal": 0,
+      "pair_soft": 0,
+      "pair_soft_marginal": 0,
+      "budget_hard": 0,
+      "budget_soft": 0
+    },
+    "exact": {}
+  },
+  "CollegeMsg-10": {
+    "n": 120,
+    "one": {
+      "old_joint": 17,
+      "pooled": 18,
+      "node_hard": 12,
+      "node_soft": 11,
+      "pair_hard": 10,
+      "pair_hard_marginal": 13,
+      "pair_soft": 11,
+      "pair_soft_marginal": 12,
+      "budget_hard": 10,
+      "budget_soft": 10
+    },
+    "both": {
+      "old_joint": 0,
+      "pooled": 1,
+      "node_hard": 0,
+      "node_soft": 0,
+      "pair_hard": 0,
+      "pair_hard_marginal": 0,
+      "pair_soft": 0,
+      "pair_soft_marginal": 0,
+      "budget_hard": 0,
+      "budget_soft": 0
+    },
+    "nll": {
+      "node_hard": 13.79287341991012,
+      "node_soft": 13.812396045236556,
+      "pair_hard": 13.677077962883708,
+      "pair_soft": 13.676450004818701,
+      "budget_hard": 14.04877619266311,
+      "budget_soft": 14.02536800048169
+    },
+    "pool": {
+      "pair_hard": 3,
+      "pair_soft": 3
+    },
+    "gains": {
+      "old_joint": 0,
+      "pooled": 0,
+      "node_hard": 0,
+      "node_soft": 0,
+      "pair_hard": 0,
+      "pair_hard_marginal": 0,
+      "pair_soft": 0,
+      "pair_soft_marginal": 0,
+      "budget_hard": 0,
+      "budget_soft": 0
+    },
+    "losses": {
+      "old_joint": 0,
+      "pooled": 1,
+      "node_hard": 0,
+      "node_soft": 0,
+      "pair_hard": 0,
+      "pair_hard_marginal": 0,
+      "pair_soft": 0,
+      "pair_soft_marginal": 0,
+      "budget_hard": 0,
+      "budget_soft": 0
+    },
+    "exact": {}
+  },
+  "CollegeMsg-11": {
+    "n": 120,
+    "one": {
+      "old_joint": 25,
+      "pooled": 28,
+      "node_hard": 22,
+      "node_soft": 23,
+      "pair_hard": 21,
+      "pair_hard_marginal": 24,
+      "pair_soft": 21,
+      "pair_soft_marginal": 27,
+      "budget_hard": 22,
+      "budget_soft": 20
+    },
+    "both": {
+      "old_joint": 0,
+      "pooled": 0,
+      "node_hard": 0,
+      "node_soft": 0,
+      "pair_hard": 0,
+      "pair_hard_marginal": 0,
+      "pair_soft": 0,
+      "pair_soft_marginal": 0,
+      "budget_hard": 0,
+      "budget_soft": 0
+    },
+    "nll": {
+      "node_hard": 13.465460562963973,
+      "node_soft": 13.548592079199839,
+      "pair_hard": 13.164569659208889,
+      "pair_soft": 13.178097485952428,
+      "budget_hard": 13.673812739854368,
+      "budget_soft": 13.786952067943307
+    },
+    "pool": {
+      "pair_hard": 2,
+      "pair_soft": 2
+    },
+    "gains": {
+      "old_joint": 0,
+      "pooled": 0,
+      "node_hard": 0,
+      "node_soft": 0,
+      "pair_hard": 0,
+      "pair_hard_marginal": 0,
+      "pair_soft": 0,
+      "pair_soft_marginal": 0,
+      "budget_hard": 0,
+      "budget_soft": 0
+    },
+    "losses": {
+      "old_joint": 0,
+      "pooled": 0,
+      "node_hard": 0,
+      "node_soft": 0,
+      "pair_hard": 0,
+      "pair_hard_marginal": 0,
+      "pair_soft": 0,
+      "pair_soft_marginal": 0,
+      "budget_hard": 0,
+      "budget_soft": 0
+    },
+    "exact": {}
+  }
+}

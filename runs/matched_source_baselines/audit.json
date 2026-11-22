@@ -1,0 +1,50 @@
+{
+  "replayed": 5010,
+  "main": 3660,
+  "supplemental": 1350,
+  "checks": [
+    "full time-stamped trajectory and public suffix regenerated from raw contacts and archived seeds",
+    "same event IDs and labels, unique twelve eligible names, ranks within full unordered candidate space",
+    "comparison input and weight hashes verified, original ordered-model shortlists reproduced",
+    "disjoint main and supplemental windows within network; no training or validation seed reused",
+    "two-center radius and tie-breaking verified against a direct calculation on a disconnected graph"
+  ],
+  "upstream_errors": {
+    "company": [
+      4.76837158203125e-07,
+      4.76837158203125e-07
+    ],
+    "Dept2": [
+      4.76837158203125e-07,
+      4.76837158203125e-07
+    ]
+  },
+  "raw_contact_files": {
+    "CollegeMsg.txt.gz": "50ae2d98ed3bad9ddb18dbd495a89e5e10cfb8f7e86932827db29fc41b41f9fa",
+    "copenhagen-sms.csv.zip": "9d51b590273320c42fd4d5d106e74e28e9f8d1254ba67c71131688bbb6435aa7",
+    "email-Eu-core-temporal-Dept1.txt.gz": "d914eb16d63cf48db86bb197fd939231092013937d04e80c8e0298bd20248fbf",
+    "email-Eu-core-temporal-Dept2.txt.gz": "8e8dcdb9049a671f2afcb4bc91ff8ad77423a40612ce8318ef0825aa8b44b53d",
+    "ia-radoslaw-email.zip": "8dbaf26082d8954e31a5dade6c39ac3d87b92143963388207b058df013606878"
+  },
+  "development_inputs": {
+    "company": {
+      "fit_public.jsonl": "5156e6e8e51bdffe84ffa8288308d8144296808702bb343aa9a4c5442e3e6bee",
+      "fit_truth.jsonl": "362b3bf29e2c985fba181668987b19a4fbd3aa104cebf0eb0279ab0a96308cb6",
+      "cal_public.jsonl": "bb106f8a732d5efeb0d4d44171cf6b6377a4a66df59008e2f9be37706ae3940b",
+      "cal_truth.jsonl": "33d14ece81be3591ea80e2722c16cb413395fe8b0b451a86482428233892add1"
+    },
+    "Dept2": {
+      "fit_public.jsonl": "2c72dd2b1d88f68a29558a2ca741fca3abd5aee0c7ca5d7ae1dc1aef4dc5fc4d",
+      "fit_truth.jsonl": "1f5838d2c8bc6ec20c964e080451c24b1e63319e07e92392f6b3fe7e9cdcb2b3",
+      "cal_public.jsonl": "83b0316880eaa67edb8501c9171c2a00cd6847aeeb33558b0704530ef49b513d",
+      "cal_truth.jsonl": "95ac4999535977385f0efa44e619f060a7f51e375df6f613ee000c25a25ec069"
+    }
+  },
+  "scripts": {
+    "audit_matched_source_baselines.py": "567604eefbeed08a841b68faa14e30a5e53cf79feaa7e10b168305968f4d15a9",
+    "matched_source_baselines.py": "4273fac859ae6013fef07dd67ec466a067f35f8b3cffc3a23765ad0262a1eecf",
+    "matched_suffix_ablation.py": "67870acf38c287609b085e77ce40b79364c2a3565f014809a8aa1c4935c16b45",
+    "matched_gcnsi_duration.py": "61340d66589e5b6904f4f843cbe5cbad59dbaff1b672f93a9f14cf55939c5216"
+  },
+  "summary_sha256": "d0ab6dc53ea6264f6ff9705e119c86d703d3b87e4635057ad5d7df9163e16b3a"
+}

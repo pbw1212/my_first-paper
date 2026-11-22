@@ -1,0 +1,2290 @@
+{
+  "rolling": {
+    "all": {
+      "n": 1140,
+      "in_pool": 414,
+      "methods": {
+        "sum": {
+          "top1": 4,
+          "top32": 81,
+          "median_rank_in_pool": 130.5
+        },
+        "joint": {
+          "top1": 10,
+          "top32": 78,
+          "median_rank_in_pool": 135.0
+        },
+        "direct": {
+          "top1": 6,
+          "top32": 90,
+          "median_rank_in_pool": 144.0
+        },
+        "prefix": {
+          "top1": 5,
+          "top32": 92,
+          "median_rank_in_pool": 129.0
+        },
+        "conditional": {
+          "top1": 7,
+          "top32": 94,
+          "median_rank_in_pool": 140.5
+        },
+        "joint_direct": {
+          "top1": 12,
+          "top32": 94,
+          "median_rank_in_pool": 130.5
+        },
+        "joint_prefix": {
+          "top1": 11,
+          "top32": 93,
+          "median_rank_in_pool": 119.0
+        },
+        "half_a": {
+          "top1": 8,
+          "top32": 87,
+          "median_rank_in_pool": 132.0
+        },
+        "half_b": {
+          "top1": 4,
+          "top32": 90,
+          "median_rank_in_pool": 129.5
+        }
+      },
+      "paired": {
+        "prefix_vs_direct": {
+          "gained": 33,
+          "lost": 31
+        },
+        "prefix_vs_joint": {
+          "gained": 54,
+          "lost": 40
+        },
+        "prefix_vs_sum": {
+          "gained": 57,
+          "lost": 46
+        },
+        "joint_prefix_vs_joint_direct": {
+          "gained": 18,
+          "lost": 19
+        },
+        "joint_prefix_vs_joint": {
+          "gained": 38,
+          "lost": 23
+        }
+      },
+      "half_overlap_at32": 0.5915844298245614,
+      "next_member_nll": [
+        3.6955098377901257,
+        4.063905568400978,
+        4.315582124413524
+      ],
+      "true_pair_prefix": {
+        "mean_f1": 0.3663743634984304,
+        "random_f1": 0.07390735429850513,
+        "median_ess": 10.977767947715476
+      }
+    },
+    "fold": {
+      "rolling_10": {
+        "n": 266,
+        "in_pool": 123,
+        "methods": {
+          "sum": {
+            "top1": 1,
+            "top32": 32,
+            "median_rank_in_pool": 100
+          },
+          "joint": {
+            "top1": 2,
+            "top32": 29,
+            "median_rank_in_pool": 113
+          },
+          "direct": {
+            "top1": 3,
+            "top32": 28,
+            "median_rank_in_pool": 143
+          },
+          "prefix": {
+            "top1": 1,
+            "top32": 29,
+            "median_rank_in_pool": 122
+          },
+          "conditional": {
+            "top1": 2,
+            "top32": 31,
+            "median_rank_in_pool": 140
+          },
+          "joint_direct": {
+            "top1": 4,
+            "top32": 31,
+            "median_rank_in_pool": 106
+          },
+          "joint_prefix": {
+            "top1": 4,
+            "top32": 31,
+            "median_rank_in_pool": 116
+          },
+          "half_a": {
+            "top1": 2,
+            "top32": 23,
+            "median_rank_in_pool": 132
+          },
+          "half_b": {
+            "top1": 1,
+            "top32": 31,
+            "median_rank_in_pool": 118
+          }
+        },
+        "paired": {
+          "prefix_vs_direct": {
+            "gained": 8,
+            "lost": 7
+          },
+          "prefix_vs_joint": {
+            "gained": 17,
+            "lost": 17
+          },
+          "prefix_vs_sum": {
+            "gained": 15,
+            "lost": 18
+          },
+          "joint_prefix_vs_joint_direct": {
+            "gained": 6,
+            "lost": 6
+          },
+          "joint_prefix_vs_joint": {
+            "gained": 13,
+            "lost": 11
+          }
+        },
+        "half_overlap_at32": 0.6732847744360902,
+        "next_member_nll": [
+          3.4306035099059193,
+          3.9471634244185108,
+          4.30778175540894
+        ],
+        "true_pair_prefix": {
+          "mean_f1": 0.3671067628705626,
+          "random_f1": 0.053547223910967286,
+          "median_ess": 13.78801905622988
+        }
+      },
+      "rolling_15": {
+        "n": 551,
+        "in_pool": 189,
+        "methods": {
+          "sum": {
+            "top1": 1,
+            "top32": 35,
+            "median_rank_in_pool": 140
+          },
+          "joint": {
+            "top1": 6,
+            "top32": 33,
+            "median_rank_in_pool": 128
+          },
+          "direct": {
+            "top1": 1,
+            "top32": 44,
+            "median_rank_in_pool": 135
+          },
+          "prefix": {
+            "top1": 1,
+            "top32": 48,
+            "median_rank_in_pool": 111
+          },
+          "conditional": {
+            "top1": 2,
+            "top32": 47,
+            "median_rank_in_pool": 105
+          },
+          "joint_direct": {
+            "top1": 5,
+            "top32": 44,
+            "median_rank_in_pool": 124
+          },
+          "joint_prefix": {
+            "top1": 5,
+            "top32": 44,
+            "median_rank_in_pool": 112
+          },
+          "half_a": {
+            "top1": 2,
+            "top32": 48,
+            "median_rank_in_pool": 121
+          },
+          "half_b": {
+            "top1": 1,
+            "top32": 43,
+            "median_rank_in_pool": 107
+          }
+        },
+        "paired": {
+          "prefix_vs_direct": {
+            "gained": 21,
+            "lost": 17
+          },
+          "prefix_vs_joint": {
+            "gained": 29,
+            "lost": 14
+          },
+          "prefix_vs_sum": {
+            "gained": 32,
+            "lost": 19
+          },
+          "joint_prefix_vs_joint_direct": {
+            "gained": 9,
+            "lost": 9
+          },
+          "joint_prefix_vs_joint": {
+            "gained": 17,
+            "lost": 6
+          }
+        },
+        "half_overlap_at32": 0.5927858439201452,
+        "next_member_nll": [
+          3.5948305803756297,
+          4.042366151231803,
+          4.293871686760271
+        ],
+        "true_pair_prefix": {
+          "mean_f1": 0.3818916237763978,
+          "random_f1": 0.07912322254434555,
+          "median_ess": 11.060653362545215
+        }
+      },
+      "rolling_20": {
+        "n": 323,
+        "in_pool": 102,
+        "methods": {
+          "sum": {
+            "top1": 2,
+            "top32": 14,
+            "median_rank_in_pool": 147.0
+          },
+          "joint": {
+            "top1": 2,
+            "top32": 16,
+            "median_rank_in_pool": 164.5
+          },
+          "direct": {
+            "top1": 2,
+            "top32": 18,
+            "median_rank_in_pool": 171.0
+          },
+          "prefix": {
+            "top1": 3,
+            "top32": 15,
+            "median_rank_in_pool": 177.5
+          },
+          "conditional": {
+            "top1": 3,
+            "top32": 16,
+            "median_rank_in_pool": 195.0
+          },
+          "joint_direct": {
+            "top1": 3,
+            "top32": 19,
+            "median_rank_in_pool": 162.5
+          },
+          "joint_prefix": {
+            "top1": 2,
+            "top32": 18,
+            "median_rank_in_pool": 147.5
+          },
+          "half_a": {
+            "top1": 4,
+            "top32": 16,
+            "median_rank_in_pool": 179.5
+          },
+          "half_b": {
+            "top1": 2,
+            "top32": 16,
+            "median_rank_in_pool": 177.5
+          }
+        },
+        "paired": {
+          "prefix_vs_direct": {
+            "gained": 4,
+            "lost": 7
+          },
+          "prefix_vs_joint": {
+            "gained": 8,
+            "lost": 9
+          },
+          "prefix_vs_sum": {
+            "gained": 10,
+            "lost": 9
+          },
+          "joint_prefix_vs_joint_direct": {
+            "gained": 3,
+            "lost": 4
+          },
+          "joint_prefix_vs_joint": {
+            "gained": 8,
+            "lost": 6
+          }
+        },
+        "half_overlap_at32": 0.5222523219814241,
+        "next_member_nll": [
+          3.9737076025306615,
+          4.154073141449456,
+          4.350404996183344
+        ],
+        "true_pair_prefix": {
+          "mean_f1": 0.3367386055052136,
+          "random_f1": 0.08879457919265529,
+          "median_ess": 8.151814746723929
+        }
+      }
+    },
+    "window": {
+      "train-11": {
+        "n": 66,
+        "in_pool": 30,
+        "methods": {
+          "sum": {
+            "top1": 0,
+            "top32": 7,
+            "median_rank_in_pool": 96.0
+          },
+          "joint": {
+            "top1": 0,
+            "top32": 7,
+            "median_rank_in_pool": 122.0
+          },
+          "direct": {
+            "top1": 2,
+            "top32": 8,
+            "median_rank_in_pool": 93.0
+          },
+          "prefix": {
+            "top1": 1,
+            "top32": 9,
+            "median_rank_in_pool": 117.5
+          },
+          "conditional": {
+            "top1": 2,
+            "top32": 8,
+            "median_rank_in_pool": 143.0
+          },
+          "joint_direct": {
+            "top1": 1,
+            "top32": 9,
+            "median_rank_in_pool": 91.5
+          },
+          "joint_prefix": {
+            "top1": 1,
+            "top32": 8,
+            "median_rank_in_pool": 115.5
+          },
+          "half_a": {
+            "top1": 1,
+            "top32": 6,
+            "median_rank_in_pool": 128.0
+          },
+          "half_b": {
+            "top1": 1,
+            "top32": 9,
+            "median_rank_in_pool": 115.0
+          }
+        },
+        "paired": {
+          "prefix_vs_direct": {
+            "gained": 3,
+            "lost": 2
+          },
+          "prefix_vs_joint": {
+            "gained": 6,
+            "lost": 4
+          },
+          "prefix_vs_sum": {
+            "gained": 6,
+            "lost": 4
+          },
+          "joint_prefix_vs_joint_direct": {
+            "gained": 2,
+            "lost": 3
+          },
+          "joint_prefix_vs_joint": {
+            "gained": 4,
+            "lost": 3
+          }
+        },
+        "half_overlap_at32": 0.6505681818181818,
+        "next_member_nll": [
+          3.39795466171869,
+          3.867658941525792,
+          4.294647176237955
+        ],
+        "true_pair_prefix": {
+          "mean_f1": 0.39745458245458243,
+          "random_f1": 0.0607377899251528,
+          "median_ess": 13.847498166009764
+        }
+      },
+      "train-12": {
+        "n": 38,
+        "in_pool": 15,
+        "methods": {
+          "sum": {
+            "top1": 0,
+            "top32": 6,
+            "median_rank_in_pool": 40
+          },
+          "joint": {
+            "top1": 2,
+            "top32": 5,
+            "median_rank_in_pool": 83
+          },
+          "direct": {
+            "top1": 0,
+            "top32": 3,
+            "median_rank_in_pool": 132
+          },
+          "prefix": {
+            "top1": 0,
+            "top32": 2,
+            "median_rank_in_pool": 146
+          },
+          "conditional": {
+            "top1": 0,
+            "top32": 4,
+            "median_rank_in_pool": 146
+          },
+          "joint_direct": {
+            "top1": 0,
+            "top32": 5,
+            "median_rank_in_pool": 71
+          },
+          "joint_prefix": {
+            "top1": 0,
+            "top32": 5,
+            "median_rank_in_pool": 95
+          },
+          "half_a": {
+            "top1": 0,
+            "top32": 2,
+            "median_rank_in_pool": 147
+          },
+          "half_b": {
+            "top1": 0,
+            "top32": 2,
+            "median_rank_in_pool": 120
+          }
+        },
+        "paired": {
+          "prefix_vs_direct": {
+            "gained": 1,
+            "lost": 2
+          },
+          "prefix_vs_joint": {
+            "gained": 1,
+            "lost": 4
+          },
+          "prefix_vs_sum": {
+            "gained": 0,
+            "lost": 4
+          },
+          "joint_prefix_vs_joint_direct": {
+            "gained": 1,
+            "lost": 1
+          },
+          "joint_prefix_vs_joint": {
+            "gained": 2,
+            "lost": 2
+          }
+        },
+        "half_overlap_at32": 0.6973684210526315,
+        "next_member_nll": [
+          3.677304714160868,
+          3.8651280605076637,
+          4.3064292212556445
+        ],
+        "true_pair_prefix": {
+          "mean_f1": 0.26184371184371186,
+          "random_f1": 0.04741761154904122,
+          "median_ess": 16.566880093915994
+        }
+      },
+      "train-13": {
+        "n": 30,
+        "in_pool": 16,
+        "methods": {
+          "sum": {
+            "top1": 0,
+            "top32": 7,
+            "median_rank_in_pool": 57.5
+          },
+          "joint": {
+            "top1": 0,
+            "top32": 6,
+            "median_rank_in_pool": 100.5
+          },
+          "direct": {
+            "top1": 0,
+            "top32": 6,
+            "median_rank_in_pool": 192.0
+          },
+          "prefix": {
+            "top1": 0,
+            "top32": 4,
+            "median_rank_in_pool": 185.5
+          },
+          "conditional": {
+            "top1": 0,
+            "top32": 5,
+            "median_rank_in_pool": 201.0
+          },
+          "joint_direct": {
+            "top1": 2,
+            "top32": 4,
+            "median_rank_in_pool": 108.5
+          },
+          "joint_prefix": {
+            "top1": 2,
+            "top32": 4,
+            "median_rank_in_pool": 122.5
+          },
+          "half_a": {
+            "top1": 0,
+            "top32": 4,
+            "median_rank_in_pool": 170.5
+          },
+          "half_b": {
+            "top1": 0,
+            "top32": 4,
+            "median_rank_in_pool": 213.5
+          }
+        },
+        "paired": {
+          "prefix_vs_direct": {
+            "gained": 0,
+            "lost": 2
+          },
+          "prefix_vs_joint": {
+            "gained": 0,
+            "lost": 2
+          },
+          "prefix_vs_sum": {
+            "gained": 0,
+            "lost": 3
+          },
+          "joint_prefix_vs_joint_direct": {
+            "gained": 0,
+            "lost": 0
+          },
+          "joint_prefix_vs_joint": {
+            "gained": 0,
+            "lost": 2
+          }
+        },
+        "half_overlap_at32": 0.7322916666666667,
+        "next_member_nll": [
+          3.5207169730821897,
+          4.05537716698004,
+          4.32071520153388
+        ],
+        "true_pair_prefix": {
+          "mean_f1": 0.2520833333333333,
+          "random_f1": 0.033920201879962156,
+          "median_ess": 16.610025277861897
+        }
+      },
+      "train-14": {
+        "n": 72,
+        "in_pool": 39,
+        "methods": {
+          "sum": {
+            "top1": 1,
+            "top32": 7,
+            "median_rank_in_pool": 103
+          },
+          "joint": {
+            "top1": 0,
+            "top32": 7,
+            "median_rank_in_pool": 109
+          },
+          "direct": {
+            "top1": 1,
+            "top32": 9,
+            "median_rank_in_pool": 147
+          },
+          "prefix": {
+            "top1": 0,
+            "top32": 12,
+            "median_rank_in_pool": 109
+          },
+          "conditional": {
+            "top1": 0,
+            "top32": 12,
+            "median_rank_in_pool": 106
+          },
+          "joint_direct": {
+            "top1": 1,
+            "top32": 8,
+            "median_rank_in_pool": 106
+          },
+          "joint_prefix": {
+            "top1": 0,
+            "top32": 11,
+            "median_rank_in_pool": 115
+          },
+          "half_a": {
+            "top1": 1,
+            "top32": 9,
+            "median_rank_in_pool": 100
+          },
+          "half_b": {
+            "top1": 0,
+            "top32": 13,
+            "median_rank_in_pool": 109
+          }
+        },
+        "paired": {
+          "prefix_vs_direct": {
+            "gained": 4,
+            "lost": 1
+          },
+          "prefix_vs_joint": {
+            "gained": 9,
+            "lost": 4
+          },
+          "prefix_vs_sum": {
+            "gained": 8,
+            "lost": 3
+          },
+          "joint_prefix_vs_joint_direct": {
+            "gained": 3,
+            "lost": 0
+          },
+          "joint_prefix_vs_joint": {
+            "gained": 6,
+            "lost": 2
+          }
+        },
+        "half_overlap_at32": 0.6293402777777778,
+        "next_member_nll": [
+          3.3769569003950393,
+          3.9798527750580313,
+          4.308871824422955
+        ],
+        "true_pair_prefix": {
+          "mean_f1": 0.3993605360002121,
+          "random_f1": 0.06015375075011109,
+          "median_ess": 11.042675104804822
+        }
+      },
+      "train-15": {
+        "n": 60,
+        "in_pool": 23,
+        "methods": {
+          "sum": {
+            "top1": 0,
+            "top32": 5,
+            "median_rank_in_pool": 123
+          },
+          "joint": {
+            "top1": 0,
+            "top32": 4,
+            "median_rank_in_pool": 144
+          },
+          "direct": {
+            "top1": 0,
+            "top32": 2,
+            "median_rank_in_pool": 216
+          },
+          "prefix": {
+            "top1": 0,
+            "top32": 2,
+            "median_rank_in_pool": 122
+          },
+          "conditional": {
+            "top1": 0,
+            "top32": 2,
+            "median_rank_in_pool": 120
+          },
+          "joint_direct": {
+            "top1": 0,
+            "top32": 5,
+            "median_rank_in_pool": 205
+          },
+          "joint_prefix": {
+            "top1": 1,
+            "top32": 3,
+            "median_rank_in_pool": 166
+          },
+          "half_a": {
+            "top1": 0,
+            "top32": 2,
+            "median_rank_in_pool": 147
+          },
+          "half_b": {
+            "top1": 0,
+            "top32": 3,
+            "median_rank_in_pool": 122
+          }
+        },
+        "paired": {
+          "prefix_vs_direct": {
+            "gained": 0,
+            "lost": 0
+          },
+          "prefix_vs_joint": {
+            "gained": 1,
+            "lost": 3
+          },
+          "prefix_vs_sum": {
+            "gained": 1,
+            "lost": 4
+          },
+          "joint_prefix_vs_joint_direct": {
+            "gained": 0,
+            "lost": 2
+          },
+          "joint_prefix_vs_joint": {
+            "gained": 1,
+            "lost": 2
+          }
+        },
+        "half_overlap_at32": 0.70625,
+        "next_member_nll": [
+          3.350377559592269,
+          4.0099441469247825,
+          4.318327671752029
+        ],
+        "true_pair_prefix": {
+          "mean_f1": 0.4214975845410628,
+          "random_f1": 0.05061700698804551,
+          "median_ess": 13.768199803273777
+        }
+      },
+      "train-16": {
+        "n": 147,
+        "in_pool": 50,
+        "methods": {
+          "sum": {
+            "top1": 0,
+            "top32": 10,
+            "median_rank_in_pool": 128.5
+          },
+          "joint": {
+            "top1": 0,
+            "top32": 7,
+            "median_rank_in_pool": 114.5
+          },
+          "direct": {
+            "top1": 0,
+            "top32": 11,
+            "median_rank_in_pool": 98.5
+          },
+          "prefix": {
+            "top1": 0,
+            "top32": 12,
+            "median_rank_in_pool": 79.5
+          },
+          "conditional": {
+            "top1": 1,
+            "top32": 13,
+            "median_rank_in_pool": 63.5
+          },
+          "joint_direct": {
+            "top1": 0,
+            "top32": 10,
+            "median_rank_in_pool": 114.5
+          },
+          "joint_prefix": {
+            "top1": 1,
+            "top32": 14,
+            "median_rank_in_pool": 97.5
+          },
+          "half_a": {
+            "top1": 1,
+            "top32": 15,
+            "median_rank_in_pool": 74.5
+          },
+          "half_b": {
+            "top1": 0,
+            "top32": 10,
+            "median_rank_in_pool": 82.5
+          }
+        },
+        "paired": {
+          "prefix_vs_direct": {
+            "gained": 6,
+            "lost": 5
+          },
+          "prefix_vs_joint": {
+            "gained": 9,
+            "lost": 4
+          },
+          "prefix_vs_sum": {
+            "gained": 10,
+            "lost": 8
+          },
+          "joint_prefix_vs_joint_direct": {
+            "gained": 5,
+            "lost": 1
+          },
+          "joint_prefix_vs_joint": {
+            "gained": 9,
+            "lost": 2
+          }
+        },
+        "half_overlap_at32": 0.5686649659863946,
+        "next_member_nll": [
+          3.5443322724109865,
+          4.027035501259668,
+          4.27389500216529
+        ],
+        "true_pair_prefix": {
+          "mean_f1": 0.37480304136767995,
+          "random_f1": 0.08959023350795885,
+          "median_ess": 10.031814223294333
+        }
+      },
+      "train-17": {
+        "n": 83,
+        "in_pool": 27,
+        "methods": {
+          "sum": {
+            "top1": 1,
+            "top32": 10,
+            "median_rank_in_pool": 44
+          },
+          "joint": {
+            "top1": 2,
+            "top32": 9,
+            "median_rank_in_pool": 65
+          },
+          "direct": {
+            "top1": 0,
+            "top32": 10,
+            "median_rank_in_pool": 45
+          },
+          "prefix": {
+            "top1": 0,
+            "top32": 10,
+            "median_rank_in_pool": 63
+          },
+          "conditional": {
+            "top1": 0,
+            "top32": 11,
+            "median_rank_in_pool": 52
+          },
+          "joint_direct": {
+            "top1": 1,
+            "top32": 11,
+            "median_rank_in_pool": 48
+          },
+          "joint_prefix": {
+            "top1": 1,
+            "top32": 12,
+            "median_rank_in_pool": 53
+          },
+          "half_a": {
+            "top1": 0,
+            "top32": 10,
+            "median_rank_in_pool": 64
+          },
+          "half_b": {
+            "top1": 0,
+            "top32": 10,
+            "median_rank_in_pool": 52
+          }
+        },
+        "paired": {
+          "prefix_vs_direct": {
+            "gained": 4,
+            "lost": 4
+          },
+          "prefix_vs_joint": {
+            "gained": 4,
+            "lost": 3
+          },
+          "prefix_vs_sum": {
+            "gained": 3,
+            "lost": 3
+          },
+          "joint_prefix_vs_joint_direct": {
+            "gained": 2,
+            "lost": 1
+          },
+          "joint_prefix_vs_joint": {
+            "gained": 3,
+            "lost": 0
+          }
+        },
+        "half_overlap_at32": 0.641566265060241,
+        "next_member_nll": [
+          3.3485048780975544,
+          3.8668495777020344,
+          4.304898233400302
+        ],
+        "true_pair_prefix": {
+          "mean_f1": 0.43111744222855336,
+          "random_f1": 0.062443970883980404,
+          "median_ess": 10.974420723536921
+        }
+      },
+      "train-18": {
+        "n": 103,
+        "in_pool": 36,
+        "methods": {
+          "sum": {
+            "top1": 0,
+            "top32": 5,
+            "median_rank_in_pool": 168.5
+          },
+          "joint": {
+            "top1": 1,
+            "top32": 5,
+            "median_rank_in_pool": 163.0
+          },
+          "direct": {
+            "top1": 1,
+            "top32": 8,
+            "median_rank_in_pool": 188.5
+          },
+          "prefix": {
+            "top1": 1,
+            "top32": 9,
+            "median_rank_in_pool": 150.5
+          },
+          "conditional": {
+            "top1": 1,
+            "top32": 8,
+            "median_rank_in_pool": 202.0
+          },
+          "joint_direct": {
+            "top1": 2,
+            "top32": 6,
+            "median_rank_in_pool": 166.5
+          },
+          "joint_prefix": {
+            "top1": 2,
+            "top32": 7,
+            "median_rank_in_pool": 139.5
+          },
+          "half_a": {
+            "top1": 1,
+            "top32": 8,
+            "median_rank_in_pool": 128.5
+          },
+          "half_b": {
+            "top1": 1,
+            "top32": 8,
+            "median_rank_in_pool": 148.0
+          }
+        },
+        "paired": {
+          "prefix_vs_direct": {
+            "gained": 2,
+            "lost": 1
+          },
+          "prefix_vs_joint": {
+            "gained": 5,
+            "lost": 1
+          },
+          "prefix_vs_sum": {
+            "gained": 6,
+            "lost": 2
+          },
+          "joint_prefix_vs_joint_direct": {
+            "gained": 1,
+            "lost": 0
+          },
+          "joint_prefix_vs_joint": {
+            "gained": 2,
+            "lost": 0
+          }
+        },
+        "half_overlap_at32": 0.6319781553398058,
+        "next_member_nll": [
+          3.577766474015484,
+          4.098943419666816,
+          4.301375425704457
+        ],
+        "true_pair_prefix": {
+          "mean_f1": 0.37287960563115363,
+          "random_f1": 0.06877714962473455,
+          "median_ess": 13.850210373433216
+        }
+      },
+      "train-19": {
+        "n": 126,
+        "in_pool": 42,
+        "methods": {
+          "sum": {
+            "top1": 0,
+            "top32": 3,
+            "median_rank_in_pool": 165.5
+          },
+          "joint": {
+            "top1": 2,
+            "top32": 4,
+            "median_rank_in_pool": 186.0
+          },
+          "direct": {
+            "top1": 0,
+            "top32": 3,
+            "median_rank_in_pool": 197.5
+          },
+          "prefix": {
+            "top1": 0,
+            "top32": 6,
+            "median_rank_in_pool": 208.5
+          },
+          "conditional": {
+            "top1": 0,
+            "top32": 5,
+            "median_rank_in_pool": 214.5
+          },
+          "joint_direct": {
+            "top1": 2,
+            "top32": 6,
+            "median_rank_in_pool": 183.0
+          },
+          "joint_prefix": {
+            "top1": 1,
+            "top32": 5,
+            "median_rank_in_pool": 164.5
+          },
+          "half_a": {
+            "top1": 0,
+            "top32": 5,
+            "median_rank_in_pool": 184.5
+          },
+          "half_b": {
+            "top1": 0,
+            "top32": 5,
+            "median_rank_in_pool": 170.0
+          }
+        },
+        "paired": {
+          "prefix_vs_direct": {
+            "gained": 5,
+            "lost": 2
+          },
+          "prefix_vs_joint": {
+            "gained": 4,
+            "lost": 2
+          },
+          "prefix_vs_sum": {
+            "gained": 5,
+            "lost": 2
+          },
+          "joint_prefix_vs_joint_direct": {
+            "gained": 1,
+            "lost": 2
+          },
+          "joint_prefix_vs_joint": {
+            "gained": 2,
+            "lost": 1
+          }
+        },
+        "half_overlap_at32": 0.482390873015873,
+        "next_member_nll": [
+          3.837406815892486,
+          4.159048742106778,
+          4.279570681078148
+        ],
+        "true_pair_prefix": {
+          "mean_f1": 0.4133307552101513,
+          "random_f1": 0.11206427805567876,
+          "median_ess": 8.545492107183584
+        }
+      },
+      "train-20": {
+        "n": 92,
+        "in_pool": 34,
+        "methods": {
+          "sum": {
+            "top1": 0,
+            "top32": 7,
+            "median_rank_in_pool": 115.0
+          },
+          "joint": {
+            "top1": 1,
+            "top32": 8,
+            "median_rank_in_pool": 119.0
+          },
+          "direct": {
+            "top1": 0,
+            "top32": 12,
+            "median_rank_in_pool": 91.5
+          },
+          "prefix": {
+            "top1": 0,
+            "top32": 11,
+            "median_rank_in_pool": 88.5
+          },
+          "conditional": {
+            "top1": 0,
+            "top32": 10,
+            "median_rank_in_pool": 65.0
+          },
+          "joint_direct": {
+            "top1": 0,
+            "top32": 11,
+            "median_rank_in_pool": 111.5
+          },
+          "joint_prefix": {
+            "top1": 0,
+            "top32": 6,
+            "median_rank_in_pool": 90.5
+          },
+          "half_a": {
+            "top1": 0,
+            "top32": 10,
+            "median_rank_in_pool": 86.0
+          },
+          "half_b": {
+            "top1": 0,
+            "top32": 10,
+            "median_rank_in_pool": 92.5
+          }
+        },
+        "paired": {
+          "prefix_vs_direct": {
+            "gained": 4,
+            "lost": 5
+          },
+          "prefix_vs_joint": {
+            "gained": 7,
+            "lost": 4
+          },
+          "prefix_vs_sum": {
+            "gained": 8,
+            "lost": 4
+          },
+          "joint_prefix_vs_joint_direct": {
+            "gained": 0,
+            "lost": 5
+          },
+          "joint_prefix_vs_joint": {
+            "gained": 1,
+            "lost": 3
+          }
+        },
+        "half_overlap_at32": 0.6946331521739131,
+        "next_member_nll": [
+          3.34910596276109,
+          3.874790542209191,
+          4.358096276282918
+        ],
+        "true_pair_prefix": {
+          "mean_f1": 0.32393048128342244,
+          "random_f1": 0.04723862078785127,
+          "median_ess": 13.813564270241095
+        }
+      },
+      "train-22": {
+        "n": 19,
+        "in_pool": 7,
+        "methods": {
+          "sum": {
+            "top1": 0,
+            "top32": 2,
+            "median_rank_in_pool": 90
+          },
+          "joint": {
+            "top1": 0,
+            "top32": 3,
+            "median_rank_in_pool": 113
+          },
+          "direct": {
+            "top1": 0,
+            "top32": 3,
+            "median_rank_in_pool": 221
+          },
+          "prefix": {
+            "top1": 1,
+            "top32": 2,
+            "median_rank_in_pool": 73
+          },
+          "conditional": {
+            "top1": 0,
+            "top32": 3,
+            "median_rank_in_pool": 99
+          },
+          "joint_direct": {
+            "top1": 1,
+            "top32": 3,
+            "median_rank_in_pool": 154
+          },
+          "joint_prefix": {
+            "top1": 1,
+            "top32": 3,
+            "median_rank_in_pool": 74
+          },
+          "half_a": {
+            "top1": 1,
+            "top32": 2,
+            "median_rank_in_pool": 80
+          },
+          "half_b": {
+            "top1": 1,
+            "top32": 3,
+            "median_rank_in_pool": 80
+          }
+        },
+        "paired": {
+          "prefix_vs_direct": {
+            "gained": 0,
+            "lost": 1
+          },
+          "prefix_vs_joint": {
+            "gained": 0,
+            "lost": 1
+          },
+          "prefix_vs_sum": {
+            "gained": 1,
+            "lost": 1
+          },
+          "joint_prefix_vs_joint_direct": {
+            "gained": 0,
+            "lost": 0
+          },
+          "joint_prefix_vs_joint": {
+            "gained": 0,
+            "lost": 0
+          }
+        },
+        "half_overlap_at32": 0.7467105263157895,
+        "next_member_nll": [
+          3.3439769468106726,
+          3.8551709259521654,
+          4.368525950072576
+        ],
+        "true_pair_prefix": {
+          "mean_f1": 0.48639455782312924,
+          "random_f1": 0.031326376198502266,
+          "median_ess": 16.584935085627713
+        }
+      },
+      "train-23": {
+        "n": 58,
+        "in_pool": 22,
+        "methods": {
+          "sum": {
+            "top1": 0,
+            "top32": 3,
+            "median_rank_in_pool": 106.0
+          },
+          "joint": {
+            "top1": 0,
+            "top32": 2,
+            "median_rank_in_pool": 142.5
+          },
+          "direct": {
+            "top1": 1,
+            "top32": 6,
+            "median_rank_in_pool": 90.0
+          },
+          "prefix": {
+            "top1": 0,
+            "top32": 6,
+            "median_rank_in_pool": 150.0
+          },
+          "conditional": {
+            "top1": 1,
+            "top32": 6,
+            "median_rank_in_pool": 143.5
+          },
+          "joint_direct": {
+            "top1": 0,
+            "top32": 5,
+            "median_rank_in_pool": 131.0
+          },
+          "joint_prefix": {
+            "top1": 0,
+            "top32": 5,
+            "median_rank_in_pool": 123.5
+          },
+          "half_a": {
+            "top1": 0,
+            "top32": 6,
+            "median_rank_in_pool": 148.5
+          },
+          "half_b": {
+            "top1": 0,
+            "top32": 6,
+            "median_rank_in_pool": 133.5
+          }
+        },
+        "paired": {
+          "prefix_vs_direct": {
+            "gained": 0,
+            "lost": 0
+          },
+          "prefix_vs_joint": {
+            "gained": 4,
+            "lost": 0
+          },
+          "prefix_vs_sum": {
+            "gained": 5,
+            "lost": 2
+          },
+          "joint_prefix_vs_joint_direct": {
+            "gained": 0,
+            "lost": 0
+          },
+          "joint_prefix_vs_joint": {
+            "gained": 3,
+            "lost": 0
+          }
+        },
+        "half_overlap_at32": 0.7214439655172413,
+        "next_member_nll": [
+          3.8254152821509115,
+          4.2375240328473724,
+          4.394714888785199
+        ],
+        "true_pair_prefix": {
+          "mean_f1": 0.2446969696969697,
+          "random_f1": 0.03361020073444955,
+          "median_ess": 10.141064004510339
+        }
+      },
+      "train-24": {
+        "n": 128,
+        "in_pool": 43,
+        "methods": {
+          "sum": {
+            "top1": 1,
+            "top32": 5,
+            "median_rank_in_pool": 192
+          },
+          "joint": {
+            "top1": 1,
+            "top32": 6,
+            "median_rank_in_pool": 198
+          },
+          "direct": {
+            "top1": 0,
+            "top32": 4,
+            "median_rank_in_pool": 195
+          },
+          "prefix": {
+            "top1": 0,
+            "top32": 3,
+            "median_rank_in_pool": 225
+          },
+          "conditional": {
+            "top1": 1,
+            "top32": 3,
+            "median_rank_in_pool": 228
+          },
+          "joint_direct": {
+            "top1": 1,
+            "top32": 6,
+            "median_rank_in_pool": 181
+          },
+          "joint_prefix": {
+            "top1": 0,
+            "top32": 4,
+            "median_rank_in_pool": 169
+          },
+          "half_a": {
+            "top1": 1,
+            "top32": 3,
+            "median_rank_in_pool": 221
+          },
+          "half_b": {
+            "top1": 0,
+            "top32": 2,
+            "median_rank_in_pool": 208
+          }
+        },
+        "paired": {
+          "prefix_vs_direct": {
+            "gained": 2,
+            "lost": 3
+          },
+          "prefix_vs_joint": {
+            "gained": 1,
+            "lost": 4
+          },
+          "prefix_vs_sum": {
+            "gained": 1,
+            "lost": 3
+          },
+          "joint_prefix_vs_joint_direct": {
+            "gained": 1,
+            "lost": 3
+          },
+          "joint_prefix_vs_joint": {
+            "gained": 2,
+            "lost": 4
+          }
+        },
+        "half_overlap_at32": 0.4921875,
+        "next_member_nll": [
+          3.9936368185715287,
+          4.217665223493928,
+          4.3481481741989745
+        ],
+        "true_pair_prefix": {
+          "mean_f1": 0.3256634281630522,
+          "random_f1": 0.1127016212343178,
+          "median_ess": 7.112103305408409
+        }
+      },
+      "train-25": {
+        "n": 118,
+        "in_pool": 30,
+        "methods": {
+          "sum": {
+            "top1": 1,
+            "top32": 4,
+            "median_rank_in_pool": 116.5
+          },
+          "joint": {
+            "top1": 1,
+            "top32": 5,
+            "median_rank_in_pool": 146.0
+          },
+          "direct": {
+            "top1": 1,
+            "top32": 5,
+            "median_rank_in_pool": 171.0
+          },
+          "prefix": {
+            "top1": 2,
+            "top32": 4,
+            "median_rank_in_pool": 215.0
+          },
+          "conditional": {
+            "top1": 1,
+            "top32": 4,
+            "median_rank_in_pool": 203.5
+          },
+          "joint_direct": {
+            "top1": 1,
+            "top32": 5,
+            "median_rank_in_pool": 152.0
+          },
+          "joint_prefix": {
+            "top1": 1,
+            "top32": 6,
+            "median_rank_in_pool": 135.0
+          },
+          "half_a": {
+            "top1": 2,
+            "top32": 5,
+            "median_rank_in_pool": 209.0
+          },
+          "half_b": {
+            "top1": 1,
+            "top32": 5,
+            "median_rank_in_pool": 187.5
+          }
+        },
+        "paired": {
+          "prefix_vs_direct": {
+            "gained": 2,
+            "lost": 3
+          },
+          "prefix_vs_joint": {
+            "gained": 3,
+            "lost": 4
+          },
+          "prefix_vs_sum": {
+            "gained": 3,
+            "lost": 3
+          },
+          "joint_prefix_vs_joint_direct": {
+            "gained": 2,
+            "lost": 1
+          },
+          "joint_prefix_vs_joint": {
+            "gained": 3,
+            "lost": 2
+          }
+        },
+        "half_overlap_at32": 0.4208156779661017,
+        "next_member_nll": [
+          4.023489567132409,
+          4.0981548503003244,
+          4.342868086914564
+        ],
+        "true_pair_prefix": {
+          "mean_f1": 0.38519050374751007,
+          "random_f1": 0.10840561050092559,
+          "median_ess": 7.252516362911687
+        }
+      }
+    },
+    "direct_sources": {
+      "1": {
+        "n": 725,
+        "in_pool": 138,
+        "methods": {
+          "sum": {
+            "top1": 0,
+            "top32": 15,
+            "median_rank_in_pool": 153.5
+          },
+          "joint": {
+            "top1": 1,
+            "top32": 13,
+            "median_rank_in_pool": 141.5
+          },
+          "direct": {
+            "top1": 1,
+            "top32": 22,
+            "median_rank_in_pool": 151.0
+          },
+          "prefix": {
+            "top1": 1,
+            "top32": 25,
+            "median_rank_in_pool": 147.5
+          },
+          "conditional": {
+            "top1": 2,
+            "top32": 27,
+            "median_rank_in_pool": 149.5
+          },
+          "joint_direct": {
+            "top1": 2,
+            "top32": 21,
+            "median_rank_in_pool": 138.0
+          },
+          "joint_prefix": {
+            "top1": 2,
+            "top32": 17,
+            "median_rank_in_pool": 126.5
+          },
+          "half_a": {
+            "top1": 2,
+            "top32": 22,
+            "median_rank_in_pool": 155.5
+          },
+          "half_b": {
+            "top1": 1,
+            "top32": 22,
+            "median_rank_in_pool": 165.0
+          }
+        },
+        "paired": {
+          "prefix_vs_direct": {
+            "gained": 10,
+            "lost": 7
+          },
+          "prefix_vs_joint": {
+            "gained": 20,
+            "lost": 8
+          },
+          "prefix_vs_sum": {
+            "gained": 19,
+            "lost": 9
+          },
+          "joint_prefix_vs_joint_direct": {
+            "gained": 2,
+            "lost": 6
+          },
+          "joint_prefix_vs_joint": {
+            "gained": 11,
+            "lost": 7
+          }
+        },
+        "half_overlap_at32": 0.613103448275862,
+        "next_member_nll": [
+          3.69290740715984,
+          4.07196052989674,
+          4.3214552424720605
+        ],
+        "true_pair_prefix": {
+          "mean_f1": 0.37074205239580943,
+          "random_f1": 0.06345651288438178,
+          "median_ess": 12.193378185493529
+        }
+      },
+      "2": {
+        "n": 415,
+        "in_pool": 276,
+        "methods": {
+          "sum": {
+            "top1": 4,
+            "top32": 66,
+            "median_rank_in_pool": 114.5
+          },
+          "joint": {
+            "top1": 9,
+            "top32": 65,
+            "median_rank_in_pool": 125.0
+          },
+          "direct": {
+            "top1": 5,
+            "top32": 68,
+            "median_rank_in_pool": 143.0
+          },
+          "prefix": {
+            "top1": 4,
+            "top32": 67,
+            "median_rank_in_pool": 119.5
+          },
+          "conditional": {
+            "top1": 5,
+            "top32": 67,
+            "median_rank_in_pool": 128.5
+          },
+          "joint_direct": {
+            "top1": 10,
+            "top32": 73,
+            "median_rank_in_pool": 124.0
+          },
+          "joint_prefix": {
+            "top1": 9,
+            "top32": 76,
+            "median_rank_in_pool": 115.0
+          },
+          "half_a": {
+            "top1": 6,
+            "top32": 65,
+            "median_rank_in_pool": 123.5
+          },
+          "half_b": {
+            "top1": 3,
+            "top32": 68,
+            "median_rank_in_pool": 122.5
+          }
+        },
+        "paired": {
+          "prefix_vs_direct": {
+            "gained": 23,
+            "lost": 24
+          },
+          "prefix_vs_joint": {
+            "gained": 34,
+            "lost": 32
+          },
+          "prefix_vs_sum": {
+            "gained": 38,
+            "lost": 37
+          },
+          "joint_prefix_vs_joint_direct": {
+            "gained": 16,
+            "lost": 13
+          },
+          "joint_prefix_vs_joint": {
+            "gained": 27,
+            "lost": 16
+          }
+        },
+        "half_overlap_at32": 0.5539909638554217,
+        "next_member_nll": [
+          3.699287122941938,
+          4.052214234114354,
+          4.307057616063834
+        ],
+        "true_pair_prefix": {
+          "mean_f1": 0.36419051904974087,
+          "random_f1": 0.0791327750055668,
+          "median_ess": 10.592497888592874
+        }
+      }
+    },
+    "window_interval_prefix_minus_direct": [
+      -0.008123341078032746,
+      0.01095965678157458
+    ]
+  },
+  "validation": {
+    "all": {
+      "n": 100,
+      "in_pool": 35,
+      "methods": {
+        "sum": {
+          "top1": 0,
+          "top32": 4,
+          "median_rank_in_pool": 181
+        },
+        "joint": {
+          "top1": 0,
+          "top32": 8,
+          "median_rank_in_pool": 153
+        },
+        "direct": {
+          "top1": 0,
+          "top32": 7,
+          "median_rank_in_pool": 109
+        },
+        "prefix": {
+          "top1": 0,
+          "top32": 8,
+          "median_rank_in_pool": 75
+        },
+        "conditional": {
+          "top1": 0,
+          "top32": 9,
+          "median_rank_in_pool": 139
+        },
+        "joint_direct": {
+          "top1": 0,
+          "top32": 9,
+          "median_rank_in_pool": 116
+        },
+        "joint_prefix": {
+          "top1": 0,
+          "top32": 9,
+          "median_rank_in_pool": 91
+        },
+        "half_a": {
+          "top1": 0,
+          "top32": 9,
+          "median_rank_in_pool": 108
+        },
+        "half_b": {
+          "top1": 0,
+          "top32": 10,
+          "median_rank_in_pool": 90
+        }
+      },
+      "paired": {
+        "prefix_vs_direct": {
+          "gained": 5,
+          "lost": 4
+        },
+        "prefix_vs_joint": {
+          "gained": 5,
+          "lost": 5
+        },
+        "prefix_vs_sum": {
+          "gained": 6,
+          "lost": 2
+        },
+        "joint_prefix_vs_joint_direct": {
+          "gained": 1,
+          "lost": 1
+        },
+        "joint_prefix_vs_joint": {
+          "gained": 2,
+          "lost": 1
+        }
+      },
+      "half_overlap_at32": 0.53,
+      "next_member_nll": [
+        3.7802519323891977,
+        4.042265637369485,
+        4.320400943761376
+      ],
+      "true_pair_prefix": {
+        "mean_f1": 0.3337608987751758,
+        "random_f1": 0.08760343180520601,
+        "median_ess": 12.342537847783067
+      }
+    },
+    "fold": {
+      "full2000": {
+        "n": 100,
+        "in_pool": 35,
+        "methods": {
+          "sum": {
+            "top1": 0,
+            "top32": 4,
+            "median_rank_in_pool": 181
+          },
+          "joint": {
+            "top1": 0,
+            "top32": 8,
+            "median_rank_in_pool": 153
+          },
+          "direct": {
+            "top1": 0,
+            "top32": 7,
+            "median_rank_in_pool": 109
+          },
+          "prefix": {
+            "top1": 0,
+            "top32": 8,
+            "median_rank_in_pool": 75
+          },
+          "conditional": {
+            "top1": 0,
+            "top32": 9,
+            "median_rank_in_pool": 139
+          },
+          "joint_direct": {
+            "top1": 0,
+            "top32": 9,
+            "median_rank_in_pool": 116
+          },
+          "joint_prefix": {
+            "top1": 0,
+            "top32": 9,
+            "median_rank_in_pool": 91
+          },
+          "half_a": {
+            "top1": 0,
+            "top32": 9,
+            "median_rank_in_pool": 108
+          },
+          "half_b": {
+            "top1": 0,
+            "top32": 10,
+            "median_rank_in_pool": 90
+          }
+        },
+        "paired": {
+          "prefix_vs_direct": {
+            "gained": 5,
+            "lost": 4
+          },
+          "prefix_vs_joint": {
+            "gained": 5,
+            "lost": 5
+          },
+          "prefix_vs_sum": {
+            "gained": 6,
+            "lost": 2
+          },
+          "joint_prefix_vs_joint_direct": {
+            "gained": 1,
+            "lost": 1
+          },
+          "joint_prefix_vs_joint": {
+            "gained": 2,
+            "lost": 1
+          }
+        },
+        "half_overlap_at32": 0.53,
+        "next_member_nll": [
+          3.7802519323891977,
+          4.042265637369485,
+          4.320400943761376
+        ],
+        "true_pair_prefix": {
+          "mean_f1": 0.3337608987751758,
+          "random_f1": 0.08760343180520601,
+          "median_ess": 12.342537847783067
+        }
+      }
+    },
+    "window": {
+      "validation-01": {
+        "n": 43,
+        "in_pool": 12,
+        "methods": {
+          "sum": {
+            "top1": 0,
+            "top32": 2,
+            "median_rank_in_pool": 226.0
+          },
+          "joint": {
+            "top1": 0,
+            "top32": 2,
+            "median_rank_in_pool": 210.0
+          },
+          "direct": {
+            "top1": 0,
+            "top32": 2,
+            "median_rank_in_pool": 198.0
+          },
+          "prefix": {
+            "top1": 0,
+            "top32": 3,
+            "median_rank_in_pool": 93.5
+          },
+          "conditional": {
+            "top1": 0,
+            "top32": 4,
+            "median_rank_in_pool": 164.0
+          },
+          "joint_direct": {
+            "top1": 0,
+            "top32": 1,
+            "median_rank_in_pool": 175.5
+          },
+          "joint_prefix": {
+            "top1": 0,
+            "top32": 2,
+            "median_rank_in_pool": 135.5
+          },
+          "half_a": {
+            "top1": 0,
+            "top32": 3,
+            "median_rank_in_pool": 131.5
+          },
+          "half_b": {
+            "top1": 0,
+            "top32": 4,
+            "median_rank_in_pool": 148.0
+          }
+        },
+        "paired": {
+          "prefix_vs_direct": {
+            "gained": 2,
+            "lost": 1
+          },
+          "prefix_vs_joint": {
+            "gained": 1,
+            "lost": 0
+          },
+          "prefix_vs_sum": {
+            "gained": 1,
+            "lost": 0
+          },
+          "joint_prefix_vs_joint_direct": {
+            "gained": 1,
+            "lost": 0
+          },
+          "joint_prefix_vs_joint": {
+            "gained": 0,
+            "lost": 0
+          }
+        },
+        "half_overlap_at32": 0.42805232558139533,
+        "next_member_nll": [
+          3.7925969184518626,
+          3.9884827873730364,
+          4.272390026889167
+        ],
+        "true_pair_prefix": {
+          "mean_f1": 0.35497405783432656,
+          "random_f1": 0.13251560658521544,
+          "median_ess": 5.806269049056933
+        }
+      },
+      "validation-02": {
+        "n": 25,
+        "in_pool": 12,
+        "methods": {
+          "sum": {
+            "top1": 0,
+            "top32": 1,
+            "median_rank_in_pool": 94.5
+          },
+          "joint": {
+            "top1": 0,
+            "top32": 3,
+            "median_rank_in_pool": 112.0
+          },
+          "direct": {
+            "top1": 0,
+            "top32": 2,
+            "median_rank_in_pool": 78.5
+          },
+          "prefix": {
+            "top1": 0,
+            "top32": 1,
+            "median_rank_in_pool": 65.0
+          },
+          "conditional": {
+            "top1": 0,
+            "top32": 1,
+            "median_rank_in_pool": 82.0
+          },
+          "joint_direct": {
+            "top1": 0,
+            "top32": 3,
+            "median_rank_in_pool": 99.5
+          },
+          "joint_prefix": {
+            "top1": 0,
+            "top32": 3,
+            "median_rank_in_pool": 61.0
+          },
+          "half_a": {
+            "top1": 0,
+            "top32": 2,
+            "median_rank_in_pool": 82.5
+          },
+          "half_b": {
+            "top1": 0,
+            "top32": 3,
+            "median_rank_in_pool": 77.0
+          }
+        },
+        "paired": {
+          "prefix_vs_direct": {
+            "gained": 1,
+            "lost": 2
+          },
+          "prefix_vs_joint": {
+            "gained": 1,
+            "lost": 3
+          },
+          "prefix_vs_sum": {
+            "gained": 1,
+            "lost": 1
+          },
+          "joint_prefix_vs_joint_direct": {
+            "gained": 0,
+            "lost": 0
+          },
+          "joint_prefix_vs_joint": {
+            "gained": 0,
+            "lost": 0
+          }
+        },
+        "half_overlap_at32": 0.605,
+        "next_member_nll": [
+          3.6149754962787117,
+          4.009774165498798,
+          4.39997429643721
+        ],
+        "true_pair_prefix": {
+          "mean_f1": 0.3813949938949939,
+          "random_f1": 0.0600726099490821,
+          "median_ess": 14.72147723245384
+        }
+      },
+      "validation-03": {
+        "n": 32,
+        "in_pool": 11,
+        "methods": {
+          "sum": {
+            "top1": 0,
+            "top32": 1,
+            "median_rank_in_pool": 246
+          },
+          "joint": {
+            "top1": 0,
+            "top32": 3,
+            "median_rank_in_pool": 119
+          },
+          "direct": {
+            "top1": 0,
+            "top32": 3,
+            "median_rank_in_pool": 88
+          },
+          "prefix": {
+            "top1": 0,
+            "top32": 4,
+            "median_rank_in_pool": 98
+          },
+          "conditional": {
+            "top1": 0,
+            "top32": 4,
+            "median_rank_in_pool": 186
+          },
+          "joint_direct": {
+            "top1": 0,
+            "top32": 5,
+            "median_rank_in_pool": 104
+          },
+          "joint_prefix": {
+            "top1": 0,
+            "top32": 4,
+            "median_rank_in_pool": 48
+          },
+          "half_a": {
+            "top1": 0,
+            "top32": 4,
+            "median_rank_in_pool": 131
+          },
+          "half_b": {
+            "top1": 0,
+            "top32": 3,
+            "median_rank_in_pool": 91
+          }
+        },
+        "paired": {
+          "prefix_vs_direct": {
+            "gained": 2,
+            "lost": 1
+          },
+          "prefix_vs_joint": {
+            "gained": 3,
+            "lost": 2
+          },
+          "prefix_vs_sum": {
+            "gained": 4,
+            "lost": 1
+          },
+          "joint_prefix_vs_joint_direct": {
+            "gained": 0,
+            "lost": 1
+          },
+          "joint_prefix_vs_joint": {
+            "gained": 2,
+            "lost": 1
+          }
+        },
+        "half_overlap_at32": 0.6083984375,
+        "next_member_nll": [
+          3.8694485485083323,
+          4.202096006997765,
+          4.383950465345339
+        ],
+        "true_pair_prefix": {
+          "mean_f1": 0.25865480330720975,
+          "random_f1": 0.06864195588823999,
+          "median_ess": 12.637575541800103
+        }
+      }
+    },
+    "direct_sources": {
+      "1": {
+        "n": 68,
+        "in_pool": 13,
+        "methods": {
+          "sum": {
+            "top1": 0,
+            "top32": 2,
+            "median_rank_in_pool": 181
+          },
+          "joint": {
+            "top1": 0,
+            "top32": 3,
+            "median_rank_in_pool": 153
+          },
+          "direct": {
+            "top1": 0,
+            "top32": 3,
+            "median_rank_in_pool": 74
+          },
+          "prefix": {
+            "top1": 0,
+            "top32": 5,
+            "median_rank_in_pool": 46
+          },
+          "conditional": {
+            "top1": 0,
+            "top32": 5,
+            "median_rank_in_pool": 60
+          },
+          "joint_direct": {
+            "top1": 0,
+            "top32": 3,
+            "median_rank_in_pool": 94
+          },
+          "joint_prefix": {
+            "top1": 0,
+            "top32": 4,
+            "median_rank_in_pool": 48
+          },
+          "half_a": {
+            "top1": 0,
+            "top32": 6,
+            "median_rank_in_pool": 58
+          },
+          "half_b": {
+            "top1": 0,
+            "top32": 5,
+            "median_rank_in_pool": 71
+          }
+        },
+        "paired": {
+          "prefix_vs_direct": {
+            "gained": 3,
+            "lost": 1
+          },
+          "prefix_vs_joint": {
+            "gained": 2,
+            "lost": 0
+          },
+          "prefix_vs_sum": {
+            "gained": 3,
+            "lost": 0
+          },
+          "joint_prefix_vs_joint_direct": {
+            "gained": 1,
+            "lost": 0
+          },
+          "joint_prefix_vs_joint": {
+            "gained": 1,
+            "lost": 0
+          }
+        },
+        "half_overlap_at32": 0.5243566176470589,
+        "next_member_nll": [
+          3.759017194889426,
+          4.022141294499277,
+          4.305895569281296
+        ],
+        "true_pair_prefix": {
+          "mean_f1": 0.37312519843751124,
+          "random_f1": 0.09696058233938029,
+          "median_ess": 11.919710664037748
+        }
+      },
+      "2": {
+        "n": 32,
+        "in_pool": 22,
+        "methods": {
+          "sum": {
+            "top1": 0,
+            "top32": 2,
+            "median_rank_in_pool": 206.5
+          },
+          "joint": {
+            "top1": 0,
+            "top32": 5,
+            "median_rank_in_pool": 158.5
+          },
+          "direct": {
+            "top1": 0,
+            "top32": 4,
+            "median_rank_in_pool": 147.0
+          },
+          "prefix": {
+            "top1": 0,
+            "top32": 3,
+            "median_rank_in_pool": 140.0
+          },
+          "conditional": {
+            "top1": 0,
+            "top32": 4,
+            "median_rank_in_pool": 187.0
+          },
+          "joint_direct": {
+            "top1": 0,
+            "top32": 6,
+            "median_rank_in_pool": 158.5
+          },
+          "joint_prefix": {
+            "top1": 0,
+            "top32": 5,
+            "median_rank_in_pool": 115.5
+          },
+          "half_a": {
+            "top1": 0,
+            "top32": 3,
+            "median_rank_in_pool": 168.0
+          },
+          "half_b": {
+            "top1": 0,
+            "top32": 5,
+            "median_rank_in_pool": 105.0
+          }
+        },
+        "paired": {
+          "prefix_vs_direct": {
+            "gained": 2,
+            "lost": 3
+          },
+          "prefix_vs_joint": {
+            "gained": 3,
+            "lost": 5
+          },
+          "prefix_vs_sum": {
+            "gained": 3,
+            "lost": 2
+          },
+          "joint_prefix_vs_joint_direct": {
+            "gained": 0,
+            "lost": 1
+          },
+          "joint_prefix_vs_joint": {
+            "gained": 1,
+            "lost": 1
+          }
+        },
+        "half_overlap_at32": 0.5419921875,
+        "next_member_nll": [
+          3.8344053611271924,
+          4.09358730628734,
+          4.3573929604149075
+        ],
+        "true_pair_prefix": {
+          "mean_f1": 0.3105001762474321,
+          "random_f1": 0.08207420648955757,
+          "median_ess": 12.471163367838711
+        }
+      }
+    }
+  }
+}
