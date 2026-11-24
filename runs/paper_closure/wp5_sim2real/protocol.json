@@ -1,0 +1,49 @@
+{
+  "plan": {
+    "real": [
+      "python-dev",
+      "python-ideas",
+      "r-devel",
+      "r-package-devel",
+      "libc-alpha",
+      "libc-alpha-2024"
+    ],
+    "python_test": "2019 Feb-Apr only, following frozen 2017-18 fit and validation",
+    "depths": [
+      0,
+      25,
+      50
+    ],
+    "eligibility": "D0 unique second + >=1 later; D25/D50 hide maximal complete prefix up to floor(q*N), require hidden batch and >=3 later. All depths abstain if <3 roster-visible or <12 legal. Missing author or abstention scores zero.",
+    "comparison": "all eligible, common roots, common ready. D50 matches historical mask; D0 uses stricter shared abstention.",
+    "sim": "98-day closed roster, Dept2 4 / Enron 8 windows. 160 coupled attempts per cell/window. 2x2 uniform vs active first sender, symmetric second uniform vs unique first activation. D0 and D50.",
+    "sim_roles": "28/98-day sends, counts of root/first activation in 80 auxiliary historical cascades per completed fortnight in 98 days, mean incoming/outgoing 28-day contacts. Role-wise conditional likelihood on earlier Dept2 only, validation selects penalty; frozen transfer.",
+    "prior": "one-active unordered correction (wi+wj); first sender actually weighted; imperfect for asymmetric targets",
+    "decomposition": "common eligible attempts only, equal allocation of interaction across both orders. These are controlled simulated contrasts; real causal shares are unidentified.",
+    "seeds": {
+      "history": 193411,
+      "train": 395123,
+      "test": 581193
+    }
+  },
+  "seed_order": [
+    111,
+    314159,
+    431,
+    2027,
+    9001
+  ],
+  "bootstrap": {
+    "seed": 20261120,
+    "replicates": 10000,
+    "block": 3,
+    "circular": true,
+    "units": "event-weighted; paired seed and consecutive prespecified window blocks, including empty windows"
+  },
+  "inputs": {
+    "repo/scripts/closure_bridge.py": "c60ab281581cd10bf782f5bc4af8e9a2d27543c9efad04cb4d784c6455ee3ae4",
+    "repo/scripts/closure_cascades.py": "524e10c87d0cbe9a1aa76c1e980010716868400ca983d2f98607303165661f8f",
+    "repo/scripts/closure_discussions.py": "58e16dffbbae55183d35d80e1398d7846320b4028dc825f43785f38040f58b15",
+    "archive/runs/heldout_r_lists/early_only/role_evidence/protocol.json": "5256de212f472bfec892f59d64612581f691c3709d9c483df09d4daf4706e13a"
+  }
+}

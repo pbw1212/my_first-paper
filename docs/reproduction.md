@@ -1,5 +1,9 @@
 # 数据与复现说明
 
+## 最终论文和实验主表
+
+[最终论文工程](../paper_dasfaa/README.md)可使用仓库内的图表直接编译，也可用冻结汇总重新生成图表。[主结果核验](closure_evidence_pack.md)说明如何用原始归档检查逐事件证据与完整复跑。
+
 ## 从首轮实验开始
 
 从仓库根目录执行以下 PowerShell 命令。该流程只使用 Python 标准库和 SNAP 的 Dept3 数据，先生成公开观测与独立真值，再计算基线并逐例复核。归档的 [汇总](../runs/dept3_pilot/summary.json) 和 [审计](../runs/dept3_pilot/audit.json) 可先用于对照。若需保留归档文件原样，在仓库副本内运行。

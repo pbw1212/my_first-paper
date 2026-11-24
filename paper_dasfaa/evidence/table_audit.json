@@ -1,0 +1,31 @@
+{
+  "1": {
+    "rows": 3,
+    "verified_active_dimensions": [
+      26,
+      34,
+      64
+    ],
+    "implementation_columns_mapped": 64
+  },
+  "2": {
+    "rows": 15,
+    "matched_cells": 90
+  },
+  "3": {
+    "rows": 6,
+    "matched_cells": 54
+  },
+  "4": {
+    "rows": 8,
+    "matched_cells": 48
+  },
+  "5": {
+    "rows": 5,
+    "matched_cells": 35
+  },
+  "6": {
+    "rows": 6,
+    "matched_cells": 30
+  }
+}

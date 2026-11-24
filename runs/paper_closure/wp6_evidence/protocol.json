@@ -1,0 +1,40 @@
+{
+  "plan": {
+    "tables": 6,
+    "figures": 4,
+    "independent": "reconstruct event/seed differences and 10000 block-by-seed intervals via independent multiplicities",
+    "earlier_results": "keep original data units, distinguish unchanged archive from post-hoc frozen inference or intervention"
+  },
+  "seed_order": [
+    111,
+    314159,
+    431,
+    2027,
+    9001
+  ],
+  "bootstrap": {
+    "seed": 20261120,
+    "replicates": 10000,
+    "block": 3,
+    "circular": true,
+    "units": "event-weighted; paired seed and consecutive prespecified window blocks, including empty windows"
+  },
+  "inputs": {
+    "repo/runs/activation_time_ceiling/verification.json": "48ea5b78dfc7db5b394f13ed52aa2e756daff10f0a15146edaea4871538ff682",
+    "repo/runs/blind_source_prior/summary.json": "cd0156c18f028ce073ba9605980e67ef9844af76e20bfccf2c3e8d523ef1aa8a",
+    "repo/runs/dept3_forward/sampling_check.json": "3f2c4ac201e8b35dee934d6e74d8c334be321f2fcd6c3550554c2d0457341330",
+    "repo/runs/dept3_pilot/summary.json": "094da5c0fa42085df623b4ef5704db2d42039ff0fa02c52e76834653b44a7a2c",
+    "repo/runs/history_components/Dept4/protocol_lock.json": "8372ed79641e89c7b57c5de4eb80f45e2552785c4648ba9420879b683b9e8172",
+    "repo/runs/paper_closure/wp1_budgets/summary.json": "95f86e7488cc72e5fef2fc12085902524abc026851b62e6c3f5b7c390ae4acb9",
+    "repo/runs/paper_closure/wp2_predictability/summary.json": "1dcb8a9b5a1b191a5c8abbbf668a7d1a80d5dd9f6482d898a0246900929954b0",
+    "repo/runs/paper_closure/wp3_robustness/summary.json": "a1839190203b1f78afaaf103e0141f8e34a4d79a467f2b0a531350779cfc0771",
+    "repo/runs/paper_closure/wp4_ksources/summary.json": "e52986e730346e087da5cd8ce33531d880ca161735ba014db7efae33ecb28351",
+    "repo/runs/paper_closure/wp5_sim2real/summary.json": "a336a93b50787f93e9a37247bb7f6b42c4ec242e5e0cc5ad8951532446880af0",
+    "repo/runs/recent_member_evidence/single_snapshot/company/summary.json": "08cf63bb2c3da5ef51a968b44433ad356d0c40b48130591a17b058125355f0c3",
+    "repo/runs/recent_member_evidence/single_snapshot/Dept2/summary.json": "bfdc063f227921df198c479c676889b7fc5c9f25abdf0a4a651e7a9eed96cf8f",
+    "repo/runs/robust_source_list/summary.json": "22e2ec8468ff880f6ba8090691ac3ebcac76c5897011bf7546fc0b8697a13798",
+    "repo/runs/trained_source_mixtures/summary.json": "369b3c608eb5b757e9f702dc8ceadcfcf8529d5f3e7044b328243af8b829c031",
+    "repo/scripts/closure_all.py": "fb2fe30fa404812cdf18baae8d5fcd2e737413fe72a7ec603f7c8c128c85aa27",
+    "repo/scripts/closure_evidence.py": "886b1032c33affee0fd72c7b4e796c942d70d384ba5019d021d44294dd2032e8"
+  }
+}

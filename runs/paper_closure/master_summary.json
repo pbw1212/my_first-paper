@@ -1,0 +1,155 @@
+{
+  "tables": [
+    {
+      "id": "T1",
+      "claim": "固定与比例预算、软召回和精确对排名",
+      "path": "runs/paper_closure/wp1_budgets/summary.json",
+      "scope": "网络 → methods / differences"
+    },
+    {
+      "id": "T2",
+      "claim": "近期联系区分度、结构统计与名单收益",
+      "path": "runs/paper_closure/wp2_predictability/summary.json",
+      "scope": "networks / correlations；模拟和真实基线分别列明"
+    },
+    {
+      "id": "T3",
+      "claim": "三档输入的树模型与非 SI 机制",
+      "path": "runs/paper_closure/wp3_robustness/summary.json",
+      "scope": "tree / stress；不同规则分母和共同抽取分别展示"
+    },
+    {
+      "id": "T4",
+      "claim": "源头先验变化与同样本训练对照",
+      "path": "runs/trained_source_mixtures/summary.json",
+      "scope": "Enron → mostly_active / linked；使用归档的 pp 单位"
+    },
+    {
+      "id": "T5",
+      "claim": "多源名单、逐源召回与沉默事件",
+      "path": "runs/paper_closure/wp4_ksources/summary.json",
+      "scope": "网络 → 抽取条件/真实 k；对应 All-in-12、Recall@12、silent_event"
+    },
+    {
+      "id": "T6",
+      "claim": "模拟与真实角色的桥接",
+      "path": "runs/paper_closure/wp5_sim2real/summary.json",
+      "scope": "real 各深度、共同讨论与共同可打分；sim 各条件与共同抽取机制分解"
+    }
+  ],
+  "figures": [
+    {
+      "id": "F1",
+      "claim": "固定人数预算曲线",
+      "path": "runs/paper_closure/wp1_budgets/budget_curve.png",
+      "scope": "对应 T1"
+    },
+    {
+      "id": "F2",
+      "claim": "AUC 与增益的跨网络散点",
+      "path": "runs/paper_closure/wp2_predictability/auc_gain.png",
+      "scope": "对应 T2；按比较基线分两条回归线"
+    },
+    {
+      "id": "F3",
+      "claim": "源数与沉默事件、名单召回",
+      "path": "runs/paper_closure/wp6_evidence/ksource_boundary.png",
+      "scope": "对应 T5；未知 k 组按真实 k 分层"
+    },
+    {
+      "id": "F4",
+      "claim": "真实讨论遮挡深度扫描",
+      "path": "runs/paper_closure/wp5_sim2real/depth_scan.png",
+      "scope": "对应 T6；各深度以各自全部合格线程为分母"
+    }
+  ],
+  "appendix": [
+    {
+      "topic": "Dept3 早期可行性",
+      "path": "runs/dept3_pilot/summary.json",
+      "note": "用于说明基线与任务演变。"
+    },
+    {
+      "topic": "128 路径补前缀",
+      "path": "runs/dept3_forward/sampling_check.json",
+      "note": "观察路径波动后的追加敏感性分析。"
+    },
+    {
+      "topic": "盲估计 EM",
+      "path": "runs/blind_source_prior/summary.json",
+      "note": "未知先验估计的探索性诊断。"
+    },
+    {
+      "topic": "稳健下界",
+      "path": "runs/robust_source_list/summary.json",
+      "note": "目标是模型内后验覆盖，实测覆盖可能下降。"
+    },
+    {
+      "topic": "BOSouL 单快照",
+      "path": "runs/recent_member_evidence/single_snapshot/Dept2/summary.json",
+      "note": "Dept2 与 company 各 100 例；搜索预算、观测、候选均有适配。"
+    },
+    {
+      "topic": "BOSouL 单快照制造企业",
+      "path": "runs/recent_member_evidence/single_snapshot/company/summary.json",
+      "note": "与 Dept2 分列；同为每例两人精确输出。"
+    },
+    {
+      "topic": "完整父节点与精确激活时刻",
+      "path": "runs/activation_time_ceiling/verification.json",
+      "note": "特权信息上限与小图穷举。"
+    },
+    {
+      "topic": "历史 Dept4 前瞻比较",
+      "path": "runs/history_components/Dept4/protocol_lock.json",
+      "note": "首次冻结比较的出处；后续简化模型与本轮复评均标事后。"
+    }
+  ],
+  "packages": [
+    {
+      "wp": 1,
+      "path": "runs/paper_closure/wp1_budgets/summary.json",
+      "verification": "runs/paper_closure/wp1_budgets/verification.json"
+    },
+    {
+      "wp": 2,
+      "path": "runs/paper_closure/wp2_predictability/summary.json",
+      "verification": "runs/paper_closure/wp2_predictability/verification.json"
+    },
+    {
+      "wp": 3,
+      "path": "runs/paper_closure/wp3_robustness/summary.json",
+      "verification": "runs/paper_closure/wp3_robustness/verification.json"
+    },
+    {
+      "wp": 4,
+      "path": "runs/paper_closure/wp4_ksources/summary.json",
+      "verification": "runs/paper_closure/wp4_ksources/verification.json"
+    },
+    {
+      "wp": 5,
+      "path": "runs/paper_closure/wp5_sim2real/summary.json",
+      "verification": "runs/paper_closure/wp5_sim2real/verification.json"
+    },
+    {
+      "wp": 6,
+      "path": "runs/paper_closure/wp6_evidence/summary.json",
+      "verification": "runs/paper_closure/wp6_evidence/verification.json"
+    }
+  ],
+  "audit": {
+    "bootstrap_intervals_by_wp": [
+      78,
+      63,
+      280,
+      132,
+      566
+    ],
+    "bootstrap_intervals": 1119,
+    "replicates_each": 10000
+  },
+  "units": "WP1–WP5 rates, differences and CIs are fractions; multiply by 100 for percent or pp. Pair-MRR and correlations unitless. T4 archive already percent / pp.",
+  "denominators": "unique mask-eligible events within network × generator × depth. Replicated seeds, paired counterfactuals, alternative masks and overlapping archival events must not be pooled as new independent events.",
+  "reproduce": "python -B scripts/closure_all.py reproduce",
+  "verify": "python -B scripts/closure_all.py verify"
+}

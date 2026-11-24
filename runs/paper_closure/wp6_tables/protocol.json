@@ -1,0 +1,14 @@
+{
+  "scope": "Descriptive rendering of the six previously locked WP6 main tables",
+  "master_sha256": "5d6a4d05eea7987b8e2155d00578a680ba6acd421dd77440437c02dde1ff8381",
+  "inputs": {
+    "runs/paper_closure/wp1_budgets/summary.json": "95f86e7488cc72e5fef2fc12085902524abc026851b62e6c3f5b7c390ae4acb9",
+    "runs/paper_closure/wp2_predictability/summary.json": "1dcb8a9b5a1b191a5c8abbbf668a7d1a80d5dd9f6482d898a0246900929954b0",
+    "runs/paper_closure/wp3_robustness/summary.json": "a1839190203b1f78afaaf103e0141f8e34a4d79a467f2b0a531350779cfc0771",
+    "runs/trained_source_mixtures/summary.json": "369b3c608eb5b757e9f702dc8ceadcfcf8529d5f3e7044b328243af8b829c031",
+    "runs/paper_closure/wp4_ksources/summary.json": "e52986e730346e087da5cd8ce33531d880ca161735ba014db7efae33ecb28351",
+    "runs/paper_closure/wp5_sim2real/summary.json": "a336a93b50787f93e9a37247bb7f6b42c4ec242e5e0cc5ad8951532446880af0"
+  },
+  "script_sha256": "f6b5914ab274c80780c6114119537ef0547361df38b679e28fe710ce5bed62c1",
+  "statistics": "Archived paired estimates and intervals, no fitting or reselection; T4 already in percent and pp"
+}

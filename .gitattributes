@@ -5,3 +5,9 @@
 *.txt text eol=lf
 /.gitattributes text eol=lf
 /.gitignore text eol=lf
+
+# The closure replay compares these archived reports byte for byte.
+/docs/closure_evidence_pack.md -text whitespace=cr-at-eol
+/runs/paper_closure/wp1_budgets/table.md -text whitespace=cr-at-eol
+/runs/paper_closure/wp3_robustness/table.md -text whitespace=cr-at-eol
+/runs/paper_closure/wp5_sim2real/mechanisms.md -text whitespace=cr-at-eol

@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "tables": 6,
+  "source_hashes_checked": 6,
+  "rendered_data_rows": 85,
+  "report_sha256": "3a2ce3da0fcd1eff6fc23ab2361cb05873c950287323dc384e2721a34ddb3533",
+  "protocol_sha256": "c94813beeeeb4784b3f448e4ffc2fb707d29efbce0268263b30e3a46353e6206"
+}

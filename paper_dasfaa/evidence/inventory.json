@@ -1,0 +1,90 @@
+{
+  "sim": {
+    "Dept2": {
+      "nodes": 162,
+      "records": 46010,
+      "days": 803.7
+    },
+    "Dept4": {
+      "nodes": 142,
+      "records": 47525,
+      "days": 803.5
+    },
+    "CollegeMsg": {
+      "nodes": 1899,
+      "records": 59798,
+      "days": 193.7
+    },
+    "company": {
+      "nodes": 167,
+      "records": 82563,
+      "days": 271.2
+    },
+    "Enron": {
+      "nodes": 182,
+      "records": 34427,
+      "days": 1316.4
+    },
+    "GNU libc": {
+      "nodes": 514,
+      "records": 13867,
+      "days": 729.9
+    }
+  },
+  "real": {
+    "python-dev": {
+      "nodes": 479,
+      "records": 8887,
+      "start": "2017-01",
+      "end": "2018-12"
+    },
+    "python-dev_late": {
+      "nodes": 143,
+      "records": 1085,
+      "start": "2019-02",
+      "end": "2019-04"
+    },
+    "python-ideas": {
+      "nodes": 479,
+      "records": 10710,
+      "start": "2017-01",
+      "end": "2018-12"
+    },
+    "python-ideas_late": {
+      "nodes": 160,
+      "records": 1377,
+      "start": "2019-02",
+      "end": "2019-04"
+    },
+    "r-devel": {
+      "nodes": 234,
+      "records": 1808,
+      "start": "2021-01",
+      "end": "2022-12"
+    },
+    "r-package-devel": {
+      "nodes": 363,
+      "records": 2321,
+      "start": "2021-01",
+      "end": "2022-12"
+    },
+    "libc-alpha": {
+      "nodes": 566,
+      "records": 23145,
+      "start": "2021-01",
+      "end": "2022-12"
+    },
+    "libc-alpha-2024": {
+      "nodes": 414,
+      "records": 9662,
+      "start": "2024-01",
+      "end": "2024-12"
+    },
+    "samba-technical-2020": {
+      "nodes": 134,
+      "records": 1484,
+      "start": "2020-01",
+      "end": "2020-12"
+    }
+  }
+}

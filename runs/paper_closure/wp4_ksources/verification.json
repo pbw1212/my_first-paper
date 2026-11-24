@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "checks": {
+    "events": 3073,
+    "public_lists_and_trajectories": true,
+    "posterior": {
+      "cases": 658,
+      "k2_legacy": 60,
+      "max_abs_error": 2.220446049250313e-16,
+      "k_m": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ]
+    }
+  },
+  "sha256": {
+    "Dept2.jsonl.gz": "dec71c367e58528a30a08f774356e2d36aa1164b799554e95921bdfb9cbffafc",
+    "Enron.jsonl.gz": "3c6caad6b1b52938cf489238b55cf3976010536fd25b3a8eae250435f4a1984c",
+    "protocol.json": "69ad6d546b13ef6bf6c13292b47873982a31a0378d0a2a35dfd68d1ab0eea5ed",
+    "summary.json": "e52986e730346e087da5cd8ce33531d880ca161735ba014db7efae33ecb28351"
+  }
+}

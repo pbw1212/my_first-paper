@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "checks": {
+    "network_periods": 14,
+    "independent_auc": "pair enumeration from negative count histograms",
+    "archive_anchors": [
+      "Dept2",
+      "company"
+    ]
+  },
+  "sha256": {
+    "auc_gain.png": "783d84dda0778b29c6f65aea3a7d3e3072a21d91457d69f02c5af02f2292c921",
+    "protocol.json": "6e324b7bf81fdac80fb756b48fee70377997f2034350ced539fd061031c9052f",
+    "real libc-alpha-2024.jsonl.gz": "2c46aeff37954c04ddde84f08260fc681c4a48a547f32963103e7cdbf06bb1df",
+    "real libc-alpha.jsonl.gz": "2371d32be38bdcf04ee6b9300c798c7b425089a7b18e9277ec251e60f1409216",
+    "real python-dev.jsonl.gz": "79bdc062e301e3565a83a6e8fa309a78b77dfea8a8e246d9921efeee48bc541a",
+    "real python-ideas.jsonl.gz": "77c12fa330bbd6834ad76ff89785547453015345de889250057be1fd0bdf8a06",
+    "real r-devel.jsonl.gz": "09f44e81d3f97cf33298aa942e585321726eb68cb50b1599fc33ba26e4a260a3",
+    "real r-package-devel.jsonl.gz": "68b57420435633d405b37c49833ee1f7326f9d27fda9eabdbcc407cf060626ee",
+    "real samba-technical-2020.jsonl.gz": "d52665cd6f1e71a25b614b08665aa2a14aac91489cc371d065d1f548465748cc",
+    "sim CollegeMsg.jsonl.gz": "3474690d483fc8031d276c29a0bbadc2595f25715d552d8f805c5c7fdf64943d",
+    "sim company.jsonl.gz": "6fe9cef63cdeb3540dd351b1c3dac43643979d96ceb06f1b0950b549ef7a5511",
+    "sim Dept1.jsonl.gz": "0cb74fe640c956d67944751d35a89573b4029affc8f549edbbcffcac08f95222",
+    "sim Dept2.jsonl.gz": "58a63d07a6361e61ac8f6ea908f08478a3d6e8c4a1424f67a1c58e28e28fb4d9",
+    "sim Dept4.jsonl.gz": "39baa0b50556cbab3078c2d60cc3158d329850f688bdc0909cf1dab1957b2f42",
+    "sim Enron.jsonl.gz": "8110cb4e817626741143e02c8604bb1d480bdb885a695b7348a4091fa541a4aa",
+    "sim GNU libc.jsonl.gz": "6637033556658fbaba0d91b67a2be2baf16cc0334220319cc5f1475fae5b1674",
+    "summary.json": "1dcb8a9b5a1b191a5c8abbbf668a7d1a80d5dd9f6482d898a0246900929954b0"
+  }
+}

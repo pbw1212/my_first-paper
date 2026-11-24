@@ -1,0 +1,38 @@
+{
+  "plan": {
+    "networks": [
+      "Dept2",
+      "Enron"
+    ],
+    "windows": "same WP3B 4/8 calendar windows",
+    "draws_per_window_per_arm": 160,
+    "seed": 913170,
+    "arms": [
+      "three_uniform",
+      "three_active",
+      "hidden_uniform"
+    ],
+    "k_hidden": "iid discrete uniform per attempted event; actual accepted distribution reported; no k or gold at inference",
+    "laws": "fixed three uniform or product of w=28d sends+1 over distinct triples; unknown k uses uniform distinct nodes",
+    "oracle": "exact labelled-parent trajectory, simultaneous SI. P(S|T,A) proportional to prior(A union S) * .7^[sum_{u in S}(H_u-B_u) - C(S,S)]; H counts outgoing to baseline susceptible, B counts baseline-active incoming, C counts contacts internal to silent set."
+  },
+  "seed_order": [
+    111,
+    314159,
+    431,
+    2027,
+    9001
+  ],
+  "bootstrap": {
+    "seed": 20261120,
+    "replicates": 10000,
+    "block": 3,
+    "circular": true,
+    "units": "event-weighted; paired seed and consecutive prespecified window blocks, including empty windows"
+  },
+  "inputs": {
+    "repo/runs/paper_closure/wp3_robustness/protocol.json": "c8327a4435e2a045085589864aa87c5dc63a36727d9eb1b49817b452003da4be",
+    "repo/scripts/closure_cascades.py": "524e10c87d0cbe9a1aa76c1e980010716868400ca983d2f98607303165661f8f",
+    "repo/scripts/closure_ksources.py": "ea3bea5ac2dd15db37a7f27aa48fa6042f641c0e524f3ec51b30c2e0ddf8e3a6"
+  }
+}

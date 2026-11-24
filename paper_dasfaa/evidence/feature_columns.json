@@ -1,0 +1,386 @@
+[
+  {
+    "column": 0,
+    "archived_name": "out_degree",
+    "implementation_expression": "np.log1p([self.history.out_degree[v] for v in ids])",
+    "first_tier": "Personal"
+  },
+  {
+    "column": 1,
+    "archived_name": "in_degree",
+    "implementation_expression": "np.log1p([in_degree[v] for v in ids])",
+    "first_tier": "Personal"
+  },
+  {
+    "column": 2,
+    "archived_name": "sent",
+    "implementation_expression": "np.log1p([self.history.sent_count[v] for v in ids])",
+    "first_tier": "Personal"
+  },
+  {
+    "column": 3,
+    "archived_name": "received",
+    "implementation_expression": "np.log1p([received[v] for v in ids])",
+    "first_tier": "Personal"
+  },
+  {
+    "column": 4,
+    "archived_name": "recent_sent",
+    "implementation_expression": "np.log1p(self.recent.sum(axis=1))",
+    "first_tier": "Personal"
+  },
+  {
+    "column": 5,
+    "archived_name": "recent_received",
+    "implementation_expression": "np.log1p(self.recent.sum(axis=0))",
+    "first_tier": "Personal"
+  },
+  {
+    "column": 6,
+    "archived_name": "visible_reachable",
+    "implementation_expression": "(d < UNREACHABLE).mean(axis=1)",
+    "first_tier": "Full temporal history"
+  },
+  {
+    "column": 7,
+    "archived_name": "visible_mean_reciprocal_distance",
+    "implementation_expression": "rd.mean(axis=1)",
+    "first_tier": "Full temporal history"
+  },
+  {
+    "column": 8,
+    "archived_name": "visible_direct_fraction",
+    "implementation_expression": "(d == 1).mean(axis=1)",
+    "first_tier": "Full temporal history"
+  },
+  {
+    "column": 9,
+    "archived_name": "earliest_reachable",
+    "implementation_expression": "(f < UNREACHABLE).mean(axis=1)",
+    "first_tier": "Full temporal history"
+  },
+  {
+    "column": 10,
+    "archived_name": "earliest_max_reciprocal_distance",
+    "implementation_expression": "rf.max(axis=1)",
+    "first_tier": "Full temporal history"
+  },
+  {
+    "column": 11,
+    "archived_name": "earliest_mean_reciprocal_distance",
+    "implementation_expression": "rf.mean(axis=1)",
+    "first_tier": "Full temporal history"
+  },
+  {
+    "column": 12,
+    "archived_name": "recent_visible_contacts_per_member",
+    "implementation_expression": "np.log1p(self.recent[np.ix_(rows, cols)].mean(axis=1))",
+    "first_tier": "Recent contacts"
+  },
+  {
+    "column": 13,
+    "archived_name": null,
+    "implementation_expression": "support.mean(axis=1)",
+    "first_tier": "Full temporal history"
+  },
+  {
+    "column": 14,
+    "archived_name": null,
+    "implementation_expression": "support.max(axis=1)",
+    "first_tier": "Full temporal history"
+  },
+  {
+    "column": 15,
+    "archived_name": null,
+    "implementation_expression": "earliest.mean(axis=1)",
+    "first_tier": "Full temporal history"
+  },
+  {
+    "column": 16,
+    "archived_name": null,
+    "implementation_expression": "self.reach[candidates].sum(axis=1)",
+    "first_tier": "Full temporal history"
+  },
+  {
+    "column": 17,
+    "archived_name": null,
+    "implementation_expression": "np.full(n, len(obs))",
+    "first_tier": "Personal"
+  },
+  {
+    "column": 18,
+    "archived_name": null,
+    "implementation_expression": "np.full(n, len(obs) / (n + len(obs)))",
+    "first_tier": "Personal"
+  },
+  {
+    "column": 19,
+    "archived_name": null,
+    "implementation_expression": "(outgoing == 0).mean(axis=0)",
+    "first_tier": "Personal"
+  },
+  {
+    "column": 20,
+    "archived_name": null,
+    "implementation_expression": "(0.7 ** outgoing).mean(axis=0)",
+    "first_tier": "Personal"
+  },
+  {
+    "column": 21,
+    "archived_name": null,
+    "implementation_expression": "np.log1p(outgoing.std(axis=0))",
+    "first_tier": "Personal"
+  },
+  {
+    "column": 22,
+    "archived_name": null,
+    "implementation_expression": "np.log1p(outgoing[0])",
+    "first_tier": "Personal"
+  },
+  {
+    "column": 23,
+    "archived_name": null,
+    "implementation_expression": "np.log1p(outgoing.mean(axis=1))",
+    "first_tier": "Recent contacts"
+  },
+  {
+    "column": 24,
+    "archived_name": null,
+    "implementation_expression": "np.log1p(incoming.mean(axis=0))",
+    "first_tier": "Recent contacts"
+  },
+  {
+    "column": 25,
+    "archived_name": null,
+    "implementation_expression": "np.log1p(incoming.max(axis=0))",
+    "first_tier": "Recent contacts"
+  },
+  {
+    "column": 26,
+    "archived_name": null,
+    "implementation_expression": "support @ residual / residual.sum()",
+    "first_tier": "Full temporal history"
+  },
+  {
+    "column": 27,
+    "archived_name": null,
+    "implementation_expression": "(support * residual).max(axis=1)",
+    "first_tier": "Full temporal history"
+  },
+  {
+    "column": 28,
+    "archived_name": null,
+    "implementation_expression": "np.mean(support > 0.5, axis=1)",
+    "first_tier": "Full temporal history"
+  },
+  {
+    "column": 29,
+    "archived_name": null,
+    "implementation_expression": "(rankdata(absolute, axis=0, method='average') - 0.5) / len(nodes) [column 0]",
+    "first_tier": "Personal"
+  },
+  {
+    "column": 30,
+    "archived_name": null,
+    "implementation_expression": "(rankdata(absolute, axis=0, method='average') - 0.5) / len(nodes) [column 1]",
+    "first_tier": "Personal"
+  },
+  {
+    "column": 31,
+    "archived_name": null,
+    "implementation_expression": "(rankdata(absolute, axis=0, method='average') - 0.5) / len(nodes) [column 2]",
+    "first_tier": "Personal"
+  },
+  {
+    "column": 32,
+    "archived_name": null,
+    "implementation_expression": "(rankdata(absolute, axis=0, method='average') - 0.5) / len(nodes) [column 3]",
+    "first_tier": "Personal"
+  },
+  {
+    "column": 33,
+    "archived_name": null,
+    "implementation_expression": "(rankdata(absolute, axis=0, method='average') - 0.5) / len(nodes) [column 4]",
+    "first_tier": "Personal"
+  },
+  {
+    "column": 34,
+    "archived_name": null,
+    "implementation_expression": "(rankdata(absolute, axis=0, method='average') - 0.5) / len(nodes) [column 5]",
+    "first_tier": "Personal"
+  },
+  {
+    "column": 35,
+    "archived_name": null,
+    "implementation_expression": "(rankdata(absolute, axis=0, method='average') - 0.5) / len(nodes) [column 6]",
+    "first_tier": "Full temporal history"
+  },
+  {
+    "column": 36,
+    "archived_name": null,
+    "implementation_expression": "(rankdata(absolute, axis=0, method='average') - 0.5) / len(nodes) [column 7]",
+    "first_tier": "Full temporal history"
+  },
+  {
+    "column": 37,
+    "archived_name": null,
+    "implementation_expression": "(rankdata(absolute, axis=0, method='average') - 0.5) / len(nodes) [column 8]",
+    "first_tier": "Full temporal history"
+  },
+  {
+    "column": 38,
+    "archived_name": null,
+    "implementation_expression": "(rankdata(absolute, axis=0, method='average') - 0.5) / len(nodes) [column 9]",
+    "first_tier": "Full temporal history"
+  },
+  {
+    "column": 39,
+    "archived_name": null,
+    "implementation_expression": "(rankdata(absolute, axis=0, method='average') - 0.5) / len(nodes) [column 10]",
+    "first_tier": "Full temporal history"
+  },
+  {
+    "column": 40,
+    "archived_name": null,
+    "implementation_expression": "(rankdata(absolute, axis=0, method='average') - 0.5) / len(nodes) [column 11]",
+    "first_tier": "Full temporal history"
+  },
+  {
+    "column": 41,
+    "archived_name": null,
+    "implementation_expression": "(rankdata(absolute, axis=0, method='average') - 0.5) / len(nodes) [column 12]",
+    "first_tier": "Recent contacts"
+  },
+  {
+    "column": 42,
+    "archived_name": null,
+    "implementation_expression": "(rankdata(absolute, axis=0, method='average') - 0.5) / len(nodes) [column 13]",
+    "first_tier": "Full temporal history"
+  },
+  {
+    "column": 43,
+    "archived_name": null,
+    "implementation_expression": "(rankdata(absolute, axis=0, method='average') - 0.5) / len(nodes) [column 14]",
+    "first_tier": "Full temporal history"
+  },
+  {
+    "column": 44,
+    "archived_name": null,
+    "implementation_expression": "(rankdata(absolute, axis=0, method='average') - 0.5) / len(nodes) [column 15]",
+    "first_tier": "Full temporal history"
+  },
+  {
+    "column": 45,
+    "archived_name": null,
+    "implementation_expression": "(rankdata(absolute, axis=0, method='average') - 0.5) / len(nodes) [column 16]",
+    "first_tier": "Full temporal history"
+  },
+  {
+    "column": 46,
+    "archived_name": null,
+    "implementation_expression": "(rankdata(absolute, axis=0, method='average') - 0.5) / len(nodes) [column 17]",
+    "first_tier": "Full temporal history"
+  },
+  {
+    "column": 47,
+    "archived_name": null,
+    "implementation_expression": "(rankdata(absolute, axis=0, method='average') - 0.5) / len(nodes) [column 18]",
+    "first_tier": "Full temporal history"
+  },
+  {
+    "column": 48,
+    "archived_name": null,
+    "implementation_expression": "(rankdata(absolute, axis=0, method='average') - 0.5) / len(nodes) [column 19]",
+    "first_tier": "Personal"
+  },
+  {
+    "column": 49,
+    "archived_name": null,
+    "implementation_expression": "(rankdata(absolute, axis=0, method='average') - 0.5) / len(nodes) [column 20]",
+    "first_tier": "Personal"
+  },
+  {
+    "column": 50,
+    "archived_name": null,
+    "implementation_expression": "(rankdata(absolute, axis=0, method='average') - 0.5) / len(nodes) [column 21]",
+    "first_tier": "Personal"
+  },
+  {
+    "column": 51,
+    "archived_name": null,
+    "implementation_expression": "(rankdata(absolute, axis=0, method='average') - 0.5) / len(nodes) [column 22]",
+    "first_tier": "Personal"
+  },
+  {
+    "column": 52,
+    "archived_name": null,
+    "implementation_expression": "(rankdata(absolute, axis=0, method='average') - 0.5) / len(nodes) [column 23]",
+    "first_tier": "Recent contacts"
+  },
+  {
+    "column": 53,
+    "archived_name": null,
+    "implementation_expression": "(rankdata(absolute, axis=0, method='average') - 0.5) / len(nodes) [column 24]",
+    "first_tier": "Recent contacts"
+  },
+  {
+    "column": 54,
+    "archived_name": null,
+    "implementation_expression": "(rankdata(absolute, axis=0, method='average') - 0.5) / len(nodes) [column 25]",
+    "first_tier": "Recent contacts"
+  },
+  {
+    "column": 55,
+    "archived_name": null,
+    "implementation_expression": "(rankdata(absolute, axis=0, method='average') - 0.5) / len(nodes) [column 26]",
+    "first_tier": "Full temporal history"
+  },
+  {
+    "column": 56,
+    "archived_name": null,
+    "implementation_expression": "(rankdata(absolute, axis=0, method='average') - 0.5) / len(nodes) [column 27]",
+    "first_tier": "Full temporal history"
+  },
+  {
+    "column": 57,
+    "archived_name": null,
+    "implementation_expression": "(rankdata(absolute, axis=0, method='average') - 0.5) / len(nodes) [column 28]",
+    "first_tier": "Full temporal history"
+  },
+  {
+    "column": 58,
+    "archived_name": null,
+    "implementation_expression": "np.log1p(len(cols))",
+    "first_tier": "Personal"
+  },
+  {
+    "column": 59,
+    "archived_name": null,
+    "implementation_expression": "np.log1p(len(o['observed']))",
+    "first_tier": "Personal"
+  },
+  {
+    "column": 60,
+    "archived_name": null,
+    "implementation_expression": "len(o['observed'][0]) / len(cols)",
+    "first_tier": "Personal"
+  },
+  {
+    "column": 61,
+    "archived_name": null,
+    "implementation_expression": "support.mean()",
+    "first_tier": "Full temporal history"
+  },
+  {
+    "column": 62,
+    "archived_name": null,
+    "implementation_expression": "support.mean(axis=1).max()",
+    "first_tier": "Full temporal history"
+  },
+  {
+    "column": 63,
+    "archived_name": null,
+    "implementation_expression": "np.log1p(len(nodes))",
+    "first_tier": "Personal"
+  }
+]

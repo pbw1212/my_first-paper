@@ -1,0 +1,106 @@
+\documentclass[runningheads]{llncs}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx,booktabs,array,amsmath,amssymb,microtype}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{pdfauthor={Anonymous Author(s)},pdftitle={Recovering Both Diffusion Sources from a Late Cascade Suffix}}
+\graphicspath{{figures/}}
+\newcommand{\both}{\textit{Both-in-12}}
+\newcommand{\figref}[1]{Fig.~\ref{#1}}
+\newcommand{\tabref}[1]{Table~\ref{#1}}
+\newcommand{\paperfig}[3]{\begin{figure}[tb]\centering\includegraphics[width=\linewidth]{#1}\caption{#2}\label{#3}\end{figure}}
+\newcommand{\resulttable}[4]{\begin{table}[tb]\centering\caption{#2}\label{#3}\small\setlength{\tabcolsep}{#4}\input{tables/#1}\end{table}}
+\begin{document}
+\title{Recovering Both Diffusion Sources from a Late Cascade Suffix}
+\titlerunning{Recovering Both Sources from a Late Cascade Suffix}
+\author{Anonymous Author(s)}
+\authorrunning{Anonymous Author(s)}
+\institute{Anonymous Institution}
+\maketitle
+\begin{abstract}
+When only one of two sources transmits, can a short list still contain both? We rank candidates using historical contacts and a late sequence of participants. Across 8,498 simulated cascades on six communication networks, a 12-person list contained at least one source in 6.88--94.07\% of events, but both in only 0.00--23.49\%. Adding recent ties to visible participants raised joint coverage from 1.28\% to 14.68\% in a research department and from 2.15\% to 2.17\% in a manufacturing company. We derive the exact posterior over silent sources given the complete simulated trajectory. Among one-emitter Enron events, even this privileged information yielded only 14.22\% optimal expected coverage under uniform draws. In 1,793 public email discussions, historical speaking roles improved retrieval of the root author and first distinct respondent. On fixed Python-Dev threads, deeper masking reversed the simulation-trained model's advantage over posting volume.
+\keywords{Temporal networks \and Source localization \and Partial observation \and Candidate retrieval}
+\end{abstract}
+
+\section{Introduction}
+A late participant may point to the source who reached them while revealing little about a second source. On one departmental email network, a temporal MLP placed at least one source in its 12-person list in 94.07\% of simulated events, yet retained both in only 23.49\%.
+
+At query time we know the pre-cascade contacts and the order in which later members appeared. We hide the transmission edges, parents and earlier joiners. The task is to shortlist candidates outside the visible suffix. A list of 12 admits 66 distinct pairs, so even a successful shortlist need not resolve the exact pair.
+
+Three questions guide our analysis. Does a historical tie distinguish a source from other candidates? How much uncertainty survives observation of every transmission? And how does retrieval change when the second target is an early respondent who necessarily participated?
+
+Our contributions are fourfold.
+\begin{enumerate}
+\item We compare at-least-one coverage, joint coverage and exact-pair rank on the same simulated cascades across six recorded networks.
+\item We measure how selectively historical ties identify sources, using matched feature ablations, tree models and alternative propagation rules.
+\item We derive the complete-trace posterior for silent sources, distinguish emitter omission from partner misranking, and test explicit prior adjustment under controlled source-law shifts.
+\item We evaluate two early speaking roles across communities and masking depths. Coupled simulations isolate the effect of requiring the second target to participate in a transmission.
+\end{enumerate}
+
+\section{Related Work}
+\subsection{Multi-source localization}
+Rumor centrality counts spreading orders compatible with an infected subgraph~\cite{shah}. Alternative estimators use sparse observers~\cite{pinto}, dynamic message passing~\cite{lokhov}, or belief propagation over missing states and times~\cite{altarelli}. Effective distances capture heterogeneity in mobility flows~\cite{brock}. Our predictor sees neither event-time contacts nor the transmissions they carried.
+
+NetFill reconstructs missing infections and sources jointly~\cite{netfill}. A Jordan cover minimizes the radius needed to cover observed infections~\cite{zhu}, while BOSouL simulates candidate source sets to match a snapshot~\cite{bosoul}. We ask how many plausible pairs a bounded list can cover, and use a complete-trace oracle to quantify how much uncertainty even perfect observation leaves.
+
+\subsection{Temporal network retrieval}
+The order of contacts constrains which paths can carry information~\cite{kempe,holme}. In communication networks, time-respecting distances reveal pathways that a static graph cannot distinguish~\cite{koss}, and bursty contact sequences can slow spreading~\cite{karsai}. Temporal motifs~\cite{motifs}, blog cascades~\cite{blog}, and online messaging patterns~\cite{college} describe repeated interaction. Selecting sensors to detect an outbreak early~\cite{outbreak} also exploits network structure, but its budget is spent before a cascade occurs.
+
+Learning diffusion edges~\cite{netinf} and recovering a missing origin~\cite{farajtabar} both exploit incomplete cascades. FGSSI scores a sequence of graph snapshots~\cite{fgssi}. A recent preprint benchmarks single-source estimators on temporal networks~\cite{brack}. We evaluate FGSSI and historical rankers on the same suffix and roster, varying which pre-event contacts the ranker can use.
+
+\subsection{Label and prior shift}
+Under stable class-conditional observations, EM can estimate shifted class proportions~\cite{saerens}. Black-box methods relate true and predicted marginals through a confusion matrix~\cite{lipton}. Likelihood estimates depend on identifiability and calibration~\cite{alex,garg}, which itself varies with training~\cite{guo}. Here classes are unordered pairs. The simulator samples pairs before filtering cascades by suffix length, so prior weights among accepted events may differ from their values at sampling.
+
+\section{Retrieval from Incomplete Records}
+\subsection{Event construction and observation}
+Let \(R\) be the historical roster at a window boundary, \(H\) its pre-window contact history, and \(S=\{a,b\}\subset R\) the two initial sources. In the principal simulator a contact from an active sender to an inactive recipient succeeds independently with probability \(p=0.30\). Contacts at one timestamp see the same pre-batch state. Newly active recipients can transmit from the next timestamp onward. Repeated contacts give an active sender additional opportunities.
+
+Let \(G_1,\ldots,G_m\) be batches of newly active members. We hide the longest whole-batch prefix containing at most half of the \(\sum_j|G_j|\) new members, rounded down. An event qualifies if it loses at least one batch and retains at least three visible members. The public observation \(O\) is the remaining ordered suffix. The legal pool \(V=R\setminus\bigcup_{G\in O}G\) includes hidden joiners and inactive roster members. A source is never recorded as a new joiner. Figure~\ref{f1} illustrates why a hidden joiner and a genuine silent source can both appear plausible.
+\paperfig{fig1_overview}{Two-source retrieval. Only A transmits. The scorer sees pre-window contacts and the two visible batches, but the arrows showing successful transmissions are hidden.}{f1}
+
+\subsection{Nested feature sets and unordered-pair learning}
+The scorer compresses the suffix to at most five consecutive groups. A shared two-layer MLP maps each candidate's 64-column vector to a scalar \(s_i\), using 40 and 24 hidden units with SiLU activations. Table~\ref{t1} identifies the active columns. All three models use the same tensor width. The personal and contact models zero the excluded columns and refit their parameters. Columns 0--28 are absolute descriptors, columns 29--57 are their within-event percentile ranks with average ties, and 58--63 are event context.
+\resulttable{tab1_features}{Nested inputs to the MLP. Active counts include context and rank copies. A rank copy has index \(j+29\) for absolute column \(j\).}{t1}{3pt}
+
+The shared context comprises the visible count and its share of the roster (17--18), the log numbers of visible members and groups (58--59), the share in the first group (60), and the log candidate count (63). Of the four contact features, one uses the previous 28 days and the others weight completed fortnights by \(0.75^\ell\), with the most recent indexed by \(\ell=0\). Full history also includes event-wide mean support and the largest candidate mean (61--62). To estimate reach, we replay up to six preceding fortnights, drawing 24 live-contact realizations per fortnight at \(p=0.30\) and weighting lag \(\ell\) by \(2^{-\ell/2}\). For estimated reach \(r_{iv}\), support is \(r_{iv}/(r_{iv}+\max(0.01,\bar r_v))\), where \(\bar r_v\) averages over the roster. Residual features discount later members already well supported by an earlier visible group.
+
+Writing \(h_i=\exp(s_i)\), the model assigns mass \(q(i,j)=h_i h_j/Z\) for \(i<j\) in \(V\), with \(Z=\sum_{u<v}h_u h_v\). It minimizes \(\log Z-s_a-s_b\) for each training event, including every legal pair. The \(K\) highest scores maximize \(\sum_{i<j,\ i,j\in L}q(i,j)\) over size-\(K\) lists \(L\). Replacing a listed node by one with greater \(h_i\) increases every affected pair weight. The prior-adjusted model in Sect.~\ref{sec:prior} need not factorize. Its evaluated decoder ranks candidates by their posterior inclusion probabilities.
+
+\subsection{Historical discussion roles and list decoding}
+An observed email thread supplies ordered targets: the root author and the unique first distinct respondent within 14 days. For each role \(r\in\{1,2\}\), we fit a conditional distribution over the legal addresses for that discussion,
+\begin{equation}
+ p_r(i\mid V,O)=\frac{\exp(\theta_r^\top x_{ir})}{\sum_{u\in V}\exp(\theta_r^\top x_{ur})}.
+ \label{role}
+\end{equation}
+At each month boundary, resolved replies in the previous 98 days define the roster. Four base features count posts over 28 and 98 days and appearances in each historical role, all log-one-plus transformed. Historical threads must complete 14 days of follow-up before cutoff. Two reply features take log-one-plus mean outgoing and incoming 28-day reply counts to visible roster members.
+
+The full D0 model adds role-specific associations. Let \(n_{ir}\) count historical appearances by \(i\) in role \(r\), and \(n_{irv}\) those followed by participant \(v\). With \(n_v\) later appearances in \(N\) threads, prevalence is \(b_v=(n_v+0.5)/(N+1)\). The enrichment for \(v\) is
+\[
+ e_{irv}=\log\frac{n_{irv}+8b_v}{(n_{ir}+8)b_v}.
+\]
+We use mean and maximum enrichment over visible members. Both vanish for a candidate never previously seen in the role. Each role objective minimizes mean negative log likelihood on reachable training labels plus \(\lambda\|\theta_r\|_2^2/2\). Fits use bounded L-BFGS-B on January 2017--May 2018 Python threads. After a June gap, July--December 2018 select the penalty separately for each role. The depth-study role comparators use the first four or six features.
+
+Write \(p_i=p_1(i)\), \(q_i=p_2(i)\), and condition the product distribution on distinct addresses. An ordered pair has mass \(p_iq_j/(1-\sum_u p_uq_u)\) for \(i\ne j\). Its captured mass has the same maximizers as
+\begin{equation}
+ F(L)=P_L Q_L-\sum_{i\in L}p_iq_i,\quad P_L=\sum_{i\in L}p_i,\quad Q_L=\sum_{i\in L}q_i .
+ \label{decode}
+\end{equation}
+One initialization takes the 12 largest inclusion marginals \(p_i(1-q_i)+q_i(1-p_i)\). The other starts with the largest marginal and greedily inserts the candidate maximizing \(p_iQ_L+q_iP_L\). From the better list we apply the best single swap while its gain exceeds \(10^{-13}\), breaking ties in fixed event-specific order.
+
+\subsection{What an oracle can recover about silent sources}
+Give an oracle the complete contact stream, new-member identities and entry times, and every successful parent. Call this record \(T\). A successful parent who never appears as a joiner must be an initial member. Collect these mandatory sources in \(A\). For known count \(k\), a compatible hypothesis adds a silent set \(D\) of size \(k-|A|\) from members who neither joined nor successfully transmitted. Replay the observed trajectory with only \(A\) initially present. Let \(H_u\) count newly eligible outgoing attempts when \(u\) is made initially active, and \(B_u\) the eligible incoming attempts removed by this change. If \(C(D,D)\) counts directed contacts internal to \(D\), then
+\begin{align}
+ d(D)&=\sum_{u\in D}(H_u-B_u)-C(D,D), \nonumber\\
+ P(D\mid T,k)&\propto \pi(A\cup D)(1-p)^{d(D)} . \label{oracle}
+\end{align}
+All compatible hypotheses explain the same successes. Only failed attempts differ. Each \(H_u\) includes contacts to other members of \(D\); subtracting \(C(D,D)\) removes these internal contacts, whose recipients are already active. Across 658 exhaustive small cases for \(k=1,2,3\), the maximum absolute posterior error was \(2.22\times10^{-16}\).
+
+If \(k=2\) and only \(a\) transmits, the partner posterior is proportional to \(\pi(a,b)(1-p)^{H_b-B_b}\). Candidates with equal failure-count differences retain their prior odds. The optimal 12-person list under \(T\) includes \(a\) and the 11 highest-mass partners. Let their total mass be \(U(T)\). A public list has conditional success probability
+\[
+ Q(L,T)=\mathbf{1}\{a\in L\}\sum_{b\in L\setminus\{a\}}P(b\mid T,a).
+\]
+When \(a\) is absent, all of \(U(T)\) is lost through emitter omission. When \(a\) is present, \(U(T)-Q(L,T)\) is the loss from partner ranking. The decomposition measures conditional expected coverage under the specified simulator, including the uncertainty remaining after every successful transmission is known.
+
+\input{evaluation}
+\bibliographystyle{splncs04}
+\bibliography{references}
+\end{document}

@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "checks": {
+    "real_event_depths": 2216,
+    "archive_anchor_checks": 301,
+    "sim_factorial_identity": true
+  },
+  "sha256": {
+    "Dept2-contributions-D0.jsonl.gz": "f3d54a47f3e1df8ec301d58aae1ebfdcec421d84939c5fe98ad0604a46a1a687",
+    "Dept2-contributions-D50.jsonl.gz": "6615820bfa8bbc9774249a36e6a422b39d10ceec810285108ba4847840a8d29e",
+    "depth-comparisons-libc-alpha-2024.json": "8ef5499b440654e9f7a489b0f9ad1ef4638fa325d50c8464f7adec034bd54259",
+    "depth-comparisons-libc-alpha.json": "441d803ad6a8465d05b29623b494a24147e5d48c4158f830314e44568a1fd6fb",
+    "depth-comparisons-python-dev.json": "1a7857625b5d31ebffb406bc89ea4a69f1d223fc5882cf2cdaab794240d25bb7",
+    "depth-comparisons-python-ideas.json": "41e1c7f4cd42cf2beb2b59123e68489c78bf72aa0b4170ed3be72a8855af36fc",
+    "depth-comparisons-r-devel.json": "039fc7aa576a56af3036551b0a41e9ee8690e2d01ab792d039d08c3741b73b06",
+    "depth-comparisons-r-package-devel.json": "a4248ae220b203fd76e3cafdbd4539963d9b6065112f2d4fb93d9ea62e0fb006",
+    "depth_scan.png": "274c1f6f19207e19e616490353ef20b499386165ab0a4ef6ee03360342576e98",
+    "Enron-contributions-D0.jsonl.gz": "f932a4d3b16d5872ee3a928fa4587601a38e351683e3b1b8495c494b039f8c17",
+    "Enron-contributions-D50.jsonl.gz": "9ab223a472824b545a49496b4ced2bf5e8d00074d703217101bb998d2dbe3a24",
+    "mechanisms.md": "80b61abdf83f96fc38af6838ee27211d10e38f8fd520b3824fcbd47b9c044663",
+    "protocol.json": "a6048fde83ffad4a5d6e5fd9ff78f651d632d048395448a0a6cb4488c9b17ea0",
+    "real-depth-pairs-libc-alpha-2024.jsonl.gz": "42c25a805e838888eb91d4d6782e6a30d609a5e7b396565267e0392649facf33",
+    "real-depth-pairs-libc-alpha.jsonl.gz": "c857e31d770e888e2c5c0185d152796202d4f3544ebc6d63b522358437ad8024",
+    "real-depth-pairs-python-dev.jsonl.gz": "b1ae0de663cc2e4f74abb2efb0689059be13fa1b3e51bc4eee11df0e1a6c1f97",
+    "real-depth-pairs-python-ideas.jsonl.gz": "c9859245e1097e9103629fb08afe4504734756be4a9e5f75fc92d5ee10779feb",
+    "real-depth-pairs-r-devel.jsonl.gz": "a2faa8edeb4df3dbeaaa6a828a77caabfc55213dadb9d091cc452e79f0e4e60a",
+    "real-depth-pairs-r-package-devel.jsonl.gz": "e3ea41f058fd81bfc79ecf3704875aac84fa8fa8e56ed8e24823e6684eb275e1",
+    "real-libc-alpha-2024.jsonl.gz": "c72125a3f9797db3fcbaa4dd1cce59aa7cec06cb29db9b0b1a1ff8c21a61b55d",
+    "real-libc-alpha.jsonl.gz": "88765902d9a196796a799a50a42f407dd298118d649b3a7552afa35e7a62107d",
+    "real-python-dev.jsonl.gz": "8fe7e7e2d4fcfc856846221d27e269f406b65bc5ac22de4fddb8495d31c09e61",
+    "real-python-ideas.jsonl.gz": "e2b1ebc225602a1a65740ef6056ad14171a79416c7983bfc30cdb89f98af56c3",
+    "real-r-devel.jsonl.gz": "67d00e2e939c26b6e0e029a104443fd85bf86bc08981ea3b9f150e24bc8b126a",
+    "real-r-package-devel.jsonl.gz": "e90581a85aefdf230532f236bfea2393737a023014edd086d572d4ed20cbb180",
+    "role_fit.json": "061e6d23d1ddb2dcaaaf81582d4fc5faad118379fb54bbf6b6a4eaa62800520e",
+    "sim-Dept2.jsonl.gz": "4e761e898cc24d6a791342d5cbf49077d808f089a16861551017d06b7f7a97a9",
+    "sim-Enron.jsonl.gz": "e1dec34bff720d0bc52ea507d98b92642f810517055e6fb02eff2ef5dc7b15cd",
+    "summary.json": "a336a93b50787f93e9a37247bb7f6b42c4ec242e5e0cc5ad8951532446880af0"
+  }
+}

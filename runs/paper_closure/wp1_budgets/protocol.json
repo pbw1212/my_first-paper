@@ -1,0 +1,68 @@
+{
+  "plan": {
+    "networks": [
+      "Dept2",
+      "company",
+      "Dept4",
+      "Enron",
+      "CollegeMsg",
+      "GNU libc"
+    ],
+    "model": "frozen full additive; five seeds on every network, Dept2 transfer except local company",
+    "population": "archived main eligible events; GNU libc original 800 flat draws/month, archive seed; all 24 months",
+    "budget": "min(n,K); proportional budgets ceil(p*n); baseline Both-in-12",
+    "ranking": "pair reciprocal rank; additive float64, tie by lexicographic sorted per-event tie indices",
+    "deltas": "paired budget minus 12; Any and MRR reported separately; bootstrap with four windows is descriptive"
+  },
+  "seed_order": [
+    111,
+    314159,
+    431,
+    2027,
+    9001
+  ],
+  "bootstrap": {
+    "seed": 20261120,
+    "replicates": 10000,
+    "block": 3,
+    "circular": true,
+    "units": "event-weighted; paired seed and consecutive prespecified window blocks, including empty windows"
+  },
+  "inputs": {
+    "archive/data/raw/CollegeMsg.txt.gz": "50ae2d98ed3bad9ddb18dbd495a89e5e10cfb8f7e86932827db29fc41b41f9fa",
+    "archive/data/raw/copenhagen-sms.csv.zip": "9d51b590273320c42fd4d5d106e74e28e9f8d1254ba67c71131688bbb6435aa7",
+    "archive/data/raw/email-Eu-core-temporal-Dept1.txt.gz": "d914eb16d63cf48db86bb197fd939231092013937d04e80c8e0298bd20248fbf",
+    "archive/data/raw/email-Eu-core-temporal-Dept2.txt.gz": "8e8dcdb9049a671f2afcb4bc91ff8ad77423a40612ce8318ef0825aa8b44b53d",
+    "archive/data/raw/email-Eu-core-temporal-Dept3.txt.gz": "b1f92288e855044bbc74bacac39d42b12e59ec2a0130ad8df419786eb46a7bff",
+    "archive/data/raw/email-Eu-core-temporal-Dept4.txt.gz": "82756f2f2811cf94d4d58b89b95e2fbdb6ce9fa516a3701cec4001e0c6c64b6c",
+    "archive/data/raw/enron-igraph.rda": "68df616583a009c323131574c833f615443756087dda9a97e27a0ad8d658fd5a",
+    "archive/data/raw/ia-radoslaw-email.zip": "8dbaf26082d8954e31a5dade6c39ac3d87b92143963388207b058df013606878",
+    "repo/scripts/closure_budgets.py": "1cecffec74a33ac6edfc0b530f9c2c6acc022259e00d2ee5767006126a16d919",
+    "repo/scripts/closure_common.py": "d3ce9cd9f71cbbcc592a2729e589b87332dcf6556c809cb32c709ac33691eb85",
+    "archive/runs/distilled_source_pairs/CollegeMsg/public.jsonl": "6de7c0201c3f6384956700fbb3642f8b00d80f5d238e5254c705e208c37b1dd2",
+    "archive/runs/distilled_source_pairs/CollegeMsg/truth.jsonl": "d90357de5e50413116bd980e243d1083f9f14d319b2a37809c8469b91c422392",
+    "archive/runs/distilled_source_pairs/company/public.jsonl": "92c257c692598151b7e5f3f914ab971d07fba1e5a20d22af2f72d3160ba5806f",
+    "archive/runs/distilled_source_pairs/company/truth.jsonl": "f7b7620cf6ee32936ec08d67869728d48a2c16d5c74ac063036cf30eee1cc611",
+    "archive/runs/distilled_source_pairs/Dept2/public.jsonl": "7aab4a051d0d61bc0cef75bbce24103ae084688c513df1edbaecd1da9c9a1b24",
+    "archive/runs/distilled_source_pairs/Dept2/truth.jsonl": "acf43e1d2cc9be4b64ede69f43f2de2092240c06d7a0e2582d8e46de0a0851cc",
+    "archive/runs/factorial_history/fits/company/temporal/add111.pt": "7979543f04c116ace6f69a95f67f1a00e66865122c0a19ffa84327e56a0b4893",
+    "archive/runs/factorial_history/fits/company/temporal/add2027.pt": "e5220e30584962d410058bd56a3370e16aa18de103bb6bb00f447affc8b7ef85",
+    "archive/runs/factorial_history/fits/company/temporal/add314159.pt": "ba14dbdbc7d63685ad15193713612ecba2f57e9529f700d1f48f488f5a779669",
+    "archive/runs/factorial_history/fits/company/temporal/add431.pt": "2c0a4a54cba2a876959fd9fa02222116760b69c2c4aa282be0a82c11067688a6",
+    "archive/runs/factorial_history/fits/company/temporal/add9001.pt": "74e99feeca38b46ab0a094b474412da5ae0bc1d5343d5a382e920b018d2c6801",
+    "archive/runs/factorial_history/fits/company/temporal/scale.npz": "35b87a6e63e7fdbcd103a466aa6e02fabd703717a4b199ed54102205811b7cf8",
+    "archive/runs/factorial_history/fits/Dept2/temporal/add111.pt": "ab61c5516f94bc60eebeb59f083c1326f1975dceaa550f85368268530622211d",
+    "archive/runs/factorial_history/fits/Dept2/temporal/add2027.pt": "5b0f2f7b2de828ca6ce5680a7711ce8b7ad3fa7533ccdeb1ee107e94fa7f8e6a",
+    "archive/runs/factorial_history/fits/Dept2/temporal/add314159.pt": "bc42400f1f946259054199511a412e967d323d4f09350d18965348007be6cdfa",
+    "archive/runs/factorial_history/fits/Dept2/temporal/add431.pt": "ed4242e243e23e060c1ab1a992b20ea181f411703c42a5e0fbebd2209773f60c",
+    "archive/runs/factorial_history/fits/Dept2/temporal/add9001.pt": "9943a20b0cd8f9ea844072292550c2c77606e3bcd20bc8c977eb332e040cb8cb",
+    "archive/runs/factorial_history/fits/Dept2/temporal/scale.npz": "8505e3d28fd08925abd7f9d94d8ab697d94b587b2f250c7db7859a4f2b73ab0a",
+    "archive/runs/heldout_libc_alpha/archives.json": "7ecbb6888a7f91f25452e4004d48ae097787b200d69eb662a0f69664674bb60d",
+    "archive/runs/heldout_libc_alpha/events.jsonl": "356dc23f1e955ebf06e732a35255d9a7b1047f81727fd482b4f9c5d8527bbcd9",
+    "archive/runs/heldout_libc_alpha/protocol.json": "0cefee5253bfede4c5413106d6c3a1249e6d5a13b262cacd342d0f78b1f169ed",
+    "archive/runs/history_components/Dept4/public.jsonl": "9ca64a7b0420cc1d24b9abcf78a12ecb26c16fb3a9ad2a33bd3ec617cb8e21f9",
+    "archive/runs/history_components/Dept4/truth.jsonl": "e159882517dc77186ad31c731d0be647b851188c2ce8b228f9c8a5daf6d00571",
+    "archive/runs/temporal_transfer/Enron/public.jsonl": "8d76b67ff5c8281fddfcc1ffc860056b3fd15d1dd91eb9f0216be781ff7213af",
+    "archive/runs/temporal_transfer/Enron/truth.jsonl": "76f1f9e77afdadb913f6617e1a136c2ff972fe933e9c321e4832b57005eda04c"
+  }
+}

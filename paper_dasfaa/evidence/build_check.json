@@ -1,0 +1,71 @@
+{
+  "pages_including_references": 16,
+  "sha256": "057760d5b185b58e3818882f976476d19326a1132ed72db70ee3a1c21f20df14",
+  "anonymous_pdf_author": "Anonymous Author(s)",
+  "latex_errors": 0,
+  "overfull_horizontal_boxes": 0,
+  "undefined_references": 0,
+  "figure_pages": [
+    3,
+    8,
+    9,
+    10,
+    11,
+    13,
+    14
+  ],
+  "table_pages": [
+    4,
+    6,
+    7,
+    9,
+    12,
+    12
+  ],
+  "table_data_rows_matched_in_compiled_pdf": {
+    "2": 15,
+    "3": 6,
+    "4": 8,
+    "5": 5,
+    "6": 6
+  },
+  "related_work_references": 25,
+  "bibliography_entries": 33,
+  "figures": {
+    "fig1_overview.pdf": {
+      "width_inches": 4.8,
+      "height_inches": 2.52,
+      "raster_images": 0
+    },
+    "fig2_budgets.pdf": {
+      "width_inches": 4.8,
+      "height_inches": 2.54,
+      "raster_images": 0
+    },
+    "fig3_selectivity.pdf": {
+      "width_inches": 4.8,
+      "height_inches": 2.64,
+      "raster_images": 0
+    },
+    "fig4_prior_and_ceiling.pdf": {
+      "width_inches": 4.8,
+      "height_inches": 2.82,
+      "raster_images": 0
+    },
+    "fig5_multisource.pdf": {
+      "width_inches": 4.8,
+      "height_inches": 2.4,
+      "raster_images": 0
+    },
+    "fig6_real_depth.pdf": {
+      "width_inches": 4.8,
+      "height_inches": 3.25,
+      "raster_images": 0
+    },
+    "fig7_sim2real_decomp.pdf": {
+      "width_inches": 4.8,
+      "height_inches": 2.32,
+      "raster_images": 0
+    }
+  }
+}

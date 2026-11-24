@@ -1,0 +1,3439 @@
+{
+  "networks": {
+    "sim Dept1": {
+      "n": 480,
+      "keys": [
+        "Dept1-26",
+        "Dept1-27",
+        "Dept1-28",
+        "Dept1-29"
+      ],
+      "window_n": {
+        "Dept1-26": 120,
+        "Dept1-27": 120,
+        "Dept1-28": 120,
+        "Dept1-29": 120
+      },
+      "methods": {
+        "person": {
+          "mean": 0.002916666666666667,
+          "ci95": [
+            0.0004166666666666667,
+            0.006666666666666666
+          ],
+          "valid": 10000
+        },
+        "links": {
+          "mean": 0.07166666666666667,
+          "ci95": [
+            0.055833333333333325,
+            0.08833333333333333
+          ],
+          "valid": 10000
+        }
+      },
+      "differences": {
+        "links minus person": {
+          "mean": 0.06875,
+          "ci95": [
+            0.052500000000000005,
+            0.08583333333333333
+          ],
+          "valid": 10000
+        }
+      },
+      "auc": 0.705292306027984,
+      "true_contact": 0.46041666666666664,
+      "other_contact": 0.055300866555478834,
+      "contact_gap": 0.4051158001111878,
+      "auc_n": 480,
+      "ready": 480,
+      "outdegree": 9.569763627753392,
+      "density": 0.031375478543986125,
+      "median_candidates": 297.0,
+      "repeat28": 0.7647981656911844,
+      "windows": [
+        {
+          "window": "Dept1-26",
+          "nodes": 304,
+          "edges": 2860,
+          "outdegree": 9.407894736842104,
+          "density": 0.03104915754733368,
+          "contacts28": 4478,
+          "unique28": 994
+        },
+        {
+          "window": "Dept1-27",
+          "nodes": 305,
+          "edges": 2917,
+          "outdegree": 9.563934426229508,
+          "density": 0.03146031061259707,
+          "contacts28": 4214,
+          "unique28": 959
+        },
+        {
+          "window": "Dept1-28",
+          "nodes": 307,
+          "edges": 2955,
+          "outdegree": 9.625407166123779,
+          "density": 0.03145557897426071,
+          "contacts28": 4027,
+          "unique28": 1010
+        },
+        {
+          "window": "Dept1-29",
+          "nodes": 308,
+          "edges": 2982,
+          "outdegree": 9.681818181818182,
+          "density": 0.031536867041753035,
+          "contacts28": 3854,
+          "unique28": 935
+        }
+      ],
+      "gain": 0.06875,
+      "relative_gain": 23.571428571428573,
+      "baseline": "person"
+    },
+    "sim Dept2": {
+      "n": 1200,
+      "keys": [
+        "Dept2-21",
+        "Dept2-23",
+        "Dept2-26",
+        "Dept2-29"
+      ],
+      "window_n": {
+        "Dept2-21": 300,
+        "Dept2-23": 300,
+        "Dept2-26": 300,
+        "Dept2-29": 300
+      },
+      "methods": {
+        "person": {
+          "mean": 0.012833333333333334,
+          "ci95": [
+            0.008333333333333335,
+            0.018166666666666664
+          ],
+          "valid": 10000
+        },
+        "links": {
+          "mean": 0.14683333333333334,
+          "ci95": [
+            0.12333333333333334,
+            0.17099999999999999
+          ],
+          "valid": 10000
+        }
+      },
+      "differences": {
+        "links minus person": {
+          "mean": 0.134,
+          "ci95": [
+            0.11416666666666667,
+            0.15483333333333332
+          ],
+          "valid": 10000
+        }
+      },
+      "auc": 0.71944350737009,
+      "true_contact": 0.5220833333333333,
+      "other_contact": 0.08607769156303771,
+      "contact_gap": 0.43600564177029566,
+      "auc_n": 1200,
+      "ready": 1200,
+      "outdegree": 10.369740480537693,
+      "density": 0.06720808460846885,
+      "median_candidates": 148.0,
+      "repeat28": 0.7892195593012027,
+      "windows": [
+        {
+          "window": "Dept2-21",
+          "nodes": 152,
+          "edges": 1511,
+          "outdegree": 9.94078947368421,
+          "density": 0.06583304287208086,
+          "contacts28": 2999,
+          "unique28": 654
+        },
+        {
+          "window": "Dept2-23",
+          "nodes": 153,
+          "edges": 1543,
+          "outdegree": 10.084967320261438,
+          "density": 0.0663484692122463,
+          "contacts28": 1176,
+          "unique28": 392
+        },
+        {
+          "window": "Dept2-26",
+          "nodes": 156,
+          "edges": 1658,
+          "outdegree": 10.628205128205128,
+          "density": 0.06856906534325889,
+          "contacts28": 3708,
+          "unique28": 677
+        },
+        {
+          "window": "Dept2-29",
+          "nodes": 160,
+          "edges": 1732,
+          "outdegree": 10.825,
+          "density": 0.0680817610062893,
+          "contacts28": 3508,
+          "unique28": 678
+        }
+      ],
+      "gain": 0.134,
+      "relative_gain": 10.441558441558442,
+      "baseline": "person"
+    },
+    "sim company": {
+      "n": 1200,
+      "keys": [
+        "company-11",
+        "company-13",
+        "company-14",
+        "company-16"
+      ],
+      "window_n": {
+        "company-11": 300,
+        "company-13": 300,
+        "company-14": 300,
+        "company-16": 300
+      },
+      "methods": {
+        "person": {
+          "mean": 0.0215,
+          "ci95": [
+            0.014833333333333334,
+            0.028833333333333336
+          ],
+          "valid": 10000
+        },
+        "links": {
+          "mean": 0.021666666666666667,
+          "ci95": [
+            0.01683333333333333,
+            0.0265
+          ],
+          "valid": 10000
+        }
+      },
+      "differences": {
+        "links minus person": {
+          "mean": 0.00016666666666666666,
+          "ci95": [
+            -0.007833333333333333,
+            0.0075
+          ],
+          "valid": 10000
+        }
+      },
+      "auc": 0.5563858938917525,
+      "true_contact": 0.6770833333333334,
+      "other_contact": 0.5506506417187587,
+      "contact_gap": 0.1264326916145747,
+      "auc_n": 1200,
+      "ready": 1200,
+      "outdegree": 32.748493975903614,
+      "density": 0.19847572106608252,
+      "median_candidates": 121.0,
+      "repeat28": 0.7855614802516044,
+      "windows": [
+        {
+          "window": "company-11",
+          "nodes": 166,
+          "edges": 5286,
+          "outdegree": 31.843373493975903,
+          "density": 0.19299014238773274,
+          "contacts28": 8356,
+          "unique28": 1833
+        },
+        {
+          "window": "company-13",
+          "nodes": 166,
+          "edges": 5391,
+          "outdegree": 32.475903614457835,
+          "density": 0.1968236582694414,
+          "contacts28": 7671,
+          "unique28": 1492
+        },
+        {
+          "window": "company-14",
+          "nodes": 166,
+          "edges": 5466,
+          "outdegree": 32.9277108433735,
+          "density": 0.1995618838992333,
+          "contacts28": 7778,
+          "unique28": 1718
+        },
+        {
+          "window": "company-16",
+          "nodes": 166,
+          "edges": 5602,
+          "outdegree": 33.74698795180723,
+          "density": 0.2045271997079226,
+          "contacts28": 7514,
+          "unique28": 1673
+        }
+      ],
+      "gain": 0.00016666666666666666,
+      "relative_gain": 0.007751937984496125,
+      "baseline": "person"
+    },
+    "sim Dept4": {
+      "n": 1308,
+      "keys": [
+        "Dept4-01",
+        "Dept4-05",
+        "Dept4-10",
+        "Dept4-14",
+        "Dept4-18",
+        "Dept4-22",
+        "Dept4-27",
+        "Dept4-31",
+        "Dept4-35",
+        "Dept4-39",
+        "Dept4-44",
+        "Dept4-48"
+      ],
+      "window_n": {
+        "Dept4-01": 194,
+        "Dept4-05": 177,
+        "Dept4-10": 178,
+        "Dept4-14": 198,
+        "Dept4-18": 219,
+        "Dept4-22": 150,
+        "Dept4-27": 192
+      },
+      "methods": {
+        "person": {
+          "mean": 0.02492354740061162,
+          "ci95": [
+            0.020319592679665623,
+            0.028949582201292283
+          ],
+          "valid": 9967
+        },
+        "links": {
+          "mean": 0.2264525993883792,
+          "ci95": [
+            0.19748270410421803,
+            0.25037427358580355
+          ],
+          "valid": 9967
+        }
+      },
+      "differences": {
+        "links minus person": {
+          "mean": 0.20152905198776758,
+          "ci95": [
+            0.1739608400178253,
+            0.2238705269912685
+          ],
+          "valid": 9967
+        }
+      },
+      "auc": 0.7034741765288142,
+      "true_contact": 0.4785932721712538,
+      "other_contact": 0.07767541180292822,
+      "contact_gap": 0.40091786036832555,
+      "auc_n": 1308,
+      "ready": 1308,
+      "outdegree": 8.854637379029453,
+      "density": 0.06806135266908277,
+      "median_candidates": 114.0,
+      "repeat28": 0.8240834894300241,
+      "windows": [
+        {
+          "window": "Dept4-01",
+          "nodes": 112,
+          "edges": 801,
+          "outdegree": 7.151785714285714,
+          "density": 0.06443050193050193,
+          "contacts28": 2773,
+          "unique28": 461
+        },
+        {
+          "window": "Dept4-05",
+          "nodes": 114,
+          "edges": 875,
+          "outdegree": 7.675438596491228,
+          "density": 0.06792423536717901,
+          "contacts28": 3023,
+          "unique28": 464
+        },
+        {
+          "window": "Dept4-10",
+          "nodes": 117,
+          "edges": 967,
+          "outdegree": 8.264957264957266,
+          "density": 0.07124963159445918,
+          "contacts28": 2736,
+          "unique28": 422
+        },
+        {
+          "window": "Dept4-14",
+          "nodes": 122,
+          "edges": 1020,
+          "outdegree": 8.360655737704919,
+          "density": 0.06909632841078445,
+          "contacts28": 1491,
+          "unique28": 318
+        },
+        {
+          "window": "Dept4-18",
+          "nodes": 125,
+          "edges": 1082,
+          "outdegree": 8.656,
+          "density": 0.06980645161290322,
+          "contacts28": 2407,
+          "unique28": 431
+        },
+        {
+          "window": "Dept4-22",
+          "nodes": 132,
+          "edges": 1130,
+          "outdegree": 8.56060606060606,
+          "density": 0.06534813786722184,
+          "contacts28": 1029,
+          "unique28": 245
+        },
+        {
+          "window": "Dept4-27",
+          "nodes": 141,
+          "edges": 1303,
+          "outdegree": 9.24113475177305,
+          "density": 0.0660081053698075,
+          "contacts28": 3457,
+          "unique28": 538
+        },
+        {
+          "window": "Dept4-31",
+          "nodes": 142,
+          "edges": 1373,
+          "outdegree": 9.669014084507042,
+          "density": 0.06857456797522725,
+          "contacts28": 1769,
+          "unique28": 408
+        },
+        {
+          "window": "Dept4-35",
+          "nodes": 142,
+          "edges": 1373,
+          "outdegree": 9.669014084507042,
+          "density": 0.06857456797522725,
+          "contacts28": 0,
+          "unique28": 0
+        },
+        {
+          "window": "Dept4-39",
+          "nodes": 142,
+          "edges": 1373,
+          "outdegree": 9.669014084507042,
+          "density": 0.06857456797522725,
+          "contacts28": 0,
+          "unique28": 0
+        },
+        {
+          "window": "Dept4-44",
+          "nodes": 142,
+          "edges": 1373,
+          "outdegree": 9.669014084507042,
+          "density": 0.06857456797522725,
+          "contacts28": 0,
+          "unique28": 0
+        },
+        {
+          "window": "Dept4-48",
+          "nodes": 142,
+          "edges": 1373,
+          "outdegree": 9.669014084507042,
+          "density": 0.06857456797522725,
+          "contacts28": 0,
+          "unique28": 0
+        }
+      ],
+      "gain": 0.20152905198776758,
+      "relative_gain": 8.085889570552148,
+      "baseline": "person"
+    },
+    "sim Enron": {
+      "n": 1560,
+      "keys": [
+        "Enron-01",
+        "Enron-02",
+        "Enron-03",
+        "Enron-04",
+        "Enron-05",
+        "Enron-06",
+        "Enron-07",
+        "Enron-08",
+        "Enron-09",
+        "Enron-10",
+        "Enron-11",
+        "Enron-12",
+        "Enron-13",
+        "Enron-14",
+        "Enron-15",
+        "Enron-16",
+        "Enron-17",
+        "Enron-18",
+        "Enron-19",
+        "Enron-20",
+        "Enron-21",
+        "Enron-22",
+        "Enron-23",
+        "Enron-24",
+        "Enron-25",
+        "Enron-26"
+      ],
+      "window_n": {
+        "Enron-01": 60,
+        "Enron-02": 60,
+        "Enron-03": 60,
+        "Enron-04": 60,
+        "Enron-05": 60,
+        "Enron-06": 60,
+        "Enron-07": 60,
+        "Enron-08": 60,
+        "Enron-09": 60,
+        "Enron-10": 60,
+        "Enron-11": 60,
+        "Enron-12": 60,
+        "Enron-13": 60,
+        "Enron-14": 60,
+        "Enron-15": 60,
+        "Enron-16": 60,
+        "Enron-17": 60,
+        "Enron-18": 60,
+        "Enron-19": 60,
+        "Enron-20": 60,
+        "Enron-21": 60,
+        "Enron-22": 60,
+        "Enron-23": 60,
+        "Enron-24": 60,
+        "Enron-25": 60,
+        "Enron-26": 60
+      },
+      "methods": {
+        "person": {
+          "mean": 0.016666666666666666,
+          "ci95": [
+            0.009743589743589742,
+            0.02512820512820513
+          ],
+          "valid": 10000
+        },
+        "links": {
+          "mean": 0.09,
+          "ci95": [
+            0.07102564102564102,
+            0.10858974358974358
+          ],
+          "valid": 10000
+        }
+      },
+      "differences": {
+        "links minus person": {
+          "mean": 0.07333333333333333,
+          "ci95": [
+            0.05756410256410256,
+            0.08897756410256408
+          ],
+          "valid": 10000
+        }
+      },
+      "auc": 0.6680258551696863,
+      "true_contact": 0.433974358974359,
+      "other_contact": 0.11154934707040959,
+      "contact_gap": 0.3224250119039494,
+      "auc_n": 1560,
+      "ready": 1560,
+      "outdegree": 10.979770257139474,
+      "density": 0.06696625764274634,
+      "median_candidates": 161.0,
+      "repeat28": 0.7254801536491677,
+      "windows": [
+        {
+          "window": "Enron-01",
+          "nodes": 142,
+          "edges": 1069,
+          "outdegree": 7.528169014084507,
+          "density": 0.05339126960343622,
+          "contacts28": 1131,
+          "unique28": 377
+        },
+        {
+          "window": "Enron-02",
+          "nodes": 142,
+          "edges": 1103,
+          "outdegree": 7.767605633802817,
+          "density": 0.055089401658176,
+          "contacts28": 908,
+          "unique28": 308
+        },
+        {
+          "window": "Enron-03",
+          "nodes": 142,
+          "edges": 1164,
+          "outdegree": 8.19718309859155,
+          "density": 0.05813605034462092,
+          "contacts28": 1132,
+          "unique28": 353
+        },
+        {
+          "window": "Enron-04",
+          "nodes": 143,
+          "edges": 1216,
+          "outdegree": 8.503496503496503,
+          "density": 0.05988377819363735,
+          "contacts28": 1376,
+          "unique28": 391
+        },
+        {
+          "window": "Enron-05",
+          "nodes": 143,
+          "edges": 1255,
+          "outdegree": 8.776223776223777,
+          "density": 0.061804392790308284,
+          "contacts28": 1472,
+          "unique28": 355
+        },
+        {
+          "window": "Enron-06",
+          "nodes": 143,
+          "edges": 1282,
+          "outdegree": 8.965034965034965,
+          "density": 0.06313404904954201,
+          "contacts28": 1488,
+          "unique28": 318
+        },
+        {
+          "window": "Enron-07",
+          "nodes": 145,
+          "edges": 1323,
+          "outdegree": 9.124137931034483,
+          "density": 0.06336206896551724,
+          "contacts28": 1566,
+          "unique28": 363
+        },
+        {
+          "window": "Enron-08",
+          "nodes": 145,
+          "edges": 1368,
+          "outdegree": 9.434482758620689,
+          "density": 0.06551724137931035,
+          "contacts28": 1675,
+          "unique28": 419
+        },
+        {
+          "window": "Enron-09",
+          "nodes": 148,
+          "edges": 1411,
+          "outdegree": 9.533783783783784,
+          "density": 0.06485567199852914,
+          "contacts28": 1708,
+          "unique28": 438
+        },
+        {
+          "window": "Enron-10",
+          "nodes": 151,
+          "edges": 1488,
+          "outdegree": 9.85430463576159,
+          "density": 0.0656953642384106,
+          "contacts28": 1916,
+          "unique28": 515
+        },
+        {
+          "window": "Enron-11",
+          "nodes": 155,
+          "edges": 1564,
+          "outdegree": 10.09032258064516,
+          "density": 0.06552157519899456,
+          "contacts28": 1869,
+          "unique28": 520
+        },
+        {
+          "window": "Enron-12",
+          "nodes": 164,
+          "edges": 1703,
+          "outdegree": 10.384146341463415,
+          "density": 0.06370641927278169,
+          "contacts28": 1800,
+          "unique28": 528
+        },
+        {
+          "window": "Enron-13",
+          "nodes": 173,
+          "edges": 1784,
+          "outdegree": 10.3121387283237,
+          "density": 0.05995429493211453,
+          "contacts28": 1578,
+          "unique28": 532
+        },
+        {
+          "window": "Enron-14",
+          "nodes": 174,
+          "edges": 1848,
+          "outdegree": 10.620689655172415,
+          "density": 0.06139126968307754,
+          "contacts28": 1082,
+          "unique28": 393
+        },
+        {
+          "window": "Enron-15",
+          "nodes": 174,
+          "edges": 1881,
+          "outdegree": 10.810344827586206,
+          "density": 0.062487542355989634,
+          "contacts28": 1140,
+          "unique28": 275
+        },
+        {
+          "window": "Enron-16",
+          "nodes": 176,
+          "edges": 1944,
+          "outdegree": 11.045454545454545,
+          "density": 0.06311688311688311,
+          "contacts28": 1315,
+          "unique28": 292
+        },
+        {
+          "window": "Enron-17",
+          "nodes": 177,
+          "edges": 2024,
+          "outdegree": 11.435028248587571,
+          "density": 0.06497175141242938,
+          "contacts28": 1383,
+          "unique28": 386
+        },
+        {
+          "window": "Enron-18",
+          "nodes": 178,
+          "edges": 2133,
+          "outdegree": 11.98314606741573,
+          "density": 0.06770139021138831,
+          "contacts28": 1272,
+          "unique28": 413
+        },
+        {
+          "window": "Enron-19",
+          "nodes": 179,
+          "edges": 2179,
+          "outdegree": 12.1731843575419,
+          "density": 0.06838867616596572,
+          "contacts28": 1223,
+          "unique28": 389
+        },
+        {
+          "window": "Enron-20",
+          "nodes": 179,
+          "edges": 2259,
+          "outdegree": 12.620111731843576,
+          "density": 0.07089950411148076,
+          "contacts28": 1648,
+          "unique28": 436
+        },
+        {
+          "window": "Enron-21",
+          "nodes": 179,
+          "edges": 2369,
+          "outdegree": 13.23463687150838,
+          "density": 0.07435189253656393,
+          "contacts28": 2222,
+          "unique28": 584
+        },
+        {
+          "window": "Enron-22",
+          "nodes": 179,
+          "edges": 2457,
+          "outdegree": 13.726256983240223,
+          "density": 0.07711380327663046,
+          "contacts28": 2622,
+          "unique28": 656
+        },
+        {
+          "window": "Enron-23",
+          "nodes": 180,
+          "edges": 2563,
+          "outdegree": 14.238888888888889,
+          "density": 0.07954686530105524,
+          "contacts28": 2821,
+          "unique28": 693
+        },
+        {
+          "window": "Enron-24",
+          "nodes": 180,
+          "edges": 2675,
+          "outdegree": 14.86111111111111,
+          "density": 0.08302296710117939,
+          "contacts28": 2719,
+          "unique28": 725
+        },
+        {
+          "window": "Enron-25",
+          "nodes": 181,
+          "edges": 2720,
+          "outdegree": 15.027624309392266,
+          "density": 0.08348680171884591,
+          "contacts28": 2307,
+          "unique28": 632
+        },
+        {
+          "window": "Enron-26",
+          "nodes": 181,
+          "edges": 2756,
+          "outdegree": 15.226519337016574,
+          "density": 0.08459177409453653,
+          "contacts28": 1582,
+          "unique28": 501
+        }
+      ],
+      "gain": 0.07333333333333333,
+      "relative_gain": 4.4,
+      "baseline": "person"
+    },
+    "sim CollegeMsg": {
+      "n": 480,
+      "keys": [
+        "CollegeMsg-08",
+        "CollegeMsg-09",
+        "CollegeMsg-10",
+        "CollegeMsg-11"
+      ],
+      "window_n": {
+        "CollegeMsg-08": 120,
+        "CollegeMsg-09": 120,
+        "CollegeMsg-10": 120,
+        "CollegeMsg-11": 120
+      },
+      "methods": {
+        "person": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "valid": 10000
+        },
+        "links": {
+          "mean": 0.0008333333333333334,
+          "ci95": [
+            0.0,
+            0.0025
+          ],
+          "valid": 10000
+        }
+      },
+      "differences": {
+        "links minus person": {
+          "mean": 0.0008333333333333334,
+          "ci95": [
+            0.0,
+            0.0025
+          ],
+          "valid": 10000
+        }
+      },
+      "auc": 0.5576863738161717,
+      "true_contact": 0.12708333333333333,
+      "other_contact": 0.012229785156907999,
+      "contact_gap": 0.11485354817642533,
+      "auc_n": 480,
+      "ready": 480,
+      "outdegree": 10.696900963939662,
+      "density": 0.005824004503069979,
+      "median_candidates": 1828.0,
+      "repeat28": 0.598681269557443,
+      "windows": [
+        {
+          "window": "CollegeMsg-08",
+          "nodes": 1805,
+          "edges": 19227,
+          "outdegree": 10.65207756232687,
+          "density": 0.00590469931392842,
+          "contacts28": 2405,
+          "unique28": 1010
+        },
+        {
+          "window": "CollegeMsg-09",
+          "nodes": 1831,
+          "edges": 19566,
+          "outdegree": 10.68596395412343,
+          "density": 0.00583932456509477,
+          "contacts28": 2353,
+          "unique28": 960
+        },
+        {
+          "window": "CollegeMsg-10",
+          "nodes": 1841,
+          "edges": 19814,
+          "outdegree": 10.762629005975013,
+          "density": 0.0058492548945516375,
+          "contacts28": 2234,
+          "unique28": 886
+        },
+        {
+          "window": "CollegeMsg-11",
+          "nodes": 1875,
+          "edges": 20038,
+          "outdegree": 10.686933333333334,
+          "density": 0.005702739238705087,
+          "contacts28": 1956,
+          "unique28": 735
+        }
+      ],
+      "gain": 0.0008333333333333334,
+      "relative_gain": null,
+      "baseline": "person"
+    },
+    "sim GNU libc": {
+      "n": 2750,
+      "keys": [
+        "2021-01",
+        "2021-02",
+        "2021-03",
+        "2021-04",
+        "2021-05",
+        "2021-06",
+        "2021-07",
+        "2021-08",
+        "2021-09",
+        "2021-10",
+        "2021-11",
+        "2021-12",
+        "2022-01",
+        "2022-02",
+        "2022-03",
+        "2022-04",
+        "2022-05",
+        "2022-06",
+        "2022-07",
+        "2022-08",
+        "2022-09",
+        "2022-10",
+        "2022-11",
+        "2022-12"
+      ],
+      "window_n": {
+        "2021-01": 113,
+        "2021-02": 124,
+        "2021-03": 157,
+        "2021-04": 68,
+        "2021-05": 138,
+        "2021-06": 100,
+        "2021-07": 185,
+        "2021-08": 73,
+        "2021-09": 62,
+        "2021-10": 91,
+        "2021-11": 144,
+        "2021-12": 204,
+        "2022-01": 157,
+        "2022-02": 155,
+        "2022-03": 30,
+        "2022-04": 119,
+        "2022-05": 136,
+        "2022-06": 136,
+        "2022-07": 157,
+        "2022-08": 98,
+        "2022-09": 30,
+        "2022-10": 63,
+        "2022-11": 112,
+        "2022-12": 98
+      },
+      "methods": {
+        "person": {
+          "mean": 0.03170909090909091,
+          "ci95": [
+            0.016469934640522876,
+            0.046490493431052334
+          ],
+          "valid": 10000
+        },
+        "links": {
+          "mean": 0.03585454545454545,
+          "ci95": [
+            0.025437123362791705,
+            0.04640267839019502
+          ],
+          "valid": 10000
+        }
+      },
+      "differences": {
+        "links minus person": {
+          "mean": 0.004145454545454545,
+          "ci95": [
+            -0.004722290785143395,
+            0.01410371132015984
+          ],
+          "valid": 10000
+        }
+      },
+      "auc": 0.6208835882787873,
+      "true_contact": 0.3521818181818182,
+      "other_contact": 0.1243780313080211,
+      "contact_gap": 0.2278037868737971,
+      "auc_n": 2750,
+      "ready": 2750,
+      "outdegree": 3.669444091503529,
+      "density": 0.026628223688628296,
+      "median_candidates": 139.0,
+      "repeat28": 0.6375683796902689,
+      "windows": [
+        {
+          "window": "2021-01",
+          "nodes": 151,
+          "edges": 592,
+          "outdegree": 3.9205298013245033,
+          "density": 0.026136865342163355,
+          "contacts28": 495,
+          "unique28": 196
+        },
+        {
+          "window": "2021-02",
+          "nodes": 151,
+          "edges": 588,
+          "outdegree": 3.8940397350993377,
+          "density": 0.025960264900662253,
+          "contacts28": 600,
+          "unique28": 217
+        },
+        {
+          "window": "2021-03",
+          "nodes": 158,
+          "edges": 556,
+          "outdegree": 3.518987341772152,
+          "density": 0.02241393211319842,
+          "contacts28": 529,
+          "unique28": 211
+        },
+        {
+          "window": "2021-04",
+          "nodes": 150,
+          "edges": 556,
+          "outdegree": 3.7066666666666666,
+          "density": 0.02487695749440716,
+          "contacts28": 800,
+          "unique28": 254
+        },
+        {
+          "window": "2021-05",
+          "nodes": 156,
+          "edges": 589,
+          "outdegree": 3.7756410256410255,
+          "density": 0.02435897435897436,
+          "contacts28": 544,
+          "unique28": 210
+        },
+        {
+          "window": "2021-06",
+          "nodes": 145,
+          "edges": 588,
+          "outdegree": 4.055172413793104,
+          "density": 0.028160919540229885,
+          "contacts28": 735,
+          "unique28": 213
+        },
+        {
+          "window": "2021-07",
+          "nodes": 155,
+          "edges": 597,
+          "outdegree": 3.8516129032258064,
+          "density": 0.025010473397570173,
+          "contacts28": 741,
+          "unique28": 228
+        },
+        {
+          "window": "2021-08",
+          "nodes": 181,
+          "edges": 643,
+          "outdegree": 3.552486187845304,
+          "density": 0.019736034376918354,
+          "contacts28": 758,
+          "unique28": 262
+        },
+        {
+          "window": "2021-09",
+          "nodes": 191,
+          "edges": 612,
+          "outdegree": 3.2041884816753927,
+          "density": 0.016864149903554698,
+          "contacts28": 495,
+          "unique28": 208
+        },
+        {
+          "window": "2021-10",
+          "nodes": 183,
+          "edges": 607,
+          "outdegree": 3.3169398907103824,
+          "density": 0.018224944454452652,
+          "contacts28": 554,
+          "unique28": 237
+        },
+        {
+          "window": "2021-11",
+          "nodes": 153,
+          "edges": 554,
+          "outdegree": 3.6209150326797386,
+          "density": 0.023821809425524594,
+          "contacts28": 541,
+          "unique28": 197
+        },
+        {
+          "window": "2021-12",
+          "nodes": 129,
+          "edges": 509,
+          "outdegree": 3.945736434108527,
+          "density": 0.030826065891472867,
+          "contacts28": 615,
+          "unique28": 188
+        },
+        {
+          "window": "2022-01",
+          "nodes": 131,
+          "edges": 507,
+          "outdegree": 3.8702290076335877,
+          "density": 0.029770992366412213,
+          "contacts28": 770,
+          "unique28": 229
+        },
+        {
+          "window": "2022-02",
+          "nodes": 147,
+          "edges": 549,
+          "outdegree": 3.7346938775510203,
+          "density": 0.025580095051719317,
+          "contacts28": 632,
+          "unique28": 234
+        },
+        {
+          "window": "2022-03",
+          "nodes": 136,
+          "edges": 530,
+          "outdegree": 3.8970588235294117,
+          "density": 0.02886710239651416,
+          "contacts28": 464,
+          "unique28": 168
+        },
+        {
+          "window": "2022-04",
+          "nodes": 122,
+          "edges": 437,
+          "outdegree": 3.581967213114754,
+          "density": 0.029603034819130198,
+          "contacts28": 318,
+          "unique28": 128
+        },
+        {
+          "window": "2022-05",
+          "nodes": 109,
+          "edges": 395,
+          "outdegree": 3.623853211009174,
+          "density": 0.033554196398233094,
+          "contacts28": 442,
+          "unique28": 137
+        },
+        {
+          "window": "2022-06",
+          "nodes": 105,
+          "edges": 378,
+          "outdegree": 3.6,
+          "density": 0.03461538461538462,
+          "contacts28": 536,
+          "unique28": 186
+        },
+        {
+          "window": "2022-07",
+          "nodes": 111,
+          "edges": 434,
+          "outdegree": 3.90990990990991,
+          "density": 0.03554463554463554,
+          "contacts28": 534,
+          "unique28": 173
+        },
+        {
+          "window": "2022-08",
+          "nodes": 125,
+          "edges": 491,
+          "outdegree": 3.928,
+          "density": 0.03167741935483871,
+          "contacts28": 562,
+          "unique28": 221
+        },
+        {
+          "window": "2022-09",
+          "nodes": 125,
+          "edges": 485,
+          "outdegree": 3.88,
+          "density": 0.03129032258064516,
+          "contacts28": 345,
+          "unique28": 159
+        },
+        {
+          "window": "2022-10",
+          "nodes": 131,
+          "edges": 458,
+          "outdegree": 3.49618320610687,
+          "density": 0.02689371697005285,
+          "contacts28": 304,
+          "unique28": 143
+        },
+        {
+          "window": "2022-11",
+          "nodes": 137,
+          "edges": 424,
+          "outdegree": 3.0948905109489053,
+          "density": 0.022756547874624302,
+          "contacts28": 365,
+          "unique28": 147
+        },
+        {
+          "window": "2022-12",
+          "nodes": 138,
+          "edges": 426,
+          "outdegree": 3.0869565217391304,
+          "density": 0.022532529355760077,
+          "contacts28": 300,
+          "unique28": 158
+        }
+      ],
+      "gain": 0.004145454545454545,
+      "relative_gain": 0.13073394495412843,
+      "baseline": "person"
+    },
+    "real python-dev": {
+      "n": 494,
+      "keys": [
+        "2017-01",
+        "2017-02",
+        "2017-03",
+        "2017-04",
+        "2017-05",
+        "2017-06",
+        "2017-07",
+        "2017-08",
+        "2017-09",
+        "2017-10",
+        "2017-11",
+        "2017-12",
+        "2018-01",
+        "2018-02",
+        "2018-03",
+        "2018-04",
+        "2018-05",
+        "2018-06",
+        "2018-07",
+        "2018-08",
+        "2018-09",
+        "2018-10",
+        "2018-11",
+        "2018-12"
+      ],
+      "window_n": {
+        "2017-01": 16,
+        "2017-02": 15,
+        "2017-03": 23,
+        "2017-04": 6,
+        "2017-05": 25,
+        "2017-06": 15,
+        "2017-07": 13,
+        "2017-08": 18,
+        "2017-09": 29,
+        "2017-10": 17,
+        "2017-11": 41,
+        "2017-12": 26,
+        "2018-01": 32,
+        "2018-02": 16,
+        "2018-03": 14,
+        "2018-04": 34,
+        "2018-05": 31,
+        "2018-06": 22,
+        "2018-07": 40,
+        "2018-08": 15,
+        "2018-09": 16,
+        "2018-10": 18,
+        "2018-11": 8,
+        "2018-12": 4
+      },
+      "methods": {
+        "person": {
+          "mean": 0.05991902834008097,
+          "ci95": [
+            0.03286551674778127,
+            0.0915039927261227
+          ],
+          "valid": 10000
+        },
+        "links": {
+          "mean": 0.08704453441295547,
+          "ci95": [
+            0.050525784157363106,
+            0.1278090370197559
+          ],
+          "valid": 10000
+        },
+        "volume": {
+          "mean": 0.19230769230769232,
+          "ci95": [
+            0.13202838264332167,
+            0.2490708034403764
+          ],
+          "valid": 10000
+        }
+      },
+      "differences": {
+        "person minus volume": {
+          "mean": -0.13238866396761134,
+          "ci95": [
+            -0.18425579100892245,
+            -0.07413748482901407
+          ],
+          "valid": 10000
+        },
+        "links minus volume": {
+          "mean": -0.10526315789473684,
+          "ci95": [
+            -0.15303328561202575,
+            -0.05810520074890785
+          ],
+          "valid": 10000
+        },
+        "links minus person": {
+          "mean": 0.027125506072874495,
+          "ci95": [
+            -0.003097516825932538,
+            0.05930615693161989
+          ],
+          "valid": 10000
+        }
+      },
+      "auc": 0.6750183022726107,
+      "true_contact": 0.4312080536912752,
+      "other_contact": 0.1083580184751758,
+      "contact_gap": 0.3228500352160994,
+      "auc_n": 298,
+      "ready": 477,
+      "outdegree": 4.23820667458232,
+      "density": 0.02960908905217502,
+      "median_candidates": 137.0,
+      "repeat28": 0.28756175530369077,
+      "windows": [
+        {
+          "window": "2017-01",
+          "nodes": 112,
+          "edges": 317,
+          "outdegree": 2.830357142857143,
+          "density": 0.025498712998712997,
+          "contacts28": 131,
+          "unique28": 115
+        },
+        {
+          "window": "2017-02",
+          "nodes": 109,
+          "edges": 322,
+          "outdegree": 2.9541284403669725,
+          "density": 0.027353041114509005,
+          "contacts28": 175,
+          "unique28": 141
+        },
+        {
+          "window": "2017-03",
+          "nodes": 125,
+          "edges": 376,
+          "outdegree": 3.008,
+          "density": 0.02425806451612903,
+          "contacts28": 145,
+          "unique28": 118
+        },
+        {
+          "window": "2017-04",
+          "nodes": 135,
+          "edges": 395,
+          "outdegree": 2.925925925925926,
+          "density": 0.02183526810392482,
+          "contacts28": 151,
+          "unique28": 131
+        },
+        {
+          "window": "2017-05",
+          "nodes": 133,
+          "edges": 350,
+          "outdegree": 2.6315789473684212,
+          "density": 0.019936204146730464,
+          "contacts28": 48,
+          "unique28": 44
+        },
+        {
+          "window": "2017-06",
+          "nodes": 136,
+          "edges": 394,
+          "outdegree": 2.8970588235294117,
+          "density": 0.021459694989106753,
+          "contacts28": 205,
+          "unique28": 163
+        },
+        {
+          "window": "2017-07",
+          "nodes": 132,
+          "edges": 425,
+          "outdegree": 3.2196969696969697,
+          "density": 0.024577839463335648,
+          "contacts28": 258,
+          "unique28": 170
+        },
+        {
+          "window": "2017-08",
+          "nodes": 142,
+          "edges": 504,
+          "outdegree": 3.5492957746478875,
+          "density": 0.025172310458495654,
+          "contacts28": 194,
+          "unique28": 171
+        },
+        {
+          "window": "2017-09",
+          "nodes": 135,
+          "edges": 536,
+          "outdegree": 3.9703703703703703,
+          "density": 0.02962962962962963,
+          "contacts28": 271,
+          "unique28": 162
+        },
+        {
+          "window": "2017-10",
+          "nodes": 139,
+          "edges": 612,
+          "outdegree": 4.402877697841727,
+          "density": 0.03190491085392556,
+          "contacts28": 432,
+          "unique28": 285
+        },
+        {
+          "window": "2017-11",
+          "nodes": 136,
+          "edges": 610,
+          "outdegree": 4.485294117647059,
+          "density": 0.0332244008714597,
+          "contacts28": 278,
+          "unique28": 186
+        },
+        {
+          "window": "2017-12",
+          "nodes": 163,
+          "edges": 916,
+          "outdegree": 5.619631901840491,
+          "density": 0.03468908581383019,
+          "contacts28": 809,
+          "unique28": 450
+        },
+        {
+          "window": "2018-01",
+          "nodes": 159,
+          "edges": 870,
+          "outdegree": 5.471698113207547,
+          "density": 0.03463100071650346,
+          "contacts28": 425,
+          "unique28": 288
+        },
+        {
+          "window": "2018-02",
+          "nodes": 160,
+          "edges": 937,
+          "outdegree": 5.85625,
+          "density": 0.03683176100628931,
+          "contacts28": 380,
+          "unique28": 267
+        },
+        {
+          "window": "2018-03",
+          "nodes": 141,
+          "edges": 763,
+          "outdegree": 5.411347517730497,
+          "density": 0.038652482269503546,
+          "contacts28": 243,
+          "unique28": 178
+        },
+        {
+          "window": "2018-04",
+          "nodes": 135,
+          "edges": 592,
+          "outdegree": 4.385185185185185,
+          "density": 0.03272526257600884,
+          "contacts28": 193,
+          "unique28": 145
+        },
+        {
+          "window": "2018-05",
+          "nodes": 150,
+          "edges": 740,
+          "outdegree": 4.933333333333334,
+          "density": 0.033109619686800894,
+          "contacts28": 602,
+          "unique28": 400
+        },
+        {
+          "window": "2018-06",
+          "nodes": 158,
+          "edges": 836,
+          "outdegree": 5.291139240506329,
+          "density": 0.03370152382488108,
+          "contacts28": 325,
+          "unique28": 281
+        },
+        {
+          "window": "2018-07",
+          "nodes": 160,
+          "edges": 898,
+          "outdegree": 5.6125,
+          "density": 0.03529874213836478,
+          "contacts28": 333,
+          "unique28": 229
+        },
+        {
+          "window": "2018-08",
+          "nodes": 173,
+          "edges": 966,
+          "outdegree": 5.583815028901734,
+          "density": 0.032464040865707755,
+          "contacts28": 524,
+          "unique28": 367
+        },
+        {
+          "window": "2018-09",
+          "nodes": 151,
+          "edges": 693,
+          "outdegree": 4.589403973509934,
+          "density": 0.030596026490066226,
+          "contacts28": 99,
+          "unique28": 88
+        },
+        {
+          "window": "2018-10",
+          "nodes": 160,
+          "edges": 723,
+          "outdegree": 4.51875,
+          "density": 0.028419811320754718,
+          "contacts28": 252,
+          "unique28": 202
+        },
+        {
+          "window": "2018-11",
+          "nodes": 139,
+          "edges": 515,
+          "outdegree": 3.7050359712230216,
+          "density": 0.02684808674799291,
+          "contacts28": 171,
+          "unique28": 138
+        },
+        {
+          "window": "2018-12",
+          "nodes": 140,
+          "edges": 541,
+          "outdegree": 3.8642857142857143,
+          "density": 0.027800616649537514,
+          "contacts28": 238,
+          "unique28": 184
+        }
+      ],
+      "gain": -0.10526315789473684,
+      "relative_gain": -0.5473684210526315,
+      "baseline": "volume"
+    },
+    "real python-ideas": {
+      "n": 468,
+      "keys": [
+        "2017-01",
+        "2017-02",
+        "2017-03",
+        "2017-04",
+        "2017-05",
+        "2017-06",
+        "2017-07",
+        "2017-08",
+        "2017-09",
+        "2017-10",
+        "2017-11",
+        "2017-12",
+        "2018-01",
+        "2018-02",
+        "2018-03",
+        "2018-04",
+        "2018-05",
+        "2018-06",
+        "2018-07",
+        "2018-08",
+        "2018-09",
+        "2018-10",
+        "2018-11",
+        "2018-12"
+      ],
+      "window_n": {
+        "2017-01": 19,
+        "2017-02": 23,
+        "2017-03": 21,
+        "2017-04": 7,
+        "2017-05": 13,
+        "2017-06": 23,
+        "2017-07": 14,
+        "2017-08": 18,
+        "2017-09": 23,
+        "2017-10": 13,
+        "2017-11": 27,
+        "2017-12": 12,
+        "2018-01": 15,
+        "2018-02": 11,
+        "2018-03": 20,
+        "2018-04": 23,
+        "2018-05": 38,
+        "2018-06": 32,
+        "2018-07": 26,
+        "2018-08": 18,
+        "2018-09": 27,
+        "2018-10": 29,
+        "2018-11": 11,
+        "2018-12": 5
+      },
+      "methods": {
+        "person": {
+          "mean": 0.03247863247863248,
+          "ci95": [
+            0.014254809960030783,
+            0.052419924952317766
+          ],
+          "valid": 10000
+        },
+        "links": {
+          "mean": 0.038461538461538464,
+          "ci95": [
+            0.022437068086029646,
+            0.0570002336448598
+          ],
+          "valid": 10000
+        },
+        "volume": {
+          "mean": 0.06623931623931624,
+          "ci95": [
+            0.04092042548244595,
+            0.09330155672234246
+          ],
+          "valid": 10000
+        }
+      },
+      "differences": {
+        "person minus volume": {
+          "mean": -0.03376068376068376,
+          "ci95": [
+            -0.0521930077792634,
+            -0.016176314142678352
+          ],
+          "valid": 10000
+        },
+        "links minus volume": {
+          "mean": -0.027777777777777776,
+          "ci95": [
+            -0.048889842632331905,
+            -0.007505498055489978
+          ],
+          "valid": 10000
+        },
+        "links minus person": {
+          "mean": 0.005982905982905983,
+          "ci95": [
+            -0.004836236933797908,
+            0.01656391548455341
+          ],
+          "valid": 10000
+        }
+      },
+      "auc": 0.6389102338488524,
+      "true_contact": 0.3923444976076555,
+      "other_contact": 0.14670739134355176,
+      "contact_gap": 0.24563710626410373,
+      "auc_n": 209,
+      "ready": 459,
+      "outdegree": 5.4519633439468835,
+      "density": 0.03683921317780738,
+      "median_candidates": 139.0,
+      "repeat28": 0.28976085442303223,
+      "windows": [
+        {
+          "window": "2017-01",
+          "nodes": 149,
+          "edges": 819,
+          "outdegree": 5.496644295302014,
+          "density": 0.03713948848177036,
+          "contacts28": 149,
+          "unique28": 113
+        },
+        {
+          "window": "2017-02",
+          "nodes": 142,
+          "edges": 717,
+          "outdegree": 5.049295774647887,
+          "density": 0.03581060833083608,
+          "contacts28": 376,
+          "unique28": 301
+        },
+        {
+          "window": "2017-03",
+          "nodes": 134,
+          "edges": 719,
+          "outdegree": 5.365671641791045,
+          "density": 0.040343395802940184,
+          "contacts28": 343,
+          "unique28": 257
+        },
+        {
+          "window": "2017-04",
+          "nodes": 148,
+          "edges": 865,
+          "outdegree": 5.844594594594595,
+          "density": 0.03975914690200404,
+          "contacts28": 251,
+          "unique28": 201
+        },
+        {
+          "window": "2017-05",
+          "nodes": 136,
+          "edges": 746,
+          "outdegree": 5.485294117647059,
+          "density": 0.0406318082788671,
+          "contacts28": 136,
+          "unique28": 110
+        },
+        {
+          "window": "2017-06",
+          "nodes": 138,
+          "edges": 635,
+          "outdegree": 4.601449275362318,
+          "density": 0.033587220988046125,
+          "contacts28": 186,
+          "unique28": 146
+        },
+        {
+          "window": "2017-07",
+          "nodes": 141,
+          "edges": 653,
+          "outdegree": 4.631205673758865,
+          "density": 0.033080040526849035,
+          "contacts28": 370,
+          "unique28": 281
+        },
+        {
+          "window": "2017-08",
+          "nodes": 139,
+          "edges": 717,
+          "outdegree": 5.158273381294964,
+          "density": 0.03737879261807945,
+          "contacts28": 251,
+          "unique28": 210
+        },
+        {
+          "window": "2017-09",
+          "nodes": 143,
+          "edges": 698,
+          "outdegree": 4.881118881118881,
+          "density": 0.034374076627597755,
+          "contacts28": 240,
+          "unique28": 165
+        },
+        {
+          "window": "2017-10",
+          "nodes": 136,
+          "edges": 687,
+          "outdegree": 5.051470588235294,
+          "density": 0.03741830065359477,
+          "contacts28": 292,
+          "unique28": 240
+        },
+        {
+          "window": "2017-11",
+          "nodes": 130,
+          "edges": 596,
+          "outdegree": 4.584615384615384,
+          "density": 0.03553965414430531,
+          "contacts28": 317,
+          "unique28": 203
+        },
+        {
+          "window": "2017-12",
+          "nodes": 143,
+          "edges": 789,
+          "outdegree": 5.5174825174825175,
+          "density": 0.038855510686496605,
+          "contacts28": 618,
+          "unique28": 412
+        },
+        {
+          "window": "2018-01",
+          "nodes": 124,
+          "edges": 695,
+          "outdegree": 5.604838709677419,
+          "density": 0.0455677943876213,
+          "contacts28": 129,
+          "unique28": 108
+        },
+        {
+          "window": "2018-02",
+          "nodes": 130,
+          "edges": 777,
+          "outdegree": 5.976923076923077,
+          "density": 0.04633273703041145,
+          "contacts28": 276,
+          "unique28": 207
+        },
+        {
+          "window": "2018-03",
+          "nodes": 128,
+          "edges": 598,
+          "outdegree": 4.671875,
+          "density": 0.03678641732283464,
+          "contacts28": 220,
+          "unique28": 159
+        },
+        {
+          "window": "2018-04",
+          "nodes": 140,
+          "edges": 658,
+          "outdegree": 4.7,
+          "density": 0.03381294964028777,
+          "contacts28": 337,
+          "unique28": 250
+        },
+        {
+          "window": "2018-05",
+          "nodes": 148,
+          "edges": 792,
+          "outdegree": 5.351351351351352,
+          "density": 0.03640375068946498,
+          "contacts28": 536,
+          "unique28": 318
+        },
+        {
+          "window": "2018-06",
+          "nodes": 160,
+          "edges": 1015,
+          "outdegree": 6.34375,
+          "density": 0.03989779874213836,
+          "contacts28": 766,
+          "unique28": 480
+        },
+        {
+          "window": "2018-07",
+          "nodes": 177,
+          "edges": 1141,
+          "outdegree": 6.446327683615819,
+          "density": 0.036626861838726245,
+          "contacts28": 529,
+          "unique28": 387
+        },
+        {
+          "window": "2018-08",
+          "nodes": 195,
+          "edges": 1276,
+          "outdegree": 6.543589743589743,
+          "density": 0.03372984403912239,
+          "contacts28": 627,
+          "unique28": 426
+        },
+        {
+          "window": "2018-09",
+          "nodes": 182,
+          "edges": 1138,
+          "outdegree": 6.252747252747253,
+          "density": 0.03454556493230526,
+          "contacts28": 513,
+          "unique28": 341
+        },
+        {
+          "window": "2018-10",
+          "nodes": 190,
+          "edges": 1177,
+          "outdegree": 6.1947368421052635,
+          "density": 0.032776385407964355,
+          "contacts28": 643,
+          "unique28": 428
+        },
+        {
+          "window": "2018-11",
+          "nodes": 182,
+          "edges": 1056,
+          "outdegree": 5.802197802197802,
+          "density": 0.03205634144860664,
+          "contacts28": 344,
+          "unique28": 264
+        },
+        {
+          "window": "2018-12",
+          "nodes": 168,
+          "edges": 889,
+          "outdegree": 5.291666666666667,
+          "density": 0.031686626746506984,
+          "contacts28": 165,
+          "unique28": 111
+        }
+      ],
+      "gain": -0.027777777777777776,
+      "relative_gain": -0.4193548387096774,
+      "baseline": "volume"
+    },
+    "real r-devel": {
+      "n": 170,
+      "keys": [
+        "2021-01",
+        "2021-02",
+        "2021-03",
+        "2021-04",
+        "2021-05",
+        "2021-06",
+        "2021-07",
+        "2021-08",
+        "2021-09",
+        "2021-10",
+        "2021-11",
+        "2021-12",
+        "2022-01",
+        "2022-02",
+        "2022-03",
+        "2022-04",
+        "2022-05",
+        "2022-06",
+        "2022-07",
+        "2022-08",
+        "2022-09",
+        "2022-10",
+        "2022-11",
+        "2022-12"
+      ],
+      "window_n": {
+        "2021-01": 7,
+        "2021-02": 7,
+        "2021-03": 7,
+        "2021-04": 9,
+        "2021-05": 8,
+        "2021-06": 9,
+        "2021-07": 6,
+        "2021-08": 12,
+        "2021-09": 6,
+        "2021-10": 5,
+        "2021-11": 8,
+        "2021-12": 12,
+        "2022-01": 8,
+        "2022-02": 5,
+        "2022-03": 5,
+        "2022-04": 9,
+        "2022-05": 12,
+        "2022-06": 6,
+        "2022-07": 5,
+        "2022-08": 4,
+        "2022-09": 9,
+        "2022-10": 5,
+        "2022-11": 2,
+        "2022-12": 4
+      },
+      "methods": {
+        "person": {
+          "mean": 0.04470588235294118,
+          "ci95": [
+            0.013828870139398387,
+            0.08636430876815492
+          ],
+          "valid": 10000
+        },
+        "links": {
+          "mean": 0.027058823529411764,
+          "ci95": [
+            0.00558659217877095,
+            0.055
+          ],
+          "valid": 10000
+        },
+        "volume": {
+          "mean": 0.011764705882352941,
+          "ci95": [
+            0.0,
+            0.03636363636363636
+          ],
+          "valid": 10000
+        }
+      },
+      "differences": {
+        "person minus volume": {
+          "mean": 0.03294117647058824,
+          "ci95": [
+            0.012940227703984822,
+            0.05555555555555555
+          ],
+          "valid": 10000
+        },
+        "links minus volume": {
+          "mean": 0.015294117647058824,
+          "ci95": [
+            0.0,
+            0.032143481518481516
+          ],
+          "valid": 10000
+        },
+        "links minus person": {
+          "mean": -0.01764705882352941,
+          "ci95": [
+            -0.042328664799253034,
+            0.005195143398268395
+          ],
+          "valid": 10000
+        }
+      },
+      "auc": 0.5116255140477152,
+      "true_contact": 0.05555555555555555,
+      "other_contact": 0.03179717078838501,
+      "contact_gap": 0.023758384767170543,
+      "auc_n": 54,
+      "ready": 151,
+      "outdegree": 2.1895275343165745,
+      "density": 0.031758967749006155,
+      "median_candidates": 71.0,
+      "repeat28": 0.15054602184087362,
+      "windows": [
+        {
+          "window": "2021-01",
+          "nodes": 86,
+          "edges": 226,
+          "outdegree": 2.627906976744186,
+          "density": 0.03091655266757866,
+          "contacts28": 159,
+          "unique28": 122
+        },
+        {
+          "window": "2021-02",
+          "nodes": 90,
+          "edges": 233,
+          "outdegree": 2.588888888888889,
+          "density": 0.029088639200998752,
+          "contacts28": 39,
+          "unique28": 38
+        },
+        {
+          "window": "2021-03",
+          "nodes": 89,
+          "edges": 210,
+          "outdegree": 2.359550561797753,
+          "density": 0.026813074565883555,
+          "contacts28": 38,
+          "unique28": 38
+        },
+        {
+          "window": "2021-04",
+          "nodes": 76,
+          "edges": 140,
+          "outdegree": 1.8421052631578947,
+          "density": 0.02456140350877193,
+          "contacts28": 68,
+          "unique28": 52
+        },
+        {
+          "window": "2021-05",
+          "nodes": 77,
+          "edges": 143,
+          "outdegree": 1.8571428571428572,
+          "density": 0.02443609022556391,
+          "contacts28": 64,
+          "unique28": 49
+        },
+        {
+          "window": "2021-06",
+          "nodes": 77,
+          "edges": 173,
+          "outdegree": 2.2467532467532467,
+          "density": 0.029562542720437457,
+          "contacts28": 84,
+          "unique28": 67
+        },
+        {
+          "window": "2021-07",
+          "nodes": 77,
+          "edges": 184,
+          "outdegree": 2.3896103896103895,
+          "density": 0.03144224196855776,
+          "contacts28": 61,
+          "unique28": 49
+        },
+        {
+          "window": "2021-08",
+          "nodes": 77,
+          "edges": 184,
+          "outdegree": 2.3896103896103895,
+          "density": 0.03144224196855776,
+          "contacts28": 37,
+          "unique28": 35
+        },
+        {
+          "window": "2021-09",
+          "nodes": 75,
+          "edges": 176,
+          "outdegree": 2.3466666666666667,
+          "density": 0.031711711711711714,
+          "contacts28": 72,
+          "unique28": 63
+        },
+        {
+          "window": "2021-10",
+          "nodes": 72,
+          "edges": 162,
+          "outdegree": 2.25,
+          "density": 0.03169014084507042,
+          "contacts28": 44,
+          "unique28": 38
+        },
+        {
+          "window": "2021-11",
+          "nodes": 64,
+          "edges": 148,
+          "outdegree": 2.3125,
+          "density": 0.03670634920634921,
+          "contacts28": 35,
+          "unique28": 33
+        },
+        {
+          "window": "2021-12",
+          "nodes": 61,
+          "edges": 141,
+          "outdegree": 2.3114754098360657,
+          "density": 0.038524590163934426,
+          "contacts28": 52,
+          "unique28": 46
+        },
+        {
+          "window": "2022-01",
+          "nodes": 73,
+          "edges": 162,
+          "outdegree": 2.219178082191781,
+          "density": 0.030821917808219176,
+          "contacts28": 65,
+          "unique28": 62
+        },
+        {
+          "window": "2022-02",
+          "nodes": 77,
+          "edges": 153,
+          "outdegree": 1.9870129870129871,
+          "density": 0.026144907723855092,
+          "contacts28": 27,
+          "unique28": 26
+        },
+        {
+          "window": "2022-03",
+          "nodes": 69,
+          "edges": 139,
+          "outdegree": 2.0144927536231885,
+          "density": 0.029624893435635125,
+          "contacts28": 35,
+          "unique28": 34
+        },
+        {
+          "window": "2022-04",
+          "nodes": 57,
+          "edges": 103,
+          "outdegree": 1.8070175438596492,
+          "density": 0.03226817042606516,
+          "contacts28": 33,
+          "unique28": 30
+        },
+        {
+          "window": "2022-05",
+          "nodes": 69,
+          "edges": 134,
+          "outdegree": 1.9420289855072463,
+          "density": 0.02855924978687127,
+          "contacts28": 60,
+          "unique28": 53
+        },
+        {
+          "window": "2022-06",
+          "nodes": 72,
+          "edges": 155,
+          "outdegree": 2.1527777777777777,
+          "density": 0.030320813771517997,
+          "contacts28": 70,
+          "unique28": 47
+        },
+        {
+          "window": "2022-07",
+          "nodes": 73,
+          "edges": 148,
+          "outdegree": 2.0273972602739727,
+          "density": 0.02815829528158295,
+          "contacts28": 40,
+          "unique28": 40
+        },
+        {
+          "window": "2022-08",
+          "nodes": 64,
+          "edges": 149,
+          "outdegree": 2.328125,
+          "density": 0.03695436507936508,
+          "contacts28": 64,
+          "unique28": 58
+        },
+        {
+          "window": "2022-09",
+          "nodes": 62,
+          "edges": 122,
+          "outdegree": 1.967741935483871,
+          "density": 0.03225806451612903,
+          "contacts28": 19,
+          "unique28": 18
+        },
+        {
+          "window": "2022-10",
+          "nodes": 60,
+          "edges": 147,
+          "outdegree": 2.45,
+          "density": 0.04152542372881356,
+          "contacts28": 74,
+          "unique28": 58
+        },
+        {
+          "window": "2022-11",
+          "nodes": 53,
+          "edges": 109,
+          "outdegree": 2.056603773584906,
+          "density": 0.03955007256894049,
+          "contacts28": 34,
+          "unique28": 25
+        },
+        {
+          "window": "2022-12",
+          "nodes": 54,
+          "edges": 112,
+          "outdegree": 2.074074074074074,
+          "density": 0.039133473095737246,
+          "contacts28": 8,
+          "unique28": 8
+        }
+      ],
+      "gain": 0.015294117647058824,
+      "relative_gain": 1.3,
+      "baseline": "volume"
+    },
+    "real r-package-devel": {
+      "n": 227,
+      "keys": [
+        "2021-01",
+        "2021-02",
+        "2021-03",
+        "2021-04",
+        "2021-05",
+        "2021-06",
+        "2021-07",
+        "2021-08",
+        "2021-09",
+        "2021-10",
+        "2021-11",
+        "2021-12",
+        "2022-01",
+        "2022-02",
+        "2022-03",
+        "2022-04",
+        "2022-05",
+        "2022-06",
+        "2022-07",
+        "2022-08",
+        "2022-09",
+        "2022-10",
+        "2022-11",
+        "2022-12"
+      ],
+      "window_n": {
+        "2021-01": 9,
+        "2021-02": 9,
+        "2021-03": 8,
+        "2021-04": 16,
+        "2021-05": 4,
+        "2021-06": 13,
+        "2021-07": 10,
+        "2021-08": 11,
+        "2021-09": 9,
+        "2021-10": 6,
+        "2021-11": 7,
+        "2021-12": 6,
+        "2022-01": 6,
+        "2022-02": 9,
+        "2022-03": 14,
+        "2022-04": 14,
+        "2022-05": 12,
+        "2022-06": 7,
+        "2022-07": 6,
+        "2022-08": 9,
+        "2022-09": 14,
+        "2022-10": 10,
+        "2022-11": 11,
+        "2022-12": 7
+      },
+      "methods": {
+        "person": {
+          "mean": 0.04405286343612335,
+          "ci95": [
+            0.014218009478672985,
+            0.07894736842105263
+          ],
+          "valid": 10000
+        },
+        "links": {
+          "mean": 0.018502202643171806,
+          "ci95": [
+            0.0008733624454148472,
+            0.04192139737991266
+          ],
+          "valid": 10000
+        },
+        "volume": {
+          "mean": 0.039647577092511016,
+          "ci95": [
+            0.014423076923076924,
+            0.06751054852320675
+          ],
+          "valid": 10000
+        }
+      },
+      "differences": {
+        "person minus volume": {
+          "mean": 0.004405286343612335,
+          "ci95": [
+            -0.00819672131147541,
+            0.017692477876106193
+          ],
+          "valid": 10000
+        },
+        "links minus volume": {
+          "mean": -0.021145374449339206,
+          "ci95": [
+            -0.04285844155844156,
+            0.002051546391752573
+          ],
+          "valid": 10000
+        },
+        "links minus person": {
+          "mean": -0.02555066079295154,
+          "ci95": [
+            -0.05471010178069702,
+            0.0034497882637628337
+          ],
+          "valid": 10000
+        }
+      },
+      "auc": 0.5565292001832969,
+      "true_contact": 0.15254237288135594,
+      "other_contact": 0.0414406655346928,
+      "contact_gap": 0.11110170734666314,
+      "auc_n": 59,
+      "ready": 215,
+      "outdegree": 2.150895122764626,
+      "density": 0.025996352846406754,
+      "median_candidates": 82.0,
+      "repeat28": 0.1578947368421053,
+      "windows": [
+        {
+          "window": "2021-01",
+          "nodes": 89,
+          "edges": 204,
+          "outdegree": 2.292134831460674,
+          "density": 0.026046986721144024,
+          "contacts28": 72,
+          "unique28": 51
+        },
+        {
+          "window": "2021-02",
+          "nodes": 83,
+          "edges": 168,
+          "outdegree": 2.0240963855421685,
+          "density": 0.024684102262709375,
+          "contacts28": 55,
+          "unique28": 51
+        },
+        {
+          "window": "2021-03",
+          "nodes": 86,
+          "edges": 173,
+          "outdegree": 2.011627906976744,
+          "density": 0.023666210670314637,
+          "contacts28": 76,
+          "unique28": 60
+        },
+        {
+          "window": "2021-04",
+          "nodes": 78,
+          "edges": 162,
+          "outdegree": 2.076923076923077,
+          "density": 0.026973026973026972,
+          "contacts28": 78,
+          "unique28": 59
+        },
+        {
+          "window": "2021-05",
+          "nodes": 106,
+          "edges": 224,
+          "outdegree": 2.1132075471698113,
+          "density": 0.02012578616352201,
+          "contacts28": 112,
+          "unique28": 92
+        },
+        {
+          "window": "2021-06",
+          "nodes": 107,
+          "edges": 203,
+          "outdegree": 1.897196261682243,
+          "density": 0.017898077940398518,
+          "contacts28": 49,
+          "unique28": 37
+        },
+        {
+          "window": "2021-07",
+          "nodes": 110,
+          "edges": 224,
+          "outdegree": 2.036363636363636,
+          "density": 0.018682235195996665,
+          "contacts28": 73,
+          "unique28": 62
+        },
+        {
+          "window": "2021-08",
+          "nodes": 96,
+          "edges": 210,
+          "outdegree": 2.1875,
+          "density": 0.023026315789473683,
+          "contacts28": 84,
+          "unique28": 73
+        },
+        {
+          "window": "2021-09",
+          "nodes": 88,
+          "edges": 206,
+          "outdegree": 2.340909090909091,
+          "density": 0.02690700104493208,
+          "contacts28": 40,
+          "unique28": 39
+        },
+        {
+          "window": "2021-10",
+          "nodes": 94,
+          "edges": 203,
+          "outdegree": 2.1595744680851063,
+          "density": 0.0232212308396248,
+          "contacts28": 76,
+          "unique28": 69
+        },
+        {
+          "window": "2021-11",
+          "nodes": 87,
+          "edges": 170,
+          "outdegree": 1.9540229885057472,
+          "density": 0.0227211975407645,
+          "contacts28": 46,
+          "unique28": 42
+        },
+        {
+          "window": "2021-12",
+          "nodes": 84,
+          "edges": 161,
+          "outdegree": 1.9166666666666667,
+          "density": 0.023092369477911646,
+          "contacts28": 45,
+          "unique28": 42
+        },
+        {
+          "window": "2022-01",
+          "nodes": 61,
+          "edges": 123,
+          "outdegree": 2.0163934426229506,
+          "density": 0.03360655737704918,
+          "contacts28": 38,
+          "unique28": 31
+        },
+        {
+          "window": "2022-02",
+          "nodes": 64,
+          "edges": 122,
+          "outdegree": 1.90625,
+          "density": 0.030257936507936508,
+          "contacts28": 55,
+          "unique28": 44
+        },
+        {
+          "window": "2022-03",
+          "nodes": 75,
+          "edges": 143,
+          "outdegree": 1.9066666666666667,
+          "density": 0.025765765765765766,
+          "contacts28": 58,
+          "unique28": 50
+        },
+        {
+          "window": "2022-04",
+          "nodes": 80,
+          "edges": 179,
+          "outdegree": 2.2375,
+          "density": 0.02832278481012658,
+          "contacts28": 87,
+          "unique28": 74
+        },
+        {
+          "window": "2022-05",
+          "nodes": 90,
+          "edges": 221,
+          "outdegree": 2.4555555555555557,
+          "density": 0.02759051186017478,
+          "contacts28": 75,
+          "unique28": 63
+        },
+        {
+          "window": "2022-06",
+          "nodes": 82,
+          "edges": 217,
+          "outdegree": 2.6463414634146343,
+          "density": 0.0326708822643782,
+          "contacts28": 66,
+          "unique28": 59
+        },
+        {
+          "window": "2022-07",
+          "nodes": 80,
+          "edges": 192,
+          "outdegree": 2.4,
+          "density": 0.030379746835443037,
+          "contacts28": 61,
+          "unique28": 44
+        },
+        {
+          "window": "2022-08",
+          "nodes": 75,
+          "edges": 177,
+          "outdegree": 2.36,
+          "density": 0.03189189189189189,
+          "contacts28": 53,
+          "unique28": 46
+        },
+        {
+          "window": "2022-09",
+          "nodes": 72,
+          "edges": 149,
+          "outdegree": 2.0694444444444446,
+          "density": 0.029147104851330204,
+          "contacts28": 55,
+          "unique28": 46
+        },
+        {
+          "window": "2022-10",
+          "nodes": 79,
+          "edges": 185,
+          "outdegree": 2.3417721518987342,
+          "density": 0.03002271989613762,
+          "contacts28": 103,
+          "unique28": 83
+        },
+        {
+          "window": "2022-11",
+          "nodes": 89,
+          "edges": 187,
+          "outdegree": 2.101123595505618,
+          "density": 0.023876404494382022,
+          "contacts28": 55,
+          "unique28": 54
+        },
+        {
+          "window": "2022-12",
+          "nodes": 94,
+          "edges": 204,
+          "outdegree": 2.1702127659574466,
+          "density": 0.023335621139327384,
+          "contacts28": 65,
+          "unique28": 57
+        }
+      ],
+      "gain": -0.021145374449339206,
+      "relative_gain": -0.5333333333333333,
+      "baseline": "volume"
+    },
+    "real libc-alpha": {
+      "n": 880,
+      "keys": [
+        "2021-01",
+        "2021-02",
+        "2021-03",
+        "2021-04",
+        "2021-05",
+        "2021-06",
+        "2021-07",
+        "2021-08",
+        "2021-09",
+        "2021-10",
+        "2021-11",
+        "2021-12",
+        "2022-01",
+        "2022-02",
+        "2022-03",
+        "2022-04",
+        "2022-05",
+        "2022-06",
+        "2022-07",
+        "2022-08",
+        "2022-09",
+        "2022-10",
+        "2022-11",
+        "2022-12"
+      ],
+      "window_n": {
+        "2021-01": 43,
+        "2021-02": 38,
+        "2021-03": 52,
+        "2021-04": 34,
+        "2021-05": 34,
+        "2021-06": 51,
+        "2021-07": 53,
+        "2021-08": 33,
+        "2021-09": 37,
+        "2021-10": 38,
+        "2021-11": 40,
+        "2021-12": 50,
+        "2022-01": 48,
+        "2022-02": 39,
+        "2022-03": 24,
+        "2022-04": 23,
+        "2022-05": 39,
+        "2022-06": 35,
+        "2022-07": 35,
+        "2022-08": 32,
+        "2022-09": 25,
+        "2022-10": 24,
+        "2022-11": 32,
+        "2022-12": 21
+      },
+      "methods": {
+        "person": {
+          "mean": 0.013636363636363636,
+          "ci95": [
+            0.0009937272468386095,
+            0.03838925691667107
+          ],
+          "valid": 10000
+        },
+        "links": {
+          "mean": 0.19204545454545455,
+          "ci95": [
+            0.11971036673127482,
+            0.26096262548081434
+          ],
+          "valid": 10000
+        },
+        "volume": {
+          "mean": 0.4022727272727273,
+          "ci95": [
+            0.36014304685604814,
+            0.4376964187143502
+          ],
+          "valid": 10000
+        }
+      },
+      "differences": {
+        "person minus volume": {
+          "mean": -0.3886363636363636,
+          "ci95": [
+            -0.42759411273652415,
+            -0.34306723513367005
+          ],
+          "valid": 10000
+        },
+        "links minus volume": {
+          "mean": -0.21022727272727273,
+          "ci95": [
+            -0.2937576781722959,
+            -0.1331693764729479
+          ],
+          "valid": 10000
+        },
+        "links minus person": {
+          "mean": 0.1784090909090909,
+          "ci95": [
+            0.10266781869334467,
+            0.25053856136447905
+          ],
+          "valid": 10000
+        }
+      },
+      "auc": 0.7539437302527414,
+      "true_contact": 0.5570987654320988,
+      "other_contact": 0.07758039440966019,
+      "contact_gap": 0.4795183710224386,
+      "auc_n": 648,
+      "ready": 828,
+      "outdegree": 3.669444091503529,
+      "density": 0.026628223688628296,
+      "median_candidates": 145.0,
+      "repeat28": 0.6375683796902689,
+      "windows": [
+        {
+          "window": "2021-01",
+          "nodes": 151,
+          "edges": 592,
+          "outdegree": 3.9205298013245033,
+          "density": 0.026136865342163355,
+          "contacts28": 495,
+          "unique28": 196
+        },
+        {
+          "window": "2021-02",
+          "nodes": 151,
+          "edges": 588,
+          "outdegree": 3.8940397350993377,
+          "density": 0.025960264900662253,
+          "contacts28": 600,
+          "unique28": 217
+        },
+        {
+          "window": "2021-03",
+          "nodes": 158,
+          "edges": 556,
+          "outdegree": 3.518987341772152,
+          "density": 0.02241393211319842,
+          "contacts28": 529,
+          "unique28": 211
+        },
+        {
+          "window": "2021-04",
+          "nodes": 150,
+          "edges": 556,
+          "outdegree": 3.7066666666666666,
+          "density": 0.02487695749440716,
+          "contacts28": 800,
+          "unique28": 254
+        },
+        {
+          "window": "2021-05",
+          "nodes": 156,
+          "edges": 589,
+          "outdegree": 3.7756410256410255,
+          "density": 0.02435897435897436,
+          "contacts28": 544,
+          "unique28": 210
+        },
+        {
+          "window": "2021-06",
+          "nodes": 145,
+          "edges": 588,
+          "outdegree": 4.055172413793104,
+          "density": 0.028160919540229885,
+          "contacts28": 735,
+          "unique28": 213
+        },
+        {
+          "window": "2021-07",
+          "nodes": 155,
+          "edges": 597,
+          "outdegree": 3.8516129032258064,
+          "density": 0.025010473397570173,
+          "contacts28": 741,
+          "unique28": 228
+        },
+        {
+          "window": "2021-08",
+          "nodes": 181,
+          "edges": 643,
+          "outdegree": 3.552486187845304,
+          "density": 0.019736034376918354,
+          "contacts28": 758,
+          "unique28": 262
+        },
+        {
+          "window": "2021-09",
+          "nodes": 191,
+          "edges": 612,
+          "outdegree": 3.2041884816753927,
+          "density": 0.016864149903554698,
+          "contacts28": 495,
+          "unique28": 208
+        },
+        {
+          "window": "2021-10",
+          "nodes": 183,
+          "edges": 607,
+          "outdegree": 3.3169398907103824,
+          "density": 0.018224944454452652,
+          "contacts28": 554,
+          "unique28": 237
+        },
+        {
+          "window": "2021-11",
+          "nodes": 153,
+          "edges": 554,
+          "outdegree": 3.6209150326797386,
+          "density": 0.023821809425524594,
+          "contacts28": 541,
+          "unique28": 197
+        },
+        {
+          "window": "2021-12",
+          "nodes": 129,
+          "edges": 509,
+          "outdegree": 3.945736434108527,
+          "density": 0.030826065891472867,
+          "contacts28": 615,
+          "unique28": 188
+        },
+        {
+          "window": "2022-01",
+          "nodes": 131,
+          "edges": 507,
+          "outdegree": 3.8702290076335877,
+          "density": 0.029770992366412213,
+          "contacts28": 770,
+          "unique28": 229
+        },
+        {
+          "window": "2022-02",
+          "nodes": 147,
+          "edges": 549,
+          "outdegree": 3.7346938775510203,
+          "density": 0.025580095051719317,
+          "contacts28": 632,
+          "unique28": 234
+        },
+        {
+          "window": "2022-03",
+          "nodes": 136,
+          "edges": 530,
+          "outdegree": 3.8970588235294117,
+          "density": 0.02886710239651416,
+          "contacts28": 464,
+          "unique28": 168
+        },
+        {
+          "window": "2022-04",
+          "nodes": 122,
+          "edges": 437,
+          "outdegree": 3.581967213114754,
+          "density": 0.029603034819130198,
+          "contacts28": 318,
+          "unique28": 128
+        },
+        {
+          "window": "2022-05",
+          "nodes": 109,
+          "edges": 395,
+          "outdegree": 3.623853211009174,
+          "density": 0.033554196398233094,
+          "contacts28": 442,
+          "unique28": 137
+        },
+        {
+          "window": "2022-06",
+          "nodes": 105,
+          "edges": 378,
+          "outdegree": 3.6,
+          "density": 0.03461538461538462,
+          "contacts28": 536,
+          "unique28": 186
+        },
+        {
+          "window": "2022-07",
+          "nodes": 111,
+          "edges": 434,
+          "outdegree": 3.90990990990991,
+          "density": 0.03554463554463554,
+          "contacts28": 534,
+          "unique28": 173
+        },
+        {
+          "window": "2022-08",
+          "nodes": 125,
+          "edges": 491,
+          "outdegree": 3.928,
+          "density": 0.03167741935483871,
+          "contacts28": 562,
+          "unique28": 221
+        },
+        {
+          "window": "2022-09",
+          "nodes": 125,
+          "edges": 485,
+          "outdegree": 3.88,
+          "density": 0.03129032258064516,
+          "contacts28": 345,
+          "unique28": 159
+        },
+        {
+          "window": "2022-10",
+          "nodes": 131,
+          "edges": 458,
+          "outdegree": 3.49618320610687,
+          "density": 0.02689371697005285,
+          "contacts28": 304,
+          "unique28": 143
+        },
+        {
+          "window": "2022-11",
+          "nodes": 137,
+          "edges": 424,
+          "outdegree": 3.0948905109489053,
+          "density": 0.022756547874624302,
+          "contacts28": 365,
+          "unique28": 147
+        },
+        {
+          "window": "2022-12",
+          "nodes": 138,
+          "edges": 426,
+          "outdegree": 3.0869565217391304,
+          "density": 0.022532529355760077,
+          "contacts28": 300,
+          "unique28": 158
+        }
+      ],
+      "gain": -0.21022727272727273,
+      "relative_gain": -0.5225988700564972,
+      "baseline": "volume"
+    },
+    "real libc-alpha-2024": {
+      "n": 437,
+      "keys": [
+        "2024-01",
+        "2024-02",
+        "2024-03",
+        "2024-04",
+        "2024-05",
+        "2024-06",
+        "2024-07",
+        "2024-08",
+        "2024-09",
+        "2024-10",
+        "2024-11",
+        "2024-12"
+      ],
+      "window_n": {
+        "2024-01": 40,
+        "2024-02": 32,
+        "2024-03": 27,
+        "2024-04": 33,
+        "2024-05": 32,
+        "2024-06": 36,
+        "2024-07": 53,
+        "2024-08": 36,
+        "2024-09": 28,
+        "2024-10": 34,
+        "2024-11": 37,
+        "2024-12": 49
+      },
+      "methods": {
+        "person": {
+          "mean": 0.012356979405034324,
+          "ci95": [
+            0.0,
+            0.030730168269230754
+          ],
+          "valid": 10000
+        },
+        "links": {
+          "mean": 0.08924485125858124,
+          "ci95": [
+            0.047368118572292804,
+            0.13285739260739263
+          ],
+          "valid": 10000
+        },
+        "volume": {
+          "mean": 0.2791762013729977,
+          "ci95": [
+            0.22844827586206898,
+            0.3421686746987952
+          ],
+          "valid": 10000
+        }
+      },
+      "differences": {
+        "person minus volume": {
+          "mean": -0.26681922196796337,
+          "ci95": [
+            -0.32146363908424364,
+            -0.21909249597602265
+          ],
+          "valid": 10000
+        },
+        "links minus volume": {
+          "mean": -0.18993135011441648,
+          "ci95": [
+            -0.2401826484018265,
+            -0.1391681349959339
+          ],
+          "valid": 10000
+        },
+        "links minus person": {
+          "mean": 0.07688787185354691,
+          "ci95": [
+            0.032983613629111355,
+            0.12437399299961108
+          ],
+          "valid": 10000
+        }
+      },
+      "auc": 0.6799176731933603,
+      "true_contact": 0.4083333333333333,
+      "other_contact": 0.06784506045590909,
+      "contact_gap": 0.3404882728774242,
+      "auc_n": 300,
+      "ready": 412,
+      "outdegree": 3.67447639189502,
+      "density": 0.02538626214234517,
+      "median_candidates": 159.0,
+      "repeat28": 0.519780888618381,
+      "windows": [
+        {
+          "window": "2024-01",
+          "nodes": 121,
+          "edges": 416,
+          "outdegree": 3.43801652892562,
+          "density": 0.02865013774104683,
+          "contacts28": 245,
+          "unique28": 121
+        },
+        {
+          "window": "2024-02",
+          "nodes": 117,
+          "edges": 439,
+          "outdegree": 3.752136752136752,
+          "density": 0.03234600648393752,
+          "contacts28": 372,
+          "unique28": 178
+        },
+        {
+          "window": "2024-03",
+          "nodes": 109,
+          "edges": 442,
+          "outdegree": 4.055045871559633,
+          "density": 0.037546721032959564,
+          "contacts28": 432,
+          "unique28": 171
+        },
+        {
+          "window": "2024-04",
+          "nodes": 114,
+          "edges": 496,
+          "outdegree": 4.350877192982456,
+          "density": 0.03850333799099519,
+          "contacts28": 374,
+          "unique28": 199
+        },
+        {
+          "window": "2024-05",
+          "nodes": 168,
+          "edges": 642,
+          "outdegree": 3.8214285714285716,
+          "density": 0.022882805816937555,
+          "contacts28": 450,
+          "unique28": 265
+        },
+        {
+          "window": "2024-06",
+          "nodes": 176,
+          "edges": 628,
+          "outdegree": 3.5681818181818183,
+          "density": 0.020389610389610388,
+          "contacts28": 389,
+          "unique28": 183
+        },
+        {
+          "window": "2024-07",
+          "nodes": 193,
+          "edges": 633,
+          "outdegree": 3.2797927461139897,
+          "density": 0.017082253886010364,
+          "contacts28": 418,
+          "unique28": 194
+        },
+        {
+          "window": "2024-08",
+          "nodes": 195,
+          "edges": 653,
+          "outdegree": 3.348717948717949,
+          "density": 0.017261432725350252,
+          "contacts28": 555,
+          "unique28": 283
+        },
+        {
+          "window": "2024-09",
+          "nodes": 169,
+          "edges": 587,
+          "outdegree": 3.473372781065089,
+          "density": 0.02067483798253029,
+          "contacts28": 357,
+          "unique28": 159
+        },
+        {
+          "window": "2024-10",
+          "nodes": 167,
+          "edges": 611,
+          "outdegree": 3.658682634730539,
+          "density": 0.02204025683572614,
+          "contacts28": 431,
+          "unique28": 204
+        },
+        {
+          "window": "2024-11",
+          "nodes": 159,
+          "edges": 588,
+          "outdegree": 3.69811320754717,
+          "density": 0.02340577979460234,
+          "contacts28": 498,
+          "unique28": 221
+        },
+        {
+          "window": "2024-12",
+          "nodes": 154,
+          "edges": 562,
+          "outdegree": 3.6493506493506493,
+          "density": 0.023851965028435618,
+          "contacts28": 408,
+          "unique28": 189
+        }
+      ],
+      "gain": -0.18993135011441648,
+      "relative_gain": -0.680327868852459,
+      "baseline": "volume"
+    },
+    "real samba-technical-2020": {
+      "n": 79,
+      "keys": [
+        "2020-01",
+        "2020-02",
+        "2020-03",
+        "2020-04",
+        "2020-05",
+        "2020-06",
+        "2020-07",
+        "2020-08",
+        "2020-09",
+        "2020-10",
+        "2020-11",
+        "2020-12"
+      ],
+      "window_n": {
+        "2020-01": 6,
+        "2020-02": 7,
+        "2020-03": 13,
+        "2020-04": 4,
+        "2020-05": 14,
+        "2020-06": 6,
+        "2020-07": 5,
+        "2020-08": 5,
+        "2020-09": 5,
+        "2020-10": 8,
+        "2020-11": 1,
+        "2020-12": 5
+      },
+      "methods": {
+        "person": {
+          "mean": 0.16455696202531644,
+          "ci95": [
+            0.09655172413793103,
+            0.2696969696969697
+          ],
+          "valid": 10000
+        },
+        "links": {
+          "mean": 0.14177215189873418,
+          "ci95": [
+            0.06947368421052633,
+            0.23859932088285224
+          ],
+          "valid": 10000
+        },
+        "volume": {
+          "mean": 0.17721518987341772,
+          "ci95": [
+            0.0958904109589041,
+            0.2857142857142857
+          ],
+          "valid": 10000
+        }
+      },
+      "differences": {
+        "person minus volume": {
+          "mean": -0.012658227848101266,
+          "ci95": [
+            -0.14038461538461539,
+            0.1322593052109181
+          ],
+          "valid": 10000
+        },
+        "links minus volume": {
+          "mean": -0.035443037974683546,
+          "ci95": [
+            -0.10612563775510205,
+            0.07142857142857142
+          ],
+          "valid": 10000
+        },
+        "links minus person": {
+          "mean": -0.02278481012658228,
+          "ci95": [
+            -0.1000233644859813,
+            0.05555907172995775
+          ],
+          "valid": 10000
+        }
+      },
+      "auc": 0.6039677921222214,
+      "true_contact": 0.2682926829268293,
+      "other_contact": 0.06462366065738737,
+      "contact_gap": 0.20366902226944192,
+      "auc_n": 41,
+      "ready": 71,
+      "outdegree": 2.6825034786701694,
+      "density": 0.05117729446328542,
+      "median_candidates": 53.0,
+      "repeat28": 0.33255269320843095,
+      "windows": [
+        {
+          "window": "2020-01",
+          "nodes": 54,
+          "edges": 146,
+          "outdegree": 2.7037037037037037,
+          "density": 0.05101327742837177,
+          "contacts28": 34,
+          "unique28": 23
+        },
+        {
+          "window": "2020-02",
+          "nodes": 52,
+          "edges": 120,
+          "outdegree": 2.3076923076923075,
+          "density": 0.04524886877828054,
+          "contacts28": 64,
+          "unique28": 46
+        },
+        {
+          "window": "2020-03",
+          "nodes": 54,
+          "edges": 123,
+          "outdegree": 2.2777777777777777,
+          "density": 0.0429769392033543,
+          "contacts28": 73,
+          "unique28": 54
+        },
+        {
+          "window": "2020-04",
+          "nodes": 62,
+          "edges": 150,
+          "outdegree": 2.4193548387096775,
+          "density": 0.03966155473294553,
+          "contacts28": 81,
+          "unique28": 64
+        },
+        {
+          "window": "2020-05",
+          "nodes": 72,
+          "edges": 164,
+          "outdegree": 2.2777777777777777,
+          "density": 0.032081377151799685,
+          "contacts28": 49,
+          "unique28": 41
+        },
+        {
+          "window": "2020-06",
+          "nodes": 67,
+          "edges": 195,
+          "outdegree": 2.91044776119403,
+          "density": 0.044097693351424695,
+          "contacts28": 146,
+          "unique28": 80
+        },
+        {
+          "window": "2020-07",
+          "nodes": 60,
+          "edges": 178,
+          "outdegree": 2.966666666666667,
+          "density": 0.05028248587570622,
+          "contacts28": 84,
+          "unique28": 50
+        },
+        {
+          "window": "2020-08",
+          "nodes": 53,
+          "edges": 147,
+          "outdegree": 2.7735849056603774,
+          "density": 0.05333817126269957,
+          "contacts28": 39,
+          "unique28": 32
+        },
+        {
+          "window": "2020-09",
+          "nodes": 45,
+          "edges": 128,
+          "outdegree": 2.8444444444444446,
+          "density": 0.06464646464646465,
+          "contacts28": 57,
+          "unique28": 47
+        },
+        {
+          "window": "2020-10",
+          "nodes": 44,
+          "edges": 117,
+          "outdegree": 2.659090909090909,
+          "density": 0.06183932346723044,
+          "contacts28": 68,
+          "unique28": 45
+        },
+        {
+          "window": "2020-11",
+          "nodes": 47,
+          "edges": 151,
+          "outdegree": 3.2127659574468086,
+          "density": 0.0698427382053654,
+          "contacts28": 133,
+          "unique28": 68
+        },
+        {
+          "window": "2020-12",
+          "nodes": 49,
+          "edges": 139,
+          "outdegree": 2.836734693877551,
+          "density": 0.059098639455782316,
+          "contacts28": 26,
+          "unique28": 20
+        }
+      ],
+      "gain": -0.035443037974683546,
+      "relative_gain": -0.2,
+      "baseline": "volume"
+    }
+  },
+  "correlations": {
+    "sim": {
+      "auc": {
+        "n": 7,
+        "pearson": 0.8184439887861925,
+        "spearman": 0.8214285714285715
+      },
+      "contact_gap": {
+        "n": 7,
+        "pearson": 0.8287944206788591,
+        "spearman": 0.7857142857142859
+      },
+      "outdegree": {
+        "n": 7,
+        "pearson": -0.3090042591709578,
+        "spearman": -0.42857142857142866
+      },
+      "density": {
+        "n": 7,
+        "pearson": -0.07211367380250044,
+        "spearman": 0.25
+      },
+      "median_candidates": {
+        "n": 7,
+        "pearson": -0.39985801685676026,
+        "spearman": -0.25
+      },
+      "repeat28": {
+        "n": 7,
+        "pearson": 0.7073000980804548,
+        "spearman": 0.6071428571428572
+      }
+    },
+    "real": {
+      "auc": {
+        "n": 7,
+        "pearson": -0.9009731865861298,
+        "spearman": -0.9642857142857145
+      },
+      "contact_gap": {
+        "n": 7,
+        "pearson": -0.9141895659698677,
+        "spearman": -0.9642857142857145
+      },
+      "outdegree": {
+        "n": 7,
+        "pearson": -0.3143757274903627,
+        "spearman": -0.4642857142857144
+      },
+      "density": {
+        "n": 7,
+        "pearson": 0.4576029035455661,
+        "spearman": 0.3571428571428572
+      },
+      "median_candidates": {
+        "n": 7,
+        "pearson": -0.7575761469483304,
+        "spearman": -0.6785714285714287
+      },
+      "repeat28": {
+        "n": 7,
+        "pearson": -0.9291893793212632,
+        "spearman": -0.8928571428571429
+      }
+    },
+    "pooled": {
+      "auc": {
+        "n": 14,
+        "pearson": -0.04082530562958496,
+        "spearman": 0.032967032967032975
+      },
+      "contact_gap": {
+        "n": 14,
+        "pearson": 0.004580800381773692,
+        "spearman": 0.032967032967032975
+      },
+      "outdegree": {
+        "n": 14,
+        "pearson": 0.2808593634519813,
+        "spearman": 0.4290431639135438
+      },
+      "density": {
+        "n": 14,
+        "pearson": 0.26554619391185763,
+        "spearman": 0.5082511326360442
+      },
+      "median_candidates": {
+        "n": 14,
+        "pearson": 0.029028792624685697,
+        "spearman": 0.12541261714395896
+      },
+      "repeat28": {
+        "n": 14,
+        "pearson": 0.4115180451953125,
+        "spearman": 0.5566560024109055
+      }
+    },
+    "pooled_common": {
+      "auc": {
+        "n": 14,
+        "pearson": 0.8355849022030281,
+        "spearman": 0.8945054945054945
+      },
+      "contact_gap": {
+        "n": 14,
+        "pearson": 0.852824626312409,
+        "spearman": 0.9032967032967033
+      },
+      "outdegree": {
+        "n": 14,
+        "pearson": 0.0010917530073102644,
+        "spearman": 0.36523674466486294
+      },
+      "density": {
+        "n": 14,
+        "pearson": 0.009230727567017531,
+        "spearman": 0.16721682285861195
+      },
+      "median_candidates": {
+        "n": 14,
+        "pearson": -0.14799739703906312,
+        "spearman": 0.4840486977486135
+      },
+      "repeat28": {
+        "n": 14,
+        "pearson": 0.6373306268392508,
+        "spearman": 0.6204624216595864
+      }
+    }
+  }
+}

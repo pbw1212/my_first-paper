@@ -1,0 +1,16 @@
+{
+  "audit": {
+    "bootstrap_intervals_by_wp": [
+      78,
+      63,
+      280,
+      132,
+      566
+    ],
+    "bootstrap_intervals": 1119,
+    "replicates_each": 10000
+  },
+  "tables": 6,
+  "figures": 4,
+  "unique_authority_per_table": true
+}

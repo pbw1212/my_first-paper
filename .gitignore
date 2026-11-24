@@ -13,3 +13,14 @@ __pycache__/
 *.pt
 *.npz
 *.rda
+
+# Local model artifacts and LaTeX auxiliary files
+/runs/paper_closure/**/*.joblib
+/paper_dasfaa/*.aux
+/paper_dasfaa/*.bbl
+/paper_dasfaa/*.blg
+/paper_dasfaa/*.fdb_latexmk
+/paper_dasfaa/*.fls
+/paper_dasfaa/*.log
+/paper_dasfaa/*.out
+/paper_dasfaa/*.synctex.gz

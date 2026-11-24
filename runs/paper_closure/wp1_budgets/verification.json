@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "checks": {
+    "events": 8498,
+    "archive_top12": 26820,
+    "brute_force_pair_ranks": 3600,
+    "all_event_metrics_and_paired_means": true
+  },
+  "sha256": {
+    "budget_curve.png": "18e7d8869307847f27575c188e38298876ccd74e2583e2915cb65075048feeb8",
+    "CollegeMsg.jsonl.gz": "055281afabe3d19af9744dc1c258d5a4cb37e22cc5bccd5092da1e70a6d58fbf",
+    "company.jsonl.gz": "5e23500607b6dfb0ef698ff7c0d5f5e16a8a0827083e992481d92bd56f210693",
+    "Dept2.jsonl.gz": "1050bfe97d803018b9a66dd261f82f381b14ec703b7b0acbd29d4f1b67ef2cf5",
+    "Dept4.jsonl.gz": "a9a5322b12a5d328ad9348dc8e62b38fd2597317a3ba3ce916a29bc50ed2904c",
+    "Enron.jsonl.gz": "0399c29e81a6edbcba8b1fd7ac7c846297874b17eb772c89a5e0fff5f31924de",
+    "GNU libc.jsonl.gz": "04a09c4d222ae0e3e2db88a4981a07a78a1389308fff90d1894ed857b63b0bc0",
+    "protocol.json": "b1d9e3e71a532c8f3d3be42af1faa8d48997a64d60a9c6b642899c4d3cece119",
+    "summary.json": "95f86e7488cc72e5fef2fc12085902524abc026851b62e6c3f5b7c390ae4acb9",
+    "table.md": "51ff6b592f522da14ea5a9ea965585dbab662755901fef4984f3d14da36c97b8"
+  }
+}

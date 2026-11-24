@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "checks": {
+    "fits": 30,
+    "mlp_anchor_budgets": 10,
+    "regenerated_stress_draw_rules": 4800,
+    "all_ranks_and_list_hits": true
+  },
+  "sha256": {
+    "company-trees.joblib": "a09ee1b886ae6466ca3c5bdc9404ecad1feb7b8857dbb418a359e97e0bc427f8",
+    "Dept2-trees.joblib": "50d1f807bd16b992eaca9bd140134b20195135bede5252736dc57d1ce2abb8c6",
+    "protocol.json": "c8327a4435e2a045085589864aa87c5dc63a36727d9eb1b49817b452003da4be",
+    "stress-Dept2.jsonl.gz": "d9022f1e6bd7dbc028e91d656eb6d4d04d889894ee4d392c89939e5c809ac146",
+    "stress-Enron.jsonl.gz": "4459b44a018776647e08f1b1fc527ed15163b811dc4e88581bbd6a4be0d42800",
+    "summary.json": "a1839190203b1f78afaaf103e0141f8e34a4d79a467f2b0a531350779cfc0771",
+    "table.md": "66881548d85b7d9fffc1b7993828deec1074c199ab1a51e0fb0a17468ad19deb",
+    "training.json": "3647fe4dc77f08f343a6e365403ac0b65f55a7382dad2160ffc21ccbfd5900bc",
+    "tree-company.jsonl.gz": "7e244c3234a73bdeed8bf1c56759519d32a21006385216266c019f6ab98a7e07",
+    "tree-Dept2.jsonl.gz": "6e676d88b67235624b5c4897d8c0432889bd88758d9e15355b0fbe9c9bfdf4f6",
+    "tree-Dept4.jsonl.gz": "88b062998e1ad070d158e616275fa83b7718ab801c5b4c56cc38908851ff9395",
+    "tree-Enron.jsonl.gz": "e574f33654bb74679a51622763165f78b0c21eb015e14651fc6b2d70abf0df2f",
+    "tree-GNU libc.jsonl.gz": "ecdc6943ec93a45a2b69b09e69d3f8fc2435bbbff8a3cf460125b08f8b1a53d2"
+  }
+}
