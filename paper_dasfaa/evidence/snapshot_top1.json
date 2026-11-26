@@ -1,0 +1,42 @@
+{
+  "Dept2": {
+    "events": 100,
+    "seed_order": [
+      111,
+      314159,
+      431,
+      2027,
+      9001
+    ],
+    "mlp_hits": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "mlp_seed_mean_pct": 0.0,
+    "snapshot": 0,
+    "bosoul": 0
+  },
+  "company": {
+    "events": 100,
+    "seed_order": [
+      111,
+      314159,
+      431,
+      2027,
+      9001
+    ],
+    "mlp_hits": [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "mlp_seed_mean_pct": 0.2,
+    "snapshot": 0,
+    "bosoul": 0
+  }
+}

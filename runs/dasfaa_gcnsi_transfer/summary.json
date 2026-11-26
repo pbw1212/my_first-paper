@@ -1,0 +1,68 @@
+{
+  "Dept2": {
+    "n": 1200,
+    "both": 124,
+    "any": 961,
+    "model_sha256": "0954a2096fc4de3ecb2ce268ac1d77e6be48e23ec7faf53a018fcd13fbeaf610",
+    "source": "Dept2",
+    "direction": "forward",
+    "epoch": 100,
+    "seed": 1938,
+    "provenance": "archived"
+  },
+  "company": {
+    "n": 1200,
+    "both": 15,
+    "any": 293,
+    "model_sha256": "af5699bd416deeab25f9298b43283e21910e8b1f281ac358e317a7b58937bd97",
+    "source": "company",
+    "direction": "forward",
+    "epoch": 50,
+    "seed": 1938,
+    "provenance": "archived"
+  },
+  "Dept4": {
+    "n": 1308,
+    "both": 213,
+    "any": 1180,
+    "model_sha256": "0954a2096fc4de3ecb2ce268ac1d77e6be48e23ec7faf53a018fcd13fbeaf610",
+    "source": "Dept2",
+    "direction": "forward",
+    "epoch": 100,
+    "seed": 1938,
+    "provenance": "frozen transfer"
+  },
+  "Enron": {
+    "n": 1560,
+    "both": 83,
+    "any": 823,
+    "model_sha256": "0954a2096fc4de3ecb2ce268ac1d77e6be48e23ec7faf53a018fcd13fbeaf610",
+    "source": "Dept2",
+    "direction": "forward",
+    "epoch": 100,
+    "seed": 1938,
+    "provenance": "frozen transfer"
+  },
+  "CollegeMsg": {
+    "n": 480,
+    "both": 0,
+    "any": 7,
+    "model_sha256": "0954a2096fc4de3ecb2ce268ac1d77e6be48e23ec7faf53a018fcd13fbeaf610",
+    "source": "Dept2",
+    "direction": "forward",
+    "epoch": 100,
+    "seed": 1938,
+    "provenance": "archived"
+  },
+  "GNU libc": {
+    "n": 2750,
+    "both": 128,
+    "any": 1855,
+    "model_sha256": "0954a2096fc4de3ecb2ce268ac1d77e6be48e23ec7faf53a018fcd13fbeaf610",
+    "source": "Dept2",
+    "direction": "forward",
+    "epoch": 100,
+    "seed": 1938,
+    "provenance": "frozen transfer"
+  }
+}

@@ -1,5 +1,10 @@
 {
   "sim": {
+    "Dept1": {
+      "nodes": 309,
+      "records": 60150,
+      "days": 803.8
+    },
     "Dept2": {
       "nodes": 162,
       "records": 46010,
@@ -85,6 +90,24 @@
       "records": 1484,
       "start": "2020-01",
       "end": "2020-12"
+    }
+  },
+  "preprocessing": {
+    "Company": {
+      "raw": 82927,
+      "self_mail": 51,
+      "repeated_nonself": 313,
+      "kept": 82563,
+      "archive_sha256": "8dbaf26082d8954e31a5dade6c39ac3d87b92143963388207b058df013606878"
+    },
+    "GNU libc": {
+      "posts": 23145,
+      "unresolved_parent": 3515,
+      "later_parent": 4,
+      "self_reply": 5759,
+      "duplicate_contacts": 0,
+      "kept": 13867,
+      "manifest_sha256": "7ecbb6888a7f91f25452e4004d48ae097787b200d69eb662a0f69664674bb60d"
     }
   }
 }

@@ -31,6 +31,6 @@
 - [研究背景与论文方向](docs/research.md)介绍研究问题、任务定义、相关工作和论文重点。
 - [主结果与实验口径](docs/closure_evidence_pack.md)汇总固定和比例预算、联系区分度、传播规则、源头先验、多源实验及模拟与真实讨论之间的对照。
 - [六张主结果表](runs/paper_closure/wp6_tables/report/main_tables.md)可追溯到冻结 JSON。[实验索引](docs/experiments.md)记录早期实验、真实讨论留出和负结果。
-- [论文初稿](论文初稿.md)与[实验底稿](论文实验结果与写作底稿.md)保留研究推导、分层结果与负结果的历史记录。
+- [实验底稿](论文实验结果与写作底稿.md)保留审计所需的详细实验记录。[早期 Markdown 初稿](https://github.com/pbw1212/my_first-paper/blob/cd6b4e222703067b8d527a5cdc43c237cd96bfb4/%E8%AE%BA%E6%96%87%E5%88%9D%E7%A8%BF.md)保存在对应提交。
 - [数据与复现说明](docs/reproduction.md)提供数据来源、Python 环境、可独立运行的 Dept3 试验及各阶段复现依赖。
 - [`scripts/`](scripts/)保存实验实现与审计脚本。[`runs/`](runs/)保存已归档的协议、统计表、核验与图表。

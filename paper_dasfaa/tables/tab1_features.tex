@@ -1,9 +1,9 @@
-\begin{tabular}{@{}>{\raggedright\arraybackslash}p{1.64cm}r>{\raggedright\arraybackslash}p{8.53cm}@{}}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{1.85cm}c>{\raggedright\arraybackslash}p{8.8cm}@{}}
 \toprule
-Tier & Active & Columns and definitions (zero-based indexing) \\
+Tier & Active & Descriptors and shared event context \\
 \midrule
-Personal & 26 & 0--5: log counts (out-/in-degree, sent/received, 28-day sent/received). 19--22: fraction of quiet fortnights, mean \(0.7^{\rm sends}\), log outgoing SD, log latest sends. Each has a rank copy. Shared context: 17, 18, 58--60, 63. \\
-+ Recent contacts & 34 & 12: log recent outgoing count per visible member. 23--25: log recency-weighted outgoing mean, incoming mean and incoming maximum. Add the four rank copies. \\
-+ Full temporal history & 64 & 6--11: reachability and reciprocal distances to all/earliest visible nodes, plus direct-neighbor fraction. 13--16: mean/max support, earliest mean support and total replay reach. 26--28: residual-weighted mean and maximum, then fraction of unweighted supports above 0.5. Add remaining ranks and context (61--62). \\
+Personal & 26 & \textbf{Activity (10):} log out-/in-degree, log total and 28-day sent/received counts, quiet-fortnight fraction, mean estimated no-success probability $0.7^{c_\ell}$ over up to six complete fortnights ($c_\ell$ counts sends by the candidate in fortnight $\ell$), log outgoing SD and log most recent fortnight's sends. \textbf{Visibility variables (2):} visible count and roster share. \textbf{Shared summaries (4):} log visible and block counts, first-block share and log legal-pool size. \\
++ Recent contacts & 34 & \textbf{Direct ties to suffix (4):} log 28-day outgoing count per visible member and log recency-weighted ($0.75^\ell$) mean outgoing, mean incoming and maximum incoming counts. \\
++ Full temporal history & 64 & \textbf{Multi-hop (6):} For all visible members, the reachable fraction, mean reciprocal distance and direct-neighbor fraction. For the first block, the reachable fraction and the mean and maximum reciprocal distances. \textbf{Replay (7):} mean and maximum support, mean support in the first block, total replay reach, residual-weighted mean and maximum support, and fraction of supports $>0.5$. \textbf{Replay summaries (2):} mean support and maximum candidate mean support. The full tier also includes two tied visibility ranks. \\
 \bottomrule
 \end{tabular}

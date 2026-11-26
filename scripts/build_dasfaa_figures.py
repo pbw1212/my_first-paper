@@ -1,4 +1,4 @@
-"""Build the seven LNCS vector figures from sealed summaries and archived Enron hits."""
+"""Build the six LNCS vector figures from sealed summaries and archived Enron hits."""
 import hashlib
 import json
 import os
@@ -8,8 +8,12 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
-from matplotlib.patches import FancyArrowPatch, FancyBboxPatch, Rectangle
+from matplotlib.transforms import Bbox
+from matplotlib.path import Path as PlotPath
+from matplotlib.patches import ConnectionPatch, FancyArrowPatch, FancyBboxPatch, Patch, Rectangle
+from matplotlib.legend_handler import HandlerTuple
 import numpy as np
+from scipy.stats import spearmanr
 
 ROOT = Path(__file__).resolve().parents[1]
 RUN = ROOT / "runs"
@@ -36,7 +40,11 @@ def wp(s):
 
 def save(fig, name):
     OUT.mkdir(parents=True,exist_ok=True)
-    fig.savefig(OUT/(name+".pdf"), metadata={"Author":"", "CreationDate":None,"ModDate":None})
+    # Retain the common LNCS width and a small margin above and below all artists.
+    fig.canvas.draw()
+    bounds = fig.get_tightbbox(fig.canvas.get_renderer())
+    crop = Bbox.from_extents(0, bounds.y0 - .025, WIDTH, bounds.y1 + .025)
+    fig.savefig(OUT/(name+".pdf"), bbox_inches=crop, metadata={"Author":"", "CreationDate":None,"ModDate":None})
     plt.close(fig)
 
 
@@ -68,73 +76,149 @@ def overview():
     label(7.58,5.7,"(b) Candidate ranking",weight="bold")
     ax.add_patch(Rectangle((.12,2.2),2.82,2.1,fc="#f4e9dd",ec="none"))
     ax.add_patch(Rectangle((2.97,2.2),1.91,2.1,fc="#e2f1ed",ec="none"))
-    label(1.55,4.77,"Hidden prefix");label(3.92,4.77,"Suffix  O")
-    for (a,b) in [((.73,3.71),(1.38,3.71)),((1.80,3.71),(2.36,3.71)),
-                  ((2.75,3.71),(3.42,3.71)),((3.87,3.71),(4.38,3.16)),((3.87,3.75),(4.34,4.06))]:
+    label(1.55,4.77,"Hidden prefix");label(3.94,4.77,"Visible suffix")
+    for a,b in [((.73,3.71),(1.38,3.71)),((1.80,3.71),(2.36,3.71)),
+                ((2.75,3.71),(3.42,3.71)),((3.78,3.54),(4.04,3.18)),
+                ((3.87,3.75),(4.31,4.08))]:
         arrow(a,b,COL[0])
-    for x,y,t in [(.52,3.71,"A"),(1.60,3.71,"u"),(2.57,3.71,"v"),
-                   (3.65,3.71,"w"),(4.52,3.02,"x"),(4.54,4.10,"y"),(.52,2.76,"B")]:
-        label(x,y,t,bbox=dict(boxstyle="circle,pad=.15",ec="#58636a",fc="white",lw=.7))
+    tie_color = "#666971"
+    tie_style = (0, (2.8, 2))
+    # Route historical contacts around the chain of successful transmissions.
+    for vertices in [
+        [(.61, 3.91), (1.35, 4.59), (2.95, 4.59), (3.55, 3.92)],
+        [(.64, 2.64), (1.36, 2.25), (2.70, 2.28), (3.44, 2.39),
+         (4.39, 2.52), (4.76, 3.06), (4.52, 3.94)],
+    ]:
+        path = PlotPath(vertices, [PlotPath.MOVETO] + [PlotPath.CURVE4] * (len(vertices) - 1))
+        ax.add_patch(FancyArrowPatch(path=path, arrowstyle="-|>", mutation_scale=7,
+                                     color=tie_color, lw=.8, linestyle=tie_style))
+    for x,y,t in [(.52,3.71,"a"),(1.60,3.71,"u"),(2.57,3.71,"v"),
+                   (3.65,3.71,"w"),(4.12,3.02,"x"),(4.49,4.13,"y"),(.52,2.76,"b")]:
+        label(x,y,f"${t}$",fontsize=9,bbox=dict(boxstyle="circle,pad=.15",ec="#58636a",fc="white",lw=.7))
     label(1.86,2.71,"no transmissions",fontsize=8)
     arrow((.25,1.89),(4.76,1.89))
     label(2.5,1.52,"Time within the cascade")
-    label(2.49,.75,"Visible batches: {w}, {x, y}\nPre-window ties: A → w, B → y")
-    for y,t in [(4.86,"Personal / contact / full history"),(3.60,"Two-layer MLP  →  score  $s_i$"),
-                (2.34,"Unordered-pair loss\nand optional prior offset"),(1.06,"Top-12 candidate list")]:
+    label(2.49,.95,"Visible batches: {w}, {x, y}")
+    for y,color,ls,name in [(.54,COL[0],"-","Unobserved transmission"),(.15,tie_color,tie_style,"Pre-window tie")]:
+        arrow((.48,y),(1.17,y),color,ls)
+        ax.text(1.3,y,name,va="center",fontsize=8)
+    ax.add_patch(FancyBboxPatch((5.26,4.28),4.58,1.0,boxstyle="round,pad=.03,rounding_size=.09",
+                               fc="#edf2f6",ec="#68818d",lw=.7))
+    label(7.55,5.06,"Nested features",fontsize=8.5)
+    tier_boxes = [
+        (5.40, 1.01, "Personal\n26", "#fff"),
+        (6.54, 1.41, "+ Recent\ncontacts 34", "#eee9f1"),
+        (8.08, 1.62, "+ Full temporal\nhistory 64", "#e2f1ed"),
+    ]
+    for x, width, name, fill in tier_boxes:
+        ax.add_patch(FancyBboxPatch((x, 4.39), width, .47,
+                                   boxstyle="round,pad=0,rounding_size=.04",
+                                   fc=fill, ec="none"))
+        label(x + width / 2, 4.625, name, fontsize=6.45, linespacing=.93)
+    for y,t in [(3.58,"Shared MLP → score $s_i$"),
+                (2.32,r"$q(i,j)=\exp(s_i+s_j)/Z$" "\n" r"$O(|V|)$ normalization"),
+                (1.06,"Top-$K$ candidate list")]:
         ax.add_patch(FancyBboxPatch((5.26,y-.43),4.58,.86,boxstyle="round,pad=.03,rounding_size=.09",
                                    fc="#edf2f6" if y>1.1 else "#dbece7",ec="#68818d",lw=.7))
-        label(7.55,y,t)
-    for y in [4.86,3.6,2.34]:arrow((7.55,y-.47),(7.55,y-.79))
+        label(7.55,y,t,fontsize=9)
+    for top,bottom in [(4.25,4.04),(3.12,2.78),(1.86,1.52)]:
+        arrow((7.55,top),(7.55,bottom))
     save(fig,"fig1_overview")
 
 
 def budgets():
     data=wp("wp1_budgets")
-    fig, aa=axes(2,2.54,sharey=True,gridspec_kw={"width_ratios":[3,2]})
-    fig.subplots_adjust(left=.11,right=.98,bottom=.19,top=.73,wspace=.12)
+    fig, aa=axes(2,2.19,sharey=True,gridspec_kw={"width_ratios":[3,2]})
+    fig.subplots_adjust(left=.115,right=.98,bottom=.21,top=.75,wspace=.48)
     handles=[]
     for i,(n,v) in enumerate(data.items()):
         handles.append(Line2D([],[],marker=MARK[i],ls="",color=COL[i],label=NAMES.get(n,n)))
         for ax,ks in zip(aa,[["6","12","24"],["5%","10%"]]):
             for j,k in enumerate(ks):
-                s=v["methods"]["Both-in-"+k]; x=j+(i-2.5)*.105
-                ax.vlines(x,*np.array(s["ci95"])*100,color=COL[i],lw=.85)
-                ax.plot(x,100*s["mean"],MARK[i],color=COL[i],ms=3.2,clip_on=False)
-            ax.set(xticks=range(len(ks)),xticklabels=ks,xlim=(-.44,len(ks)-.56),ylim=(-1,53))
-    aa[0].set_ylabel("Joint coverage (%)")
+                s=v["methods"]["Both-in-"+k]; x=j+(i-2.5)*.12
+                lo, hi = np.array(s["ci95"]) * 100
+                ax.vlines(x,lo,hi,color=COL[i],lw=.95)
+                ax.hlines([lo, hi],x-.025,x+.025,color=COL[i],lw=.8)
+                ax.plot(x,100*s["mean"],MARK[i],color=COL[i],ms=3.2)
+            ax.set(xticks=range(len(ks)),xticklabels=ks,xlim=(-.48,len(ks)-.52),ylim=(-3,53))
+    aa[0].set_xlabel("List size $K$",fontsize=8.5)
+    aa[1].set_xlabel("Budget (% of legal pool)")
+    aa[1].tick_params(axis="y",labelleft=True)
+    for ax in aa:
+        ax.set_ylabel("Joint coverage (%)",labelpad=3)
     for ax,t in zip(aa,["(a) Fixed list size","(b) Fraction of pool"]):style(ax,t)
     legend(fig,handles,3)
     save(fig,"fig2_budgets")
 
 
 def selectivity():
-    data=wp("wp2_predictability")["networks"]
-    fig,aa=axes(2,2.64,sharey=True)
-    fig.subplots_adjust(left=.115,right=.985,top=.88,bottom=.19,wspace=.13)
-    # Axes-relative anchors keep the departmental labels off their markers and leaders.
-    simulated_anchors = {
-        "Dept1": (.78, .56), "Dept2": (.81, .80), "company": (.03, .35),
-        "Dept4": (.48, .95), "Enron": (.40, .68), "CollegeMsg": (.11, .56),
-        "GNU libc": (.51, .39),
+    data = wp("wp2_predictability")["networks"]
+    fig, aa = axes(2, 2.42, sharey=True)
+    fig.subplots_adjust(left=.115, right=.975, top=.88, bottom=.19, wspace=.15)
+    sim_anchors = {
+        "Dept1": (.79, .59), "Dept2": (.75, .80), "Dept4": (.50, .94),
+        "Enron": (.52, .577), "GNU libc": (.67, .515),
     }
-    real_anchors = [(.63,.42),(.60,.61),(.04,.65),(.03,.39),(.60,.04),(.37,.12),(.27,.27)]
-    for j,(prefix,ax,title) in enumerate(zip(["sim","real"],aa,["(a) vs. personal history","(b) vs. post volume"])):
-        rows=[(n.split(" ",1)[1],d["auc"],100*d["gain"]) for n,d in data.items() if n.startswith(prefix+" ")]
-        xx,yy=np.array([(a,b) for _,a,b in rows]).T
-        ax.set(xlim=(.48,.785),ylim=(-27,27),xticks=[.5,.6,.7],yticks=[-20,-10,0,10,20])
-        ax.axhline(0,lw=.6,color="#798387")
-        xs=np.linspace(xx.min(),xx.max(),50);ax.plot(xs,np.polyval(np.polyfit(xx,yy,1),xs),color=COL[j],lw=.8)
-        ax.scatter(xx,yy,color=COL[j],s=12,marker=MARK[j])
-        anchors = [simulated_anchors[n] for n, _, _ in rows] if prefix == "sim" else real_anchors
-        for (n,x,y),loc in zip(rows,anchors,strict=True):
-            short={"libc-alpha":"libc 21–22","libc-alpha-2024":"libc 2024","samba-technical-2020":"Samba",
-                   "python-dev":"Py-dev","python-ideas":"Py-ideas","r-package-devel":"R-pkg"}.get(n,NAMES.get(n,n))
-            ax.annotate(short,(x,y),xytext=loc,textcoords="axes fraction",fontsize=8,va="center",
-                        arrowprops=dict(arrowstyle="-",lw=.45,color="#738089",shrinkA=1,shrinkB=2),
-                        bbox=dict(fc="white",ec="none",pad=.15))
-        style(ax,title);ax.set_xlabel("Contact AUC")
-    aa[0].set_ylabel("Both-in-12 gain (pp)")
-    save(fig,"fig3_selectivity")
+    real_labels = {
+        "python-dev": ("Python-Dev", (.64, .46), "left"),
+        "python-ideas": ("Python-Ideas", (.56, .70), "left"),
+        "r-devel": ("R-devel", (.04, .68), "left"),
+        "r-package-devel": ("R-package-devel", (.03, .34), "left"),
+        "libc-alpha": ("GNU libc\n2021–22", (.92, .105), "right"),
+        "libc-alpha-2024": ("GNU libc 2024", (.22, .12), "left"),
+        "samba-technical-2020": ("Samba 2020", (.42, .57), "center"),
+    }
+    leaders = dict(arrowstyle="-", lw=.45, color="#738089", shrinkA=1, shrinkB=2)
+    titles = ["(a) Simulated: vs. personal history", "(b) Mailing lists: vs. post volume"]
+    for j, (prefix, ax, title) in enumerate(zip(["sim", "real"], aa, titles)):
+        rows = [(n.split(" ", 1)[1], d["auc"], 100 * d["gain"])
+                for n, d in data.items() if n.startswith(prefix + " ")]
+        xx, yy = np.array([(a, b) for _, a, b in rows]).T
+        ax.set(xlim=(.48, .78), ylim=(-32, 27), xticks=[.5, .6, .7],
+               yticks=[-20, -10, 0, 10, 20])
+        ax.axhline(0, lw=.6, color="#798387")
+        xs = np.linspace(xx.min(), xx.max(), 50)
+        ax.plot(xs, np.polyval(np.polyfit(xx, yy, 1), xs), color=COL[j], lw=.8)
+        for name, x, y in rows:
+            ax.plot(x, y, marker=MARK[j], color=COL[j], ms=3.5, lw=0)
+            if prefix == "sim":
+                if name not in sim_anchors:
+                    continue
+                label, pos, align = name, sim_anchors[name], "left"
+            else:
+                label, pos, align = real_labels[name]
+            ax.annotate(label, (x, y), xytext=pos, textcoords="axes fraction",
+                        fontsize=7.4, ha=align, va="center", linespacing=1.02,
+                        arrowprops=leaders, bbox=dict(fc="white", ec="none", pad=.12))
+        r = np.corrcoef(xx, yy)[0, 1]
+        rho = spearmanr(xx, yy).statistic
+        style(ax, "")
+        ax.set_title(title, loc="left", fontweight="bold", fontsize=7.4, pad=15)
+        ax.text(0, 1.025, rf"$r={r:.2f},\ \rho={rho:.2f}$  (n=7)",
+                transform=ax.transAxes, fontsize=8, va="bottom")
+        ax.set_xlabel("Contact AUC")
+    left = aa[0]
+    left.set_ylabel("Both@12 gain (pp)")
+    detail = left.inset_axes([.17, .14, .66, .28])
+    detail.set_facecolor("#f2f5f6")
+    detail.set(xlim=(.5554, .5587), ylim=(-.025, .123),
+               xticks=[.556, .558], yticks=[0, .1], yticklabels=["0.00", "0.10"])
+    detail.tick_params(labelsize=6.2, pad=1, length=2)
+    for spine in detail.spines.values():
+        spine.set(visible=True, linewidth=.5, color="#738089")
+    for key, label, offset, align in [("company", "Company", (4, -1), "left"),
+                                      ("CollegeMsg", "CollegeMsg", (-4, 1), "right")]:
+        item = data["sim " + key]
+        point = item["auc"], 100 * item["gain"]
+        detail.plot(*point, marker="o", color=COL[0], ms=3.6, lw=0)
+        detail.annotate(label, point, xytext=offset, textcoords="offset points",
+                        fontsize=6.5, ha=align, va="center")
+    for corner, x in [(0, detail.get_xlim()[0]), (1, detail.get_xlim()[1])]:
+        connector = ConnectionPatch((corner, 1), (x, detail.get_ylim()[0]),
+                                    coordsA=detail.transAxes, coordsB=left.transData,
+                                    lw=.5, color="#738089", zorder=1.5)
+        left.add_artist(connector)
+    save(fig, "fig3_selectivity")
 
 
 def prior_intervals(summary):
@@ -177,74 +261,102 @@ def prior_intervals(summary):
 def priors():
     summary=read(RUN/"trained_source_mixtures/summary.json")["Enron"]
     ci=prior_intervals(summary)
-    fig,aa=axes(2,2.82)
-    fig.subplots_adjust(left=.115,right=.985,top=.72,bottom=.19,wspace=.34)
+    fig,aa=axes(2,2.37,gridspec_kw={"width_ratios":[.88,1.12]})
+    fig.subplots_adjust(left=.115,right=.985,top=.66,bottom=.20,wspace=.60)
     xs=np.arange(4)
-    for i,(arm,n) in enumerate(zip(["mixed_plain","mixed_offset","uniform_offset"],["Direct","Explicit","Deploy"])):
+    for i,(arm,n) in enumerate(zip(["mixed_plain","mixed_offset","uniform_offset"],["Direct","Explicit Prior","Deployment-Only Prior"])):
         vals=[summary[k]["methods"][arm]["both_pct"] for k in PR];xx=xs+(i-1)*.24
         aa[0].bar(xx,vals,.23,color=COL[i],label=n)
         aa[0].vlines(xx,*np.array([ci[k][arm] for k in PR]).T,color="#1d2629",lw=.85)
-    aa[0].set(xticks=xs,xticklabels=["Unif.","Equal","80%","Tie"],ylabel="Joint coverage (%)",ylim=(0,55))
+    aa[0].set(xticks=xs,xticklabels=["Unif.","Equal","80%\nprod.","Tie"],ylabel="Joint coverage (%)",ylim=(0,55))
     bottom=np.zeros(4);nets=["Dept2","company","Dept4","Enron"]
-    for j,(key,lab) in enumerate(zip(["conditional","missing_anchor_loss","partner_ranking_loss"],["Captured","Emitter missed","Partner ranking"])):
+    for j,(key,lab) in enumerate(zip(["conditional","missing_anchor_loss","partner_ranking_loss"],["Captured mass","Emitter omission","Partner-misranking loss"])):
         vals=[read(RUN/"source_prior_shift"/n/"ceiling/summary.json")["both"]["one"]["methods"]["calibrated"][key] for n in nets]
         aa[1].bar(xs,vals,.68,bottom=bottom,color=["#216481","#ddb681","#cbd5da"][j],hatch=["","///",""][j],edgecolor="#50616a",lw=.45,label=lab);bottom+=vals
-    aa[1].set(xticks=xs,xticklabels=["D2","Co.","D4","Enr."],ylim=(0,100))
-    for ax,t in zip(aa,["(a) Enron source prior","(b) Oracle ceiling (%)"]):style(ax,t)
+    for x,y in zip(xs,bottom):
+        aa[1].text(x,y+1.8,f"{y:.2f}",ha="center",fontsize=7.8)
+    aa[1].set(xticks=xs,xticklabels=[NAMES.get(n,n) for n in nets],ylabel="Oracle ceiling (%)",ylim=(0,100))
+    aa[1].yaxis.labelpad = 2
+    aa[1].tick_params(axis="x",labelsize=7.15)
+    for ax,t in zip(aa,["(a) Enron source prior","(b) One-emitter ceiling"]):style(ax,t)
     for ax in aa:
-        ax.legend(loc="lower left",bbox_to_anchor=(-.03,1.16),ncol=1,frameon=False,fontsize=8,
+        ax.legend(loc="lower left",bbox_to_anchor=(-.03,1.19),ncol=1,frameon=False,fontsize=8,
                   handlelength=1.2,labelspacing=.12,borderpad=0)
     save(fig,"fig4_prior_and_ceiling")
 
 
 def multisource():
     data=wp("wp4_ksources")
-    fig,aa=axes(2,2.4,sharey=True)
-    fig.subplots_adjust(left=.11,right=.98,top=.76,bottom=.20,wspace=.16)
+    fig,aa=axes(2,2.14)
+    fig.subplots_adjust(left=.111,right=.98,top=.78,bottom=.20,wspace=.44)
     xs=np.arange(1,4)
+    third_label_height = 2 + 100 * max(by["hidden_uniform/3"]["silent_event"]["mean"] for by in data.values())
+    swatches = []
     for i,(n,by) in enumerate(data.items()):
         z=[by[f"hidden_uniform/{k}"] for k in xs]
-        aa[0].plot(xs,[100*r["silent_event"]["mean"] for r in z],marker=MARK[i],color=COL[i])
+        xbars = xs+(i-.5)*.56
+        silent = np.array([r["silent_event"]["mean"]*100 for r in z])
+        fill = dict(facecolor=COL[i], hatch="" if i == 0 else "//",
+                    edgecolor=COL[i] if i == 0 else "#813b12", linewidth=.45)
+        aa[0].bar(xbars, silent, .36, **fill)
+        marker = Line2D([], [], color=COL[i], marker=MARK[i], ls="")
+        swatches.append((Patch(**fill), marker))
+        label_heights = silent + 2 + 3.5 * i * (silent > 0)
+        label_heights[-1] = third_label_height
+        for x, v, height in zip(xbars, silent, label_heights):
+            aa[0].text(x, height, f"{v:.2f}",
+                       fontsize=6.5, ha="center", va="bottom")
+        xcurves = xs+(i-.5)*.14
         for key,ls in [("All-in-12","-"),("Recall@12","--")]:
-            aa[1].plot(xs,[100*r[key]["methods"]["full"]["mean"] for r in z],ls,marker=MARK[i],color=COL[i])
-    for ax,t in zip(aa,["(a) At least one silent source","(b) Full model at 12"]):
-        style(ax,t);ax.set(xticks=xs,xlim=(.9,3.1),ylim=(-3,101),xlabel="Actual source count")
-    aa[0].set_ylabel("Events / recall (%)")
-    handles=[Line2D([],[],color=COL[i],marker=MARK[i],ls="",label=n) for i,n in enumerate(data)]
-    handles += [Line2D([],[],color=".3",ls=l,label=n) for l,n in [("-","All in list"),("--","Per-source recall")]]
-    legend(fig,handles,4);save(fig,"fig5_multisource")
-
-
-def depths():
-    data=wp("wp5_sim2real")["real"]
-    fig,aa=plt.subplots(2,3,figsize=(WIDTH,3.25))
-    fig.subplots_adjust(left=.09,right=.985,top=.76,bottom=.10,wspace=.34,hspace=.64)
-    methods=["volume","roles","reply","full"]; names=["Post volume","Role history","Roles + replies","Full temporal"]
-    styles=["-","--",":","-."]
-    for ax,(n,by) in zip(aa.flat,data.items()):
-        for i,m in enumerate(methods):
-            rates=[100*by[d]["common"]["methods"][m]["mean"] for d in ["0","25","50"]]
-            ax.plot(range(3),rates,ls=styles[i],marker=["o","s","^","x"][i],ms=5.4-i*.65,
-                    mfc="none",mew=.8,color=COL[i],label=names[i])
-        style(ax,NAMES[n]);ax.set(xticks=range(3),xticklabels=["D0","D25","D50"],xlim=(-.12,2.12))
-        top=max(1,ax.get_ylim()[1]);ax.set_ylim(-.05*top,top)
-    legend(fig,aa.flat[0].get_legend_handles_labels()[0],2)
-    save(fig,"fig6_real_depth")
+            stats = [r[key]["methods"]["full"] for r in z]
+            rates = 100*np.array([s["mean"] for s in stats])
+            lo,hi = 100*np.array([s["ci95"] for s in stats]).T
+            aa[1].errorbar(xcurves,rates,yerr=[rates-lo,hi-rates],linestyle=ls,marker=MARK[i],
+                           color=COL[i],mfc=COL[i] if ls=="-" else "white",lw=1,capsize=2,
+                           errorevery=1 if ls=="-" else (1,1))
+    for ax,t in zip(aa,["(a) At least one silent source","(b) Retrieval at 12 names"]):
+        style(ax,t);ax.set(xticks=xs,xlim=(.50,3.50),ylim=(-3,105),xlabel="Actual source count")
+    aa[0].set_xlim(.44, 3.56)
+    aa[0].set_ylabel("Silent-source events (%)")
+    aa[1].set_ylabel("Coverage / recall (%)",labelpad=1)
+    lines = [Line2D([], [], color=".3", ls=ls, marker="o", mfc=fill, markersize=3.6,
+                    label=name) for ls, fill, name in
+             [("-", ".3", "All sources"), ("--", "white", "Per-source recall")]]
+    aa[1].legend(handles=lines,loc="upper right",frameon=False,handlelength=2.0,fontsize=7.5)
+    fig.legend(swatches, list(data), loc="upper center", bbox_to_anchor=(.5, .995),
+               ncol=2, frameon=False, handlelength=2.9, borderpad=.1,
+               handler_map={tuple: HandlerTuple(ndivide=None, pad=.2)})
+    save(fig,"fig5_multisource")
 
 
 def decomposition():
     data=wp("wp5_sim2real")["sim"];xx=np.arange(4)
-    fig,ax=axes(1,2.32);fig.subplots_adjust(left=.13,right=.98,top=.81,bottom=.24)
+    fig, ax = axes(1, 1.1)
+    fig.subplots_adjust(left=.08, right=.98, top=.76, bottom=.20)
     pairs=[(n,d) for n in data for d in ["0","50"]]
-    for j,(key,label) in enumerate([("prior","Sender activity prior"),("role","First-activation role")]):
+    top = 0
+    for j,(key,label) in enumerate([("prior","Sender activity prior"),("role","First-recipient target")]):
         stats=[data[n]["common_draw_decomposition"][d]["uniform_model"][key] for n,d in pairs]
         x=xx+(j-.5)*.30
-        ax.bar(x,[100*r["mean"] for r in stats],.29,color=COL[j],label=label)
+        rates = [100*r["mean"] for r in stats]
+        ax.bar(x,rates,.29,color=COL[j],label=label)
         ax.errorbar(x,[100*r["mean"] for r in stats],yerr=np.array([[100*(r["mean"]-r["ci95"][0]),100*(r["ci95"][1]-r["mean"])] for r in stats]).T,fmt="none",ecolor="#202b31",lw=.9,capsize=2)
-    ax.axhline(0,color="#535c60",lw=.65);ax.set(xticks=xx,xticklabels=[n+"\nD"+d for n,d in pairs], ylabel="Coverage change (pp)",ylim=(-12,67))
-    ax.grid(axis="y",color=".88",lw=.5);ax.set_axisbelow(True)
-    legend(fig,ax.get_legend_handles_labels()[0],2)
-    save(fig,"fig7_sim2real_decomp")
+        if key == "role":
+            for pos,rate,rec in zip(x,rates,stats):
+                upper = 100*rec["ci95"][1]
+                ax.text(pos,upper+2,f"{rate:+.2f}",ha="center",va="bottom",fontsize=8)
+                top = max(top,upper+12)
+    ax.axhline(0, color="#535c60", lw=.65)
+    ax.set(xticks=xx, xticklabels=[f"{n} $D_{{{d}}}$" for n, d in pairs],
+           yticks=[0, 25, 50], ylim=(-12, top))
+    ax.grid(axis="y", color=".88", lw=.5)
+    ax.set_axisbelow(True)
+    ax.tick_params(axis="x", labelsize=9, pad=1)
+    fig.text(.015, .973, "Coverage change (pp)", va="top")
+    fig.legend(handles=ax.get_legend_handles_labels()[0], loc="upper right",
+               bbox_to_anchor=(.99, .995), ncol=2, frameon=False,
+               columnspacing=.95, handlelength=1.3, handletextpad=.4, borderpad=.1)
+    save(fig,"fig6_sim2real_decomp")
 
 
 if __name__=="__main__":
@@ -254,5 +366,5 @@ if __name__=="__main__":
         "ytick.major.size":2,"xtick.major.size":2,"xtick.major.pad":2,"ytick.major.pad":2})
     for path,d in read(BASE/"wp6_tables/protocol.json")["inputs"].items():
         assert hashlib.sha256((ROOT/path).read_bytes()).hexdigest()==d,path
-    for build in [overview,budgets,selectivity,priors,multisource,depths,decomposition]:
+    for build in [overview,budgets,selectivity,priors,multisource,decomposition]:
         build()

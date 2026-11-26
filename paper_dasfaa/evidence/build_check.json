@@ -1,70 +1,80 @@
 {
   "pages_including_references": 16,
-  "sha256": "057760d5b185b58e3818882f976476d19326a1132ed72db70ee3a1c21f20df14",
+  "sha256": "2615565eb546cab135e754c9927e4e3c909bfde1e6710fcc777d60eee7139664",
+  "paper_size_mm": [
+    210,
+    297
+  ],
   "anonymous_pdf_author": "Anonymous Author(s)",
   "latex_errors": 0,
   "overfull_horizontal_boxes": 0,
   "undefined_references": 0,
+  "anonymous_metadata_checked": true,
+  "embedded_files": 0,
   "figure_pages": [
-    3,
-    8,
+    4,
     9,
     10,
     11,
-    13,
-    14
+    12,
+    13
   ],
   "table_pages": [
     4,
-    6,
     7,
     9,
+    11,
     12,
-    12
+    13
   ],
   "table_data_rows_matched_in_compiled_pdf": {
-    "2": 15,
-    "3": 6,
+    "2": 16,
+    "3": 12,
     "4": 8,
     "5": 5,
     "6": 6
   },
-  "related_work_references": 25,
-  "bibliography_entries": 33,
+  "related_work_references": 27,
+  "bibliography_entries": 39,
+  "bibliography_starts_on_page": 14,
+  "bibliography_full_url_count": 15,
+  "bibliography_doi_count": 24,
+  "abstract_words": 174,
   "figures": {
     "fig1_overview.pdf": {
       "width_inches": 4.8,
-      "height_inches": 2.52,
+      "height_inches": 2.46,
+      "min_font_pt": 6.3,
       "raster_images": 0
     },
     "fig2_budgets.pdf": {
       "width_inches": 4.8,
-      "height_inches": 2.54,
+      "height_inches": 2.06,
+      "min_font_pt": 8.0,
       "raster_images": 0
     },
     "fig3_selectivity.pdf": {
       "width_inches": 4.8,
-      "height_inches": 2.64,
+      "height_inches": 2.32,
+      "min_font_pt": 6.2,
       "raster_images": 0
     },
     "fig4_prior_and_ceiling.pdf": {
       "width_inches": 4.8,
-      "height_inches": 2.82,
+      "height_inches": 2.0,
+      "min_font_pt": 7.15,
       "raster_images": 0
     },
     "fig5_multisource.pdf": {
       "width_inches": 4.8,
-      "height_inches": 2.4,
+      "height_inches": 2.01,
+      "min_font_pt": 6.5,
       "raster_images": 0
     },
-    "fig6_real_depth.pdf": {
+    "fig6_sim2real_decomp.pdf": {
       "width_inches": 4.8,
-      "height_inches": 3.25,
-      "raster_images": 0
-    },
-    "fig7_sim2real_decomp.pdf": {
-      "width_inches": 4.8,
-      "height_inches": 2.32,
+      "height_inches": 1.1,
+      "min_font_pt": 6.3,
       "raster_images": 0
     }
   }

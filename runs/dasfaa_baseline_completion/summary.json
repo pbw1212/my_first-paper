@@ -1,0 +1,69 @@
+{
+  "training_source": "Dept2",
+  "seed_order": [
+    111,
+    314159,
+    431,
+    2027,
+    9001
+  ],
+  "tree_selection": {
+    "full/111": {
+      "validation_pair_nll": {
+        "24": 7.252532847691009,
+        "48": 7.246591329158129
+      },
+      "iterations": 48
+    },
+    "full/314159": {
+      "validation_pair_nll": {
+        "24": 7.2518564811462145,
+        "48": 7.262050145838151
+      },
+      "iterations": 24
+    },
+    "full/431": {
+      "validation_pair_nll": {
+        "24": 7.258037504187115,
+        "48": 7.24383432116154
+      },
+      "iterations": 48
+    },
+    "full/2027": {
+      "validation_pair_nll": {
+        "24": 7.258153154657404,
+        "48": 7.249275881614112
+      },
+      "iterations": 48
+    },
+    "full/9001": {
+      "validation_pair_nll": {
+        "24": 7.262653995814829,
+        "48": 7.240802927619752
+      },
+      "iterations": 48
+    }
+  },
+  "tree_reference_ranks_verified": 1200,
+  "static_reference_hits_verified": 1200,
+  "results": {
+    "CollegeMsg": {
+      "method": "Tree",
+      "n": 480,
+      "cohort_sha256": "055281afabe3d19af9744dc1c258d5a4cb37e22cc5bccd5092da1e70a6d58fbf",
+      "ranks_sha256": "65985fb18dbad80e79974267b5a41afa65717c25bdbf1042690e1e9ebad44881",
+      "both": 0.04166666666666667,
+      "any": 12.083333333333334,
+      "recall": 6.0625
+    },
+    "GNU libc": {
+      "method": "Static",
+      "n": 2750,
+      "cohort_sha256": "04a09c4d222ae0e3e2db88a4981a07a78a1389308fff90d1894ed857b63b0bc0",
+      "ranks_sha256": "6b5b4ea891f1682e8529f8b56c30e9ac01457ee5475b1ba8c43f7cb0e63c58c3",
+      "both": 3.490909090909091,
+      "any": 51.53454545454545,
+      "recall": 27.512727272727272
+    }
+  }
+}

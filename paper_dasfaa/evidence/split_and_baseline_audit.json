@@ -1,0 +1,145 @@
+{
+  "cleaning": {
+    "Dept1": {
+      "raw": 61046,
+      "duplicates": 896,
+      "distinct_self_loops": 0,
+      "kept": 60150
+    },
+    "Dept2": {
+      "raw": 46772,
+      "duplicates": 762,
+      "distinct_self_loops": 0,
+      "kept": 46010
+    },
+    "Dept4": {
+      "raw": 48141,
+      "duplicates": 616,
+      "distinct_self_loops": 0,
+      "kept": 47525
+    }
+  },
+  "splits": {
+    "Dept2": {
+      "fit": {
+        "n": 1000,
+        "windows": {
+          "Dept2-01": 200,
+          "Dept2-03": 200,
+          "Dept2-06": 200,
+          "Dept2-08": 200,
+          "Dept2-11": 200
+        },
+        "ids_sha256": "30862bb42bf93dced0788fa1b0ccda70ddb1ad6ab7f314c5144f4f2dc88a2b27"
+      },
+      "cal": {
+        "n": 300,
+        "windows": {
+          "Dept2-13": 100,
+          "Dept2-16": 100,
+          "Dept2-18": 100
+        },
+        "ids_sha256": "9c6a5a8cc3c77562faf94a5a8422a6d28c6e3293a9eb66007f2ecae157c3639f"
+      },
+      "test": {
+        "n": 1200,
+        "windows": {
+          "Dept2-21": 300,
+          "Dept2-23": 300,
+          "Dept2-26": 300,
+          "Dept2-29": 300
+        },
+        "ids_sha256": "ab72247f30ec7db48825a137b1e8c3a796ea89a34fca4dc08caf8c170664a162"
+      }
+    },
+    "company": {
+      "fit": {
+        "n": 1000,
+        "windows": {
+          "company-01": 200,
+          "company-02": 200,
+          "company-03": 200,
+          "company-05": 200,
+          "company-06": 200
+        },
+        "ids_sha256": "7e7c0a74dc0e378d01a08a9024e5aaffa9bb041aef143b6f39b90caf13c13d9b"
+      },
+      "cal": {
+        "n": 300,
+        "windows": {
+          "company-07": 100,
+          "company-09": 100,
+          "company-10": 100
+        },
+        "ids_sha256": "19001f5d4d3db9dd6ef08baf4f025f0083e7c0b6da93a1d0ce5325dad12b8f48"
+      },
+      "test": {
+        "n": 1200,
+        "windows": {
+          "company-11": 300,
+          "company-13": 300,
+          "company-14": 300,
+          "company-16": 300
+        },
+        "ids_sha256": "8c50a4fcbc2c2b6d8966c3f5508187cbc00d78bee24dd765476403e096c2b524"
+      }
+    }
+  },
+  "gcnsi": {
+    "Dept2": {
+      "n": 1200,
+      "hits": 124,
+      "fit_network": "Dept2",
+      "seed": 1938,
+      "test_ids_sha256": "ab72247f30ec7db48825a137b1e8c3a796ea89a34fca4dc08caf8c170664a162"
+    },
+    "company": {
+      "n": 1200,
+      "hits": 15,
+      "fit_network": "company",
+      "seed": 1938,
+      "test_ids_sha256": "8c50a4fcbc2c2b6d8966c3f5508187cbc00d78bee24dd765476403e096c2b524"
+    },
+    "CollegeMsg": {
+      "n": 480,
+      "hits": 0,
+      "fit_network": "Dept2",
+      "seed": 1938,
+      "test_ids_sha256": "b9627925b2c5af4757e35888eeea5fd9a8f7fc3d83cc0e8d3392bb4c1a421167"
+    }
+  },
+  "contrasts": {
+    "Dept2": {
+      "pair_minus_additive": {
+        "pp": 1.1666666666666667,
+        "ci95_pp": [
+          -0.3999999999999999,
+          2.8833333333333333
+        ]
+      },
+      "additive_minus_static": {
+        "pp": 2.8833333333333333,
+        "ci95_pp": [
+          0.982916666666667,
+          5.049999999999999
+        ]
+      }
+    },
+    "company": {
+      "pair_minus_additive": {
+        "pp": -0.15,
+        "ci95_pp": [
+          -0.5166666666666667,
+          0.23333333333333334
+        ]
+      },
+      "additive_minus_static": {
+        "pp": 0.25,
+        "ci95_pp": [
+          -0.21666666666666667,
+          0.6833333333333332
+        ]
+      }
+    }
+  }
+}

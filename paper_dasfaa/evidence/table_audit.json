@@ -9,12 +9,12 @@
     "implementation_columns_mapped": 64
   },
   "2": {
-    "rows": 15,
-    "matched_cells": 90
+    "rows": 16,
+    "matched_cells": 103
   },
   "3": {
-    "rows": 6,
-    "matched_cells": 54
+    "rows": 12,
+    "matched_cells": 108
   },
   "4": {
     "rows": 8,
@@ -22,10 +22,10 @@
   },
   "5": {
     "rows": 5,
-    "matched_cells": 35
+    "matched_cells": 50
   },
   "6": {
     "rows": 6,
-    "matched_cells": 30
+    "matched_cells": 36
   }
 }

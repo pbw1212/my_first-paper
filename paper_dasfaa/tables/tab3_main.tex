@@ -1,13 +1,24 @@
-\begin{tabular}{@{}lrrrrrrrr@{}}
+\newcommand{\singlefitstar}{\raisebox{.6ex}[0pt][0pt]{\footnotesize*}}
+\begin{tabular}{@{}lcccccccc@{}}
 \toprule
- & & & \multicolumn{4}{c}{Both@12 (\%)} & Both@5\% & Pair \\
-\cmidrule(lr){4-7}Network & Pool & Any@12 & FGSSI & Static & Tree & MLP & MLP & MRR \\
+\multicolumn{9}{@{}c@{}}{\both} \\
+\multicolumn{1}{@{}c}{Network} & Random & GCNSI & FGSSI & Static & Tree & MLP & 95\% CI & MRR \\
 \midrule
-Dept2 & 147.9 & 85.93 & 11.67 & 12.85 & 16.22 & 15.73 & 7.85 & 0.01414 \\
-Company & 123.4 & 38.15 & 1.23 & 2.27 & 2.23 & 2.52 & 0.63 & 0.00370 \\
-Dept4 & 115.0 & 94.07 & 17.87 & 20.87 & 22.32 & 23.49 & 8.03 & 0.03055 \\
-Enron & 156.5 & 65.45 & 6.27 & 7.01 & 8.87 & 9.47 & 5.24 & 0.01280 \\
-CollegeMsg & 1830.0 & 6.88 & 0.00\(^*\) & 0.00\(^*\) & --- & 0.00 & 2.21 & 0.00003 \\
-GNU libc & 135.4 & 56.19 & 4.08 & --- & 3.46 & 4.22 & 1.59 & 0.00425 \\
+Dept2 & 0.609 & 10.33\singlefitstar & 11.67 & 12.85 & \textbf{16.22} & \underline{15.73} & [13.15, 18.23] & 0.01414 \\
+Company & 0.888 & 1.25\singlefitstar & 1.23 & \underline{2.27} & 2.23 & \textbf{2.52} & [1.90, 3.13] & 0.00370 \\
+Dept4 & 1.026 & 16.28\singlefitstar & 17.87 & 20.87 & \underline{22.32} & \textbf{23.49} & [18.85, 27.11] & 0.03055 \\
+Enron & 0.562 & 5.32\singlefitstar & 6.27 & 7.01 & \underline{8.87} & \textbf{9.47} & [7.76, 11.38] & 0.01280 \\
+CollegeMsg & 0.004 & \underline{0.00}\singlefitstar & \underline{0.00}\singlefitstar & \underline{0.00}\singlefitstar & \textbf{0.04} & \underline{0.00} & [0.00, 0.00] & 0.00003 \\
+GNU libc & 0.779 & \textbf{4.65}\singlefitstar & 4.08 & 3.49 & 3.46 & \underline{4.22} & [3.30, 5.05] & 0.00425 \\
+\midrule
+\multicolumn{9}{@{}c@{}}{\anytwelve} \\
+\multicolumn{1}{@{}c}{Network} & Random & GCNSI & FGSSI & Static & Tree & MLP & MLP recall & Mean pool \\
+\midrule
+Dept2 & 15.63 & 80.08\singlefitstar & 80.53 & 82.80 & \underline{85.22} & \textbf{85.93} & 50.83 & 147.9 \\
+Company & 18.66 & 24.42\singlefitstar & 23.50 & \underline{33.22} & 32.63 & \textbf{38.15} & 20.33 & 123.4 \\
+Dept4 & 19.97 & 90.21\singlefitstar & 89.22 & 92.71 & \underline{94.02} & \textbf{94.07} & 58.78 & 115.0 \\
+Enron & 14.95 & 52.76\singlefitstar & 58.36 & 58.37 & \textbf{68.79} & \underline{65.45} & 37.46 & 156.5 \\
+CollegeMsg & 1.31 & 1.46\singlefitstar & \underline{7.50}\singlefitstar & 6.88\singlefitstar & \textbf{12.08} & 6.88 & 3.44 & 1,830.0 \\
+GNU libc & 17.36 & \textbf{67.45}\singlefitstar & \underline{57.10} & 51.53 & 51.72 & 56.19 & 30.20 & 135.4 \\
 \bottomrule
 \end{tabular}

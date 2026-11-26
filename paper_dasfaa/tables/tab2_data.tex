@@ -1,24 +1,26 @@
-\begin{tabular}{@{}lrrlrr@{}}
+\begin{tabular}{@{}lcccccc@{}}
 \toprule
-Network or list & Nodes & Records & Span & Windows & Eligible \\
+\multicolumn{1}{@{}c}{Network} & Nodes & Contacts & Span & Fit / tune & Windows & Test \\
 \midrule
-\multicolumn{6}{@{}l}{\it Simulated cascades on recorded contact streams} \\
-Dept2 & 162 & 46,010 & 803.7 d & 4 & 1,200 \\
-Company & 167 & 82,563 & 271.2 d & 4 & 1,200 \\
-Dept4 & 142 & 47,525 & 803.5 d & 12 & 1,308 \\
-Enron & 182 & 34,427 & 1,316.4 d & 26 & 1,560 \\
-CollegeMsg & 1,899 & 59,798 & 193.7 d & 4 & 480 \\
-GNU libc & 514 & 13,867 & 729.9 d & 24 & 2,750 \\
+\multicolumn{7}{@{}c@{}}{\textit{Simulated cascades}} \\
+Dept2 & 162 & 46,010 & 803.7 d & 1,000 / 300 & 4 & 1,200 \\
+Company & 167 & 82,563 & 271.2 d & 1,000 / 300 & 4 & 1,200 \\
+Dept4 & 142 & 47,525 & 803.5 d & Dept2 & 12 & 1,308 \\
+Enron & 182 & 34,427 & 1,316.4 d & Dept2 & 26 & 1,560 \\
+CollegeMsg & 1,899 & 59,798 & 193.7 d & Dept2 & 4 & 480 \\
+GNU libc & 514 & 13,867 & 729.9 d & Dept2 & 24 & 2,750 \\
+Dept1 (diagnostic) & 309 & 60,150 & 803.8 d & Dept2 & 4 & 480 \\
 \midrule
-\multicolumn{6}{@{}l}{\it Observed threads, D0 eligible before roster projection} \\
-Python-Dev & 479 & 8,887 & 2017--2018 & 24 & 494 \\
-Python-Dev & 143 & 1,085 & Feb--Apr 2019 & 3 & 71 \\
-Python-Ideas & 479 & 10,710 & 2017--2018 & 24 & 468 \\
-Python-Ideas & 160 & 1,377 & Feb--Apr 2019 & 3 & 62 \\
-R-devel & 234 & 1,808 & 2021--2022 & 24 & 170 \\
-R-package-devel & 363 & 2,321 & 2021--2022 & 24 & 227 \\
-GNU libc & 566 & 23,145 & 2021--2022 & 24 & 880 \\
-GNU libc & 414 & 9,662 & 2024 & 12 & 437 \\
-Samba & 134 & 1,484 & 2020 & 12 & 79 \\
+\multicolumn{7}{@{}c@{}}{\textit{Observed threads before roster projection}} \\
+\multicolumn{1}{@{}c}{List} & Addresses & Posts & \multicolumn{2}{c}{Period} & Months & Eligible \\
+Python-Dev & 479 & 8,887 & \multicolumn{2}{c}{2017--18} & 24 & 494 \\
+Python-Dev & 143 & 1,085 & \multicolumn{2}{c}{Feb--Apr 2019} & 3 & 71 \\
+Python-Ideas & 479 & 10,710 & \multicolumn{2}{c}{2017--18} & 24 & 468 \\
+Python-Ideas & 160 & 1,377 & \multicolumn{2}{c}{Feb--Apr 2019} & 3 & 62 \\
+R-devel & 234 & 1,808 & \multicolumn{2}{c}{2021--22} & 24 & 170 \\
+R-package-devel & 363 & 2,321 & \multicolumn{2}{c}{2021--22} & 24 & 227 \\
+GNU libc & 566 & 23,145 & \multicolumn{2}{c}{2021--22} & 24 & 880 \\
+GNU libc & 414 & 9,662 & \multicolumn{2}{c}{2024} & 12 & 437 \\
+Samba & 134 & 1,484 & \multicolumn{2}{c}{2020} & 12 & 79 \\
 \bottomrule
 \end{tabular}

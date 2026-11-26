@@ -1,6 +1,8 @@
 """Check the six typeset tables against the experiment records at publication precision."""
+import gzip
 import ast
 import json
+import re
 from pathlib import Path
 from statistics import mean
 
@@ -21,8 +23,8 @@ def summary(prefix):
 def table(number):
     text = next((PAPER / "tables").glob(f"tab{number}_*.tex")).read_text(encoding="utf8")
     body = text.split(r"\midrule", 1)[1].split(r"\bottomrule")[0]
-    return [[cell.strip() for cell in line.removesuffix(r"\\").split("&")] for line in body.splitlines()
-            if " & " in line ]
+    return [[cell.strip() for cell in re.split(r"(?<!\\)&", line.removesuffix(r"\\"))] for line in body.splitlines()
+            if " & " in line and not line.startswith(r"\multicolumn{1}{@{}c}")]
 
 
 def feature_index():
@@ -80,7 +82,18 @@ def main():
         checked[str(num)] = {"rows": len(expected), "matched_cells": sum(map(len, expected))}
 
     dims = feature_index()
-    assert [int(row[1]) for row in table(1)] == dims == [26, 34, 64]
+    tiers = table(1)
+    assert [int(row[1]) for row in tiers] == dims == [26, 34, 64]
+    assert r"$0.7^{c_\ell}$" in tiers[0][2] and r"fortnight $\ell$" in tiers[0][2]
+    assert all(term in tiers[0][2] for term in ("Activity (10)", "Visibility variables (2):", "Shared summaries (4):"))
+    assert all(term in tiers[2][2] for term in ("Multi-hop (6):", "Replay (7):", "Replay summaries (2):", "two tied visibility ranks"))
+    assert "Direct ties to suffix (4)" in tiers[1][2]
+    mapping = read(PAPER / "evidence/feature_columns.json")
+    assert [c["column"] for c in mapping[:29] if c["implementation_expression"].startswith("np.full(")] == [17, 18]
+    assert [c["column"] for c in mapping[:29] if c["first_tier"] == "Full temporal history"] == [
+        6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 26, 27, 28
+    ]
+    assert [c["column"] for c in mapping[58:] if c["first_tier"] == "Full temporal history"] == [61, 62]
     checked["1"] = {"rows": 3, "verified_active_dimensions": dims, "implementation_columns_mapped": 64}
     budget = summary("wp1")
     diagnostics = summary("wp2")["networks"]
@@ -94,7 +107,10 @@ def main():
     for name, rec in budget.items():
         v = inv["sim"][name]
         rows.append([names.get(name, name), f"{v['nodes']:,}", f"{v['records']:,}", f"{v['days']:,.1f} d",
-                     str(len(rec["keys"])), f"{rec['n']:,}"])
+                     "1,000 / 300" if name in {"Dept2","company"} else "Dept2", str(len(rec["keys"])), f"{rec['n']:,}"])
+    d=inv["sim"]["Dept1"]
+    z=diagnostics["sim Dept1"]
+    rows.append(["Dept1 (diagnostic)",str(d["nodes"]),f"{d['records']:,}",f"{d['days']:.1f} d","Dept2",str(len(z["keys"])),str(z["n"])])
     for key, v in inv["real"].items():
         name = key.removesuffix("_late")
         if key != name:
@@ -103,21 +119,42 @@ def main():
         else:
             z = diagnostics["real " + name]
             assert (min(z["keys"]), max(z["keys"])) == (v["start"], v["end"])
-            period = "--".join(dict.fromkeys((v["start"][:4], v["end"][:4])))
-        rows.append([names[name], f"{v['nodes']:,}", f"{v['records']:,}", period,
-                     str(len(z["keys"])), f"{z['n']:,}"])
+            start_year, end_year = min(z["keys"])[:4], max(z["keys"])[:4]
+            period = start_year
+            if end_year != start_year:
+                end_label = end_year[2:] if start_year[:2] == end_year[:2] else end_year
+                period = f"{start_year}--{end_label}"
+        rows.append([names[name], f"{v['nodes']:,}", f"{v['records']:,}",
+                     rf"\multicolumn{{2}}{{c}}{{{period}}}", str(len(z["keys"])), f"{z['n']:,}"])
     check_rows(2, rows)
     rows = []
     history = read(RUN / "factorial_history/summary.json")
     dept4 = read(RUN / "history_components/summary.json")["Dept4"]["methods"]
+    supplemental_folder = RUN / "dasfaa_baseline_completion"
+    supplemental = read(supplemental_folder / "summary.json")
+    completed = supplemental["results"]
+    assert {(name, z["method"]) for name, z in completed.items()} == {
+        ("CollegeMsg", "Tree"), ("GNU libc", "Static")}
+    assert supplemental["tree_reference_ranks_verified"] == supplemental["static_reference_hits_verified"] == 1200
+    for name, result in completed.items():
+        with gzip.open(supplemental_folder / (name + ".jsonl.gz"), "rt") as records:
+            scored = [json.loads(line) for line in records]
+        assert len(scored) == result["n"] == budget[name]["n"]
+        assert len({row["id"] for row in scored}) == len(scored)
+        found = [sum(rank <= 12 for rank in pair) for row in scored for pair in row["ranks"]]
+        assert len(found) == len(supplemental["seed_order"]) * len(scored)
+        assert abs(result["both"] - 100 * mean(k == 2 for k in found)) < 1e-10
+        assert abs(result["any"] - 100 * mean(k >= 1 for k in found)) < 1e-10
+    single_fit = r"\singlefitstar"
+
     def pct(method):
         return f"{100 * method['mean']:.2f}"
     for name, rec in budget.items():
-        static = fgssi = tree = "---"
+        static = fgssi = tree = None
         if name in history:
             seeds = list(history[name]["groups"]["all"].values())
             assert all(r["n"] == rec["n"] for r in seeds)
-            suffix = r"\(^*\)" if len(seeds) == 1 else ""
+            suffix = single_fit if len(seeds) == 1 else ""
             static, fgssi = [f"{100 * mean(r[cell]['m12'] for r in seeds) / rec['n']:.2f}" + suffix
                              for cell in ("A", "F")]
         if name == "Dept4":
@@ -126,10 +163,41 @@ def main():
             result = robustness["tree"][name]["12"]
             assert result["n"] == rec["n"]
             fgssi, tree = [pct(result["methods"][k]) for k in ("FGSSI", "full")]
+        if name == "CollegeMsg":
+            tree = f"{completed[name]['both']:.2f}"
+        if name == "GNU libc":
+            static = f"{completed[name]['both']:.2f}"
         m = rec["methods"]
-        rows.append([names.get(name, name), f"{rec['mean_candidates']:.1f}", pct(m["Any-in-12"]),
-                     fgssi, static, tree, pct(m["Both-in-12"]), pct(m["Both-in-5%"]),
-                     f"{m['Pair-MRR']['mean']:.5f}"])
+        from math import comb
+        with gzip.open(CLOSURE/"wp1_budgets"/(name+".jsonl.gz"), "rt") as records:
+            sizes=[json.loads(line)["n"] for line in records]
+        chance=100*mean(comb(min(12,n),2)/comb(n,2) for n in sizes)
+        lo,hi=m["Both-in-12"]["ci95"]
+        h=read(RUN/"dasfaa_gcnsi_transfer/summary.json")[name]
+        assert h["n"]==rec["n"]
+        g = f"{100*h['both']/h['n']:.2f}" + single_fit
+        rows.append([names.get(name,name),f"{chance:.3f}",g,fgssi,static,tree,pct(m["Both-in-12"]),
+                     f"[{100*lo:.2f}, {100*hi:.2f}]",f"{m['Pair-MRR']['mean']:.5f}"])
+    extra=read(PAPER/"evidence/top12.json")
+    for row, (name, rec) in zip(rows.copy(), extra.items(), strict=True):
+        stats=rec["coverage_pct"]
+        vals=[]
+        for i, method in enumerate(("Random","GCNSI","FGSSI","Static","Tree","MLP"), 1):
+            both, any_rate, recall = (stats[method][m] for m in ("both","any","recall"))
+            assert abs(both-float(row[i].removesuffix(single_fit))) <= .00501
+            assert abs((both+any_rate)/2-recall)<1e-8
+            star = single_fit if row[i].endswith(single_fit) else ""
+            vals.append(f"{any_rate:.2f}" + star)
+        assert abs(budget[name]["methods"]["Any-in-12"]["mean"]*100-stats["MLP"]["any"])<1e-8
+        rows.append([names.get(name,name),*vals,f"{stats['MLP']['recall']:.2f}",f"{rec['pool']:,.1f}"])
+    for expected in rows:
+        score = lambda cell: float(cell.removesuffix(single_fit))
+        first, second = sorted({score(c) for c in expected[2:7]}, reverse=True)[:2]
+        for i in range(2, 7):
+            if score(expected[i]) in (first, second):
+                macro = r"\textbf" if score(expected[i]) == first else r"\underline"
+                number, sep, star = expected[i].partition(single_fit)
+                expected[i] = macro + "{" + number + "}" + sep + star
     check_rows(3, rows)
     rows = []
     for network, arms in robustness["stress"].items():
@@ -140,12 +208,16 @@ def main():
                 delta = v["differences"]["links minus person"]
                 a, b = delta["ci95"]
                 assert abs(delta["mean"] - v["methods"]["links"]["mean"] + v["methods"]["person"]["mean"]) < 1e-12
-                row += [str(v["n"]), rf"\({100 * delta['mean']:+.2f}\;[{100*a:.2f},{100*b:.2f}]\)"]
+                row += [str(v["n"]), rf"${100 * delta['mean']:+.2f}\;[{100*a:.2f},\,{100*b:.2f}]$"]
             rows.append(row)
     check_rows(4, rows)
     qualified = read(RUN / "heldout_r_lists/early_only/role_evidence/closure/summary.json")
-    periods = dict(names, **{"libc-alpha": "GNU libc 2021--22", "libc-alpha-2024": "GNU libc 2024",
-                             "samba-technical-2020": "Samba 2020"})
+    periods = {
+        "python-dev": "Python-Dev Feb--Apr 2019", "python-ideas": "Python-Ideas Feb--Apr 2019",
+        "r-devel": "R-devel 2021--22", "r-package-devel": "R-package-devel 2021--22",
+        "libc-alpha": "GNU libc 2021--22", "libc-alpha-2024": "GNU libc 2024",
+        "samba-technical-2020": "Samba 2020",
+    }
     rows = []
     assert sum(x["n"] for x in qualified.values()) == 1793
     for name, rec in qualified.items():
@@ -154,17 +226,23 @@ def main():
             hits = round(rec["both_pct"][m] * rec["n"] / 100)
             assert set(rec["hit_counts"][m]) == {hits}
             row.append(str(hits))
+        row.extend(f"{100*int(row[6])/den:.2f}" for den in (rec["n"],rec["scored_reachable"]))
+        delta=rec["contrasts"]["role_suffix-volume"]
+        lo,hi=delta["ci95_pp"]
+        assert abs(delta["pp"]-100*(int(row[6])-int(row[3]))/rec["n"])<1e-9
+        value = rf"${delta['pp']:+.2f}\;[{lo:.2f},\,{hi:.2f}]$"
+        row.append(r"{\boldmath " + value + "}" if lo > 0 else value)
         rows.append(row)
     check_rows(5, rows)
     rows = []
     for name, levels in real.items():
         common = [levels[d]["common"] for d in ("0", "25", "50")]
-        row = [periods[name], str(common[0]["n"])]
+        row = [periods[name], str(common[0]["n"]), "/".join(str(z["n"]-z["scored"]) for z in common)]
         for z in common:
             assert z["n"] == common[0]["n"]
             delta = z["methods"]["full"]["mean"] - z["methods"]["volume"]["mean"]
             assert abs(delta - z["differences"]["full minus volume"]["mean"]) < 1e-12
-            row.append(rf"\({delta*100:+.2f}\)")
+            row.append(rf"${delta*100:+.2f}$" if delta != 0 else "$0.00$")
         rows.append(row)
     check_rows(6, rows)
     (PAPER / "evidence/table_audit.json").write_text(json.dumps(checked, indent=2) + "\n", encoding="utf8")
