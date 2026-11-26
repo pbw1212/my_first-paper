@@ -1,6 +1,6 @@
 {
   "pages_including_references": 16,
-  "sha256": "adffc91b3c2c142dff29740bdd8197841c0dd8a9b0837ccae9a09aa0de834d9e",
+  "sha256": "a205857c25781668f2e503fef022b076a010a2d3cf6a95769d36fc80583fee63",
   "paper_size_mm": [
     210,
     297
@@ -39,7 +39,7 @@
   "bibliography_starts_on_page": 14,
   "bibliography_full_url_count": 15,
   "bibliography_doi_count": 24,
-  "abstract_words": 174,
+  "abstract_words": 188,
   "figures": {
     "fig1_overview.pdf": {
       "width_inches": 4.8,
