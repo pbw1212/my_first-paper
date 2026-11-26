@@ -1,6 +1,6 @@
 # 实验进展与证据索引
 
-更新于 2026-11-22。[早期 Markdown 初稿](https://github.com/pbw1212/my_first-paper/blob/cd6b4e222703067b8d527a5cdc43c237cd96bfb4/%E8%AE%BA%E6%96%87%E5%88%9D%E7%A8%BF.md)记录了模拟主实验和第一轮真实讨论迁移。[实验底稿](../论文实验结果与写作底稿.md)保留详细分母、逐窗差值和复现顺序。较新的 GNU libc、R 与 Samba 试验见下文。
+更新于 2026-11-22。[早期 Markdown 初稿](https://github.com/pbw1212/my_first-paper/blob/cd6b4e222703067b8d527a5cdc43c237cd96bfb4/%E8%AE%BA%E6%96%87%E5%88%9D%E7%A8%BF.md)记录了模拟主实验和第一轮真实讨论迁移。[实验底稿](论文实验结果与写作底稿.md)保留详细分母、逐窗差值和复现顺序。较新的 GNU libc、R 与 Samba 试验见下文。
 
 ## 实验阶段
 

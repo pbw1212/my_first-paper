@@ -24,3 +24,4 @@ __pycache__/
 /paper_dasfaa/*.log
 /paper_dasfaa/*.out
 /paper_dasfaa/*.synctex.gz
+/paper_dasfaa/build/

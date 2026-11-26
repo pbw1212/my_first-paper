@@ -1,14 +1,14 @@
 # Reference audit
 
-The bibliography cites 39 records in the current manuscript. The [inherited reference audit](../../../归档/DASFAA2027_定向修订/paper_review/reference_audit.md) covers their identities and sources. The revised build uses the following bibliographic updates.
+The [current bibliography](../references.bib) contains 39 records. The table records selected checks by BibTeX key so that the entries can be traced across revisions.
 
-| PDF entry | Update | Record |
+| BibTeX key | Update | Record |
 | --- | --- | --- |
-| 1 | Added the publisher URL | [PMLR, Alexandari et al.](https://proceedings.mlr.press/v119/alexandari20a.html) |
-| 5 | Formatted the third author as Nguyen, Q.V.H. | [ACM paper](https://doi.org/10.1145/3357384.3357994) and [Griffith University author profile](https://experts.griffith.edu.au/9203-henry-nguyen) |
-| 7 | Added the publisher URL | [NeurIPS Proceedings, Garg et al.](https://proceedings.neurips.cc/paper/2020/hash/219e052492f4008818b8adb6366c7ed6-Abstract.html) |
-| 15 | Shortened the venue to Proceedings of STOC | [ACM proceedings paper](https://doi.org/10.1145/335305.335364) |
-| 38 | Shortened the venue to Proceedings of AAAI | [AAAI proceedings paper](https://doi.org/10.1609/aaai.v38i20.30262) |
+| `alex` | Added the publisher URL | [PMLR, Alexandari et al.](https://proceedings.mlr.press/v119/alexandari20a.html) |
+| `gcnsi` | Formatted the third author as Nguyen, Q.V.H. | [ACM paper](https://doi.org/10.1145/3357384.3357994) and [Griffith University author profile](https://experts.griffith.edu.au/9203-henry-nguyen) |
+| `garg` | Added the publisher URL | [NeurIPS Proceedings, Garg et al.](https://proceedings.neurips.cc/paper/2020/hash/219e052492f4008818b8adb6366c7ed6-Abstract.html) |
+| `kempe_j` | Cited the journal version | [Journal of Computer and System Sciences](https://doi.org/10.1006/jcss.2002.1829) |
+| `bosoul` | Shortened the venue to Proceedings of AAAI | [AAAI proceedings paper](https://doi.org/10.1609/aaai.v38i20.30262) |
 
 ## Proofreading checks on 26 November 2026
 

@@ -4,15 +4,31 @@ The anonymous submission is [main.pdf](main.pdf). Build [main.tex](main.tex), wh
 
 ## Rebuild
 
-From this directory, run `latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex`. The included figures and tables suffice to build the paper without the experimental archive. The LaTeX build uses accsupp to make a few displayed math symbols explicit when copying text from the PDF.
+From this directory, build the manuscript in a separate output directory using the included LaTeX tables and vector figures.
 
-From the repository root, the figure generator uses the tracked summaries and window totals. The table generator and table audit also read the locally archived per-event files from their original paths under runs/. See [data and reproduction](../docs/reproduction.md) for the archive layout. The final command takes an optional directory containing the LaTeX log, bibliography, auxiliary file and PDF when building out of tree.
+```text
+latexmk -pdf -interaction=nonstopmode -halt-on-error -outdir=build main.tex
+```
+
+The result is `build/main.pdf`. The build uses accsupp to preserve selected math notation when copying text from the PDF.
+
+From the repository root, regenerate the six figures using the tracked summaries and window totals.
 
 ```text
 python -B scripts/build_dasfaa_figures.py
+```
+
+To regenerate and audit the tables, first restore the archived per-event files at their recorded paths under `runs/`. See [data and reproduction](../docs/reproduction.md) for the archive layout.
+
+```text
 python -B scripts/build_dasfaa_tables.py
 python -B scripts/verify_dasfaa_tables.py
-python -B scripts/verify_dasfaa_pdf.py
+```
+
+The compiled manuscript audit runs from the repository root. It copies the checked PDF and writes its fingerprint to the manuscript directory.
+
+```text
+python -B scripts/verify_dasfaa_pdf.py paper_dasfaa/build
 ```
 
 ## Evidence and interpretation

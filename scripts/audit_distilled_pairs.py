@@ -141,7 +141,7 @@ def audit(run):
 def paper_tables():
     report=OUT/"双源组合学习与预算实验.md"
     body=report.read_text(encoding="utf-8")
-    thesis=(OUT.parents[1]/"论文实验结果与写作底稿.md").read_text(encoding="utf-8")
+    thesis=(OUT.parents[1] / "docs" / "论文实验结果与写作底稿.md").read_text(encoding="utf-8")
     assert "distilled_source_pairs/双源组合学习与预算实验.md" in thesis
     for target in re.findall(r"\]\(([^)]+)\)",body):
         assert target.startswith("https://") or (OUT/target).is_file(),target
